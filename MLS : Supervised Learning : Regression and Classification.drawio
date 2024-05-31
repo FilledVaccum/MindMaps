@@ -1,105 +1,143 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T12:24:10.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ZQxqlUoZa6Pv9dnDy5L2" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T12:53:26.671Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="KpbPsagWQd2zxK7vYkEn" version="24.4.10" type="github">
   <diagram name="MLS : Supervised Learning : Regression and Classification" id="eHIpIphJcRmWK1lwxBbz">
-    <mxGraphModel dx="2924" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-1" target="a_R5YziGcIO-rgUj8Wt9-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-1" target="a_R5YziGcIO-rgUj8Wt9-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-10" value="Types/Algorithm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a_R5YziGcIO-rgUj8Wt9-9" vertex="1" connectable="0">
-          <mxGeometry x="-0.5286" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-1" value="&lt;div align=&quot;center&quot;&gt;Supervised Machine Learning :&lt;br&gt;Regression and &lt;br&gt;Classification&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;" parent="1" vertex="1">
-          <mxGeometry x="360" y="400" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-2" target="a_R5YziGcIO-rgUj8Wt9-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-2" target="a_R5YziGcIO-rgUj8Wt9-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-2" target="a_R5YziGcIO-rgUj8Wt9-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-2" value="Machine Learning" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="120" y="400" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-4" target="a_R5YziGcIO-rgUj8Wt9-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-4" target="a_R5YziGcIO-rgUj8Wt9-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-240" y="460" />
-              <mxPoint x="-240" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-4" target="a_R5YziGcIO-rgUj8Wt9-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-240" y="460" />
-              <mxPoint x="-240" y="580" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-17" value="Types/Algorithm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a_R5YziGcIO-rgUj8Wt9-16" vertex="1" connectable="0">
-          <mxGeometry x="-0.6125" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-4" value="Unsupervised&lt;br&gt;Machine &lt;br&gt;Learning" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="400" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-6" target="a_R5YziGcIO-rgUj8Wt9-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-6" value="Regression" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="539" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-8" target="a_R5YziGcIO-rgUj8Wt9-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-8" value="Classification" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="600" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-11" value="Clustering" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="440" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-13" value="Anomaly Detection" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="560" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-14" value="Dimensionality Reduction" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="320" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="a_R5YziGcIO-rgUj8Wt9-18" value="Tools" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a_R5YziGcIO-rgUj8Wt9-20" value="Jupyter Notebooks" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-21" target="a_R5YziGcIO-rgUj8Wt9-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-21" value="Linear Regression" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-22" value="Small number of &lt;br&gt;Possible Outputs" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="539" y="720" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a_R5YziGcIO-rgUj8Wt9-24" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1100" as="targetPoint" />
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-2" value="Machine Learning" style="swimlane;startSize=20;horizontal=1;containerType=tree;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="239" y="-126" width="520" height="126" as="geometry">
+            <mxRectangle x="239" y="-126" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a_R5YziGcIO-rgUj8Wt9-24" value="Single Variable" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="eGyvyRLKSS-TayHBDWlA-2" source="eGyvyRLKSS-TayHBDWlA-7" target="eGyvyRLKSS-TayHBDWlA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-7" value="Machine Learning" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eGyvyRLKSS-TayHBDWlA-2">
+          <mxGeometry x="151" y="66" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-9" value="&lt;div align=&quot;center&quot;&gt;Supervised Machine Learning :&lt;br&gt;Regression and &lt;br&gt;Classification&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="eGyvyRLKSS-TayHBDWlA-2">
+          <mxGeometry x="310" y="26" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-16" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-9" target="eGyvyRLKSS-TayHBDWlA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-19" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eGyvyRLKSS-TayHBDWlA-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="-40" as="sourcePoint" />
+            <mxPoint x="838.9999999999995" y="-20.450000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="-30" />
+              <mxPoint x="980" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-15" value="Regression" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="810" y="-120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-18" value="Classification" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="815" y="10" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-26" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-23" target="eGyvyRLKSS-TayHBDWlA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-23" value="Types" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="980" y="-140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="eGyvyRLKSS-TayHBDWlA-23" parent="1" source="eGyvyRLKSS-TayHBDWlA-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="-90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-25" value="Linear&lt;br&gt;Regression" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-30" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-27" target="eGyvyRLKSS-TayHBDWlA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-27" value="Types" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1310" y="-260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-28" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-25" target="eGyvyRLKSS-TayHBDWlA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-29" value="Single &lt;br&gt;Variable" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Cost Variable" tooltip="Linear regression is a technique used in machine learning to predict a value based on input features. It works by finding a straight line that best fits the given data points. This line is called the regression line.&#xa;&#xa;To measure how well the regression line fits the data, we use something called a cost function. The cost function tells us how far off our predictions are from the actual values. The goal is to minimize this difference and make our predictions as accurate as possible.&#xa;&#xa;The cost function calculates the squared difference between our predicted values and the actual values. It sums up these squared differences for all the data points and then takes the average. This gives us a measure of how well our model is performing.&#xa;&#xa;By adjusting the parameters of the regression line (slope and intercept), we can find the values that minimize the cost function. This means finding the line that best fits the data and makes the smallest errors in our predictions.&#xa;&#xa;In summary, linear regression uses a cost function to measure how well our predictions match the actual values. By adjusting the parameters of the regression line, we can find the best line that minimizes the errors. The goal is to make accurate predictions and improve the performance of our model." id="eGyvyRLKSS-TayHBDWlA-31">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1710" y="-390" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="eGyvyRLKSS-TayHBDWlA-31" parent="1" source="eGyvyRLKSS-TayHBDWlA-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="-340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-33" value="Parts" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1575" y="-350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="eGyvyRLKSS-TayHBDWlA-33" parent="1" source="eGyvyRLKSS-TayHBDWlA-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-11" value="Unsupervised&lt;br&gt;Machine &lt;br&gt;Learning" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="-100" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-6" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-7" target="eGyvyRLKSS-TayHBDWlA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-35" value="Algorithms" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-85" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=-0.021;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="eGyvyRLKSS-TayHBDWlA-35" parent="1" source="eGyvyRLKSS-TayHBDWlA-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="-10" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-43" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-37" target="eGyvyRLKSS-TayHBDWlA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-37" value="Dimensionality Reduction" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-44" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-39" target="eGyvyRLKSS-TayHBDWlA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-39" value="Anomaly Detection" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-300" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-42" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-41" target="eGyvyRLKSS-TayHBDWlA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-41" value="Clustering" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-285" y="-100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-51" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-47" target="eGyvyRLKSS-TayHBDWlA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-47" value="Tools" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-49" value="Juypter NoteBook" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="99" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGyvyRLKSS-TayHBDWlA-52" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=-0.019;entryY=0.278;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eGyvyRLKSS-TayHBDWlA-49" target="eGyvyRLKSS-TayHBDWlA-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="240" />
+              <mxPoint x="250" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
