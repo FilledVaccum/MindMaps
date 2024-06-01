@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T06:31:49.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="h4wuZ1dwYnWC6-OBTKWg" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T18:06:53.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="OqIKosFX3qcEY_jbEmk7" version="24.4.10" type="github" pages="2">
   <diagram name="Amazon Q" id="38qIf-NuKKnZ3Hp-_hVP">
-    <mxGraphModel dx="1803" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1109" dy="3658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           <mxGeometry x="720" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ox42ySUmrLPMUQKJudpI-4" value="Amazon Q&lt;br&gt;Developer" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="260" width="80" height="80" as="geometry" />
+          <mxGeometry x="380" y="-80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ox42ySUmrLPMUQKJudpI-6" value="Amazon &lt;br&gt;QuickSight" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="570" width="80" height="80" as="geometry" />
@@ -328,6 +328,302 @@
         <mxCell id="Ox42ySUmrLPMUQKJudpI-96" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1480" y="-50" width="100" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q6LzRyGb189k1Qkk0oTX" name="Amazon Q Developer">
+    <mxGraphModel dx="2681" dy="2947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-1" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="420" height="126" as="geometry">
+            <mxRectangle x="250" y="510" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="y9w0u2BM4Zwv5KPZ2Pvr-1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-6" value="Amazon Q &lt;br&gt;Developer" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="y9w0u2BM4Zwv5KPZ2Pvr-1">
+          <mxGeometry x="160" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-10" value="Setting Up" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="y9w0u2BM4Zwv5KPZ2Pvr-1">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-7" value="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/diagnose-console-errors.html&quot;&gt;Diagnose Common &lt;br&gt;Console Errors&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1040" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-9" value="In CLI" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-310" y="620" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-13" value="In IDE" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-380" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="On AWS" tooltip="Use Amazon Q Developer in the AWS Management Console, AWS Console Mobile Application, AWS Marketing website, AWS Documentation website, and chat channels integrated with AWS Chatbot to ask questions about AWS. You can ask Amazon Q about AWS architecture, best practices, support, and documentation, and also about your AWS resources and costs. Amazon Q can also help with code that you&#39;re writing with the AWS SDKs and AWS Command Line Interface (AWS CLI).&#xa;In the AWS Management Console, in addition to asking questions, you can use Amazon Q to contact AWS Support directly and to diagnose common console errors." id="y9w0u2BM4Zwv5KPZ2Pvr-14">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="-165" y="290" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-16" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-10" target="y9w0u2BM4Zwv5KPZ2Pvr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-17" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-10" target="y9w0u2BM4Zwv5KPZ2Pvr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-18" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-10" target="y9w0u2BM4Zwv5KPZ2Pvr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-21" value="Dashboard" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="930" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-22" value="Monitoring" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="560" y="930" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-24" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-25" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-26" value="Security" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="210" y="283" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-27" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-28" value="AWS Architecture" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-1360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-29" value="Chat" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-395" y="-1200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-31" value="AWS Resources" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-725" y="-1280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-32" value="Best Practises" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-1200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-33" value="Documentations" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-725" y="-1120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-34" value="Support /&lt;br&gt;Diagnose common Console &lt;br&gt;Erroer" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="-1055" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-35" value="Slack or &lt;br&gt;Microsoft Teams" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-360" y="950" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-36" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-10" target="y9w0u2BM4Zwv5KPZ2Pvr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-45" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-46" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-47" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-48" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-49" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-50" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-51" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-8" value="Features" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="720" y="610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/software-dev.html&quot;&gt;Develop Software&lt;/a&gt;" tooltip="After you explain, in natural language, the feature that you want to develop, Amazon Q can use the context of your current project to generate an implementation plan and the accompanying code. Amazon Q can help you build AWS projects or your own applications. For more information, see Develop software with the Amazon Q Developer Agent for software development. " id="y9w0u2BM4Zwv5KPZ2Pvr-37">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="170" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-chat.html&quot;&gt;Chat About&lt;br&gt;Code&lt;/a&gt;" tooltip="Within integrated development environments (IDEs), Amazon Q can answer questions related to the software development process, including conceptual questions about programming and how specific code works. You can also ask Amazon Q to update and improve code snippets from the chat panel. For more information, see Chat with Amazon Q Developer about code.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-38">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="240" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Amazon Q in &lt;br&gt;AWS Chatbot" tooltip="You can add Amazon Q to your Slack and Microsoft Teams channels that are configured with AWS Chatbot. Amazon Q in AWS Chatbot can answer questions about building at AWS, including those about best practices for building solutions, troubleshooting issues, and identifying next steps.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-39">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Contact AWS&lt;br&gt;Support" tooltip="You can create AWS Support cases and chat with a live support agent within Amazon Q to address issues you&#39;re having with AWS services. You can access AWS Support with Amazon Q in the AWS Management Console. " id="y9w0u2BM4Zwv5KPZ2Pvr-40">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scan Your Code for &lt;br&gt;Security Vulnerabilities" tooltip="Within IDEs, Amazon Q scans your code for security vulnerabilities and code quality issues. You can get security recommendations as you code or scan entire projects to monitor the security posture of your applications throughout development. " id="y9w0u2BM4Zwv5KPZ2Pvr-41">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="400" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Incline Code&lt;br&gt;Suggestions" tooltip="Amazon Q provides you with code recommendations in real time. As you write code, Amazon Q automatically generates suggestions based on your existing code and comments." id="y9w0u2BM4Zwv5KPZ2Pvr-42">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="320" width="110" height="37" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Amazon Q in AWS &lt;br&gt;Mobile Application" tooltip="Amazon Q is integrated with the AWS Console Mobile Application to answer questions about AWS. You configure access the same way that you get access to Amazon Q in the AWS Management Console. " id="y9w0u2BM4Zwv5KPZ2Pvr-44">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1040" y="560" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-66" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-54" target="y9w0u2BM4Zwv5KPZ2Pvr-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-54" value="For Adminstrators" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-520" y="-70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-56" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1.02;entryY=0.487;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-14" target="y9w0u2BM4Zwv5KPZ2Pvr-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-92" value="Creation &amp;amp; &lt;br&gt;Permission" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y9w0u2BM4Zwv5KPZ2Pvr-56">
+          <mxGeometry x="-0.1244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-57" target="y9w0u2BM4Zwv5KPZ2Pvr-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-57" value="1. AWS Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-58" target="y9w0u2BM4Zwv5KPZ2Pvr-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-58" value="2. Create Admin User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-59" target="y9w0u2BM4Zwv5KPZ2Pvr-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-59" value="3. AWS Organisation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-60" target="y9w0u2BM4Zwv5KPZ2Pvr-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-60" target="y9w0u2BM4Zwv5KPZ2Pvr-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="4.Assign Developers Access to Amazon Q" tooltip="In order to chat with Amazon Q Developer on AWS apps and websites, you must use identity-aware console sessions." id="y9w0u2BM4Zwv5KPZ2Pvr-60">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-500" y="-440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_sts-setcontext.html&quot;&gt;Enable Identity -&lt;br&gt;Aware Console &lt;br&gt;Sessions&lt;/a&gt;" tooltip="When you set up Amazon Q Developer Pro, you will have the option to enable identity-aware console sessions. Identity-aware console sessions enables AWS IAM Identity Center user and session IDs to be included in users&#39; AWS console sessions when they sign in.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-61">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="-290" y="-465" width="145" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-63" target="y9w0u2BM4Zwv5KPZ2Pvr-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="5. Create an admin&lt;br&gt;for Amazon Q&lt;br&gt;Developer Pro" tooltip="The following policies empower a user to take all administrative actions related to Amazon Q Developer, including access to the Amazon Q Developer console and all the steps in the procedures throughout the rest of this chapter. However, depending on the structure of your enterprise, you might choose to divide these powers over multiple personas." id="y9w0u2BM4Zwv5KPZ2Pvr-63">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-500" y="-520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-64" value="6. Create an Admin for Amazon Q Developer&lt;br&gt;Pro Subscriptions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-79" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-74" target="y9w0u2BM4Zwv5KPZ2Pvr-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-80" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-74" target="y9w0u2BM4Zwv5KPZ2Pvr-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-74" value="Tiers" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-76" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.474;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-88" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-77" target="y9w0u2BM4Zwv5KPZ2Pvr-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="-30" />
+              <mxPoint x="450" y="-30" />
+              <mxPoint x="520" y="-30" />
+              <mxPoint x="480" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Developer Pro" tooltip="&#xa;&#xa;To use Amazon Q Developer Pro, you must be a user in IAM Identity Center, and your administrator must subscribe you to Amazon Q Developer Pro. As a user with an Amazon Q Developer Pro subscription, your limits are based on an individual user level in the Amazon Q Console, Q in the IDE, and Q in Code Catalyst.&#xa;&#xa;Subscriptions are not available in the AWS Console Mobile App (ACMA), AWS Chatbot, or on AWS marketing pages. Interactions with Amazon Q through those channels are governed exclusively by free tier limits. " id="y9w0u2BM4Zwv5KPZ2Pvr-77">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="400" y="40" width="115" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Developer &lt;br&gt;Free Tier" tooltip="Amazon Q Developer offers a perpetual free tier with monthly limits available to anyone logged in as an AWS Identity and Access Management user or AWS Builder ID user. Exactly which features you can use depends on your interface, and on how you authenticate.&#xa;&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-78">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="680" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-89" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-81" target="y9w0u2BM4Zwv5KPZ2Pvr-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-90" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-81" target="y9w0u2BM4Zwv5KPZ2Pvr-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Subscription&lt;br&gt;Types" tooltip="Administrators can have different privileges related to Amazon Q subscriptions. Those privileges depend on whether the administrative user is the administrator of a member account or of a management account." id="y9w0u2BM4Zwv5KPZ2Pvr-81">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="417.5" y="-200" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-84" value="Chat about &lt;br&gt;your resources" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-760" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Organisation management Account administrators" tooltip="Organization management account administrators can unsubscribe users if they created that subscription. They can also view other accounts the user is subscribed through (by selecting Share settings profile with member accounts on the Settings page), allowing them to coordinate with respective member account admins for unsubscription. Alternatively, they can log in as a member account administrator and unsubscribe the user directly." id="y9w0u2BM4Zwv5KPZ2Pvr-85">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="560" y="-360" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Member Account &lt;br&gt;Administrators" tooltip="Member account administrators can only view and unsubscribe users subscribed within their account, and only if they created that specific subscription. " id="y9w0u2BM4Zwv5KPZ2Pvr-86">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="248" y="-360" width="112" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-96" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-93" target="y9w0u2BM4Zwv5KPZ2Pvr-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-98" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-93" target="y9w0u2BM4Zwv5KPZ2Pvr-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-100" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.493;exitY=-0.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-93" target="y9w0u2BM4Zwv5KPZ2Pvr-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Chat about AWS" tooltip="Chat with Amazon Q in the AWS Management Console, AWS Console Mobile Application, AWS website, and AWS Documentation website to learn about AWS services. You can ask Amazon Q about best practices, recommendations, step-by-step instructions for AWS tasks, and architecting your AWS resources and workflows.&#xa;&#xa;You can also ask Amazon Q about your AWS resources and account costs. Amazon Q also generates short scripts or code snippets to help you get started using the AWS SDKs and AWS CLI." id="y9w0u2BM4Zwv5KPZ2Pvr-93">
+          <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="-515" y="280" width="115" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-95" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1.01;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-14" target="y9w0u2BM4Zwv5KPZ2Pvr-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-97" value="Chat about &lt;br&gt;your costs" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-740" y="400" width="100" height="37.5" as="geometry" />
+        </mxCell>
+        <UserObject label="Chat Settings" tooltip="&#xa;&#xa;    Region — Amazon Q defaults to the AWS Region set in the AWS Management Console when you open the chat panel. To update the Region used by Amazon Q, change your console Region.&#xa;&#xa;    Cross-region calls — To provide some features, such as listing your AWS resources in the chat, Amazon Q might need to make cross-region calls to retrieve information about your resources in other Regions. Enable cross-region calls to grant Amazon Q permission to make calls to other Regions.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-99">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-520" y="190" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
