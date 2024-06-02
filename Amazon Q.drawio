@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T08:10:57.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="TBoT3pmLBU2oqydt4osV" version="24.4.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-02T09:28:58.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Qmcjw9ka0Lze1wLPWnuS" version="24.4.13" type="github" pages="2">
   <diagram name="Amazon Q" id="38qIf-NuKKnZ3Hp-_hVP">
     <mxGraphModel dx="1109" dy="3658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -332,7 +332,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q6LzRyGb189k1Qkk0oTX" name="Amazon Q Developer">
-    <mxGraphModel dx="4520" dy="3022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5123" dy="3465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,7 +352,7 @@
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/diagnose-console-errors.html&quot;&gt;Diagnose Common &lt;br&gt;Console Errors&lt;/a&gt;" tooltip="n the AWS Management Console, Amazon Q Developer can diagnose common errors you receive while working with AWS services, such as insufficient permissions, incorrect configuration, and exceeding service limits. This feature is available for errors that arise while using the following services in the AWS Management Console:&#xa;&#xa;    Amazon Elastic Compute Cloud (Amazon EC2)&#xa;&#xa;    Amazon Elastic Container Service (Amazon ECS)&#xa;&#xa;    Amazon Simple Storage Service (Amazon S3)&#xa;&#xa;    AWS Lambda&#xa;&#xa;You can diagnose most common console errors with Amazon Q, except for simple validation errors. Amazon Q doesn&#39;t maintain a history of previous error diagnosing sessions.&#xa;&#xa;If you&#39;re unable to diagnose your error with Amazon Q, you can use Amazon Q to create a support case with AWS Support. For more information, see Use Amazon Q Developer to chat with AWS Support. If you have an issue specific to the Amazon Q error diagnosing feature, you can use the thumbs-down icon to report an issue.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-7">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1035" y="190" width="150" height="50" as="geometry" />
+            <mxGeometry x="1930" y="283" width="150" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-8" target="y9w0u2BM4Zwv5KPZ2Pvr-7" edge="1">
@@ -430,22 +430,23 @@
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-18" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-10" target="y9w0u2BM4Zwv5KPZ2Pvr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-22" value="Monitoring" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="560" y="930" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-24" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="p1qRoQ0C1JTBegWe-3Uv-206" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-25" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-25" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.013;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="p1qRoQ0C1JTBegWe-3Uv-233" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-26" value="Security" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="210" y="283" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-27" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-27" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="1400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-28" value="AWS Architecture" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-730" y="-1360" width="140" height="30" as="geometry" />
@@ -493,44 +494,44 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-8" value="Features" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="720" y="610" width="90" height="30" as="geometry" />
+          <mxGeometry x="1440" y="557" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="y9w0u2BM4Zwv5KPZ2Pvr-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/software-dev.html&quot;&gt;Develop Software&lt;/a&gt;" tooltip="After you explain, in natural language, the feature that you want to develop, Amazon Q can use the context of your current project to generate an implementation plan and the accompanying code. Amazon Q can help you build AWS projects or your own applications. For more information, see Develop software with the Amazon Q Developer Agent for software development. " id="y9w0u2BM4Zwv5KPZ2Pvr-37">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1040" y="290" width="140" height="30" as="geometry" />
+            <mxGeometry x="1935" y="160" width="140" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-chat.html&quot;&gt;Chat About&lt;br&gt;Code&lt;/a&gt;" tooltip="Within integrated development environments (IDEs), Amazon Q can answer questions related to the software development process, including conceptual questions about programming and how specific code works. You can also ask Amazon Q to update and improve code snippets from the chat panel. For more information, see Chat with Amazon Q Developer about code.&#xa;" id="y9w0u2BM4Zwv5KPZ2Pvr-38">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1040" y="400" width="130" height="40" as="geometry" />
+            <mxGeometry x="1960" y="400" width="130" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Amazon Q in &lt;br&gt;AWS Chatbot" tooltip="You can chat with Amazon Q Developer in Microsoft Teams and Slack messaging platforms that are configured with AWS Chatbot. Amazon Q in AWS Chatbot can answer questions about best practices for building solutions, troubleshooting issues, and identifying next steps.&#xa;&#xa;To add Amazon Q to a Microsoft Teams or Slack channel that is already configured with AWS Chatbot, complete the following steps. To set up AWS Chatbot in your channels for the first time and allow users to use Amazon Q," id="y9w0u2BM4Zwv5KPZ2Pvr-39">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1040" y="927.5" width="120" height="40" as="geometry" />
+            <mxGeometry x="1945" y="900" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/support-chat.html&quot;&gt;Contact AWS&lt;br&gt;Support&lt;/a&gt;" tooltip="You can use Amazon Q Developer to create a support case and contact AWS Support from anywhere in the AWS Management Console, including the AWS Support Center Console. Amazon Q uses the context of your conversation to draft a support case on your behalf automatically. It also adds your recent conversation to the support case description. After creating the case, Amazon Q can transfer you to a support agent in the method of your choice, including live chat in the same interface.&#xa;&#xa;When you create a support case in Amazon Q, the case is also updated in the Support Center Console. To track updates on cases created with Amazon Q, use the Support Center Console.&#xa;&#xa;The type of AWS Support available to you depends on the support plan for your AWS account. All AWS users have access to account and billing support as part of the Basic Support plan. For technical support questions, only users with support plans other than the Basic Support plan can contact AWS Support with Amazon Q. " id="y9w0u2BM4Zwv5KPZ2Pvr-40">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1035" y="680" width="120" height="50" as="geometry" />
+            <mxGeometry x="1945" y="700" width="120" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Scan Your Code for &lt;br&gt;Security Vulnerabilities" tooltip="Within IDEs, Amazon Q scans your code for security vulnerabilities and code quality issues. You can get security recommendations as you code or scan entire projects to monitor the security posture of your applications throughout development. " id="y9w0u2BM4Zwv5KPZ2Pvr-41">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1035" y="605" width="170" height="40" as="geometry" />
+            <mxGeometry x="1910" y="605" width="170" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Incline Code&lt;br&gt;Suggestions" tooltip="Amazon Q provides you with code recommendations in real time. As you write code, Amazon Q automatically generates suggestions based on your existing code and comments." id="y9w0u2BM4Zwv5KPZ2Pvr-42">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1035" y="520" width="110" height="37" as="geometry" />
+            <mxGeometry x="1990" y="513" width="110" height="37" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Amazon Q in AWS &lt;br&gt;Mobile Application" tooltip="Amazon Q is integrated with the AWS Console Mobile Application to answer questions about AWS. You configure access the same way that you get access to Amazon Q in the AWS Management Console. " id="y9w0u2BM4Zwv5KPZ2Pvr-44">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-            <mxGeometry x="1035" y="800" width="130" height="40" as="geometry" />
+            <mxGeometry x="1935" y="800" width="130" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="y9w0u2BM4Zwv5KPZ2Pvr-66" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-54" target="y9w0u2BM4Zwv5KPZ2Pvr-57" edge="1">
@@ -1306,7 +1307,7 @@
             <mxGeometry x="377.5" y="850" width="160" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-205" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.463;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="p1qRoQ0C1JTBegWe-3Uv-204">
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-205" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.463;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="p1qRoQ0C1JTBegWe-3Uv-204">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p1qRoQ0C1JTBegWe-3Uv-211" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.54;exitY=1.133;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-206" target="p1qRoQ0C1JTBegWe-3Uv-208">
@@ -1336,6 +1337,114 @@
           </mxCell>
         </UserObject>
         <mxCell id="p1qRoQ0C1JTBegWe-3Uv-210" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.573;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-206" target="p1qRoQ0C1JTBegWe-3Uv-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-230" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-213" target="p1qRoQ0C1JTBegWe-3Uv-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-231" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-213" target="p1qRoQ0C1JTBegWe-3Uv-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Security" tooltip="Cloud security at AWS is the highest priority. As an AWS customer, you benefit from a data center and network architecture that is built to meet the requirements of the most security-sensitive organizations.&#xa;&#xa;Security is a shared responsibility between AWS and you. The shared responsibility model&#xa;&#xa;describes this as security of the cloud and security in the cloud:&#xa;&#xa;    Security of the cloud – AWS is responsible for protecting the infrastructure that runs AWS services in the AWS Cloud. AWS also provides you with services that you can use securely. Third-party auditors regularly test and verify the effectiveness of our security as part of the AWS Compliance Programs&#xa;&#xa;. To learn about the compliance programs that apply to Amazon Q, see AWS Services in Scope by Compliance Program&#xa;&#xa;    .&#xa;&#xa;    Security in the cloud – Your responsibility is determined by the AWS service that you use. You are also responsible for other factors including the sensitivity of your data, your company’s requirements, and applicable laws and regulations&#xa;&#xa;This documentation helps you understand how to apply the shared responsibility model when using Amazon Q Developer. It shows you how to configure Amazon Q to meet your security and compliance objectives. You also learn how to use other AWS services that help you to monitor and secure your Amazon Q resources." id="p1qRoQ0C1JTBegWe-3Uv-213">
+          <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="760" y="1410" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Protection" tooltip="We strongly recommend that you never put confidential or sensitive information, such as your customers&#39; email addresses, into tags or free-form text fields such as a Name field. This includes when you work with Amazon Q or other AWS services using the AWS Management Console, API, AWS Command Line Interface (AWS CLI), or AWS SDKs. Any data that you enter into tags or free-form text fields used for names may be used for billing or diagnostic logs&#xa;&#xa;Regardless of where you use Amazon Q Developer, data is sent to and stored in an AWS Region in the US. Your conversations with Amazon Q are stored in the US East (N. Virginia) Region even if the AWS Management Console is set to a different AWS Region. Data processed during troubleshooting console error sessions is stored in the US West (Oregon) Region. Data processed during interactions with Amazon Q in integrated development environments (IDEs) is stored in the US East (N. Virginia) Region.&#xa;&#xa;Amazon Q stores your questions, its responses, and additional context, such as console metadata and code in your IDE, to generate responses to your questions. For information about how AWS may use some questions that you ask Amazon Q and its responses to improve our services," id="p1qRoQ0C1JTBegWe-3Uv-214">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="505" y="1650" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-215" value="IAM" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1015" y="1650" width="70" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Encryption at &lt;br&gt;Rest" tooltip="Amazon Q stores data at rest using Amazon DynamoDB and Amazon Simple Storage Service (Amazon S3). The data at rest is encrypted using AWS encryption solutions by default. Amazon Q encrypts your data using AWS owned encryption keys from AWS Key Management Service (AWS KMS). You don’t have to take any action to protect the AWS managed keys that encrypt your data. For more information, see AWS owned keys in the AWS Key Management Service Developer Guide.&#xa;&#xa;For data stored by Amazon Q in integrated development environments (IDEs), you can create your own customer managed AWS KMS key to encrypt your data at rest. Customer managed keys are KMS keys in your AWS account that you create, own, and manage to directly control access to your data by controlling access to the KMS key. " id="p1qRoQ0C1JTBegWe-3Uv-216">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="345" y="2010" width="110" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-225" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="p1qRoQ0C1JTBegWe-3Uv-221">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-226" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-217" target="p1qRoQ0C1JTBegWe-3Uv-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-217" value="Data Encryption" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="1810" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-219" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.536;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-214" target="p1qRoQ0C1JTBegWe-3Uv-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Encryption at Transit" tooltip="All communication between customers and Amazon Q and between Amazon Q and its downstream dependencies is protected using TLS 1.2 or higher connections. " id="p1qRoQ0C1JTBegWe-3Uv-220">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="470" y="1970" width="150" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Amazon Q &lt;br&gt;Developer Agent for &lt;br&gt;Code Transformation" tooltip="When you begin a transformation with the Amazon Q Developer Agent for Code Transformation, your code is sent to a service-owned Amazon S3 bucket over an encrypted TLS connection. Your code is encrypted at rest with a customer managed key if you provide one, and otherwise with an AWS-owned key. During the transformation, your code is stored in memory in a secure build environment. After the transformation has completed, the build environment is deleted and any artifacts are flushed from memory. Your encrypted code remains in the service-owned Amazon S3 bucket for up to 24 hours, and then is permanently deleted. " id="p1qRoQ0C1JTBegWe-3Uv-221">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="460" y="2090" width="160" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Encryption with&lt;br&gt;Customizations" tooltip="When you create a customization, Amazon Q uploads your files to a service-owned Amazon S3 bucket. Your files are encrypted in transit with HTTPS and TLS. They are encrypted at rest with a customer managed key if you provide one, and otherwise with an AWS-owned key. Once your customization has been created, AWS permanently deletes your data from the bucket, and purges it from memory.&#xa;&#xa;Your customizations are fully isolated from each other within your account. They are also isolated from the data of other customers. Only users specified by a Amazon Q Developer administrator have access to any specific customization. Before a Amazon Q administrator can specify which users can access which customizations, you must authorize that administrator permission to do so." id="p1qRoQ0C1JTBegWe-3Uv-222">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="620" y="2160" width="130" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-223" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.622;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-217" target="p1qRoQ0C1JTBegWe-3Uv-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-224" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.455;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.459;exitY=1.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-217" target="p1qRoQ0C1JTBegWe-3Uv-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-229" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-227" target="p1qRoQ0C1JTBegWe-3Uv-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Service Improvement" tooltip="To help Amazon Q Developer provide the most relevant information, we may use certain content from Amazon Q, such as questions that you ask Amazon Q and its responses, for service improvement. This page explains what content we use and how to opt out." id="p1qRoQ0C1JTBegWe-3Uv-227">
+          <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="715" y="1810" width="150" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-228" value="&lt;a href=&quot;https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE.html&quot;&gt;Opt out of Data &lt;br&gt;Sharing in the IDE&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="760" y="1950" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-232" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.548;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-214" target="p1qRoQ0C1JTBegWe-3Uv-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-238" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-233" target="p1qRoQ0C1JTBegWe-3Uv-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-239" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-233" target="p1qRoQ0C1JTBegWe-3Uv-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Monitoring" tooltip="Monitoring is an important part of maintaining the reliability, availability, and performance of Amazon Q Developer and your other AWS solutions. AWS provides the following monitoring tools to watch Amazon Q Developer, report when something is wrong, and take automatic actions when appropriate:&#xa;&#xa;    AWS CloudTrail captures API calls and related events made by or on behalf of your AWS account and delivers the log files to an Amazon Simple Storage Service (Amazon S3) bucket that you specify. You can identify which users and accounts called AWS, the source IP address from which the calls were made, and when the calls occurred. For more information, see the AWS CloudTrail User Guide.&#xa;&#xa;    Amazon CloudWatch monitors your AWS resources and the applications you run on AWS in real time. You can collect and track metrics, create customized dashboards, and set alarms that notify you or take actions when a specified metric reaches a threshold that you specify. For example, you can have CloudWatch track the number of times that Amazon Q has been invoked on your account, or the number of daily active users. For more information, see the Amazon CloudWatch User Guide.&#xa;" id="p1qRoQ0C1JTBegWe-3Uv-233">
+          <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1560" y="1200" width="100" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CloudTrail Logs" tooltip="Amazon Q Developer is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon Q. CloudTrail captures all API calls for Amazon Q as events. The calls captured include calls from the Amazon Q console and code calls to the Amazon Q API operations. If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon Q. If you don’t configure a trail, you can still view the most recent events in the CloudTrail console in Event history. Using the information collected by CloudTrail, you can determine the request that was made to Amazon Q, the IP address from which the request was made, who made the request, when it was made, and additional details." id="p1qRoQ0C1JTBegWe-3Uv-234">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1960" y="1130" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CloudWatch" tooltip="You can monitor Amazon Q Developer using CloudWatch, which collects raw data and processes it into readable, near real-time metrics. These statistics are kept for 15 months, so that you can access historical information and gain a better perspective on how Amazon Q is performing. You can also set alarms that watch for certain thresholds, and send notifications or take actions when those thresholds are met." id="p1qRoQ0C1JTBegWe-3Uv-235">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1960" y="1220" width="110" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Across your &lt;br&gt;Organisation" tooltip="Your business may operate many different AWS accounts that are all part of one AWS organization. In that case, you may want to create a separate Amazon Q Developer instance for each of your AWS accounts. Then, you can assign a different Amazon Q administrator, and a different (or overlapping) set of developers to each account.&#xa;&#xa;When a Amazon Q administrator views the dashboard, they will only see information about the account to which they have been assigned.&#xa;&#xa;Billing for Amazon Q Developer Pro usage is per AWS organization. If the same developer uses Amazon Q Developer in multiple accounts within the same organization, you will not be double-billed." id="p1qRoQ0C1JTBegWe-3Uv-236">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="1960" y="1310" width="110" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-237" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.023;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1qRoQ0C1JTBegWe-3Uv-233" target="p1qRoQ0C1JTBegWe-3Uv-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-247" value="Pricing" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="333" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1qRoQ0C1JTBegWe-3Uv-248" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.02;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y9w0u2BM4Zwv5KPZ2Pvr-6" target="p1qRoQ0C1JTBegWe-3Uv-247">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
