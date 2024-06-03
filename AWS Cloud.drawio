@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T05:20:15.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Dl2JlVKpu-rXak2CLNiR" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T05:13:44.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="2ORc6wiozCCIYX3_1sMm" version="24.4.13" type="github">
   <diagram name="AWS Cloud" id="SB-1gOZir6gWTsnCEMYt">
-    <mxGraphModel dx="2074" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="dK5EHlFSGFTGVvJSjISO-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dK5EHlFSGFTGVvJSjISO-16" target="dK5EHlFSGFTGVvJSjISO-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2260" y="550" />
+              <mxPoint x="2290" y="550" />
               <mxPoint x="2410" y="550" />
               <mxPoint x="2410" y="770" />
               <mxPoint x="2490" y="770" />
@@ -177,7 +177,7 @@
         <mxCell id="dK5EHlFSGFTGVvJSjISO-37" value="Multi-Lane Highway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2460" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dK5EHlFSGFTGVvJSjISO-38" value="Multi-Lane Highway" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="dK5EHlFSGFTGVvJSjISO-38" value="Single-Lane Highway" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2430" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dK5EHlFSGFTGVvJSjISO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dK5EHlFSGFTGVvJSjISO-41" target="dK5EHlFSGFTGVvJSjISO-46" edge="1">
