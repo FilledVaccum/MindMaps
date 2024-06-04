@@ -1,15 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T15:39:20.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="7jfa3p8CO2fph3Z9yTfB" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T15:45:02.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="09vAtg5XTNI_GZwGkEPX" version="24.4.13" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
-    <mxGraphModel dx="4301" dy="4116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="4644" dy="4474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="p39owHaLg3PGn52l4rJy-1" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="720.5" width="420" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="p39owHaLg3PGn52l4rJy-6" value="AWS Lambda" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=zigzag-line;gradientColor=#387AFF;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="p39owHaLg3PGn52l4rJy-1">
-          <mxGeometry x="-470" y="138" width="100" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="AWS Lambda" tooltip="AWS Lambda is a compute service that lets you run code without provisioning or managing servers.&#xa;&#xa;Lambda runs your code on a high-availability compute infrastructure and performs all of the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging. With Lambda, all you need to do is supply your code in one of the language runtimes that Lambda supports.&#xa;&#xa;You organize your code into Lambda functions. The Lambda service runs your function only when needed and scales automatically. You only pay for the compute time that you consume—there is no charge when your code is not running." id="p39owHaLg3PGn52l4rJy-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=zigzag-line;gradientColor=#387AFF;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="p39owHaLg3PGn52l4rJy-1">
+            <mxGeometry x="-470" y="138" width="100" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="p39owHaLg3PGn52l4rJy-8" value="Lambda Foundations" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1080" y="-1475" width="150" height="30" as="geometry" />
         </mxCell>
