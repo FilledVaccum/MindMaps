@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T06:12:50.390Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="SSaZh2P1P_6y4YQhGFSA" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T08:51:07.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="vL5rcvoEmUk-t2amkDA5" version="24.4.13" type="github">
   <diagram name="Amazon MQ" id="6he03cmQRC1mE8OoNEiJ">
-    <mxGraphModel dx="14620" dy="7010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6843" dy="2578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IZK9Cc0Bx7xJ9RkbIyLC-1" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=default;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="IZK9Cc0Bx7xJ9RkbIyLC-1" value="Broker" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=default;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="210" y="360" width="420" height="126" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;Amazon MQ&lt;br&gt;Queues &amp;amp; Topics&lt;br&gt;&lt;/div&gt;" tooltip="Amazon MQ is a managed message broker service that makes it easy to migrate to a message broker in the cloud. A message broker allows software applications and components to communicate using various programming languages, operating systems, and formal messaging protocols. Currently, Amazon MQ supports Apache ActiveMQ Classic and RabbitMQ&#xa;&#xa;engine types.&#xa;&#xa;Amazon MQ works with your existing applications and services without the need to manage, operate, or maintain your own messaging system" id="IZK9Cc0Bx7xJ9RkbIyLC-6">
@@ -910,6 +910,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3b_d2vEyhmwaDrJjKz6w-82" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.895;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IZK9Cc0Bx7xJ9RkbIyLC-21" target="3b_d2vEyhmwaDrJjKz6w-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3b_d2vEyhmwaDrJjKz6w-87" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3b_d2vEyhmwaDrJjKz6w-83" target="3b_d2vEyhmwaDrJjKz6w-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3b_d2vEyhmwaDrJjKz6w-88" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3b_d2vEyhmwaDrJjKz6w-83" target="3b_d2vEyhmwaDrJjKz6w-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3b_d2vEyhmwaDrJjKz6w-83" value="&lt;div&gt;Pricing&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="800" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Broker Pricing" tooltip=" Broker Pricing&#xa;Hourly instance usage&#xa;&#xa;You pay for message broker usage on an hourly basis (billed at one second resolution), with varying fees depending on the size of the message broker instance and whether you choose a single-instance broker, 3-node cluster, or active/standby broker. See the Broker Pricing Tables for details." id="3b_d2vEyhmwaDrJjKz6w-84">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="960" y="490" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Broker Storage &lt;br&gt;Pricing" tooltip=" Broker Pricing&#xa;Hourly instance usage&#xa;&#xa;You pay for message broker usage on an hourly basis (billed at one second resolution), with varying fees depending on the size of the message broker instance and whether you choose a single-instance broker, 3-node cluster, or active/standby broker. See the Broker Pricing Tables for details." id="3b_d2vEyhmwaDrJjKz6w-85">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+            <mxGeometry x="955" y="760" width="125" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3b_d2vEyhmwaDrJjKz6w-86" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZK9Cc0Bx7xJ9RkbIyLC-6" target="3b_d2vEyhmwaDrJjKz6w-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
