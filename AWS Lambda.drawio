@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T15:06:43.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="IajqzfOm_j-1U_DFfiMJ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T15:21:10.101Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0L5tOklv-TelpbGxOafK" version="24.4.13" type="github">
   <diagram name="AWS Lambda" id="c9db0220-8083-56f3-ca83-edcdcd058819">
     <mxGraphModel dx="4797" dy="4231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -281,6 +281,12 @@
         <mxCell id="VXU33mPdwi5CYUEX2S3u-50" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-41" target="VXU33mPdwi5CYUEX2S3u-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-62" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-53" target="VXU33mPdwi5CYUEX2S3u-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-63" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-53" target="VXU33mPdwi5CYUEX2S3u-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Deployment &lt;br&gt;Packages" tooltip="Your AWS Lambda function&#39;s code consists of scripts or compiled programs and their dependencies. You use a deployment package to deploy your function code to Lambda. Lambda supports two types of deployment packages: container images and .zip file archives. " id="VXU33mPdwi5CYUEX2S3u-53">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
             <mxGeometry x="1440" y="-2400" width="120" height="40" as="geometry" />
@@ -288,7 +294,7 @@
         </UserObject>
         <UserObject label="Container&lt;br&gt;Images" tooltip="A container image includes the base operating system, the runtime, Lambda extensions, your application code and its dependencies. You can also add static data, such as machine learning models, into the image.&#xa;&#xa;Lambda provides a set of open-source base images that you can use to build your container image. To create and test container images, you can use the AWS Serverless Application Model (AWS SAM) command line interface (CLI) or native container tools such as the Docker CLI.&#xa;&#xa;Upload your container images to Amazon Elastic Container Registry (Amazon ECR), a managed AWS container image registry service. To deploy the image to your function, specify the Amazon ECR image URL using the Lambda console, the Lambda API, command line tools, or the AWS SDKs." id="VXU33mPdwi5CYUEX2S3u-54">
           <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-            <mxGeometry x="1635" y="-2560" width="90" height="40" as="geometry" />
+            <mxGeometry x="1635" y="-2520" width="90" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VXU33mPdwi5CYUEX2S3u-57" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;dashed=1;dashPattern=8 8;flowAnimationDirection=alternate-reverse;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-55" target="VXU33mPdwi5CYUEX2S3u-56">
@@ -296,14 +302,28 @@
         </mxCell>
         <UserObject label=".zip file &lt;br&gt;Archive" tooltip="A .zip file archive includes your application code and its dependencies. When you author functions using the Lambda console or a toolkit, Lambda automatically creates a .zip file archive of your code.&#xa;&#xa;When you create functions with the Lambda API, command line tools, or the AWS SDKs, you must create a deployment package. You must also create a deployment package if your function uses a compiled language, or to add dependencies to your function. To deploy your function&#39;s code, upload the deployment package from Amazon Simple Storage Service (Amazon S3) or your local machine.&#xa;&#xa;You can upload a .zip file as your deployment package using the Lambda console, AWS Command Line Interface (AWS CLI), or to an Amazon Simple Storage Service (Amazon S3) bucket." id="VXU33mPdwi5CYUEX2S3u-55">
           <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-            <mxGeometry x="1640" y="-2440" width="80" height="40" as="geometry" />
+            <mxGeometry x="1640" y="-2400" width="80" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Layers" tooltip="If you deploy your function code using a .zip file archive, you can use Lambda layers as a distribution mechanism for libraries, custom runtimes, and other function dependencies. Layers enable you to manage your in-development function code independently from the unchanging code and resources that it uses. You can configure your function to use layers that you create, layers that AWS provides, or layers from other AWS customers.&#xa;&#xa;You can&#39;t use layers with container images. Instead, package your preferred runtime, libraries, and other dependencies into the container image when you build the image." id="VXU33mPdwi5CYUEX2S3u-56">
           <mxCell style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-            <mxGeometry x="1640" y="-2310" width="80" height="30" as="geometry" />
+            <mxGeometry x="1640" y="-2270" width="80" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-58" value="AWS SAM &lt;br&gt;to create deployment packages &amp;amp; &lt;br&gt;S3 to host deployment packages &amp;gt; 50 MB" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1780" y="-2440" width="322.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-59" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.063;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-54" target="VXU33mPdwi5CYUEX2S3u-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-60" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.083;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-55" target="VXU33mPdwi5CYUEX2S3u-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VXU33mPdwi5CYUEX2S3u-61" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="VXU33mPdwi5CYUEX2S3u-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="-2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
