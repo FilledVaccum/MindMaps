@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T05:50:24.791Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="MBdKvNbo94mJCTbvoCx1" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T06:02:56.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="nyF7iyz3mphBkVFEF8ME" version="24.4.14" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
-    <mxGraphModel dx="843" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1297" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,16 +104,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GQzsWeGnhZWAxDh5WWYo-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GQzsWeGnhZWAxDh5WWYo-29" target="GQzsWeGnhZWAxDh5WWYo-37" edge="1">
+        <mxCell id="GQzsWeGnhZWAxDh5WWYo-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GQzsWeGnhZWAxDh5WWYo-29" target="GQzsWeGnhZWAxDh5WWYo-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="820" />
-              <mxPoint x="650" y="820" />
+              <mxPoint x="660" y="820" />
+              <mxPoint x="600" y="820" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GQzsWeGnhZWAxDh5WWYo-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GQzsWeGnhZWAxDh5WWYo-29" target="GQzsWeGnhZWAxDh5WWYo-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GQzsWeGnhZWAxDh5WWYo-29" target="GQzsWeGnhZWAxDh5WWYo-42" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -131,8 +128,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-29" target="GQzsWeGnhZWAxDh5WWYo-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="820" />
+              <mxPoint x="720" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-29" value="Function Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="640" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="600" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GQzsWeGnhZWAxDh5WWYo-31" target="GQzsWeGnhZWAxDh5WWYo-46" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -159,23 +164,71 @@
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-31" value="Non -Functional Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
           <mxGeometry x="1310" y="680" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-32" target="9KlHA806QGk4azSl-Z7S-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1320" />
+              <mxPoint x="960" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Retrieve&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="350" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-34" target="9KlHA806QGk4azSl-Z7S-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1300" />
+              <mxPoint x="1080" y="1300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Request&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="470" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-37" target="9KlHA806QGk4azSl-Z7S-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1280" />
+              <mxPoint x="1200" y="1280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-37" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Deliver&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="590" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="560" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-40" target="9KlHA806QGk4azSl-Z7S-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1260" />
+              <mxPoint x="1320" y="1260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Search&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="710" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="680" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-42" target="9KlHA806QGk4azSl-Z7S-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1230" />
+              <mxPoint x="1440" y="1230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Update&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="830" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQzsWeGnhZWAxDh5WWYo-44" target="9KlHA806QGk4azSl-Z7S-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="1210" />
+              <mxPoint x="1560" y="1210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" parent="1" vertex="1">
-          <mxGeometry x="950" y="920" width="80" height="80" as="geometry" />
+          <mxGeometry x="920" y="1120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GQzsWeGnhZWAxDh5WWYo-46" value="Performance" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1150" y="920" width="80" height="80" as="geometry" />
@@ -311,11 +364,80 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="1570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1740" y="1600" />
+              <mxPoint x="1261" y="1600" />
+              <mxPoint x="1261" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="API Design" tooltip="This section will discuss the API design of the functionalities offered by CDN. This will help us understand how the CDN will receive requests from the clients, receive content from the origin servers, and communicate to other components in the network. Let’s develop APIs for each of the following functionalities:&#xa;&#xa;    Retrieve content&#xa;    Deliver content&#xa;    Request content&#xa;    Search content&#xa;    Update content&#xa;    Delete content&#xa;&#xa;Content can be anything, like a file, video, audio, or other web object. Here, we’ll use the word “content” to refer to all of the above. For clarity, we won’t discuss the privacy-related parameters—like if the content is public or private, who should be able to access this content, if it should be encrypted, and so on—in the following APIs." id="9KlHA806QGk4azSl-Z7S-2">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="1680" y="680" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Retrieve&lt;/i&gt;&lt;/font&gt;&lt;br&gt;API" tooltip="Retrieve (proxy server to origin server)#&#xa;&#xa;retrieveContent(proxyserver_id, content_type, content_version, description)" id="9KlHA806QGk4azSl-Z7S-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="920" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Request&lt;/font&gt;&lt;br&gt;API" tooltip="Request (clients to proxy servers)&#xa;&#xa;The users use this API to request the content from the proxy servers. We call this the /requestContent API:&#xa;&#xa;requestContent(user_id, content_type, description)" id="9KlHA806QGk4azSl-Z7S-11">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1040" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Deliver&lt;/font&gt;&lt;br&gt;API" tooltip="Deliver (origin server to proxy servers)&#xa;&#xa;The origin servers use this API to deliver the specified content, the updated version, to the proxy servers through the distribution system. We call this the /deliverContent API:&#xa;&#xa;deliverContent(origin_id, server_list, content_type, content_version, description)" id="9KlHA806QGk4azSl-Z7S-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1160" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Search&lt;/font&gt;&lt;br&gt;API" tooltip="Search (proxy server to peer proxy servers)&#xa;&#xa;Although the content is first searched locally at the proxy server, the proxy servers can also probe requested content in the peer proxy servers in the same PoP through the /searchContent API. This could flood the query to all proxy servers in a PoP. Alternatively, we can use a data store in the PoP to query the content, though proxy servers will need to maintain what content is available on which proxy server.&#xa;&#xa;The /searchContent API is shown below:&#xa;&#xa;searchContent(proxyserver_id, content_type, description)" id="9KlHA806QGk4azSl-Z7S-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1280" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Update&lt;br&gt;&lt;/font&gt;API" tooltip="Update (proxy server to peer proxy servers)&#xa;&#xa;The proxy servers use the /updateContent API to update the specified content in the peer proxy servers in the PoP. It does so when specified isolated scripts run on the CDN to provide image resizing, video resolution conversion, security, and many more services. This type of scripting is known as serverless scripting.&#xa;&#xa;The /updateContent API is shown below:&#xa;&#xa;updateContent(proxyserver_id, content_type, description)" id="9KlHA806QGk4azSl-Z7S-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1400" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;&lt;br&gt;API" tooltip="Note: The Delete API isn’t discussed here. In our caching chapter, we discussed different eviction mechanisms in detail. Those mechanisms are also applicable for a CDN content eviction. Nevertheless, situations can arise where the Delete APIs may be required. We’ll discuss a few content consistency mechanisms, like how much time content stays in the cache, in the next lesson." id="9KlHA806QGk4azSl-Z7S-15">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="1410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="1545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="1545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KlHA806QGk4azSl-Z7S-23" target="9KlHA806QGk4azSl-Z7S-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KlHA806QGk4azSl-Z7S-23" value="API Design" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
