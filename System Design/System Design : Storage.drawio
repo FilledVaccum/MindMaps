@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T06:06:29.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="lTVVnPFNUWmwXZvDIZLa" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:10:45.410Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ToDNNFcXl3gv0ZhyOn8I" version="24.5.5" type="github">
   <diagram name="Page-1" id="YFt6SwmdgjD7Zw13KfLr">
     <mxGraphModel dx="1975" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -376,7 +376,7 @@
         <mxCell id="Fu6HSjx1LagMHPIimtRI-129" value="Data" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="2820" width="80" height="80" as="geometry" />
         </mxCell>
-        <UserObject label="List Blobs" tooltip="List blobs: The user should be able to get a list of blobs inside a specific container." id="Fu6HSjx1LagMHPIimtRI-130">
+        <UserObject label="List Blobs" tooltip="listBlobs(containerPath)&#xa;&#xa;List blobs: The user should be able to get a list of blobs inside a specific container." id="Fu6HSjx1LagMHPIimtRI-130">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2620" y="-320" width="80" height="80" as="geometry" />
           </mxCell>
@@ -386,27 +386,27 @@
             <mxGeometry x="2300" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="List Containers" tooltip="List containers: The system should allow the users to list all the containers under a specific account." id="Fu6HSjx1LagMHPIimtRI-132">
+        <UserObject label="List Containers" tooltip="listContainers(accountID)&#xa;&#xa;List containers: The system should allow the users to list all the containers under a specific account." id="Fu6HSjx1LagMHPIimtRI-132">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2420" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Delete a Container" tooltip="Delete a container: The users should be able to delete a container and all the blobs inside it." id="Fu6HSjx1LagMHPIimtRI-133">
+        <UserObject label="Delete a Container" tooltip="deleteContainer(containerPath)&#xa;&#xa;Delete a container: The users should be able to delete a container and all the blobs inside it." id="Fu6HSjx1LagMHPIimtRI-133">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2540" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Get Data" tooltip="Get data: The system should generate a URL for the uploaded blob, so that the user can access that blob later through this URL." id="Fu6HSjx1LagMHPIimtRI-134">
+        <UserObject label="Get Data" tooltip="getBlob(blobPath)&#xa;&#xa;Get data: The system should generate a URL for the uploaded blob, so that the user can access that blob later through this URL." id="Fu6HSjx1LagMHPIimtRI-134">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2820" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Put Data" tooltip="Put data: The blob store should allow users to upload blobs to the created containers.&#xa;&#xa;putBlob(containerPath, blobName, data)" id="Fu6HSjx1LagMHPIimtRI-135">
+        <UserObject label="Put Data" tooltip="Put data: The blob store should allow users to upload blobs to the created containers.&#xa;&#xa;putBlob(containerPath, blobName, data)&#xa;&#xa;Note: This API is just a logical way to spell out needs. We might use a multistep streaming call for actual implementation if the data size is very large." id="Fu6HSjx1LagMHPIimtRI-135">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2700" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Delete Data" tooltip="Delete data: The users should be able to delete a blob. If the user wants to keep the data for a specified period of time (retention time), our system should support this functionality." id="Fu6HSjx1LagMHPIimtRI-136">
+        <UserObject label="Delete Data" tooltip="deleteBlob(blobPath)&#xa;&#xa;Delete data: The users should be able to delete a blob. If the user wants to keep the data for a specified period of time (retention time), our system should support this functionality." id="Fu6HSjx1LagMHPIimtRI-136">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2940" y="-160" width="80" height="80" as="geometry" />
           </mxCell>
