@@ -1,9 +1,419 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T05:07:58.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.5.5" etag="4OXf1rTxEWKXlvL_-JQK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:06:29.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="lTVVnPFNUWmwXZvDIZLa" version="24.5.5" type="github">
   <diagram name="Page-1" id="YFt6SwmdgjD7Zw13KfLr">
-    <mxGraphModel>
+    <mxGraphModel dx="1975" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="830" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-7" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-4" target="Fu6HSjx1LagMHPIimtRI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-10" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-4" target="Fu6HSjx1LagMHPIimtRI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-4" value="Terms" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-6" value="Blob - Binary Large Objects" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-9" value="WORM - Write Once Read Many" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="990" />
+              <mxPoint x="840" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-27" value="System &lt;br&gt;That use&lt;br&gt;Blob Storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fu6HSjx1LagMHPIimtRI-26">
+          <mxGeometry x="-0.0044" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1030" />
+              <mxPoint x="840" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-13" target="Fu6HSjx1LagMHPIimtRI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-36" value="&lt;font color=&quot;#387aff&quot; style=&quot;font-size: 14px;&quot;&gt;How to design a Blob Storage System&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fu6HSjx1LagMHPIimtRI-35">
+          <mxGeometry x="0.0571" y="-2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Blob Storage" tooltip="Blob store is a storage solution for unstructured data. We can store photos, audio, videos, binary executable codes, or other multimedia items in a blob store. Every type of data is stored as a blob. It follows a flat data organization pattern where there are no hierarchies, that is, directories, sub-directories, and so on.&#xa;&#xa;Mostly, it’s used by applications with a particular business requirement called write once, read many (WORM), which states that data can only be written once and that no one can change it. Just like in Microsoft Azure, the blobs are created once and read many times. Additionally, these blobs can’t be deleted until a specified interval, and they also can’t be modified to protect critical data.&#xa;A blob store storing and streaming large unstructured files like audio, video, images, and documents&#xa;&#xa;    Note: It isn’t necessary for all applications to have this WORM requirement. However, we are assuming that the blobs that are " id="Fu6HSjx1LagMHPIimtRI-13">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="720" y="800" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Why do we use a blob storage?" tooltip="Blob store is an important component of many data-intensive applications, such as YouTube, Netflix, Facebook, and so on. The table below displays the blob storage used by some of the most well-known applications. These applications generate a huge amount of unstructured data every day. They require a storage solution that is easily scalable, reliable, and highly available, so that they can store large media files. Since the amount of data continuously increases, these applications need to store an unlimited number of blobs. According to some estimates, YouTube requires more than a petabyte of additional storage per day. In a system like YouTube, a video is stored in multiple resolutions. Additionally, the video in all resolutions is replicated many times across different data centers and regions for availability purposes. That’s why the total storage required per video is not equal to the size of the uploaded video.&#xa;" id="Fu6HSjx1LagMHPIimtRI-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="720" y="1080" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-25" value="Netflix - S3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-28" value="Youtube - Google Cloud Storage" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-29" value="Facebook - &lt;br&gt;Tectonic" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-34" target="Fu6HSjx1LagMHPIimtRI-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="560" />
+              <mxPoint x="1140" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-34" target="Fu6HSjx1LagMHPIimtRI-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="560" />
+              <mxPoint x="1860" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-34" target="Fu6HSjx1LagMHPIimtRI-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-34" target="Fu6HSjx1LagMHPIimtRI-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1080" />
+              <mxPoint x="1340" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-34" target="Fu6HSjx1LagMHPIimtRI-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1080" />
+              <mxPoint x="1900" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Step 1 : Requirements" tooltip="we identify the functional and non-functional requirements of a blob store. We also estimate the resources required by our blob store system." id="Fu6HSjx1LagMHPIimtRI-34">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="800" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-37" target="Fu6HSjx1LagMHPIimtRI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-37" target="Fu6HSjx1LagMHPIimtRI-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-37" target="Fu6HSjx1LagMHPIimtRI-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-37" value="Functional Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-39" target="Fu6HSjx1LagMHPIimtRI-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-39" value="Non-Functional Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-41" target="Fu6HSjx1LagMHPIimtRI-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-41" target="Fu6HSjx1LagMHPIimtRI-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-41" target="Fu6HSjx1LagMHPIimtRI-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-41" value="Container" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="880" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-47" target="Fu6HSjx1LagMHPIimtRI-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-47" target="Fu6HSjx1LagMHPIimtRI-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-47" target="Fu6HSjx1LagMHPIimtRI-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-47" value="Data" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="List Blobs" tooltip="List blobs: The user should be able to get a list of blobs inside a specific container." id="Fu6HSjx1LagMHPIimtRI-55">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1100" y="-40" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Create Container" tooltip="Create a container: The users should be able to create containers in order to group blobs. For example, if an application wants to store user-specific data, it should be able to store blobs for different user accounts in different containers. Additionally, a user may want to group video blobs and separate them from a group of image blobs. A single blob store user can create many containers, and each container can have many blobs, as shown in the following illustration. For the sake of simplicity, we assume that we can’t create a container inside a container." id="Fu6HSjx1LagMHPIimtRI-58">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="760" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Containers" tooltip="List containers: The system should allow the users to list all the containers under a specific account." id="Fu6HSjx1LagMHPIimtRI-60">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="880" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete a Container" tooltip="Delete a container: The users should be able to delete a container and all the blobs inside it." id="Fu6HSjx1LagMHPIimtRI-62">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1000" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Get Data" tooltip="Get data: The system should generate a URL for the uploaded blob, so that the user can access that blob later through this URL." id="Fu6HSjx1LagMHPIimtRI-65">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1280" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Put Data" tooltip="Put data: The blob store should allow users to upload blobs to the created containers." id="Fu6HSjx1LagMHPIimtRI-67">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1160" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete Data" tooltip="Delete data: The users should be able to delete a blob. If the user wants to keep the data for a specified period of time (retention time), our system should support this functionality." id="Fu6HSjx1LagMHPIimtRI-69">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1400" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-72" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;i&gt;Availability&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-74" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;i&gt;Durability&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-76" value="Consistency" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-78" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;i&gt;Reliability&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-80" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;i&gt;Scalability&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-82" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Througput&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Questions" tooltip="Explain the concept of eventual consistency in the context of blob stores. Provide a scenario where it might be acceptable in the widget below." id="Fu6HSjx1LagMHPIimtRI-84">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1635" y="680" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-86" target="Fu6HSjx1LagMHPIimtRI-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-86" target="Fu6HSjx1LagMHPIimtRI-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-86" target="Fu6HSjx1LagMHPIimtRI-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-86" target="Fu6HSjx1LagMHPIimtRI-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Resource Estimation" tooltip="Let’s estimate the total number of servers, storage, and bandwidth required by a blob storage system. Because blobs can have all sorts of data, mentioning all of those types of data in our estimation may not be practical. Therefore, we’ll use YouTube as an example, which stores videos and thumbnails on the blob store. Furthermore, we’ll make the following assumptions to complete our estimations." id="Fu6HSjx1LagMHPIimtRI-86">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1280" y="1160" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Assumptions" tooltip="Assumptions:&#xa;&#xa;    The number of daily active users who upload or watch videos is five million.&#xa;    The number of requests per second that a single blob store server can handle is 500.&#xa;    The average size of a video is 50 MB.&#xa;    The average size of a thumbnail is 20 KB.&#xa;    The number of videos uploaded per day is 250,000.&#xa;    The number of read requests by a single user per day is 20.&#xa;" id="Fu6HSjx1LagMHPIimtRI-88">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1080" y="1360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Server Estimation" tooltip="Number of servers estimation&#xa;&#xa;Considering our assumption of using daily active users as a proxy for the number of requests per second for peak load times, we get 5 million requests per second. The number of servers that we require, considering 500 RPS for the blob store server, is calculated using the formula given below:&#xa;Servers needed at peak load=Number of requests/secondRPS of server&#xa;Servers needed at peak load=RPS of serverNumber of requests/second​&#xa;Servers needed at peak load=5 million500=10K servers&#xa;Servers needed at peak load=5005 million​=10K servers&#xa;Number of servers required by a blob store system dedicated to storing YouTube data&#xa;&#xa;    Note: Our revised estimate for the blob store server is 500 RPS, down from 64,000 RPS, to accommodate the I/O-intensive nature of a blob store server, where operations typically take longer to execute." id="Fu6HSjx1LagMHPIimtRI-90">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1240" y="1360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage Estimation" tooltip="Considering the assumptions written above, we use the formula given below to compute the total storage required by YouTube in one day:&#xa;&#xa;    Totalstorage/day=No. of videos/day×(Storage/video+Storage/thumbnail)&#xa;    Totalstorage/day​=No. of videos/day​×(Storage/video​+Storage/thumbnail​)&#xa;&#xa;Putting the numbers from above into the formula gives us 12.51 TB/day12.51 TB/day​, which is the approximate storage required by YouTube per day for keeping a single copy of the uploaded video in a single resolution.&#xa;" id="Fu6HSjx1LagMHPIimtRI-92">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1360" y="1360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Bandwidth Estimation" tooltip="Bandwidth estimation&#xa;&#xa;Let’s estimate the bandwidth required for uploading data to and retrieving data from the blob store.&#xa;&#xa;Incoming traffic: To estimate the bandwidth required for incoming traffic, we consider the total data uploaded per day, which indirectly means the total storage needed per day that we calculated above. The amount of data transferred to the servers per second can be computed using the following formula:&#xa;&#xa;    Totalbandwidth=Totalstorage_day24×60×60&#xa;    Totalbandwidth​=24×60×60Totalstorage_day​​&#xa;&#xa;Bandwidth Required for Uploading Videos on YouTube&#xa;&#xa;Outgoing traffic: Since the blob store is a read-intensive store, most of the bandwidth is required for outgoing traffic. Considering the aforementioned assumptions, we calculate the bandwidth required for outgoing traffic using the following formula:&#xa;&#xa;    Totalbandwidth=No. of active users/day×No. of requests/user/day×Totaldata_sizeSeconds in a day&#xa;    Totalbandwidth​=Seconds in a dayNo. of active users/day​×No. of requests/user/day​×Totaldata_size​​&#xa;" id="Fu6HSjx1LagMHPIimtRI-94">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="1360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-97" target="Fu6HSjx1LagMHPIimtRI-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-97" target="Fu6HSjx1LagMHPIimtRI-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-97" target="Fu6HSjx1LagMHPIimtRI-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-97" target="Fu6HSjx1LagMHPIimtRI-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-97" value="Building Blocks" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-99" value="Load Balancer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-101" value="Database" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-103" value="Rate Limiter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-105" value="Monitoring" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-107" target="Fu6HSjx1LagMHPIimtRI-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-107" target="Fu6HSjx1LagMHPIimtRI-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Step 2 : Design of Blob Storage" tooltip="we identify the functional and non-functional requirements of a blob store. We also estimate the resources required by our blob store system." id="Fu6HSjx1LagMHPIimtRI-107">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="2560" y="800" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-110" target="Fu6HSjx1LagMHPIimtRI-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-110" value="High Level Design" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2303.14" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-113" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="400" width="326.28" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-118" target="Fu6HSjx1LagMHPIimtRI-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-118" target="Fu6HSjx1LagMHPIimtRI-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-118" target="Fu6HSjx1LagMHPIimtRI-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-118" value="API Design" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2860" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-125" target="Fu6HSjx1LagMHPIimtRI-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-125" target="Fu6HSjx1LagMHPIimtRI-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-125" target="Fu6HSjx1LagMHPIimtRI-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-125" value="Container" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-129" target="Fu6HSjx1LagMHPIimtRI-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-129" target="Fu6HSjx1LagMHPIimtRI-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-129" target="Fu6HSjx1LagMHPIimtRI-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-129" value="Data" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="List Blobs" tooltip="List blobs: The user should be able to get a list of blobs inside a specific container." id="Fu6HSjx1LagMHPIimtRI-130">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2620" y="-320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Create Container" tooltip="createContainer(containerName)&#xa;Parameter&#xa;&#x9;&#xa;&#xa;Description&#xa;&#xa;containerName&#xa;&#x9;&#xa;&#xa;This is the name of the container. It should be unique within a storage account." id="Fu6HSjx1LagMHPIimtRI-131">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2300" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Containers" tooltip="List containers: The system should allow the users to list all the containers under a specific account." id="Fu6HSjx1LagMHPIimtRI-132">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2420" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete a Container" tooltip="Delete a container: The users should be able to delete a container and all the blobs inside it." id="Fu6HSjx1LagMHPIimtRI-133">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2540" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Get Data" tooltip="Get data: The system should generate a URL for the uploaded blob, so that the user can access that blob later through this URL." id="Fu6HSjx1LagMHPIimtRI-134">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2820" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Put Data" tooltip="Put data: The blob store should allow users to upload blobs to the created containers.&#xa;&#xa;putBlob(containerPath, blobName, data)" id="Fu6HSjx1LagMHPIimtRI-135">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2700" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete Data" tooltip="Delete data: The users should be able to delete a blob. If the user wants to keep the data for a specified period of time (retention time), our system should support this functionality." id="Fu6HSjx1LagMHPIimtRI-136">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2940" y="-160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fu6HSjx1LagMHPIimtRI-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fu6HSjx1LagMHPIimtRI-118" target="Fu6HSjx1LagMHPIimtRI-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
