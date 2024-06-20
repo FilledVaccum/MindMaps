@@ -1,9 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T17:07:55.260Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.5.5" etag="v2oum05gzrHCZ57E2oXB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T17:32:28.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="IsNvP4u_2ueJYxCu1WWY" version="24.5.5" type="github">
   <diagram name="Page-1" id="8mzTLpE-g2ia8AFTpS4c">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-1" target="wCBr8oGpxHdbUBBWgaJ1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-1" target="wCBr8oGpxHdbUBBWgaJ1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-1" target="wCBr8oGpxHdbUBBWgaJ1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-1" value="Design of a Distributed Search" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Why do we need a search system?" tooltip="Nowadays, we see a search bar on almost every website. We use that search bar to pick out relevant content from the enormous amount of content available on that website. A search bar enables us to quickly find what we’re looking for. For example, there are plenty of courses present on the Educative website. If we didn’t have a search feature, users would have to scroll through many pages and read the name of each course to find the one they’re looking for.&#xa;Press&#xa;+&#xa;to interact&#xa;&#xa;Let’s take another example. There are billions of videos uploaded and stored on YouTube. Imagine if YouTube didn’t provide us with a search bar. How would we find a specific video among the millions of videos that have been posted on YouTube over the years? It would take months to navigate through all of those videos and find the one we need. Users find it challenging to find what they’re looking for simply by scrolling around.&#xa;&#xa;Search engines are an even bigger example. We have billions of websites on the Internet. Each website has many web pages and there is plenty of content on each of these web pages. With so much content, the Internet would practically be useless without search engines, and users would end up lost in a sea of irrelevant data. Search engines are, essentially, filters for the massive amount of data available. They let users quickly obtain information that is of true interest without having to sift through too many unnecessary web pages.&#xa;&#xa;Behind every search bar, there is a search system." id="wCBr8oGpxHdbUBBWgaJ1-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="160" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="What is Search System?" tooltip="A search system is a system that takes some text input, a search query, from the user and returns the relevant content in a few seconds or less. There are three main components of a search system, namely:&#xa;&#xa;    A crawler, which fetches content and creates documents.&#xa;    An indexer, which builds a searchable index.&#xa;    A searcher, which responds to search queries by running the search query on the index created by the indexer.&#xa;&#xa;The three phases of a search system&#xa;&#xa;Note: We have a separate chapter dedicated to the explanation of the crawler component. In this chapter, we’ll focus on indexing." id="wCBr8oGpxHdbUBBWgaJ1-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;How to design a distributed Search System?&lt;/div&gt;" tooltip="We divided the design of a distributed search system into five lessons:&#xa;&#xa;    Requirements: In this lesson, we list the functional and non-functional requirements of a distributed search system. We also estimate our system’s resources, such as servers, storage, and the bandwidth needed to serve a number of queries.&#xa;    Indexing: This lesson provides us with background knowledge on the process of indexing with the help of an example. After discussing indexing, we also look into a centralized architecture of distributed search systems.&#xa;    Initial design: This lesson consists of the high-level design of our system, its API, and the details of the indexing and searching process.&#xa;    Final design: In this lesson, we evaluate our previous design and revamp it to make it more scalable.&#xa;    Evaluation: This lesson explains how our designed distributed search system fulfills its requirements." id="wCBr8oGpxHdbUBBWgaJ1-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="280" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-8" target="wCBr8oGpxHdbUBBWgaJ1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-14" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-8" target="wCBr8oGpxHdbUBBWgaJ1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-8" target="wCBr8oGpxHdbUBBWgaJ1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-8" target="wCBr8oGpxHdbUBBWgaJ1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Requirements of a Distributed Search System&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-9" target="wCBr8oGpxHdbUBBWgaJ1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-9" value="Functional Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="780" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-13" target="wCBr8oGpxHdbUBBWgaJ1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-13" target="wCBr8oGpxHdbUBBWgaJ1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-13" target="wCBr8oGpxHdbUBBWgaJ1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-13" target="wCBr8oGpxHdbUBBWgaJ1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-13" value="Non-Functional Requirements" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-15" target="wCBr8oGpxHdbUBBWgaJ1-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-32" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-15" target="wCBr8oGpxHdbUBBWgaJ1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wCBr8oGpxHdbUBBWgaJ1-15" target="wCBr8oGpxHdbUBBWgaJ1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-15" value="Resource Estimation" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="780" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Building Blocks" tooltip="We need a distributed storage in our design. Therefore, we can use the blob store, a previously discussed building block, to store the data to be indexed and the index itself. We’ll use a generic term, that is, “distributed storage” instead of the specific term “blob store.”" id="wCBr8oGpxHdbUBBWgaJ1-17">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1100" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-19" value="Search" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-21" value="Availability" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-23" value="Scalability" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-25" value="Fast" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCBr8oGpxHdbUBBWgaJ1-27" value="Cost Efficient" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Server" tooltip="Let’s estimate the total number of servers, storage, and bandwidth that is required by the distributed search system. We’ll calculate these numbers using an example of a YouTube search.&#xa;Number of servers estimation&#xa;&#xa;To estimate the number of servers, we need to know the number of daily active users of YouTube search feature. Let’s assume that we have 150 million daily active users of YouTube utilizing the search feature. Considering our assumption of using daily active users as a proxy for the number of requests per second to find the number of servers for peak load times, we get 150 million requests per second. Then, we use the following formula to calculate the number of servers:&#xa;Servers needed at peak load=Number of requests/secondRPS of server&#xa;Servers needed at peak load=RPS of serverNumber of requests/second​&#xa;&#xa;Using 64,000 as an estimated RPS of a server from the Back-of-the-envelope Calculations chapter, the required servers are estimated as follows:&#xa;Servers needed at peak load=150 million64,000=2343.75≈2350 servers&#xa;Servers needed at peak load=64,000150 million​=2343.75≈2350 servers&#xa;&#xa;The number of servers required for the YouTube search service&#xa;&#xa;    Note: Concurrent requests significantly impact the number of required servers compared to requests spread over time." id="wCBr8oGpxHdbUBBWgaJ1-29">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="680" y="800" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Bandwidth" tooltip="The data is transferred between the user and the server on each search request. We estimate the bandwidth required for the incoming traffic on the server and the outgoing traffic from the server. Here is the formula to calculate the required bandwidth:&#xa;&#xa;Totalbandwidth=Totalrequests_second×Totalquery_size&#xa;Totalbandwidth​=Totalrequests_second​×Totalquery_size​&#xa;&#xa;Incoming traffic&#xa;&#xa;To estimate the incoming traffic bandwidth, we assume the following numbers:&#xa;&#xa;    The number of search requests per day is 150 million.&#xa;    The search query size is 100 Bytes.&#xa;&#xa;We can use the formula given above to calculate the bandwidth required for the incoming traffic.&#xa;Bandwidth Required for Incoming Search Queries per Second&#xa;&#xa;Outgoing traffic&#xa;&#xa;Outgoing traffic is the response that the server returns to the user on the search request. We assume that the number of suggested videos against a search query is 80, and one suggestion is of the size 50 Bytes. Suggestions consist of an ordered list of the video IDs.&#xa;&#xa;To estimate the outgoing traffic bandwidth, we assume the following numbers:&#xa;&#xa;    The number of search requests per day is 150 million.&#xa;    The response size is 4,000 Bytes.&#xa;&#xa;We can use the same formula to calculate the bandwidth required for the outgoing traffic.&#xa;Bandwidth Required for Outgoing Traffic per Second&#xa;Summarizing the bandwidth requirements of a video search&#xa;&#xa;    Note: The bandwidth requirements are relatively modest because we are assuming text results. Many search services can return small thumbnails and other media to enhance the search page. The bandwidth needs per page are intentionally low so that the service can provide near real-time results to the client.&#xa;&#xa;" id="wCBr8oGpxHdbUBBWgaJ1-31">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="920" y="800" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage" tooltip="Each video’s metadata is stored in a separate JSON document. Each document is uniquely identified by the video ID. This metadata contains the title of the video, its description, the channel name, and a transcript. We assume the following numbers for estimating the storage required to index one video:&#xa;&#xa;    The size of a single JSON document is 200 KB.&#xa;    The number of unique terms or keys extracted from a single JSON document is 1,000.&#xa;    The amount of storage space required to add one term into the index table is 100 Bytes.&#xa;&#xa;The following formula is used to compute the storage required to index one video:&#xa;&#xa;Totalstorage/video=Storage/doc+(Terms/doc×Storage/term)&#xa;Totalstorage/video​=Storage/doc​+(Terms/doc​×Storage/term​)&#xa;Total Storage Required to Index One Video on YouTube&#xa;&#xa;In the table above, we calculate the storage required to index one video. We have already seen that the total storage required per video is 300 KB. Assuming that, on average, the number of videos uploaded per day on YouTube is 6,000, let’s calculate the total storage required to index the videos uploaded per day. The following formula is used to compute the storage required to index the videos uploaded to YouTube in one day:&#xa;&#xa;Totalstorage/day=No. of videos/day×Totalstorage/video&#xa;Totalstorage/day​=No. of videos/day​×Totalstorage/video​&#xa;Total Storage Required to Index Videos per Day on YouTube&#xa;&#xa;The total storage required to index 6,000 videos uploaded per day on YouTube is 1.8 GB. This storage requirement is just an estimation for YouTube. The storage need will increase if we provide a distributed search system as a service to multiple tenants.&#xa;Summarizing the storage requirement of a distributed search system for videos uploaded to YouTube per day" id="wCBr8oGpxHdbUBBWgaJ1-33">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="800" y="800" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
