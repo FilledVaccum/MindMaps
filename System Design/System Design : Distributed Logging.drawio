@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T09:34:30.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0p1UuhZpAYZyNy_QB2iU" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T09:37:05.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="FP0wWN9APQG64YyrNteU" version="24.6.0" type="github">
   <diagram name="System Design : Distributed Logging" id="SGolzjxcw8ml5JHLdMpV">
     <mxGraphModel dx="2193" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,9 +54,11 @@
         <mxCell id="rs_XFJSQFifdgnjM812B-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Introduction to &lt;br&gt;Distributed Logging&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="480" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rs_XFJSQFifdgnjM812B-12" value="Logging in a Distributed System" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="580" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Logging in a Distributed System" tooltip="In today’s world, an increasing number of designs are moving to microservice architecture instead of monolithic architecture. In microservice architecture, logs of each microservice are accumulated in the respective machine. If we want to know about a certain event that was processed by several microservices, it is difficult to go into every node, figure out the flow, and view error messages. But, it becomes handy if we can trace the log for any particular flow from end to end.&#xa;&#xa;Moreover, it is also not necessary that a microservice is deployed on only one node. It can be deployed on thousands of nodes. Consider the following example, where hundreds of microservices are interdependent, and failure of one service can result in failures of other services. And if we do not have logs, we might not determine the root cause of failure. This emphasizes the need for logging." id="rs_XFJSQFifdgnjM812B-12">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="580" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="rs_XFJSQFifdgnjM812B-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-14" target="rs_XFJSQFifdgnjM812B-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -66,9 +68,11 @@
         <mxCell id="rs_XFJSQFifdgnjM812B-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-14" target="rs_XFJSQFifdgnjM812B-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rs_XFJSQFifdgnjM812B-14" value="Restrain the Log Size" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="860" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Restrain the Log Size" tooltip="The number of logs increases over time. At a time, perhaps hundreds of concurrent messages need to be logged. But the question is, are they all important enough to be logged? To solve this, logs have to be structured. We need to decide what to log into the system on the application or logging level." id="rs_XFJSQFifdgnjM812B-14">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="860" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="rs_XFJSQFifdgnjM812B-16" value="Structure the Logs" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="860" y="800" width="120" height="40" as="geometry" />
         </mxCell>
@@ -78,15 +82,25 @@
         <mxCell id="rs_XFJSQFifdgnjM812B-18" value="&lt;div&gt;Points to consider&lt;/div&gt;&lt;div&gt;While Logging&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="580" y="800" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rs_XFJSQFifdgnjM812B-20" value="Sampling" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="rs_XFJSQFifdgnjM812B-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-20" target="rs_XFJSQFifdgnjM812B-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <UserObject label="Sampling" tooltip="We’ll determine which messages we should log into the system in this approach. Consider a situation where we have lots of messages from the same set of events. For example, there are people commenting on a post, where Person X commented on Person Y’s post, then Person Z commented on Person Y’s post, and so on. Instead of logging all the information, we can use a sampler service that only logs a smaller set of messages from a larger chunk. This way, we can decide on the most important messages to be logged.&#xa;&#xa;    Note: For large systems like Facebook, where billions of events happen per second, it is not viable to log them all. An appropriate sampling threshold and strategy are necessary to selectively pick a representative data set.&#xa;&#xa;We can also categorize the types of messages and apply a filter that identifies the important messages and only logs them to the system." id="rs_XFJSQFifdgnjM812B-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="800" y="-40" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="rs_XFJSQFifdgnjM812B-23" value="Categorisation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="960" y="-40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rs_XFJSQFifdgnjM812B-25" value="Vulnerability in Logging Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="600" y="960" width="80" height="80" as="geometry" />
         </mxCell>
+        <UserObject label="Question" tooltip="What is a scenario where the sampling approach will not work?&#xa;&#xa;Let’s consider an application that processes a financial ATM transaction. It runs various services like fraud detection, expiration time checking, card validation, and many more. If we start to miss out logging of any service, we cannot identify an end-to-end flow that affects the debugging in case an error occurs. Using sampling, in this case, is not ideal and results in the loss of useful data.&#xa;" id="rs_XFJSQFifdgnjM812B-29">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="780" y="-200" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
