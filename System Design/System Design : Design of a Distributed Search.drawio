@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T08:10:55.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="vYvACUWHaYKXRR2oiqa7" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T08:54:35.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="GELEGzU7z1f0nxlGdcyc" version="24.5.5" type="github">
   <diagram name="Page-1" id="8mzTLpE-g2ia8AFTpS4c">
-    <mxGraphModel dx="2391" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="513" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -557,6 +557,9 @@
         <mxCell id="tENt8-ajpYwqjnNaKTEu-149" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="tENt8-ajpYwqjnNaKTEu-106" target="tENt8-ajpYwqjnNaKTEu-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-159" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="tENt8-ajpYwqjnNaKTEu-106" target="tENt8-ajpYwqjnNaKTEu-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Scaling Search &amp;amp; Indexing&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" tooltip="Indexing is the organization and manipulation of data that’s done to facilitate fast and accurate information retrieval." id="tENt8-ajpYwqjnNaKTEu-106">
           <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
             <mxGeometry x="4400" y="320" width="280" height="80" as="geometry" />
@@ -758,6 +761,18 @@
             <mxGeometry x="5340" y="560" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-160" value="&lt;a href=&quot;https://developers.google.com/search/docs/fundamentals/how-search-works&quot;&gt;Google Search Engine&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5275" y="818" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-161" value="&lt;a href=&quot;https://blogs.bing.com/search-quality-insights/august-2022/Fast-Front-End-Performance-for-Microsoft-Bing&quot;&gt;Bing Search Engine Fast Front-End Performance &lt;br&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5190" y="880" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-162" value="&lt;a href=&quot;https://highscalability.com/duckduckgo-architecture-1-million-deep-searches-a-day-and-gr/&quot;&gt;DuckDuckGo Search Engine &lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5255" y="970" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-163" value="&lt;a href=&quot;https://blogs.bing.com/Engineering-Blog/october-2021/RocksDB-in-Microsoft-Bing&quot;&gt;Bing Search Engine - RocksDB in Microsoft Bing&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5195" y="905" width="270" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
