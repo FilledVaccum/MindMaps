@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T07:12:05.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9npHdJyarpNztEanwf1o" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T07:12:24.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Om3lPWOoyhKBrPxqslaG" version="24.5.5" type="github">
   <diagram name="Page-1" id="8mzTLpE-g2ia8AFTpS4c">
     <mxGraphModel dx="1195" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2000" y="840" />
-              <mxPoint x="1840" y="840" />
+              <mxPoint x="1760" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -267,16 +267,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tENt8-ajpYwqjnNaKTEu-37" value="Processes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="880" width="80" height="80" as="geometry" />
+          <mxGeometry x="1720" y="880" width="80" height="80" as="geometry" />
         </mxCell>
         <UserObject label="Indexing Process" tooltip="The indexing process takes the documents as input and converts them into an inverted index, which is stored in the form of a binary file." id="tENt8-ajpYwqjnNaKTEu-39">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="1720" y="1040" width="80" height="80" as="geometry" />
+            <mxGeometry x="1640" y="1040" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Query or Search Process" tooltip="The query processing or search process interprets the binary file that contains the inverted index. It also computes the intersection of the inverted lists for a given query to return the search results against the query." id="tENt8-ajpYwqjnNaKTEu-41">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="1880" y="1040" width="80" height="80" as="geometry" />
+            <mxGeometry x="1800" y="1040" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="tENt8-ajpYwqjnNaKTEu-52" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="tENt8-ajpYwqjnNaKTEu-43" target="tENt8-ajpYwqjnNaKTEu-51">
