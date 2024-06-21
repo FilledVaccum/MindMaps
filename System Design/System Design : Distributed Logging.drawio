@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T08:59:25.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Gd7-LKXVzWJ-DLGw_mI3" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T09:34:30.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0p1UuhZpAYZyNy_QB2iU" version="24.6.0" type="github">
   <diagram name="System Design : Distributed Logging" id="SGolzjxcw8ml5JHLdMpV">
-    <mxGraphModel dx="770" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rs_XFJSQFifdgnjM812B-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-1" target="rs_XFJSQFifdgnjM812B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-1" target="rs_XFJSQFifdgnjM812B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-8" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-1" target="rs_XFJSQFifdgnjM812B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-1" target="rs_XFJSQFifdgnjM812B-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-1" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Distributed Logging&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxGeometry y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Logging" tooltip="A log file records details of events occurring in a software application. The details may consist of microservices, transactions, service actions, or anything helpful to debug the flow of an event in the system. Logging is crucial to monitor the application’s flow.&#xa;" id="rs_XFJSQFifdgnjM812B-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-100" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Need for Logging" tooltip="Logging is essential in understanding the flow of an event in a distributed system. It seems like a tedious task, but upon facing a failure or a security breach, logging helps pinpoint when and how the system failed or was compromised. It can also aid in finding out the root cause of the failure or breach. It decreases the meantime to repair a system.&#xa;&#xa;Why don’t we simply print out our statements to understand the application flow? It’s possible but not ideal. Simple print statements have no way of tracking the severity of the message. The output of print functions usually goes to the terminal, while our need could be to persist such data on a local or remote store. Moreover, we can have millions of print statements, so it’s better to structure and store them properly.&#xa;Issues with using print statements as an alternative to logging&#xa;&#xa;Concurrent activity by a service running on many nodes might need causality information to stitch together a correct flow of events properly. We must be careful while dealing with causality in a distributed system. We use a logging service to appropriately manage the diagnostic and exploratory data of our distributed software.&#xa;&#xa;Logging allows us to understand our code, locate unforeseen errors, fix the identified errors, and visualize the application’s performance. This way, we are aware of how production works, and we know how processes are running in the system.&#xa;&#xa;Log analysis helps us with the following scenarios:&#xa;&#xa;    To troubleshoot applications, nodes, or network issues.&#xa;    To adhere to internal security policies, external regulations, and compliance.&#xa;    To recognize and respond to data breaches and other security problems.&#xa;    To comprehend users’ actions for input to a recommender system.&#xa;&#xa;" id="rs_XFJSQFifdgnjM812B-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="180" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to design a Distributed Logging System?" tooltip="We have divided the distributed logging system design into the following two lessons:&#xa;&#xa;    Introduction: We’ll discuss how logging works at a distributed level. We’ll also show how we can restrict the huge size of a log file, and structure them. This lesson will guide us about the requirements we should consider while logging information about a system.&#xa;&#xa;    Design: In this lesson, we’ll define the requirements, API design, and detailed design of our distributed logging system.&#xa;" id="rs_XFJSQFifdgnjM812B-7">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="40" y="680" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Questions" tooltip="What are some security concerns to consider when designing a distributed logging system? How would you mitigate them?&#xa;&#xa;Certainly. When designing a distributed logging system, it’s crucial to address several security concerns to protect the system and its data. These include:&#xa;&#xa;    Sensitive data: It’s important to avoid logging personally identifiable information (PII) or other sensitive data. If logging such information is necessary, you should mask or encrypt sensitive fields to protect the data from unauthorized access.&#xa;&#xa;    Access control: Implementing strong authentication and authorization mechanisms is essential to restrict access to log data. Only authorized personnel should have the ability to view or modify logs to ensure that sensitive information is not exposed to unauthorized users.&#xa;&#xa;    System hardening: Securing the logging system itself is critical to prevent unauthorized access and maintain its integrity. This includes applying security patches and following best practices for system security.&#xa;&#xa;    Secure storage &amp; transmission: Encrypting log data at rest and in transit helps prevent unauthorized access. This ensures that even if the data is intercepted, it remains unreadable without the proper decryption keys.&#xa;&#xa;    Auditing: Regularly auditing the logging system can help identify any anomalies or potential security breaches. This allows for timely detection and response to security incidents.&#xa;&#xa;Addressing these concerns helps ensure that the distributed logging system remains secure and that sensitive information is protected.&#xa;Did you find this helpful?&#xa;" id="rs_XFJSQFifdgnjM812B-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-220" y="480" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rs_XFJSQFifdgnjM812B-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-11" target="rs_XFJSQFifdgnjM812B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-11" target="rs_XFJSQFifdgnjM812B-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-11" target="rs_XFJSQFifdgnjM812B-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-11" target="rs_XFJSQFifdgnjM812B-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Introduction to &lt;br&gt;Distributed Logging&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-12" value="Logging in a Distributed System" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-14" target="rs_XFJSQFifdgnjM812B-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-14" target="rs_XFJSQFifdgnjM812B-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-14" target="rs_XFJSQFifdgnjM812B-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-14" value="Restrain the Log Size" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-16" value="Structure the Logs" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="860" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-18" target="rs_XFJSQFifdgnjM812B-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-18" value="&lt;div&gt;Points to consider&lt;/div&gt;&lt;div&gt;While Logging&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="580" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-20" value="Sampling" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-23" value="Categorisation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rs_XFJSQFifdgnjM812B-25" value="Vulnerability in Logging Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="600" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
