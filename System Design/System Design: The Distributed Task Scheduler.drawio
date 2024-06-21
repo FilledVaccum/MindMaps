@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T14:20:01.659Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="xa1rWrR_Zp_FnafsszdA" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T14:23:57.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="O60r1z5hhjkax9EUYEJP" version="24.6.0" type="github">
   <diagram name="The Distributed Task Scheduler" id="Ux5SmqHkXBmoE8T36Ttg">
-    <mxGraphModel dx="2133" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2428" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -525,6 +525,9 @@
         <mxCell id="6HLFTszCQUKlmDEo8S2R-140" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-127" target="6HLFTszCQUKlmDEo8S2R-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-166" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-127" target="6HLFTszCQUKlmDEo8S2R-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-127" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Design Consideration &lt;br&gt;of a Distributed &lt;br&gt;Task Scheduler &lt;/i&gt;&lt;br&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
           <mxGeometry x="2800" y="520" width="400" height="80" as="geometry" />
         </mxCell>
@@ -571,6 +574,63 @@
         <mxCell id="6HLFTszCQUKlmDEo8S2R-149" value="Delay Tolerance" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="3200" y="90" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-165" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-152" target="6HLFTszCQUKlmDEo8S2R-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-170" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-152" target="6HLFTszCQUKlmDEo8S2R-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-152" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Evaluation of a Distributed &lt;br&gt;Task Scheduler Design&lt;br&gt;&lt;/i&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="520" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-154" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-159" target="6HLFTszCQUKlmDEo8S2R-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-155" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-159" target="6HLFTszCQUKlmDEo8S2R-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-156" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-159" target="6HLFTszCQUKlmDEo8S2R-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-167" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-159" target="6HLFTszCQUKlmDEo8S2R-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-168" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-159" target="6HLFTszCQUKlmDEo8S2R-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-159" value="Non-Functional Requirements" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="3640" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Availability" tooltip="The first component in our design was a rate limiter that is appropriately replicated and ensures availability. Task submission is done by several nodes. If a node that submits a task fails, the other nodes take its place. The queue in which we push the task is also distributed in nature, ensuring availability. We always have resources available because we continuously monitor if we need to add or remove resources. Each component in the design is distributed and makes the overall system available.&#xa;&#xa;Availability: The system should be highly available to schedule and execute tasks." id="6HLFTszCQUKlmDEo8S2R-160">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="3400" y="250" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Durability" tooltip="We store the tasks in a persistent distributed database and push the tasks into the queue near their execution time. Once a task is submitted, it is in the database until its execution.&#xa;&#xa;Durability: The tasks received by the system should be durable and should not be lost." id="6HLFTszCQUKlmDEo8S2R-161">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="3640" y="250" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scalability" tooltip="Our task scheduler provides scalability because the task submitter is distributed in our design. We can add more nodes to the cluster to submit an increasing number of tasks. The tasks are then saved into a distributed relational database, which is also scalable. The tasks from RDB are then pushed to a distributed queue, which can scale with an increasing number of tasks. We can add more queues for different types of tasks. We can also add more resources depending on the resource-to-demand ratio.&#xa;&#xa;Scalability: The system should be able to schedule and execute an ever-increasing number of tasks per day." id="6HLFTszCQUKlmDEo8S2R-162">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="3880" y="250" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Fault Tolerance" tooltip="Fault-tolerance: The system must be fault-tolerant by providing services uninterrupted despite faults in one or more of its components." id="6HLFTszCQUKlmDEo8S2R-163">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="3520" y="240" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;Bounded Wait&lt;/div&gt;&lt;div&gt;Time&lt;br&gt;&lt;/div&gt;" tooltip="We don’t let the users wait for an infinite time. We have a limit on the maximum waiting time. If the limit is reached and we are unable to schedule the task for some reason, we notify the users and ask them to try again.&#xa;&#xa;&#xa;Bounded waiting time: This is how long a task needs to wait before starting execution. We must not execute tasks much later than expected. Users shouldn’t be kept on waiting for an infinite time. If the waiting time for users crosses a certain threshold, they should be notified." id="6HLFTszCQUKlmDEo8S2R-164">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="3760" y="240" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conclusion" tooltip="We discussed the difference between an OS-level task scheduler and a data center-level task scheduler. We explained that the data center-level task scheduling needs a distributed solution because of multiple tenants and dispersed resources. We learned that the queue is a major building block of a task scheduler. We also used distributed queues where we can scale with an increasing number of tasks to utilize an increasing number of resources.&#xa;&#xa;This lesson helped us to evaluate the issues with the FIFO queue. It was observed that the main job of the task scheduler is to set the priorities of the tasks for which we used a delay tolerance parameter. We discussed how the task scheduler determines the delay tolerance value and used different distributed databases to store task details. We ensured that the dependent tasks are executed in order by running the tasks according to DAG stored in the graph database. Depending upon the number of tasks (or demand), we added or removed resources to optimize the capacity. In the end, we used the monitoring service that alerts the administrators in case we need to add or remove resources." id="6HLFTszCQUKlmDEo8S2R-169">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="3620" y="720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
