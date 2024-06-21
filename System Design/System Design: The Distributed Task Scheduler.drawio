@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T14:23:57.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="O60r1z5hhjkax9EUYEJP" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T14:51:20.582Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="XnHwKRzP000jefQPl4mC" version="24.6.0" type="github">
   <diagram name="The Distributed Task Scheduler" id="Ux5SmqHkXBmoE8T36Ttg">
     <mxGraphModel dx="2428" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -616,7 +616,7 @@
             <mxGeometry x="3880" y="250" width="80" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Fault Tolerance" tooltip="Fault-tolerance: The system must be fault-tolerant by providing services uninterrupted despite faults in one or more of its components." id="6HLFTszCQUKlmDEo8S2R-163">
+        <UserObject label="Fault Tolerance" tooltip="A task is not removed from the queue the first time it is sent for execution. If the execution fails, we retry for the maximum number of allowed attempts. If the task contains an infinite loop, we kill the task after some specified time and notify the user.&#xa;&#xa;Fault-tolerance: The system must be fault-tolerant by providing services uninterrupted despite faults in one or more of its components." id="6HLFTszCQUKlmDEo8S2R-163">
           <mxCell style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="3520" y="240" width="80" height="40" as="geometry" />
           </mxCell>
