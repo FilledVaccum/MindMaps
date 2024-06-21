@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T12:20:40.528Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Gd3PSp6DplqjtNYB2Cbw" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T12:31:52.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Whox-9Po-bG3P0GJmZd3" version="24.6.0" type="github">
   <diagram name="The Distributed Task Scheduler" id="Ux5SmqHkXBmoE8T36Ttg">
     <mxGraphModel dx="1742" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,16 +19,18 @@
         <mxCell id="6HLFTszCQUKlmDEo8S2R-1" value="The Distributed Task Scheduler" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
           <mxGeometry y="520" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-2" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-4" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+        <UserObject label="What is Task Scheduler?" tooltip="A task is a piece of computational work that requires resources (CPU time, memory, storage, network bandwidth, and so on) for some specified time. For example, uploading a photo or a video on Facebook or Instagram consists of the following background tasks:&#xa;&#xa;    Encode the photo or video in multiple resolutions.&#xa;    Validate the photo or video to check for content monetization copyrights, and many more.&#xa;&#xa;The successful execution of all the above tasks makes the photo or video visible. However, a photo and video uploader does not need to stop the above tasks to complete.&#xa;&#xa;Another example is when we post a comment on Facebook. We don’t hold the comment poster until that comment is delivered to all the followers. That delivery is delegated to an asynchronous task scheduler to do offline.&#xa;&#xa;In a system, many tasks contend for limited computational resources. A system that mediates between tasks and resources by intelligently allocating resources to tasks so that task-level and system-level goals are met is called a task scheduler." id="6HLFTszCQUKlmDEo8S2R-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-100" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-4" value="When to use a Task Scheduler?" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="180" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-6" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-6" value="Distributed Task Scheduler" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="180" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-8" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-8" value="How to Design a Distributed Task Scheduler?" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="-100" y="840" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
