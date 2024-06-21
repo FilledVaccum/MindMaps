@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T08:54:35.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="GELEGzU7z1f0nxlGdcyc" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T08:55:58.516Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mfpRvrBFAKzRfLecFEhO" version="24.5.5" type="github">
   <diagram name="Page-1" id="8mzTLpE-g2ia8AFTpS4c">
     <mxGraphModel dx="513" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -772,6 +772,9 @@
         </mxCell>
         <mxCell id="tENt8-ajpYwqjnNaKTEu-163" value="&lt;a href=&quot;https://blogs.bing.com/Engineering-Blog/october-2021/RocksDB-in-Microsoft-Bing&quot;&gt;Bing Search Engine - RocksDB in Microsoft Bing&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5195" y="905" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tENt8-ajpYwqjnNaKTEu-164" value="&lt;a href=&quot;https://static.googleusercontent.com/media/research.google.com/en//archive/googlecluster-ieee.pdf&quot;&gt;WEB SEARCH FOR A PLANET:&lt;br&gt;THE GOOGLE CLUSTER&lt;br&gt;ARCHITECTURE&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5255" y="768" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
