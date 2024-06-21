@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T13:32:26.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Xye81ePYuOcwN0PEpylv" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T13:37:17.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="NABONEboG0UUuJiZWS1e" version="24.6.0" type="github">
   <diagram name="The Distributed Task Scheduler" id="Ux5SmqHkXBmoE8T36Ttg">
-    <mxGraphModel dx="2218" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="2247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,7 +308,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-71" target="6HLFTszCQUKlmDEo8S2R-86">
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;jumpStyle=arc;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-71" target="6HLFTszCQUKlmDEo8S2R-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-71" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;i&gt;Design a Distributed &lt;br&gt;Task Scheduler&lt;/i&gt;&lt;br&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
@@ -339,24 +339,27 @@
             <mxGeometry x="1800" y="360" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-106" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-75" target="6HLFTszCQUKlmDEo8S2R-88">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1200" y="860" />
-              <mxPoint x="1200" y="1060" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-115" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-75" target="6HLFTszCQUKlmDEo8S2R-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-117" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-75" target="6HLFTszCQUKlmDEo8S2R-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-125" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-75" target="6HLFTszCQUKlmDEo8S2R-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="860" />
+              <mxPoint x="1120" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-75" value="Design" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="1800" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <UserObject label="Task Submitter(Avoid being a SPOF)" tooltip="As we have seen above, every component we use in the design of the distributed task scheduler is distributed and therefore scalable and available. But, the task submitter could be a single point of failure. So, to handle this, we use a cluster of nodes. Each node must admit the tasks, send the tasks to a unique ID generator for ID assignment, and then store the task along with the task ID in the distributed database.&#xa;&#xa;There is a cluster manager to which each node sends a heartbeat that indicates the node is working correctly. Each node updates the cluster manager about the admitted tasks. The cluster manager maintains a list of tasks and the node ID that admitted that task. In case a node fails to execute a task, the cluster manager hands over that task to another node in the cluster. The cluster manager is itself replicated." id="6HLFTszCQUKlmDEo8S2R-77">
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-126" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-77" target="6HLFTszCQUKlmDEo8S2R-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Task Submitter(Avoid being a SPOF)" tooltip="Task submitter&#xa;&#xa;As we have seen above, every component we use in the design of the distributed task scheduler is distributed and therefore scalable and available. But, the task submitter could be a single point of failure. So, to handle this, we use a cluster of nodes. Each node must admit the tasks, send the tasks to a unique ID generator for ID assignment, and then store the task along with the task ID in the distributed database.&#xa;&#xa;There is a cluster manager to which each node sends a heartbeat that indicates the node is working correctly. Each node updates the cluster manager about the admitted tasks. The cluster manager maintains a list of tasks and the node ID that admitted that task. In case a node fails to execute a task, the cluster manager hands over that task to another node in the cluster. The cluster manager is itself replicated." id="6HLFTszCQUKlmDEo8S2R-77">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="1440" y="800" width="120" height="40" as="geometry" />
           </mxCell>
@@ -382,21 +385,27 @@
         <mxCell id="6HLFTszCQUKlmDEo8S2R-107" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-88" target="6HLFTszCQUKlmDEo8S2R-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-88" value="Rate Limiter" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Rate Limiter" tooltip="Rate limiter: The resources available for a client depend on the cost they pay. It is important to limit the number of tasks for the reliability of our service. For instance, XX number of tasks per hour are allowed to enter the system. Others will get a message like “Limit exceeded” instead of accepting the task and responding late. A rate limiter limits the number of tasks the client schedules based on its subscription. If the limit is exceeded, it returns an error message to the client that the rate limit has been exceeded." id="6HLFTszCQUKlmDEo8S2R-88">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="1275" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-91" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;enumerate=0;startArrow=classic;startFill=1;flowAnimation=1;flowAnimationDirection=alternate-reverse;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-89" target="6HLFTszCQUKlmDEo8S2R-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-108" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-89" target="6HLFTszCQUKlmDEo8S2R-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-89" value="Task Submitter" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-90" value="UUID Generator" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="1200" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Task Submitter" tooltip="Task submitter: The task submitter admits the task if it successfully passes through the rate limiter. There isn’t a single task submitter. Instead, we have a cluster of nodes that admit the increasing number of tasks." id="6HLFTszCQUKlmDEo8S2R-89">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="UUID Generator" tooltip="Unique ID generator: It assigns unique IDs to the newly admitted tasks." id="6HLFTszCQUKlmDEo8S2R-90">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="1200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-96" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;flowAnimationDirection=alternate-reverse;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-92" target="6HLFTszCQUKlmDEo8S2R-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -406,45 +415,61 @@
         <mxCell id="6HLFTszCQUKlmDEo8S2R-109" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-92" target="6HLFTszCQUKlmDEo8S2R-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-92" value="Database" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-95" value="SQL" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1200" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-98" value="Graph" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="1200" width="80" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Database" tooltip="Database: All of the tasks taken by the task submitter are stored in a distributed database. For each task, we have some attributes, and all of the attributes except one are stored in the relational database. " id="6HLFTszCQUKlmDEo8S2R-92">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="1640" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="SQL" tooltip="Relational database (RDB): A relational database stores task IDs, user IDs, required resources, execution caps, the total number of attempts made by the client, delay tolerance, and so on, as shown in the following table. We can find the details on the RDB here." id="6HLFTszCQUKlmDEo8S2R-95">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1600" y="1200" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Graph" tooltip="Graph database (GDB): This is a non-relational database that uses the graph data structure to store data. We use it to build and store a directed acyclic graph (DAG) of dependent tasks, topologically sorted by the task submitter, so that we can schedule tasks according to that DAG. We can find more details of the graph DB here." id="6HLFTszCQUKlmDEo8S2R-98">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1720" y="1200" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-110" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-100" target="6HLFTszCQUKlmDEo8S2R-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-100" value="Batching &amp;amp; &lt;br&gt;Prioritization" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Batching &amp;amp; &lt;br&gt;Prioritization" tooltip="Batching and prioritization: After we store the tasks in the RDB, the tasks are grouped into batches. Prioritization is based on the attributes of the tasks, such as delay tolerance or the tasks with short execution cap, and so on. The top KK priority tasks are pushed into the distributed queue, where KK limits the number of elements we can push into the queue. The value of KK depends t on many factors, such as currently available resources, the client or task priority, and subscription level." id="6HLFTszCQUKlmDEo8S2R-100">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="1840" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-103" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;flowAnimation=1;flowAnimationDirection=alternate;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-101" target="6HLFTszCQUKlmDEo8S2R-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-111" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-101" target="6HLFTszCQUKlmDEo8S2R-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-101" value="Distributed &lt;br&gt;Queue" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-102" value="Queue Manager" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="1200" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Distributed &lt;br&gt;Queue" tooltip="Distributed queue: It consists of a queue and a queue manager. The queue manager adds, updates, or deletes tasks in the queue. It keeps track of the types of queues we use. It is also responsible for keeping the task in the queue until it executes successfully. In case a task execution fails, that task is made visible in the queue again. The queue manager knows which queue to run during the peak time and which queue to run during the off-peak time." id="6HLFTszCQUKlmDEo8S2R-101">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="2040" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Queue Manager" tooltip="Queue manager: The queue manager deletes a task from the queue if it executes successfully. It also makes the task visible if its previous execution failed. It retries for the allowed number of attempts for a task in case of a failed execution." id="6HLFTszCQUKlmDEo8S2R-102">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2040" y="1200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-112" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-104" target="6HLFTszCQUKlmDEo8S2R-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-104" value="Resource &lt;br&gt;Manager" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6HLFTszCQUKlmDEo8S2R-105" value="Monitoring&lt;br&gt;Service" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Resource &lt;br&gt;Manager" tooltip="Resource manager: The resource manager knows which of the resources are free. It pulls the tasks from the distributed queue and assigns them resources. The resource manager keeps track of the execution of each task and sends back their statuses to the queue manager. If a task goes beyond its promised or required resource use, that task will be terminated, and the status is sent back to the task submitter, which will notify the client about the termination of the task through an error message." id="6HLFTszCQUKlmDEo8S2R-104">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="2240" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Monitoring&lt;br&gt;Service" tooltip="Monitoring service: It is responsible for checking the health of the resource manager and the resources. If some resource fails, it alerts the administrators to repair the resource or add new resources if required. If resources are not being used, it alerts the administrators to remove them or power them off. Here’s a detailed discussion on the design of monitoring services." id="6HLFTszCQUKlmDEo8S2R-105">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="2440" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Resource &lt;br&gt;Requirement" tooltip="Resource requirements: The requirements include how many CPU cores it needs, how much RAM is required to execute this task, how much disk space is required, what should the disk access rate be (input/output rate per second, or IOPS), and how many TCP ports the task needs for the execution, and so on. But, it is difficult for the clients to quantify these requirements. To remedy this situation, we have different tiers of resources like basic, regular, and premium. The client can specify the requirement in terms of these tiers." id="6HLFTszCQUKlmDEo8S2R-114">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="1960" y="640" width="80" height="80" as="geometry" />
+            <mxGeometry x="1960" y="920" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-119" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-116" target="6HLFTszCQUKlmDEo8S2R-118">
@@ -454,18 +479,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6HLFTszCQUKlmDEo8S2R-116" value="Dependency" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="640" width="80" height="80" as="geometry" />
+          <mxGeometry x="2120" y="920" width="80" height="80" as="geometry" />
         </mxCell>
         <UserObject label="Dependent&lt;br&gt;Task" tooltip="Dependent tasks require executing one or more additional tasks for their complete execution. These tasks must run in a sequence. For a dependent task, the client should provide a list of the tasks on which a given task is dependent." id="6HLFTszCQUKlmDEo8S2R-118">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="2280" y="560" width="80" height="80" as="geometry" />
+            <mxGeometry x="2280" y="840" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Independent&lt;br&gt;Task" tooltip="Independent tasks don’t depend on the execution of any other task. Independent tasks can run in parallel. We should know whether a task is dependent or independent. The dependency information helps to execute both dependent tasks in order and independent tasks in parallel for efficient utilization of resources." id="6HLFTszCQUKlmDEo8S2R-120">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="2280" y="720" width="80" height="80" as="geometry" />
+            <mxGeometry x="2400" y="920" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-123" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="6HLFTszCQUKlmDEo8S2R-122" target="6HLFTszCQUKlmDEo8S2R-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HLFTszCQUKlmDEo8S2R-122" value="Client" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
