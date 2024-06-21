@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T09:37:05.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="FP0wWN9APQG64YyrNteU" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T09:42:31.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="dZKvwezAfUSojJfiX7hh" version="24.6.0" type="github">
   <diagram name="System Design : Distributed Logging" id="SGolzjxcw8ml5JHLdMpV">
     <mxGraphModel dx="2193" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,15 +73,22 @@
             <mxGeometry x="860" y="200" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="rs_XFJSQFifdgnjM812B-16" value="Structure the Logs" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="860" y="800" width="120" height="40" as="geometry" />
+        <mxCell id="rs_XFJSQFifdgnjM812B-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-16" target="rs_XFJSQFifdgnjM812B-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <UserObject label="Structure the Logs" tooltip="Applications have the liberty to choose the structure of their log data. For example, an application is free to write to log as binary or text data, but it is often helpful to enforce some structure on the logs. The first benefit of structured logs is better interoperability between log writers and readers. Second, the structure can make the job of a log processing system easier." id="rs_XFJSQFifdgnjM812B-16">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="860" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="rs_XFJSQFifdgnjM812B-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-18" target="rs_XFJSQFifdgnjM812B-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rs_XFJSQFifdgnjM812B-18" value="&lt;div&gt;Points to consider&lt;/div&gt;&lt;div&gt;While Logging&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="580" y="800" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div&gt;Points to consider&lt;/div&gt;&lt;div&gt;While Logging&lt;br&gt;&lt;/div&gt;" tooltip="We should be careful while logging. The logging information should only contain the relevant information and not breach security concerns. For secure data, we should log encrypted data. We should consider the following few points while logging:&#xa;&#xa;    Avoid logging personally identifiable information (PII), such as names, addresses, emails, and so on.&#xa;    Avoid logging sensitive information like credit card numbers, passwords, and so on.&#xa;    Avoid excessive information. Logging all information is unnecessary. It only takes up more space and affects performance. Logging, being an I/O-heavy operation, has its performance penalties.&#xa;    The logging mechanism should be secure and not vulnerable because logs contain the application’s flow, and an insecure logging mechanism is vulnerable to hackers.&#xa;" id="rs_XFJSQFifdgnjM812B-18">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="580" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="rs_XFJSQFifdgnjM812B-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-20" target="rs_XFJSQFifdgnjM812B-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -90,15 +97,32 @@
             <mxGeometry x="800" y="-40" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="rs_XFJSQFifdgnjM812B-23" value="Categorisation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="rs_XFJSQFifdgnjM812B-32" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="rs_XFJSQFifdgnjM812B-23" target="rs_XFJSQFifdgnjM812B-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rs_XFJSQFifdgnjM812B-25" value="Vulnerability in Logging Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="600" y="960" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Categorisation" tooltip="Let’s look into the logging support provided by various programming languages. For example, there’s log4j and logging in Python. The following severity levels are commonly used in logging:&#xa;&#xa;    DEBUG&#xa;    INFO&#xa;    WARNING&#xa;    ERROR&#xa;    FATAL/CRITICAL&#xa;&#xa;Usually, the production logs are set to print messages with the severity of WARNING and above. But for more detailed flow, the severity levels can be set to DEBUG and INFO levels too." id="rs_XFJSQFifdgnjM812B-23">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="960" y="-40" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Vulnerability in Logging Infrastructure" tooltip="A zero-day vulnerability in Log4j, a famous logging framework for Java, has been identified as of November 2021. Log4j has contained the hidden vulnerability, Log4Shell (CVE-2021-44228), since 2013. Apache gave the highest available score, a CVSS severity rating of 10, to Log4Shell. The exploit is simple to execute and affects hundreds of millions of devices. Security experts are convinced that this vulnerability can allow devastating cyberattacks internationally because it can enable attackers to run malicious code and take control of the machine." id="rs_XFJSQFifdgnjM812B-25">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="600" y="960" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Question" tooltip="What is a scenario where the sampling approach will not work?&#xa;&#xa;Let’s consider an application that processes a financial ATM transaction. It runs various services like fraud detection, expiration time checking, card validation, and many more. If we start to miss out logging of any service, we cannot identify an end-to-end flow that affects the debugging in case an error occurs. Using sampling, in this case, is not ideal and results in the loss of useful data.&#xa;" id="rs_XFJSQFifdgnjM812B-29">
           <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="780" y="-200" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Example" tooltip="import logging as log&#xa;# set the logging level to DEBUG&#xa;log.basicConfig(level=log.DEBUG)&#xa;for i in range(6):&#xa;    if i == 0:&#xa;        log.debug(&quot;Debug level&quot;)&#xa;    elif i == 1:&#xa;        log.info(&quot;Info level&quot;)&#xa;    elif i == 2:&#xa;        log.warning(&quot;Warning level&quot;)&#xa;    elif i == 3:&#xa;        log.error(&quot;Error level&quot;)&#xa;    elif i == 4:&#xa;        log.critical(&quot;Critical level&quot;)&#xa;    elif i == 5:&#xa;        print(&quot;Uncomment the following to view a system generated error:&quot;)&#xa;        print(3/0)" id="rs_XFJSQFifdgnjM812B-31">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="940" y="-200" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://escholarship.org/uc/item/2p06d5sv&quot;&gt;Reference : Query Based Logging of Distributed System&lt;/a&gt;" tooltip="https://escholarship.org/uc/item/2p06d5sv" id="rs_XFJSQFifdgnjM812B-33">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="860" y="900" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
