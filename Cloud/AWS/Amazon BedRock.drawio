@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T06:54:33.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="B1gI7TcJgxPIIy9kNDc6" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T07:05:34.895Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="W95vaNXHKV_NIEEnPspe" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
-    <mxGraphModel dx="2983" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2780" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,7 +346,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2380" y="720" />
-              <mxPoint x="2580" y="720" />
+              <mxPoint x="2760" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -360,15 +360,54 @@
             <mxGeometry x="1920" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-82" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-51" target="cnEi_GldgaMHaCoD5AnP-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="1000" />
+              <mxPoint x="2820" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-87" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-51" target="cnEi_GldgaMHaCoD5AnP-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-88" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-51" target="cnEi_GldgaMHaCoD5AnP-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="1000" />
+              <mxPoint x="2460" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-89" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-51" target="cnEi_GldgaMHaCoD5AnP-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="1000" />
+              <mxPoint x="2340" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-90" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-51" target="cnEi_GldgaMHaCoD5AnP-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="1000" />
+              <mxPoint x="2700" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-51" value="Amazon Bedrock Model IDs" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="840" width="120" height="40" as="geometry" />
+          <mxGeometry x="2700" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-52" value="Model Inference Parameters" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="840" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-53" value="Custom Model HyperParameters" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="840" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters.html&quot;&gt;Model Inference Parameters&lt;/a&gt;" tooltip="This section documents the inference parameters that you can use with the base models that Amazon Bedrock provides.&#xa;&#xa;Optionally, set inference parameters to influence the response generated by the model. You set inference parameters in a playground in the console, or in the body field of the InvokeModel or InvokeModelWithResponseStream API.&#xa;&#xa;When you call a model, you also include a prompt for the model. For information about writing prompts, see Prompt engineering guidelines.&#xa;&#xa;The following sections define the inference parameters available for each base model. For a custom model, use the same inference parameters as the base model from which it was customized." id="cnEi_GldgaMHaCoD5AnP-52">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2320" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models-hp.html&quot;&gt;Custom Model HyperParameters&lt;/a&gt;" tooltip="The following reference content covers the hyperparameters that are available for training each Amazon Bedrock custom model.&#xa;&#xa;A hyperparameter is a parameter that controls the training process, such as the learning rate or epoch count. You set hyperparameters for custom model training when you submit the fine tuning job with the Amazon Bedrock console or by calling the CreateModelCustomizationJob API operation. " id="cnEi_GldgaMHaCoD5AnP-53">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2120" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-56" target="cnEi_GldgaMHaCoD5AnP-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -446,6 +485,21 @@
         </mxCell>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-79" value="&lt;div&gt;Provisioned&lt;/div&gt;&lt;div&gt;Throughput&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="3140" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-81" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html#model-ids-arns&quot;&gt;Base Model&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-83" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html#prov-throughput-models&quot;&gt;Purchase Provisioned Throughput for a base model&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="1140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-84" value="Purchase Provisioned Throughput for a custom model" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-85" value="Use a provisioned model" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-86" value="Use a custom model" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="1140" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
