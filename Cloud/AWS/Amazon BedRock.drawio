@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T10:21:45.811Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="E4fmPN0dXT3ytrQwPJm9" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T10:25:46.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0NayPBlYjgOY4qgiFfkR" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
-    <mxGraphModel dx="2677" dy="1755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3166" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1117,11 +1117,11 @@
         <mxCell id="cnEi_GldgaMHaCoD5AnP-265" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-templates-and-examples.html&quot;&gt;Prompt Template &amp;amp; Examples&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="5700" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-269" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-267" target="cnEi_GldgaMHaCoD5AnP-268">
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-269" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-267" target="cnEi_GldgaMHaCoD5AnP-268">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="7500" y="400" />
-              <mxPoint x="7160" y="400" />
+              <mxPoint x="7240" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1141,12 +1141,12 @@
         </mxCell>
         <UserObject label="How Guardrails works?" tooltip="Guardrails for Amazon Bedrock helps keep your generative AI applications safe by evaluating both user inputs and model responses.&#xa;&#xa;You can configure guardrails for your applications based on the following considerations&#xa;&#xa;    An account can have multiple guardrails, each with a different configuration and customized to a specific use case.&#xa;&#xa;    A guardrail is a combination of multiple policies configured for prompts and response including; content filters, denied topics, sensitive information filters, and word filters.&#xa;&#xa;    A guardrail can be configured with a single policy, or a combination of multiple policies.&#xa;&#xa;    A guardrail can be used with any text-only foundation model (FM) by referencing the guardrail during the model inference.&#xa;&#xa;    You can use guardrails with Agents and Knowledge bases for Amazon Bedrock.&#xa;&#xa;If used, guardrails work as follows during the inference call:&#xa;&#xa;    The input is evaluated against the configured policies specified in the guardrail. Furthermore, for improved latency, the input is evaluated in parallel for each configured policy.&#xa;&#xa;    If the input evaluation results in a guardrail intervention, a configured blocked message response is returned and the foundation model inference is discarded.&#xa;&#xa;    If the input evaluation succeeds, the model response is then subsequently evaluated against the configured policies in the guardrail.&#xa;&#xa;    If the response results in a guardrail intervention or violation, it will be overridden with pre-configured blocked messaging or masking of the sensitive information.&#xa;&#xa;    If the response&#39;s evaluation succeeds, the response is returned to the application without any modifications." id="cnEi_GldgaMHaCoD5AnP-268">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="7100" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="7180" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;a href=&quot;https://aws.amazon.com/bedrock/pricing/&quot;&gt;Pricing&lt;/a&gt;" tooltip="Charges for Guardrails for Amazon Bedrock will be incurred only for the policies configured in the guardrail. The price for each policy type is available at Amazon Bedrock Pricing. If guardrails blocks the input prompt, you will be charged for the guardrail evaluation. There will be no charges for foundation model inference calls. If guardrails blocks the model response, you will be charged for guardrails evaluation of the input prompt and the model response. In this case, you will be charged for the foundation model inference calls as well the model response that was generated prior to guardrails evaluation." id="cnEi_GldgaMHaCoD5AnP-270">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="7120" y="100" width="80" height="80" as="geometry" />
+            <mxGeometry x="7200" y="80" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-272" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-supported.html&quot;&gt;Supported Regions &amp;amp; Models&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
