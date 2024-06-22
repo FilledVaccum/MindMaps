@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T06:38:20.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Wy0TQ2wb059Px9YA5knK" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T06:42:32.397Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="V9zCBpfgv22rtdEGHOiQ" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="2983" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -369,18 +369,52 @@
         <mxCell id="cnEi_GldgaMHaCoD5AnP-53" value="Custom Model HyperParameters" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="2120" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-56" value="Model Lifecycle" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="240" width="120" height="40" as="geometry" />
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-56" target="cnEi_GldgaMHaCoD5AnP-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2780" y="160" />
+              <mxPoint x="2570" y="160" />
+              <mxPoint x="2570" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-57" value="Model Support by Features" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+        <UserObject label="Model Lifecycle" tooltip="Amazon Bedrock is continuously working to bring the latest versions of foundation models that have better capabilities, accuracy, and safety. As we launch new model versions, you can test them with the Amazon Bedrock console or API, and migrate your applications to benefit from the latest model versions.&#xa;&#xa;A model offered on Amazon Bedrock can be in one of these states: Active, Legacy, or End-of-Life (EOL). &#xa;&#xa;The console marks a model version&#39;s state as Active or Legacy. When you make a GetFoundationModel or ListFoundationModels call, you can find the state of the model in the modelLifecycle field in the response. After the EOL date, the model version can only be found on this documentation page." id="cnEi_GldgaMHaCoD5AnP-56">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2720" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-57" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/models-features.html&quot;&gt;Model Support by Features&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="2520" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-58" value="Models Supported by AWS Regions" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html&quot;&gt;Models Supported by AWS Regions&lt;/a&gt;" tooltip="ll models, except Anthropic Claude 3 Opus, Amazon Titan Text Premier, and Mistral Small are supported in both the US East (N. Virginia, us-east-1) and the US West (Oregon, us-west-2) Regions., Amazon Titan Text Premier, Mistral Small and Claude 3.5 Sonnet models are only available in the US East (N. Virginia, us-east-1) Region. Anthropic Claude 3 Opus is only available in US West (Oregon, us-west-2).&#xa;Note&#xa;&#xa;Access to models in Europe (Ireland) and Asia Pacific (Singapore) Regions are currently gated. Please contact your account manager to request model access in these Regions. " id="cnEi_GldgaMHaCoD5AnP-58">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2320" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/models-get-info.html&quot;&gt;Get Model Information&lt;/a&gt;" tooltip="In the Amazon Bedrock console, you can find overarching information about Amazon Bedrock foundation model providers and the models they provide in the Providers and Base models sections.&#xa;&#xa;Use the API to retrieve information about Amazon Bedrock foundation model, including its ARN, model ID, modalities and features it supports, and whether it is deprecated or not, in a FoundationModelSummary object.&#xa;&#xa;    To return information about all the foundation models that Amazon Bedrock provides, send a ListFoundationModels request.&#xa;&#xa;    Note&#xa;&#xa;    The response also returns model IDs that aren&#39;t in the base model ID or base model IDs for Provisioned Throughput charts. These model IDs are deprecated or for backwards compability.&#xa;&#xa;    To return information about a specific foundation model, send a GetFoundationModel request, specifying the model ID.&#xa;&#xa;" id="cnEi_GldgaMHaCoD5AnP-59">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="2120" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-73" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-69" target="cnEi_GldgaMHaCoD5AnP-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Active" tooltip="Active: The model provider is actively working on this version, and it will continue to get updates such as bug fixes and minor improvements. " id="cnEi_GldgaMHaCoD5AnP-69">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2600" y="40" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-74" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-71" target="cnEi_GldgaMHaCoD5AnP-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Legacy" tooltip="Legacy: A version is marked Legacy when there is a more recent version which provides superior performance. Amazon Bedrock sets an EOL date for Legacy versions. The EOL date may vary depending on how you use the model (for example, whether you use on-demand throughput or Provisioned Throughput for a base model, or Provisioned Throughput for a customized model). While you can continue to use a Legacy version, you should plan to transition to an Active version before the EOL date. " id="cnEi_GldgaMHaCoD5AnP-71">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2735" y="40" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EoL" tooltip="EOL: This version is no longer available for use. Any requests made to this version will fail." id="cnEi_GldgaMHaCoD5AnP-72">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="2880" y="40" width="90" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
