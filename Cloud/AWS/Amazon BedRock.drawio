@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T06:18:36.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="apZ8g3J0PYMAL94FGEbG" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T06:25:53.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="shYFzTt2q2SKTWIf8GcU" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
-    <mxGraphModel dx="2840" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2983" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,25 +216,37 @@
           </mxCell>
         </UserObject>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-25" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-23" target="cnEi_GldgaMHaCoD5AnP-24">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="400" />
+              <mxPoint x="620" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-27" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-23" target="cnEi_GldgaMHaCoD5AnP-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Setup" tooltip="Amazon Bedrock is a fully managed service that makes high-performing foundation models (FMs) from leading AI startups and Amazon available for your use through a unified API. You can choose from a wide range of foundation models to find the model that is best suited for your use case. Amazon Bedrock also offers a broad set of capabilities to build generative AI applications with security, privacy, and responsible AI. Using Amazon Bedrock, you can easily experiment with and evaluate top foundation models for your use cases, privately customize them with your data using techniques such as fine-tuning and Retrieval Augmented Generation (RAG), and build agents that execute tasks using your enterprise systems and data sources.&#xa;&#xa;With Amazon Bedrock&#39;s serverless experience, you can get started quickly, privately customize foundation models with your own data, and easily and securely integrate and deploy them into your applications using AWS tools without having to manage any infrastructure." id="cnEi_GldgaMHaCoD5AnP-23">
           <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
-            <mxGeometry x="640" y="520" width="200" height="80" as="geometry" />
+            <mxGeometry x="1020" y="520" width="200" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-24" value="Model Access" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="540" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-26" target="cnEi_GldgaMHaCoD5AnP-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-26" target="cnEi_GldgaMHaCoD5AnP-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="API Setup" tooltip="This section describes how to set up your environment to make Amazon Bedrock API calls and provides examples of common use-cases. You can access the Amazon Bedrock API using the AWS Command Line Interface (AWS CLI), an AWS SDK, or a SageMaker Notebook.&#xa;&#xa;Before you can access Amazon Bedrock APIs, you need to request access to the foundation models that you plan to use." id="cnEi_GldgaMHaCoD5AnP-26">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="820" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="1200" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cnEi_GldgaMHaCoD5AnP-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-28" target="cnEi_GldgaMHaCoD5AnP-30">
@@ -249,21 +261,58 @@
         <mxCell id="cnEi_GldgaMHaCoD5AnP-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-28" target="cnEi_GldgaMHaCoD5AnP-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-28" value="Amazon Bedrock Endpoint" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="720" y="40" width="80" height="80" as="geometry" />
+        <UserObject label="Amazon Bedrock Endpoint" tooltip="To connect programmatically to an AWS service, you use an endpoint. Refer to the Amazon Bedrock endpoints and quotas chapter in the AWS General Reference for information about the endpoints that you can use for Amazon Bedrock.&#xa;&#xa;Amazon Bedrock provides the following service endpoints.&#xa;&#xa;    bedrock – Contains control plane APIs for managing, training, and deploying models. For more information, see Amazon Bedrock Actions and Amazon Bedrock Data Types.&#xa;&#xa;    bedrock-runtime – Contains data plane APIs for making inference requests for models hosted in Amazon Bedrock. For more information, see Amazon Bedrock Runtime Actions and Amazon Bedrock Runtime Data Types.&#xa;&#xa;    bedrock-agent – Contains control plane APIs for creating and managing agents and knowledge bases. For more information, see Agents for Amazon Bedrock Actions and Agents for Amazon Bedrock Data Types.&#xa;&#xa;    bedrock-agent-runtime – Contains data plane APIs for invoking agents and querying knowledge bases. For more information, see Agents for Amazon Bedrock Runtime Actions and Agents for Amazon Bedrock Runtime Data Types.&#xa;" id="cnEi_GldgaMHaCoD5AnP-28">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="660" y="-40" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bedrock" tooltip="bedrock – Contains control plane APIs for managing, training, and deploying models. For more information, see Amazon Bedrock Actions and Amazon Bedrock Data Types.&#xa;" id="cnEi_GldgaMHaCoD5AnP-30">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="380" y="-200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bedrock-runtime" tooltip="bedrock-runtime – Contains data plane APIs for making inference requests for models hosted in Amazon Bedrock." id="cnEi_GldgaMHaCoD5AnP-32">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="540" y="-200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bedrock-agent" tooltip="bedrock-agent – Contains control plane APIs for creating and managing agents and knowledge bases." id="cnEi_GldgaMHaCoD5AnP-33">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="740" y="-200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bedrock-agent-runtime" tooltip="bedrock-agent-runtime – Contains data plane APIs for invoking agents and querying knowledge bases. " id="cnEi_GldgaMHaCoD5AnP-34">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="900" y="-200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-38" target="cnEi_GldgaMHaCoD5AnP-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-30" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-120" width="120" height="40" as="geometry" />
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-44" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-38" target="cnEi_GldgaMHaCoD5AnP-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-32" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-120" width="120" height="40" as="geometry" />
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-38" target="cnEi_GldgaMHaCoD5AnP-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-33" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-120" width="120" height="40" as="geometry" />
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-38" value="Way to Access Endpoint" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-34" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-120" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="CLI" tooltip="If you plan to use the CLI, install and configure the AWS CLI by following the steps at Install or update the latest version of the AWS Command Line Interface User Guide.&#xa;&#xa;    Configure your AWS credentials using the aws configure CLI command by following the steps at Configure the AWS CLI.&#xa;&#xa;Refer to the following references for AWS CLI commands and operations:&#xa;&#xa;    Amazon Bedrock CLI commands&#xa;&#xa;    Amazon Bedrock Runtime CLI commands&#xa;&#xa;    Agents for Amazon Bedrock CLI commands&#xa;&#xa;    Agents for Amazon Bedrock Runtime CLI commands&#xa;" id="cnEi_GldgaMHaCoD5AnP-40">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1000" y="-40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/api-setup.html#api-sdk&quot;&gt;SDK&lt;/a&gt;" tooltip="AWS software development kits (SDKs) are available for many popular programming languages. Each SDK provides an API, code examples, and documentation that make it easier for developers to build applications in their preferred language. SDKs automatically perform useful tasks for you, such as:&#xa;&#xa;    Cryptographically sign your service requests&#xa;&#xa;    Retry requests&#xa;&#xa;    Handle error responses&#xa;" id="cnEi_GldgaMHaCoD5AnP-42">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="-40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/api-setup.html#api-using-sage&quot;&gt;Sagemaker Notebooks&lt;/a&gt;" tooltip="You can use the SDK for Python (Boto3) to invoke Amazon Bedrock API operations from a SageMaker notebook." id="cnEi_GldgaMHaCoD5AnP-43">
+          <mxCell style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="1400" y="-40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
