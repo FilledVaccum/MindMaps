@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T16:38:55.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="yNytQVami9OptQvlLvOv" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T16:45:03.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="inkXD3-M2oB7yMJQDKIn" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="2971" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1512,7 +1512,13 @@
             <mxGeometry x="9360" y="-40" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Word Filters" tooltip="Word filters — You can configure a set of custom words or phrases that you want to detect and block in the interaction between your users and generative AI applications. For example, you can detect and block profanity as well as specific custom words such as competitor names, or other offensive words." id="cnEi_GldgaMHaCoD5AnP-347">
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-371" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-347" target="cnEi_GldgaMHaCoD5AnP-370">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-373" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cnEi_GldgaMHaCoD5AnP-347" target="cnEi_GldgaMHaCoD5AnP-372">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Word Filters" tooltip="Guardrails for Amazon Bedrock has word filters that you can use to block words and phrases in input prompts and model responses . You can use following word filters to block profanity, offensive or inappropriate content, or content with competitor or product names.&#xa;&#xa;    Profanity filter – Turn on to block profane words. The list of profanities is based on conventional definitions of profanity and it&#39;s continually updated.&#xa;&#xa;    Custom word filter – Add custom words and phrases of up to three words to a list. You can add up to 10,000 items to the custom word filter.&#xa;&#xa;    You have the following options for adding words and phrases using the Amazon Bedrock console;:&#xa;&#xa;        Add manually in the text editor.&#xa;&#xa;        Upload a .txt or .csv file.&#xa;&#xa;        Upload an object from an Amazon S3 bucket.&#xa;Word filters — You can configure a set of custom words or phrases that you want to detect and block in the interaction between your users and generative AI applications. For example, you can detect and block profanity as well as specific custom words such as competitor names, or other offensive words." id="cnEi_GldgaMHaCoD5AnP-347">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="9600" y="-40" width="80" height="80" as="geometry" />
           </mxCell>
@@ -1525,7 +1531,7 @@
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-sensitive-filters.html&quot;&gt;Sensitive Information Filters&lt;/a&gt;" tooltip="Sensitive information filters — You can detect sensitive content such as Personally Identifiable Information (PII) or custom regex entities in user inputs and FM responses. Based on the use case, you can reject inputs containing sensitive information or redact them in FM responses. For example, you can redact users’ personal information while generating summaries from customer and agent conversation transcripts.&#xa;&#xa;uardrails for Amazon Bedrock detects sensitive information such as personally identifiable information (PIIs) in input prompts or model responses. You can also configure sensitive information specific to your use case or organization by defining it with regular expressions (regex).&#xa;&#xa;After the sensitive information is detected by guardrails, you can configure the following modes of handling the information.&#xa;&#xa;    Block — Sensitive information filter policies can block requests for sensitive information. Examples of such applications may include general question and answer applications based on public documents. If sensitive information is detected in the prompt or response, the guardrail blocks all the content and returns a message that you configure.&#xa;&#xa;    Mask — Sensitive information filter policies can mask or redact information from model responses. For example, guardrails will mask PIIs while generating summaries of conversations between users and customer service agents. If sensitive information is detected in the model response, the guardrail masks it with an identifier, the sensitive information is masked and replaced with identifier tags (e.g., [NAME-1], [NAME-2], [EMAIL-1], etc.).&#xa;&#xa;Guardrails for Amazon Bedrock offers the following PIIs to block or mask sensitive information:" id="cnEi_GldgaMHaCoD5AnP-349">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="9760" y="-40" width="80" height="80" as="geometry" />
+            <mxGeometry x="9840" y="-28" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Confidence Classification" tooltip="Filtering is done based on confidence classification of user inputs and FM responses across each of the six categories. All user inputs and FM responses are classified across four strength levels - NONE, LOW, MEDIUM, and HIGH. For example, if a statement is classified as Hate with HIGH confidence, the likelihood of that statement representing hateful content is high. A single statement can be classified across multiple categories with varying confidence levels. For example, a single statement can be classified as Hate with HIGH confidence, Insults with LOW confidence, Sexual with NONE, and Violence with MEDIUM confidence." id="cnEi_GldgaMHaCoD5AnP-351">
@@ -1572,19 +1578,25 @@
         </UserObject>
         <UserObject label="Best Practices to Define a topic" tooltip="&#xa;&#xa;    Define the topic in a crisp and precise manner. A clear and unambiguous topic definition can improve the accuracy of the topic&#39;s detection. For example, a topic to detect queries or statements associated with cryptocurrencies can be defined as Question or information associated with investing, selling, transacting, or procuring cryptocurrencies.&#xa;&#xa;    Do not include examples or instructions in the topic definition. For example, Block all contents associated to cryptocurrency is an instruction and not a definition of the topic. Such instructions must not be used as part of topic&#39;s definitions.&#xa;&#xa;    Do not define negative topics or exceptions. For example, All contents except medical information or Contents not containing medical information are negative definitions of a topic and must not be used.&#xa;&#xa;    Do not use denied topics to capture entities or words. For example, Statement or questions containing the name of a person &quot;X&quot; or Statements with a competitor name Y. The topic definitions represent a theme or a subject and guardrails evaluates an input contextually. Topic filtering should not be used to capture individual words or entity types. Instead, consider using Sensitive information filters or Word filters for such use cases.&#xa;&#xa;Prompt attacks usually take one be of the following types:" id="cnEi_GldgaMHaCoD5AnP-365">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="9430" y="-160" width="120" height="40" as="geometry" />
+            <mxGeometry x="9440" y="-240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Block" tooltip="Block — Sensitive information filter policies can block requests for sensitive information. Examples of such applications may include general question and answer applications based on public documents. If sensitive information is detected in the prompt or response, the guardrail blocks all the content and returns a message that you configure." id="cnEi_GldgaMHaCoD5AnP-366">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="9680" y="-202" width="80" height="80" as="geometry" />
+            <mxGeometry x="9760" y="-270" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Mask" tooltip="Mask — Sensitive information filter policies can mask or redact information from model responses. For example, guardrails will mask PIIs while generating summaries of conversations between users and customer service agents. If sensitive information is detected in the model response, the guardrail masks it with an identifier, the sensitive information is masked and replaced with identifier tags (e.g., [NAME-1], [NAME-2], [EMAIL-1], etc.)." id="cnEi_GldgaMHaCoD5AnP-368">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="9840" y="-202" width="80" height="80" as="geometry" />
+            <mxGeometry x="9910" y="-270" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-370" value="&lt;div&gt;Profanity&amp;nbsp;&lt;/div&gt;&lt;div&gt;Filter&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="9520" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnEi_GldgaMHaCoD5AnP-372" value="Custom Word Filter" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="9680" y="-160" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
