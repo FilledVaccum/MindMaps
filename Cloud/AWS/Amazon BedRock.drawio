@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T06:10:50.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="z18L_yydL5vC6WPeNTms" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T06:13:49.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="hnmUFOxhsXWJ0KsEtzdO" border="50" scale="3" compressed="false" locked="false" version="24.6.1" type="github">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="2840" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,33 +170,51 @@
         <mxCell id="cnEi_GldgaMHaCoD5AnP-3" value="&lt;a href=&quot;https://docs.aws.amazon.com/general/latest/gr/bedrock.html#bedrock_region&quot;&gt;Amazon Bedrock&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="120" y="960" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-5" value="Foundational Models" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-7" value="Playground" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-8" value="Inference Parameters" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-9" value="Model Parameters" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-10" value="Token" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-11" value="Base Model" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-12" value="Model Inference" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-13" value="Prompt" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cnEi_GldgaMHaCoD5AnP-14" value="Embedding" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1000" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Foundational Models" tooltip="Foundation model (FM) – An AI model with a large number of parameters and trained on a massive amount of diverse data. A foundation model can generate a variety of responses for a wide range of use cases. Foundation models can generate text or image, and can also convert input into embeddings. Before you can use an Amazon Bedrock foundation model, you must request access. For more information about foundation models, see Supported foundation models in Amazon Bedrock.&#xa;" id="cnEi_GldgaMHaCoD5AnP-5">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-1040" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Playground" tooltip="Playground – A user-friendly graphical interface in the AWS Management Console in which you can experiment with running model inference to familiarize yourself with Amazon Bedrock. Use the playground to test out the effects of different models, configurations, and inference parameters on the responses generated for different prompts that you enter." id="cnEi_GldgaMHaCoD5AnP-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-200" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Inference Parameters" tooltip="Inference parameters – Values that can be adjusted during model inference to influence a response. Inference parameters can affect how varied responses are and can also limit the length of a response or the occurrence of specified sequences. " id="cnEi_GldgaMHaCoD5AnP-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-320" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Model Parameters" tooltip="Model parameters – Values that define a model and its behavior in interpreting input and generating responses. Model parameters are controlled and updated by providers. You can also update model parameters to create a new model through the process of model customization." id="cnEi_GldgaMHaCoD5AnP-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-440" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Token" tooltip="Token – A sequence of characters that a model can interpret or predict as a single unit of meaning. For example, with text models, a token could correspond not just to a word, but also to a part of a word with grammatical meaning (such as &quot;-ed&quot;), a punctuation mark (such as &quot;?&quot;), or a common phrase (such as &quot;a lot&quot;)." id="cnEi_GldgaMHaCoD5AnP-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-560" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Base Model" tooltip="Base model – A foundation model that is packaged by a provider and ready to use. Amazon Bedrock offers a variety of industry-leading foundation models from leading providers. " id="cnEi_GldgaMHaCoD5AnP-11">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-920" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Model Inference" tooltip="Model inference – The process of a foundation model generating an output (response) from a given input (prompt)." id="cnEi_GldgaMHaCoD5AnP-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-800" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Prompt" tooltip="Prompt – An input provided to a model to guide it to generate an appropriate response or output for the input. For example, a text prompt can consist of a single line for the model to respond to, or it can detail instructions or a task for the model to perform. The prompt can contain the context of the task, examples of outputs, or text for a model to use in its response. Prompts can be used to carry out tasks such as classification, question answering, code generation, creative writing, and more." id="cnEi_GldgaMHaCoD5AnP-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-680" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Embedding" tooltip="Embedding – The process of condensing information by transforming input into a vector of numerical values, known as the embeddings, in order to compare the similarity between different objects by using a shared numerical representation. For example, sentences can be compared to determine the similarity in meaning, images can be compared to determine visual similarity, or text and image can be compared to see if they&#39;re relevant to each other. You can also combine text and image inputs into an averaged embeddings vector if it&#39;s relevant to your use case. " id="cnEi_GldgaMHaCoD5AnP-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="-80" y="1000" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
