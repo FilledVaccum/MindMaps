@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T09:27:18.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="WVxVc7VMhHhOgraih2gb" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-23T09:36:46.696Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="d7HsJq2P_ES-sdGUTq17" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="4">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3523,10 +3523,95 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ln8cPNkgNMUs7QOUhL-7" name="Amazon Bedrock Provisioned Throughput">
-    <mxGraphModel dx="947" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-10903" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13175" y="400" />
+              <mxPoint x="12800" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13175" y="400" />
+              <mxPoint x="13560" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13175" y="720" />
+              <mxPoint x="12800" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-1" target="bnY-xMBI9S5td7Sl1eVf-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13175" y="720" />
+              <mxPoint x="13560" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-throughput.html&quot;&gt;&lt;b&gt;&lt;i&gt;Provisioned Throughput&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;" tooltip="Throughput refers to the number and rate of inputs and outputs that a model processes and returns. You can purchase Provisioned Throughput to provision a higher level of throughput for a model at a fixed cost. If you customized a model, you must purchase Provisioned Throughput to be able to use it.&#xa;&#xa;You&#39;re billed hourly for a Provisioned Throughput that you purchase. For detailed information about pricing, see Amazon Bedrock Pricing&#xa;&#xa;. The price per hour depends on the following factors:&#xa;&#xa;    The model that you choose (for custom models, pricing is the same as the base model that it was customized from).&#xa;&#xa;    The number of Model Units (MUs) that you specify for the Provisioned Throughput. An MU delivers a specific throughput level for the specified model. The throughput level of an MU specifies the following:&#xa;&#xa;        The number of input tokens that an MU can process across all requests within a span of one minute.&#xa;&#xa;        The number of output tokens that an MU can generate across all requests within a span of one minute.&#xa;&#xa;Note&#xa;&#xa;For more information about what an MU specifies, contact your AWS account manager.&#xa;&#xa;The duration of time you commit to keeping the Provisioned Throughput. The longer the commitment duration, the more discounted the hourly price becomes. You can choose between the following levels of commitment:&#xa;&#xa;    No commitment – You can delete the Provisioned Throughput at any time.&#xa;&#xa;    1 month – You can&#39;t delete the Provisioned Throughput until the one month commitment term is over.&#xa;&#xa;    6 months – You can&#39;t delete the Provisioned Throughput until the six month commitment term is over.&#xa;&#xa;    Note&#xa;&#xa;    Billing continues until you delete the Provisioned Throughput.&#xa;&#xa;The following steps outline the process of setting up and using Provisioned Throughput.&#xa;&#xa;    Determine the number of MUs you wish to purchase for a Provisioned Throughput and the amount of time for which you want to commit to using the Provisioned Throughput.&#xa;&#xa;    Purchase Provisioned Throughput for a base or custom model.&#xa;&#xa;    After the provisioned model is created, you can use it to run model inference.&#xa;&#xa;Topics&#xa;&#xa;    Supported region and models for Provisioned Throughput&#xa;    Prerequisites&#xa;    Purchase a Provisioned Throughput for a Amazon Bedrock model&#xa;    Manage a Provisioned Throughput&#xa;    Use a Provisioned Throughput&#xa;    Code samples for Provisioned Throughput in Amazon Bedrock&#xa;&#xa;" id="bnY-xMBI9S5td7Sl1eVf-1">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="13000" y="520" width="355" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-2" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/pt-supported.html&quot;&gt;Supported Regions &amp;amp; Models&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12740" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-thru-prereq.html&quot;&gt;Pre-Requisities&lt;/a&gt;" tooltip="Before you can purchase and manage Provisioned Throughput, you need to fulfill the following prerequisites:&#xa;&#xa;    Request access to the model or models that you want to purchase Provisioned Throughput for. After access has been granted, you can purchase Provisioned Throughput for the base model and any models customized from it.&#xa;&#xa;    Ensure that your IAM role has the necessary permissions to perform actions related to Provisioned Throughput.&#xa;&#xa;    If you&#39;re purchasing Provisioned Throughput for a custom model that&#39;s encrypted with a customer-managed AWS KMS key, your IAM role must have permissions to decrypt the key. You can use the template at Create a key policy and attach it to the customer managed key. For minimal permissions, you can use only the Permissions for custom model users policy statement.&#xa;" id="bnY-xMBI9S5td7Sl1eVf-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13115" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-thru-purchase.html&quot;&gt;Purchase Provisioned Throughput&lt;/a&gt;" tooltip="When you purchase a Provisioned Throughput for a model, you specify the level of commitment for it and the number of model units (MUs) to allot. For MU quotas, see Provisioned Throughput quotas. The number of MUs that you can allot to your Provisioned Throughputs depends on the commitment term for the Provisioned Throughput:&#xa;&#xa;    By default, your account provides you with 2 MUs to distribute between Provisioned Throughputs with no commitment.&#xa;&#xa;    If you&#39;re purchasing a Provisioned Throughput with commitment, you must first visit the AWS support center&#xa;&#xa;    to request MUs for your account to distribute between Provisioned Throughputs with commitment. After your request is granted, you can purchase a Provisioned Throughput with commitment.&#xa;&#xa;Note&#xa;&#xa;After you purchase the Provisioned Throughput, you can only change the associated model if you select a custom model. You can change the associated model to one of the following:&#xa;&#xa;    The base model that it&#39;s customized from.&#xa;&#xa;    Another custom model that&#39;s derived from the same base model.&#xa;" id="bnY-xMBI9S5td7Sl1eVf-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13500" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-8" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-thru-code-samples.html&quot;&gt;Code Samples&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12740" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-9" target="bnY-xMBI9S5td7Sl1eVf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnY-xMBI9S5td7Sl1eVf-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bnY-xMBI9S5td7Sl1eVf-9" target="bnY-xMBI9S5td7Sl1eVf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-thru-use.html&quot;&gt;Use a Provisioned Throughput&lt;/a&gt;" tooltip="After you purchase a Provisioned Throughput, you can use it with the following features to increase your throughput:" id="bnY-xMBI9S5td7Sl1eVf-9">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13117.5" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/prov-thru-manage.html&quot;&gt;Manage Provisioned Throughput&lt;/a&gt;" tooltip="After you purchase a Provisioned Throughput you can view details about it, update it, or delete it.&#xa;Topics&#xa;&#xa;    View information about a Provisioned Throughput&#xa;    Edit a Provisioned Throughput&#xa;    Delete a Provisioned Throughput" id="bnY-xMBI9S5td7Sl1eVf-10">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13500" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Model Inference" tooltip="Model inference – You can test the Provisioned Throughput in a Amazon Bedrock console playground. When you&#39;re ready to deploy the Provisioned Throughput, you set up your application to invoke the provisioned model. Select the tab corresponding to your method of choice and follow the steps." id="bnY-xMBI9S5td7Sl1eVf-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13237.5" y="1040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Associate with agent alias" tooltip="Associate a Provisioned Throughput with an agent alias – You can associate a Provisioned Throughput when you create or update an agent alias. In the Amazon Bedrock console, you choose the Provisioned Throughput when setting up the alias or editing it. In the Amazon Bedrock API, you specify the provisionedThroughput in the routingConfiguration when you send a CreateAgentAlias or UpdateAgentAlias; request.&#xa;" id="bnY-xMBI9S5td7Sl1eVf-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13037.5" y="1040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
