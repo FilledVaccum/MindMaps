@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T11:59:30.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="C_S_GJXHnQPNs7yoGf3j" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-23T12:04:50.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="L-3CHJWDFlmyDnd8apdN" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="9">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4224,6 +4224,79 @@
         </mxCell>
         <mxCell id="v1E4GXoN8RRpEwSA0eXz-50" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/cross-service-confused-deputy-prevention.html&quot;&gt;Cross Service Confused Deputy Prevision&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="12297.5" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FuIneY_myqPHuQIlvQRX" name="Monitoring Amazon Bedrock">
+    <mxGraphModel dx="-11805" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13176" y="360" />
+              <mxPoint x="12840" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13176" y="360" />
+              <mxPoint x="13520" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13176" y="680" />
+              <mxPoint x="13516" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring.html&quot;&gt;&lt;b&gt;&lt;i&gt;Monitoring Amazon Bedrock&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;" tooltip="You can monitor Amazon Bedrock with Amazon CloudWatch and with Amazon EventBridge.&#xa;Topics&#xa;&#xa;    Knowledge bases logging&#xa;    Model invocation logging&#xa;    Amazon Bedrock Studio logging&#xa;    Monitor Amazon Bedrock with Amazon CloudWatch&#xa;    Monitor Amazon Bedrock events in Amazon EventBridge&#xa;    Log Amazon Bedrock API calls using AWS CloudTrail" id="J_y4qgw4MmyEBgH30PgO-1">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#fff2cc;strokeColor=#d6b656;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="12998" y="480" width="355" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-bases-logging.html&quot;&gt;Knowledge Bases Logging&lt;/a&gt;" tooltip="Amazon Bedrock supports a monitoring system to help you understand the execution of any data ingestion jobs. The following sections cover how to enable and configure the logging system for Amazon Bedrock knowledge bases using both the CloudWatch API and the AWS Management Console. You can gain visibility into the ingestion of your knowledge base resources with this logging system." id="J_y4qgw4MmyEBgH30PgO-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="12780" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html&quot;&gt;Model Invocation Logging&lt;/a&gt;" tooltip="Model invocation logging can be used to collect invocation logs, model input data, and model output data for all invocations in your AWS account used in Amazon Bedrock. By default, logging is disabled.&#xa;&#xa;With invocation logging, you can collect the full request data, response data, and metadata associated with all calls performed in your account. Logging can be configured to provide the destination resources where the log data will be published. Supported destinations include Amazon CloudWatch Logs and Amazon Simple Storage Service (Amazon S3). Only destinations from the same account and region are supported.&#xa;&#xa;The following operations can log model invocations.&#xa;&#xa;    Converse&#xa;&#xa;    ConverseStream&#xa;&#xa;    InvokeModel&#xa;&#xa;    InvokeModelWithResponseStream&#xa;&#xa;When using the Converse API, any image or document data that you pass is logged in Amazon S3 (if you have enabled delivery and image logging in Amazon S3).&#xa;&#xa;Before you can enable invocation logging, you need to set up an Amazon S3 or CloudWatch Logs destination. You can enable invocation logging through either the console or the API.&#xa;Topics&#xa;&#xa;    Set up an Amazon S3 destination&#xa;    Set up CloudWatch Logs destination&#xa;    Using the console&#xa;    Using APIs with invocation logging" id="J_y4qgw4MmyEBgH30PgO-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13115" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-5" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13460" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-8" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12775.5" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-9" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13115.5" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-10" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13455.5" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J_y4qgw4MmyEBgH30PgO-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.377;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13176" y="680" />
+              <mxPoint x="12821" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
