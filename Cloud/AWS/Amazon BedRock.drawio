@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T12:11:44.406Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="tOZ8UdmYOlLnSiHxU5PT" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-06-23T12:11:57.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="lswmE2WFu5mT-SXTmVn5" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="9">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4264,7 +4264,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring.html&quot;&gt;&lt;b&gt;&lt;i&gt;Monitoring Amazon Bedrock&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;" tooltip="You can monitor Amazon Bedrock with Amazon CloudWatch and with Amazon EventBridge.&#xa;Topics&#xa;&#xa;    Knowledge bases logging&#xa;    Model invocation logging&#xa;    Amazon Bedrock Studio logging&#xa;    Monitor Amazon Bedrock with Amazon CloudWatch&#xa;    Monitor Amazon Bedrock events in Amazon EventBridge&#xa;    Log Amazon Bedrock API calls using AWS CloudTrail" id="J_y4qgw4MmyEBgH30PgO-1">
-          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#fff2cc;strokeColor=#d6b656;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
             <mxGeometry x="12998" y="480" width="355" height="80" as="geometry" />
           </mxCell>
         </UserObject>
