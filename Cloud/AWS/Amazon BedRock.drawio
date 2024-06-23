@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T12:04:50.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="L-3CHJWDFlmyDnd8apdN" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-06-23T12:11:44.406Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="tOZ8UdmYOlLnSiHxU5PT" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="9">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4229,7 +4229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FuIneY_myqPHuQIlvQRX" name="Monitoring Amazon Bedrock">
-    <mxGraphModel dx="-11805" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-11117" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4278,18 +4278,26 @@
             <mxGeometry x="13115" y="200" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="J_y4qgw4MmyEBgH30PgO-5" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="13460" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="J_y4qgw4MmyEBgH30PgO-8" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="12775.5" y="800" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="J_y4qgw4MmyEBgH30PgO-9" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="13115.5" y="800" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="J_y4qgw4MmyEBgH30PgO-10" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="13455.5" y="800" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-studio-logging.html&quot;&gt;Amazon Bedrock Studio Logging&lt;/a&gt;" tooltip="Amazon Bedrock Studio creates 3 Amazon CloudWatch log groups in your AWS account. These log groups persist after the corresponding components, projects, and workspaces have been deleted. If you no longer need the logs, use the CloudWatch console to delete them. For more information, see Working with log groups and log streams.&#xa;&#xa;Amazon Bedrock StudioWorkspace members don&#39;t have access to these log groups.&#xa;Knowledge bases&#xa;&#xa;When workspace members create a Knowledge Base component, Amazon Bedrock Studio creates the following log groups.&#xa;&#xa;    /aws/lambda/br-studio-&lt;appId&gt;-&lt;envId&gt;-kbIngestion — Stores logs from a Lambda function in the Knowledge Base component. Amazon Bedrock Studio uses the Lambda function to start ingestion of data files to the Knowledge Base.&#xa;&#xa;    /aws/lambda/br-studio-&lt;appId&gt;-&lt;envId&gt;-opensearchIndex — Stores logs from a Lambda function in the Knowledge Base component. Amazon Bedrock Studio uses the Lambda function to create an index on the component’s Opensearch collection.&#xa;&#xa;Functions&#xa;&#xa;When workspace members create a Knowledge Base component, Amazon Bedrock Studio creates the following log group.&#xa;&#xa;    /aws/lambda/br/studio-&lt;appId&gt;-&lt;envId&gt;-executor — Stores logs from a Lambda function in the Amazon Bedrock Studio functions component. Amazon Bedrock Studio uses the Lambda function to invoke the API that the function schema defines.&#xa;&#xa;    Sensitive parameters that you pass to a function component might show up in this log group. To mitigate, consider using masking to protect sensitive log data. Alternatively, use a customer managed Key to encrypt the workspace. For more information, see Creating an Amazon Bedrock Studio workspace." id="J_y4qgw4MmyEBgH30PgO-5">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13460" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/logging-using-cloudtrail.html&quot;&gt;CloudTrail Logs&lt;/a&gt;" tooltip="Amazon Bedrock is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon Bedrock. CloudTrail captures all API calls for Amazon Bedrock as events. The calls captured include calls from the Amazon Bedrock console and code calls to the Amazon Bedrock API operations. If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon Bedrock. If you don&#39;t configure a trail, you can still view the most recent events in the CloudTrail console in Event history. Using the information collected by CloudTrail, you can determine the request that was made to Amazon Bedrock, the IP address from which the request was made, who made the request, when it was made, and additional details." id="J_y4qgw4MmyEBgH30PgO-8">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="12775.5" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring-eventbridge.html&quot;&gt;Monitor Events&lt;/a&gt;" tooltip="You can use Amazon EventBridge to monitor status change events in Amazon Bedrock. With Amazon EventBridge, you can configure Amazon Bedrock to respond automatically to a model customization job status change in Amazon Bedrock. Events from Amazon Bedrock are delivered to Amazon EventBridge in near real time. You can write simple rules to automate actions when an event matches a rule. If you use Amazon EventBridge with Amazon Bedrock, you can:&#xa;&#xa;    Publish notifications whenever there is a state change event in the model customization you have triggered, whether you add new asynchronous workflows in the future. The event published should give you enough information to react to events in downstream workflows.&#xa;&#xa;    Deliver job status updates without invoking the GetModelCustomizationJob API, which can mean handling API rate limit issues, API updates, and reduction in additional compute resources.&#xa;&#xa;There is no cost to receive AWS events from Amazon EventBridge. For more information about, Amazon EventBridge, see Amazon EventBridge&#xa;Note&#xa;&#xa;    Amazon Bedrock emits events on a best-effort basis. Events are delivered to Amazon EventBridge in near real time. With Amazon EventBridge, you can create rules that trigger programmatic actions in response to an event. For example, you can configure a rule that invokes an SNS topic to send an email notification or invokes a function to take some action. For more information, see the Amazon EventBridge User Guide.&#xa;&#xa;    Amazon Bedrock creates a new event every time there is a state change in a model customization job that you trigger and make best-effort delivery of such event. &#xa;&#xa;Topics&#xa;&#xa;    How it works&#xa;    EventBridge schema&#xa;    Rules and targets&#xa;    Create a rule to handle Amazon Bedrock events" id="J_y4qgw4MmyEBgH30PgO-9">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13115.5" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring-cw.html&quot;&gt;Monitor Cloudwatch&lt;/a&gt;" tooltip="You can monitor Amazon Bedrock using Amazon CloudWatch, which collects raw data and processes it into readable, near real-time metrics. You can graph the metrics using the CloudWatch console. You can also set alarms that watch for certain thresholds, and send notifications or take actions when values exceed those thresholds.&#xa;&#xa;For more information, see What is Amazon CloudWatch in the Amazon CloudWatch User Guide.&#xa;Topics&#xa;&#xa;    Runtime metrics&#xa;    Logging CloudWatch metrics&#xa;    Use CloudWatch metrics for Amazon Bedrock&#xa;    View Amazon Bedrock metrics" id="J_y4qgw4MmyEBgH30PgO-10">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13455.5" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="J_y4qgw4MmyEBgH30PgO-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.377;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="J_y4qgw4MmyEBgH30PgO-1" target="J_y4qgw4MmyEBgH30PgO-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
