@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T09:36:46.696Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="d7HsJq2P_ES-sdGUTq17" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-23T09:42:21.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="6YnV1KBeVnMpyvR6ppTn" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="5">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3612,6 +3612,87 @@
             <mxGeometry x="13037.5" y="1040" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vvvaf6z3ifetFpF9Y2wP" name="Bedrock Tag Resources">
+    <mxGraphModel dx="-11698" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13160" y="400" />
+              <mxPoint x="12920" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13160" y="400" />
+              <mxPoint x="13400" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13160" y="680" />
+              <mxPoint x="13400" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="tj-pwdvhgDBsxFwCzy_Y-1" target="tj-pwdvhgDBsxFwCzy_Y-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13160" y="680" />
+              <mxPoint x="12920" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/tagging.html&quot;&gt;Tag Resources&lt;/a&gt;" tooltip="To help you manage your Amazon Bedrock resources, you can assign metadata to each resource as tags. A tag is a label that you assign to an AWS resource. Each tag consists of a key and a value.&#xa;&#xa;Tags enable you to categorize your AWS resources in different ways, for example, by purpose, owner, or application. Tags help you to do the following:&#xa;&#xa;    Identify and organize your AWS resources. Many AWS resources support tagging, so you can assign the same tag to resources in different services to indicate that the resources are the same.&#xa;&#xa;    Allocate costs. You activate tags on the AWS Billing and Cost Management dashboard. AWS uses the tags to categorize your costs and deliver a monthly cost allocation report to you. For more information, see Use cost allocation tags in the AWS Billing and Cost Management User Guide.&#xa;&#xa;    Control access to your resources. You can use tags with Amazon Bedrock to create policies to control access to Amazon Bedrock resources. These policies can be attached to an IAM role or user to enable tag-based access control.&#xa;&#xa;The Amazon Bedrock resources that you can tag are:&#xa;&#xa;    Custom models&#xa;&#xa;    Model customization jobs&#xa;&#xa;    Provisioned models&#xa;&#xa;    Batch inference jobs (API only)&#xa;&#xa;    Agents&#xa;&#xa;    Agent aliases&#xa;&#xa;    Knowledge bases&#xa;&#xa;    Model evaluations (console only)&#xa;&#xa;Topics&#xa;&#xa;    Use the console&#xa;    Use the API&#xa;    Best practices and restrictionsAfter you purchase a Provisioned Throughput, you can use it with the following features to increase your throughput:" id="tj-pwdvhgDBsxFwCzy_Y-1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13100" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-2" value="Custom Models" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12880" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-4" value="Model Customization Jobs" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13040" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-6" value="&lt;font face=&quot;Helvetica&quot;&gt;Provisioned Models&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="13200" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-8" value="Batch Inference Jobs (API Only)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13360" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-10" value="Model Evaluation (Console Only)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12880" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-11" value="Knowledge Bases" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13040" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-12" value="Agent Alias" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="13200" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tj-pwdvhgDBsxFwCzy_Y-13" value="Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
