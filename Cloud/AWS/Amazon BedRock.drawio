@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T11:58:43.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="fg3N4gFq8BQDm0FeJ084" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-23T11:59:30.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="C_S_GJXHnQPNs7yoGf3j" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="8">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3989,7 +3989,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="a9dWariw8IYXwDBO4YAn" name="Page-8">
+  <diagram id="a9dWariw8IYXwDBO4YAn" name="Amazon Bedrock Security">
     <mxGraphModel dx="-9254" dy="2744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
