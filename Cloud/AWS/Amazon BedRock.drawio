@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T08:41:12.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="w8lAhm-aCs83S9mu_ja6" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-23T09:24:03.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="hp7UthOm4Vcs6hDxT16L" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="3">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="5488" dy="4388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3085,11 +3085,202 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Q3jhIkp0JMJfYN5Io0AY" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="Q3jhIkp0JMJfYN5Io0AY" name="Amazn Bedrock Custom Models">
+    <mxGraphModel dx="-10786" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13200" y="360" />
+              <mxPoint x="13400" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13200" y="680" />
+              <mxPoint x="13400" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-1" target="H6OHdQbLaKZkx9cTe9HJ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html&quot;&gt;&lt;b&gt;&lt;i&gt;Agent on Amazon Bedrock&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;" tooltip="Agents for Amazon Bedrock offers you the ability to build and configure autonomous agents in your application. An agent helps your end-users complete actions based on organization data and user input. Agents orchestrate interactions between foundation models (FMs), data sources, software applications, and user conversations. In addition, agents automatically call APIs to take actions and invoke knowledge bases to supplement information for these actions. Developers can save weeks of development effort by integrating agents to accelerate the delivery of generative artificial intelligence (generative AI) applications .&#xa;&#xa;With agents, you can automate tasks for your customers and answer questions for them. For example, you can create an agent that helps customers process insurance claims or an agent that helps customers make travel reservations. You don&#39;t have to provision capacity, manage infrastructure, or write custom code. Amazon Bedrock manages prompt engineering, memory, monitoring, encryption, user permissions, and API invocation.&#xa;&#xa;Agents perform the following tasks:&#xa;&#xa;    Extend foundation models to understand user requests and break down the tasks that the agent must perform into smaller steps.&#xa;&#xa;    Collect additional information from a user through natural conversation.&#xa;&#xa;    Take actions to fulfill a customer&#39;s request by making API calls to your company systems.&#xa;&#xa;    Augment performance and accuracy by querying data sources.&#xa;&#xa;&#xa;&#xa;Topics&#xa;&#xa;    How Agents for Amazon Bedrock works&#xa;    Supported regions and models for Agents for Amazon Bedrock&#xa;    Prerequisites for Agents for Amazon Bedrock&#xa;    Create an agent in Amazon Bedrock&#xa;    Create an action group for an Amazon Bedrock agent&#xa;    Associate a knowledge base with an Amazon Bedrock agent&#xa;    Associate a guardrail with your agent&#xa;    Associate a Provisioned Throughput with your agent alias&#xa;    Test an Amazon Bedrock agent&#xa;    Manage an Amazon Bedrock agent&#xa;    Customize an Amazon Bedrock agent&#xa;    Deploy an Amazon Bedrock agent" id="H6OHdQbLaKZkx9cTe9HJ-1">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="13020" y="480" width="360" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-2" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/custom-model-supported.html&quot;&gt;Supported Regions &amp;amp; Models&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12660" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-4" target="H6OHdQbLaKZkx9cTe9HJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-4" target="H6OHdQbLaKZkx9cTe9HJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Pre-Requisites" tooltip="Before you can start a model customization job, you need to fulfill the following prerequisites:&#xa;&#xa;    Determine whether you plan to carry out a Fine-tuning or Continued Pre-training job and which model you plan to use. The choice you make determines the format of the datasets that you feed into the customization job.&#xa;&#xa;    Prepare the training dataset file. If the customization method and model that you choose supports a validation dataset, you can also prepare a validation dataset file. Follow the steps below in Prepare the datasets and then upload the files to an Amazon S3 bucket.&#xa;&#xa;    (Optional) Create a custom AWS Identity and Access Management (IAM) service role with the proper permissions by following the instructions at Create a service role for model customization to set up the role. You can skip this prerequisite if you plan to use the AWS Management Console to automatically create a service role for you.&#xa;&#xa;    (Optional) Set up extra security configurations.&#xa;&#xa;        You can encrypt input and output data, customization jobs, or inference requests made to custom models. For more information, see Encryption of model customization jobs and artifacts.&#xa;&#xa;        You can create a virtual private cloud (VPC) to protect your customization jobs. For more information, see Protect model customization jobs using a VPC.&#xa;&#xa;Topics&#xa;&#xa;    Prepare the datasets&#xa;    Protect model customization jobs using a VPC" id="H6OHdQbLaKZkx9cTe9HJ-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="12900" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-submit.html&quot;&gt;Submit a Job&lt;/a&gt;" tooltip="You can create a custom model by using Fine-tuning or Continued Pre-training in the Amazon Bedrock console or API. The customization job can take several hours. The duration of the job depends on the size of the training data (number of records, input tokens, and output tokens), number of epochs, and batch size. Select the tab corresponding to your method of choice and follow the steps." id="H6OHdQbLaKZkx9cTe9HJ-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13140" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-prepare.html&quot;&gt;Prepare the DataSet&lt;/a&gt;" tooltip="Before you can begin a model customization job, you need to minimally prepare a training dataset. Whether a validation dataset is supported and the format of your training and validation dataset depend on the following factors.&#xa;&#xa;    The type of customization job (fine-tuning or Continued Pre-training).&#xa;&#xa;    The input and output modalities of the data.&#xa;&#xa;To see dataset and file requirements for different models, see Model customization quotas." id="H6OHdQbLaKZkx9cTe9HJ-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="12800" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/vpc-model-customization.html&quot;&gt;(Optional) Set up the VPC&lt;/a&gt;" tooltip="When you run a model customization job, the job accesses your Amazon S3 bucket to download the input data and to upload job metrics. To control access to your data, we recommend that you use a virtual private cloud (VPC) with Amazon VPC. You can further protect your data by configuring your VPC so that your data isn&#39;t available over the internet and instead creating a VPC interface endpoint with AWS PrivateLink to establish a private connection to your data. For more information about how Amazon VPC and AWS PrivateLink integrate with Amazon Bedrock, see Protect your data using Amazon VPC and AWS PrivateLink.&#xa;&#xa;Carry out the following steps to configure and use a VPC for the training, validation, and output data for your model customization jobs.&#xa;Topics&#xa;&#xa;    Set up a VPC&#xa;    Create an Amazon S3 VPC Endpoint&#xa;    (Optional) Use IAM policies to restrict access to your S3 files&#xa;    Attach VPC permissions to a model customization role&#xa;    Add the VPC configuration when submitting a model customization job" id="H6OHdQbLaKZkx9cTe9HJ-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-manage.html&quot;&gt;Manage a Job&lt;/a&gt;" tooltip="Once you start a model customization job, you can track its progress or stop it. If you do so through the API, you will need the jobArn. You can find it in one of the following ways:&#xa;&#xa;    In the Amazon Bedrock console&#xa;&#xa;        Select Custom models under Foundation models from the left navigation pane.&#xa;&#xa;        Choose the job from the Training jobs table to see details, including the ARN of the job.&#xa;&#xa;    Look in the jobArn field in the response returned from the CreateModelCustomizationJob call that created the job or from a CreateModelCustomizationJob call.&#xa;" id="H6OHdQbLaKZkx9cTe9HJ-12">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13340" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-analyze.html&quot;&gt;Analyse Job Result&lt;/a&gt;" tooltip="After a model customization job completes, you can analyze the results of the training process by looking at the files in the output S3 folder that you specified when you submitted the job or view details about the model. Amazon Bedrock stores your customized models in AWS-managed storage scoped to your account.&#xa;&#xa;You can also evaluate your model by running a model evaluation job. For more information, see Model evaluation.&#xa;&#xa;The S3 output for a model customization job contains the following output files in your S3 folder. The validation artifacts only appear if you included a validation dataset.&#xa;&#xa;- model-customization-job-training-job-id/&#xa;    - training_artifacts/&#xa;        - step_wise_training_metrics.csv&#xa;    - validation_artifacts/&#xa;        - post_fine_tuning_validation/&#xa;            - validation_metrics.csv&#xa;&#xa;Use the step_wise_training_metrics.csv and the validation_metrics.csv files to analyze the model customization job and to help you adjust the model as necessary.&#xa;&#xa;The columns in the step_wise_training_metrics.csv file are as follows.&#xa;&#xa;    step_number – The step in the training process. Starts from 0.&#xa;&#xa;    epoch_number – The epoch in the training process.&#xa;&#xa;    training_loss – Indicates how well the model fits the training data. A lower value indicates a better fit.&#xa;&#xa;    perplexity – Indicates how well the model can predict a sequence of tokens. A lower value indicates better predictive ability.&#xa;&#xa;The columns in the validation_metrics.csv file are the same as the training file, except that validation_loss (how well the model fits the validation data) appears in place of training_loss.&#xa;&#xa;You can find the output files by opening up the https://console.aws.amazon.com/s3&#xa;&#xa;directly or by finding the link to the output folder within your model details. Select the tab corresponding to your method of choice and follow the steps.&#xa;&#xa;" id="H6OHdQbLaKZkx9cTe9HJ-14">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13620" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-34" target="H6OHdQbLaKZkx9cTe9HJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-34" target="H6OHdQbLaKZkx9cTe9HJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-34" target="H6OHdQbLaKZkx9cTe9HJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-16" target="H6OHdQbLaKZkx9cTe9HJ-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13680" y="900" />
+              <mxPoint x="13480" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-16" target="H6OHdQbLaKZkx9cTe9HJ-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13680" y="900" />
+              <mxPoint x="13900" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-16" target="H6OHdQbLaKZkx9cTe9HJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-import-model.html&quot;&gt;Import a Model&lt;/a&gt;" tooltip="Custom Model Import is in preview release for Amazon Bedrock and is subject to change.&#xa;&#xa;You can create a custom model in Amazon Bedrock by using the Custom Model Import feature to import Foundation Models that you have customized in other environments, such as Amazon SageMaker. For example, you might have a model that you have created in Amazon SageMaker that has proprietary model weights. You can now import that model into Amazon Bedrock and then leverage Amazon Bedrock features to make inference calls to the model.&#xa;&#xa;You can use a model that you import with on demand throughput. Use the InvokeModel or InvokeModelWithResponseStream operations to make inference calls to the model. For more information, see Use the API to invoke a model with a single prompt.&#xa;Note&#xa;&#xa;For the preview release, Custom Model Import is available in the US East (N. Virginia) and US West (Oregon) AWS Regions only. You can&#39;t use Custom Model Import with the following Amazon Bedrock features.&#xa;&#xa;    Agents for Amazon Bedrock&#xa;&#xa;    Knowledge bases for Amazon Bedrock&#xa;&#xa;    Guardrails for Amazon Bedrock&#xa;&#xa;    Batch inference&#xa;&#xa;    AWS CloudFormation&#xa;&#xa;Before you can use Custom Model Import, you must first request a quota increase for the Imported models per account quota. For more information, see Requesting a quota increase.&#xa;&#xa;With Custom Model Import you can create a custom model that supports the following patterns.&#xa;&#xa;    Fine-tuned or Continued Pre-training model — You can customize the model weights using proprietary data, but retain the configuration of the base model.&#xa;&#xa;    Adaptation You can customize the model to your domain for use cases where the model doesn&#39;t generalize well. Domain adaptation modifies a model to generalize for a target domain and deal with discrepancies across domains, such as a financial industry wanting to create a model which generalizes well on pricing. Another example is language adaptation. For example you could customize a model to generate responses in Portuguese or Tamil. Most often, this involves changes to the vocabulary of the model that you are using.&#xa;&#xa;    Pretrained from scratch — In addition to customizing the weights and vocabulary of the model, you can also change model configuration parameters such as the number of attention heads, hidden layers, or context length.&#xa;&#xa;Topics&#xa;&#xa;    Supported architectures&#xa;    Import source&#xa;    Importing a model&#xa;&#xa;" id="H6OHdQbLaKZkx9cTe9HJ-16">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13620" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-use.html&quot;&gt;Use a custom Model&lt;/a&gt;" tooltip="Before you can use a customized model, you need to purchase Provisioned Throughput for it. For more information about Provisioned Throughput, see Provisioned Throughput for Amazon Bedrock. You can then use the resulting provisioned model for inference." id="H6OHdQbLaKZkx9cTe9HJ-18">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13340" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-20" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-code-samples.html&quot;&gt;Code Samples&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13140" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization-guidelines.html&quot;&gt;Guidelines&lt;/a&gt;" tooltip=" The ideal parameters for customizing a model depend on the dataset and the task for which the model is intended. You should experiment with values to determine which parameters work best for your specific case. To help, evaluate your model by running a model evaluation job. For more information, see Model evaluation.&#xa;&#xa;This topic provides guidelines and recommended values as a baseline for customization of the Amazon Titan Text Premier model. For other models, check the provider&#39;s documentation.&#xa;&#xa;Use the training and validation metrics from the output files generated when you submit a fine-tuning job to help you adjust your parameters. Find these files in the Amazon S3 bucket to which you wrote the output, or use the GetCustomModel operation. " id="H6OHdQbLaKZkx9cTe9HJ-22">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="12900" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-25" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/fine-tuning-troubleshooting.html&quot;&gt;Troubleshooting&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12660" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Fine-Tuned or Continued Pre trained" tooltip="Fine-tuned or Continued Pre-training model — You can customize the model weights using proprietary data, but retain the configuration of the base model. " id="H6OHdQbLaKZkx9cTe9HJ-27">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13560" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Pretrained From Scrath" tooltip="Pretrained from scratch — In addition to customizing the weights and vocabulary of the model, you can also change model configuration parameters such as the number of attention heads, hidden layers, or context length." id="H6OHdQbLaKZkx9cTe9HJ-30">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13320" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;Helvetica&quot;&gt;Domain Adaptation&lt;/font&gt;" tooltip="Adaptation You can customize the model to your domain for use cases where the model doesn&#39;t generalize well. Domain adaptation modifies a model to generalize for a target domain and deal with discrepancies across domains, such as a financial industry wanting to create a model which generalizes well on pricing. Another example is language adaptation. For example you could customize a model to generate responses in Portuguese or Tamil. Most often, this involves changes to the vocabulary of the model that you are using." id="H6OHdQbLaKZkx9cTe9HJ-32">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="13440" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-34" value="You can use a model that supports" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13420" y="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-36" target="H6OHdQbLaKZkx9cTe9HJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-36" target="H6OHdQbLaKZkx9cTe9HJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-36" target="H6OHdQbLaKZkx9cTe9HJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-36" value="Supported Architectures" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13840" y="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Mistral" tooltip="Mistral — A decoder-only Transformer based architecture with Sliding Window Attention (SWA) and options for Grouped Query Attention (GQA). For more information, see Mistral in the Hugging Face documentation. " id="H6OHdQbLaKZkx9cTe9HJ-38">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="14000" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Llama 2 &amp;amp; 3" tooltip="Llama 2 and Llama3 — An improved version of Llama with Grouped Query Attention (GQA). For more information, see Llama 2 and Llama 3 in the Hugging Face documentation." id="H6OHdQbLaKZkx9cTe9HJ-40">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13720" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Flan" tooltip="Flan — An enhanced version of the T5 architecture, an encoder-decoder based transformer model. For more information, see Flan T5 in the Hugging Face documentation. " id="H6OHdQbLaKZkx9cTe9HJ-42">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13860" y="1120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="H6OHdQbLaKZkx9cTe9HJ-47" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="H6OHdQbLaKZkx9cTe9HJ-44" target="H6OHdQbLaKZkx9cTe9HJ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Import Source" tooltip="You import a model into Amazon Bedrock by creating a model import job in the Amazon Bedrock console. In the job you specify the Amazon S3 URI for the source of the model files. Alternatively, if you created the model in Amazon SageMaker, you can specify the SageMaker model. During model training, the import job automatically detects your model&#39;s architecture.&#xa;&#xa;If you import from an Amazon S3 bucket, you need to supply the model files in the Hugging Face weights format. You can create the files by using the Hugging Face transformer library. To create model files for a Llama model, see convert_llama_weights_to_hf.py&#xa;. To create the files for a Mistral AI model, see convert_mistral_weights_to_hf.py&#xa;&#xa;.&#xa;&#xa;To import the model from Amazon S3, you minimally need the following files that the Hugging Face transformer library creates.&#xa;&#xa;    .safetensor — the model weights in Safetensor format. Safetensors is a format created by Hugging Face that stores a model weights as tensors. You must store the tensors for your model in a file with the extension .safetensors. For more information, see Safetensors&#xa;&#xa;. For information about converting model weights to Safetensor format, see Convert weights to safetensors&#xa;&#xa;.&#xa;Note&#xa;&#xa;    Currently, Amazon Bedrock only supports model weights with FP32, FP16, and BF16 precision. Amazon Bedrock will reject model weights if you supply them with any other precision. Internally Amazon Bedrock will convert FP32 models to BF16 precision.&#xa;&#xa;    Amazon Bedrock doesn&#39;t support the import of quantized models.&#xa;&#xa;config.json — For examples, see LlamaConfig&#xa;and MistralConfig&#xa;&#xa;.&#xa;&#xa;tokenizer_config.json — For an example, see LlamaTokenizer&#xa;&#xa;.&#xa;&#xa;tokenizer.json&#xa;&#xa;tokenizer.model " id="H6OHdQbLaKZkx9cTe9HJ-44">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13620" y="1360" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Import Model" tooltip=" The model import job can take several minutes. During the job, Amazon Bedrock validates that the model that uses a compatible the model architecture. " id="H6OHdQbLaKZkx9cTe9HJ-46">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+            <mxGeometry x="13620" y="1480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
