@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T11:54:15.603Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="797bSVqL-P5T5wQBS4Ej" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-23T11:58:43.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="fg3N4gFq8BQDm0FeJ084" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="8">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3990,7 +3990,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a9dWariw8IYXwDBO4YAn" name="Page-8">
-    <mxGraphModel dx="-10269" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-9254" dy="2744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4009,6 +4009,41 @@
               <mxPoint x="13720" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="v1E4GXoN8RRpEwSA0eXz-1" target="v1E4GXoN8RRpEwSA0eXz-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13058" y="600" />
+              <mxPoint x="13720" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-47" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="v1E4GXoN8RRpEwSA0eXz-1" target="v1E4GXoN8RRpEwSA0eXz-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13058" y="600" />
+              <mxPoint x="13480" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="v1E4GXoN8RRpEwSA0eXz-1" target="v1E4GXoN8RRpEwSA0eXz-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13058" y="600" />
+              <mxPoint x="12358" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="v1E4GXoN8RRpEwSA0eXz-1" target="v1E4GXoN8RRpEwSA0eXz-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13058" y="600" />
+              <mxPoint x="12660" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="v1E4GXoN8RRpEwSA0eXz-1" target="v1E4GXoN8RRpEwSA0eXz-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/security.html&quot;&gt;Amazon Bedrock Security&lt;/a&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" tooltip="Amazon Bedrock Studio is in preview release for Amazon Bedrock and is subject to change.&#xa;&#xa;Amazon Bedrock Studio is a web application that lets users in your organization easily experiment with Amazon Bedrock models and build applications, without having to use an AWS account. It also avoids the complexity of your users having to set up and use a developer environment.&#xa;&#xa;To enable Bedrock Studio for your users, you use the Amazon Bedrock console to create a Bedrock Studio workspace and invite users as members to that workspace. Within the workspace, users create projects in which they can experiment with Amazon Bedrock models and features, such as Knowledge Bases and guardrails.&#xa;&#xa;As part of granting user access to Amazon Bedrock Studio, you need to set up Single Sign On (SSO) integration with IAM Identity Center and your company&#39;s Identity Provider (IDP). Workspace members can be users or groups of users in your organization.&#xa;&#xa;Your users sign in to Amazon Bedrock Studio by using a link that you send to them.&#xa;&#xa;You need permissions to administer Bedrock Studio workspaces. For more information, see Identity-based policy examples for Bedrock Studio.&#xa;&#xa;Amazon Bedrock Studio is available in the US East (N. Virginia) and US West (Oregon) AWS Regions.&#xa;Topics&#xa;&#xa;    Amazon Bedrock Studio and Amazon DataZone&#xa;    Creating an Amazon Bedrock Studio workspace&#xa;    Managing workspaces" id="v1E4GXoN8RRpEwSA0eXz-1">
           <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#fff2cc;strokeColor=#d6b656;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
@@ -4175,6 +4210,21 @@
             <mxGeometry x="13920" y="-120" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-44" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/compliance-validation.html&quot;&gt;Compliance Validation&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13660" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-46" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/security-incident-response.html&quot;&gt;Incident Response&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13420" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-48" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/disaster-recovery-resiliency.html&quot;&gt;Resilience&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12997.5" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-49" value="&lt;div&gt;I&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/infrastructure-security.html&quot;&gt;nfrastructure&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/infrastructure-security.html&quot;&gt;Security&lt;/a&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12600" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v1E4GXoN8RRpEwSA0eXz-50" value="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/cross-service-confused-deputy-prevention.html&quot;&gt;Cross Service Confused Deputy Prevision&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12297.5" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
