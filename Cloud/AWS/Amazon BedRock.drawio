@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T09:42:21.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="6YnV1KBeVnMpyvR6ppTn" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-23T09:46:47.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Rvgg5Ecf0ySi05WKjLnE" border="50" scale="3" compressed="false" locked="false" version="24.6.2" type="github" pages="6">
   <diagram id="XDDI6lQXFnjoqCgmZGp5" name="Amazon Bedrock">
     <mxGraphModel dx="3422" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3692,6 +3692,63 @@
         </mxCell>
         <mxCell id="tj-pwdvhgDBsxFwCzy_Y-13" value="Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
           <mxGeometry x="13360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nqB4PKgpOllyOk7qQ6WF" name="Amazon Titan Model">
+    <mxGraphModel dx="-11852" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6q8aLx_pm4iXGyzBZyle-1" target="6q8aLx_pm4iXGyzBZyle-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13178" y="400" />
+              <mxPoint x="12880" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6q8aLx_pm4iXGyzBZyle-1" target="6q8aLx_pm4iXGyzBZyle-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13178" y="400" />
+              <mxPoint x="13480" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6q8aLx_pm4iXGyzBZyle-1" target="6q8aLx_pm4iXGyzBZyle-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13178" y="720" />
+              <mxPoint x="13480" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6q8aLx_pm4iXGyzBZyle-1" target="6q8aLx_pm4iXGyzBZyle-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13178" y="720" />
+              <mxPoint x="12880" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html&quot;&gt;&lt;b&gt;&lt;i&gt;Amazon Titan Models&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;" tooltip=" Amazon Titan foundation models (FMs) are a family of FMs pretrained by AWS on large datasets, making them powerful, general-purpose models built to support a variety of use cases. Use them as-is or privately customize them with your own data.&#xa;&#xa;Amazon Titan supports the following models for Amazon Bedrock.&#xa;&#xa;    Amazon Titan Text&#xa;&#xa;    Amazon Titan Text Embeddings V2&#xa;&#xa;    Amazon Titan Multimodal Embeddings G1&#xa;&#xa;    Amazon Titan Image Generator G1&#xa;&#xa;Topics&#xa;&#xa;    Amazon Titan Text models&#xa;    Amazon Titan Text Embeddings models&#xa;    Amazon Titan Multimodal Embeddings G1 model&#xa;    Amazon Titan Image Generator G1 model" id="6q8aLx_pm4iXGyzBZyle-1">
+          <mxCell style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;fillColor=#dae8fc;strokeColor=#6c8ebf;treeFolding=1;treeMoving=1;enumerate=1;" vertex="1" parent="1">
+            <mxGeometry x="13000" y="520" width="355" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-2" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12820" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-4" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13420" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-6" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="12820" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6q8aLx_pm4iXGyzBZyle-7" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="13420" y="840" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
