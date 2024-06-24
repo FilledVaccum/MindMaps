@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T14:40:35.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="_VDKFqBVX91FHOEtMCMt" version="24.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-24T15:32:45.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="e-FvyFwIIqP1tbjgWVWy" version="24.6.2" type="github" pages="2">
   <diagram name="MLS : Supervised Learning : Regression and Classification" id="eHIpIphJcRmWK1lwxBbz">
-    <mxGraphModel dx="2924" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1876" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,7 +511,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eaYKokIRM0DBQ82XPiwA" name="Week 3 : Classification">
-    <mxGraphModel dx="1742" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2133" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -641,6 +641,12 @@
         <mxCell id="f7jsu7EBBv70sRXu2Sw--9" value="" style="edgeStyle=entityRelationEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;autosize=1;startArrow=none;endArrow=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="tLO6xEW953dQ3uNS33qb-42" target="f7jsu7EBBv70sRXu2Sw--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="f7jsu7EBBv70sRXu2Sw--59" value="" style="edgeStyle=entityRelationEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;autosize=1;startArrow=none;endArrow=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="tLO6xEW953dQ3uNS33qb-42" target="f7jsu7EBBv70sRXu2Sw--58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7jsu7EBBv70sRXu2Sw--61" value="" style="edgeStyle=entityRelationEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;autosize=1;startArrow=none;endArrow=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="tLO6xEW953dQ3uNS33qb-42" target="f7jsu7EBBv70sRXu2Sw--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Cost Function for Logistic Regression" tooltip="In logistic regression, the cost function is a way to measure how well our model&#39;s predictions match the actual labels in the training data. The goal is to find the best set of parameters that minimize this cost function.&#xa;&#xa;To understand the cost function, let&#39;s consider a binary classification problem where we want to predict whether an email is spam (1) or not spam (0). We have some features of the email, like the length, number of exclamation marks, etc., and we want to find the best parameters that can predict the correct label.&#xa;&#xa;The cost function for logistic regression is designed to penalize the model when it makes incorrect predictions. It quantifies the difference between the predicted probability and the actual label for each training example.&#xa;&#xa;The formula for the cost function involves taking the logarithm of the predicted probability when the actual label is 1 and taking the logarithm of the complement of the predicted probability when the actual label is 0. This formula ensures that the cost increases as the predicted probability deviates from the true label.&#xa;&#xa;By summing up the costs for all the training examples and taking the average, we get the overall cost of our model. The goal is to minimize this cost by adjusting the parameters of our model.&#xa;&#xa;Why is this important? Minimizing the cost function helps us find the best parameters that make our model&#39;s predictions as accurate as possible. It guides the learning algorithm to adjust the parameters in a way that improves the model&#39;s ability to classify new, unseen examples correctly.&#xa;&#xa;In simpler terms, the cost function for logistic regression is like a scorecard that tells us how well our model is doing. By minimizing this score, we can find the best parameters that make our model predict whether an email is spam or not spam more accurately.&#xa;&#xa;" id="tLO6xEW953dQ3uNS33qb-42">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;arcSize=50;strokeWidth=1;autosize=1;spacing=4;hachureGap=4;labelBackgroundColor=none;fillStyle=cross-hatch;" vertex="1" parent="1">
             <mxGeometry x="795" y="810" width="210" height="30" as="geometry" />
@@ -663,7 +669,7 @@
         </mxCell>
         <UserObject label="&lt;div&gt;Questions&lt;/div&gt;" tooltip="&#xa;&#xa;    What is the purpose of the cost function in logistic regression?&#xa;    Explain how the cost function penalizes incorrect predictions in logistic regression.&#xa;    How is the cost function different in logistic regression compared to linear regression?&#xa;    What happens to the cost function when the predicted probability is close to the true label in logistic regression?&#xa;    How does the cost function guide the learning algorithm to adjust the parameters in logistic regression?&#xa;    Can you explain the concept of convexity in the cost function of logistic regression?&#xa;    What is the significance of minimizing the cost function in logistic regression?&#xa;    How is the cost function calculated for a single training example in logistic regression?&#xa;    What is the relationship between the cost function and the overall performance of the logistic regression model?&#xa;    Can you discuss any potential challenges or limitations of using the cost function in logistic regression?&#xa;" id="f7jsu7EBBv70sRXu2Sw--8">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;arcSize=50;strokeWidth=1;autosize=1;spacing=4;hachureGap=4;labelBackgroundColor=none;fillStyle=cross-hatch;" vertex="1" parent="1">
-            <mxGeometry x="860" y="920" width="80" height="30" as="geometry" />
+            <mxGeometry x="1053" y="755" width="80" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="f7jsu7EBBv70sRXu2Sw--40" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;hachureGap=4;strokeWidth=1;align=center;verticalAlign=middle;spacing=4;arcSize=50;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;autosize=1;" vertex="1" parent="1">
@@ -738,6 +744,12 @@
             <mxGeometry x="-480" y="1006.47" width="350" height="50" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="f7jsu7EBBv70sRXu2Sw--58" value="Simplified Cost Function" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;arcSize=50;strokeWidth=1;autosize=1;spacing=4;hachureGap=4;labelBackgroundColor=none;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="535" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7jsu7EBBv70sRXu2Sw--60" value="Gradient Descent" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;arcSize=50;strokeWidth=1;autosize=1;spacing=4;hachureGap=4;labelBackgroundColor=none;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1115" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
