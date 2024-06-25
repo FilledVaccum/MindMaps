@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T18:05:55.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="HRkJY3s058vv68Y1XdWx" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T18:06:05.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="36akZ2N-gzT0b2sbF-xq" version="24.6.2" type="github">
   <diagram name="Page-1" id="kw6MyCMnG_gdqnyi81Ma">
     <mxGraphModel dx="2677" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="WSp6ezsUZnpdrh4Umi9b-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="WSp6ezsUZnpdrh4Umi9b-1" target="WSp6ezsUZnpdrh4Umi9b-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WSp6ezsUZnpdrh4Umi9b-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="WSp6ezsUZnpdrh4Umi9b-1" target="WSp6ezsUZnpdrh4Umi9b-24">
+        <mxCell id="WSp6ezsUZnpdrh4Umi9b-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="WSp6ezsUZnpdrh4Umi9b-1" target="WSp6ezsUZnpdrh4Umi9b-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WSp6ezsUZnpdrh4Umi9b-1" value="&lt;h1 id=&quot;page-title&quot; class=&quot;mb-2 mt-14 text-left text-gray-L800 dark:text-gray-D200 heading-one tracking-tight&quot;&gt;The Sharded Counters&lt;/h1&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
@@ -125,7 +125,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WSp6ezsUZnpdrh4Umi9b-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="WSp6ezsUZnpdrh4Umi9b-24" target="WSp6ezsUZnpdrh4Umi9b-54">
+        <mxCell id="WSp6ezsUZnpdrh4Umi9b-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=none;endArrow=classic;flowAnimation=1;" edge="1" parent="1" source="WSp6ezsUZnpdrh4Umi9b-24" target="WSp6ezsUZnpdrh4Umi9b-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;&lt;b&gt;Detailed Design of &lt;br&gt;Sharded Counters&lt;/b&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;" tooltip="We’ll now discuss the three primary functionalities of the sharded counter–creation, write, and read–in detail. We’ll answer many important questions by using Twitter as an example. These questions include:&#xa;&#xa;    How many shards should be created against each new tweet?&#xa;    How will the shard value be incremented for a specific tweet?&#xa;    What will happen in the system when read requests come from the end users?&#xa;" id="WSp6ezsUZnpdrh4Umi9b-24">
