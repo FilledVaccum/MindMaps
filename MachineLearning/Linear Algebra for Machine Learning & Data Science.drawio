@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T08:37:03.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="rE5rJ5z2Qj62LACZd0BP" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T08:37:31.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="JVdDUen9AMOAySXMnIoE" version="24.6.2" type="github" pages="2">
   <diagram name="Week 1 : System of Linear Equations" id="nGq-RNul7dS_J2vn8LUW">
     <mxGraphModel dx="3774" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,6 +156,14 @@
             <mxGeometry x="-960" y="560" width="140" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7jxzXyEKbecwkEwqmEC7" name="Week 2: Solving System of Linear Equations">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
