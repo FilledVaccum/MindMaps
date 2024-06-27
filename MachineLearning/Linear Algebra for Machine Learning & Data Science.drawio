@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T20:24:32.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="H4IA5kzXeTuRmaES_eEV" version="24.6.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-27T20:24:56.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="B1AdEtdOL1xTF5TnoXqm" version="24.6.3" type="github" pages="3">
   <diagram name="Week 1 : System of Linear Equations" id="nGq-RNul7dS_J2vn8LUW">
     <mxGraphModel dx="3774" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -478,9 +478,11 @@
         <mxCell id="mJZr7r-K7zNxxutXxyBj-13" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-350" y="130" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mJZr7r-K7zNxxutXxyBj-14" value="How to add two vectors?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="240" width="320" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="How to add two vectors?" tooltip="To add two vectors, you can use the head-to-tail method or the component method:&#xa;&#xa;    Head-to-tail method: Place the tail of the second vector at the head of the first vector. The sum of the two vectors is the vector that starts from the tail of the first vector and ends at the head of the second vector. The magnitude and direction of the sum can be determined by measuring the length and angle of the resulting vector.&#xa;&#xa;    Component method: Break down each vector into its x and y components. Add the corresponding components together to get the x and y components of the sum vector. Then, combine the x and y components to find the magnitude and direction of the sum vector using trigonometry.&#xa;&#xa;It&#39;s important to note that vector addition follows the commutative property, meaning the order in which you add the vectors does not affect the result." id="mJZr7r-K7zNxxutXxyBj-14">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-400" y="240" width="320" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="mJZr7r-K7zNxxutXxyBj-15" value="What is Vector and How is it different from matrix?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-400" y="200" width="320" height="40" as="geometry" />
         </mxCell>
