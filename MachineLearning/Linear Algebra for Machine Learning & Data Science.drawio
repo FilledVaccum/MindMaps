@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T06:31:40.545Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="vgzXCPAcYP5UdtAICDL4" version="24.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-27T20:15:20.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="YqyV6mLzLltum8ijm4aY" version="24.6.3" type="github" pages="3">
   <diagram name="Week 1 : System of Linear Equations" id="nGq-RNul7dS_J2vn8LUW">
     <mxGraphModel dx="3774" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -418,6 +418,77 @@
         <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;What is Augmented Matrix?&lt;br&gt;&lt;/font&gt;" tooltip="Augmented Matrix is a concept in linear algebra that combines two matrices by placing them side by side. It is often used to represent a system of linear equations in matrix form.&#xa;&#xa;In simpler terms, an augmented matrix is like putting two different matrices together, one after the other, forming a single bigger matrix. It&#39;s like having two neighboring rooms, but instead of walls separating them, you remove the wall, making it one larger room.&#xa;&#xa;The first part of the augmented matrix represents the coefficients of the variables in the system of equations, while the second part represents the constant terms on the right-hand side of the equations.&#xa;&#xa;For example, let&#39;s consider the following system of linear equations:&#xa;&#xa;2x + 3y = 8&#xa;4x - y = 6&#xa;&#xa;To represent this system in an augmented matrix form, we would write:&#xa;&#xa;[2 3 | 8]&#xa;[4 -1 | 6]&#xa;&#xa;The vertical line separates the coefficients of the variables (on the left) from the constant terms (on the right). This augmented matrix combines all the information from the system of equations into a single matrix.&#xa;&#xa;The augmented matrix is particularly useful for solving systems of linear equations using techniques like Gaussian elimination or other matrix methods. By performing row operations on the augmented matrix, we can transform it into a form that makes it easier to find the solutions to the system of equations." id="N5_diXTVppbrsU-L7PII-1">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
             <mxGeometry x="-1160" y="280" width="320" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iTs2RIZrrkQwSm75mULg" name="Week 3 : Vectors and Linear Transformations">
+    <mxGraphModel dx="1876" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="mJZr7r-K7zNxxutXxyBj-1" target="mJZr7r-K7zNxxutXxyBj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;i&gt;Vectors &amp;amp; Linear &lt;br&gt;Transformations&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;size=30;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="mJZr7r-K7zNxxutXxyBj-2" target="mJZr7r-K7zNxxutXxyBj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="mJZr7r-K7zNxxutXxyBj-2" target="mJZr7r-K7zNxxutXxyBj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b style=&quot;font-size: 13px;&quot;&gt;Vectors &amp;amp; their Properties&lt;br&gt;&lt;/b&gt;" tooltip="Vectors are mathematical objects that have both magnitude and direction. They can be represented as arrows in space. Here are some key points about vectors and their properties:&#xa;&#xa;- Vectors have magnitude, which represents their size or length, and direction, which represents the angle at which they point.&#xa;- Vectors can be represented using coordinates. For example, a vector in two-dimensional space can be represented as (x, y), where x and y are the coordinates of the vector.&#xa;- Vectors can be added together or multiplied by a scalar (a single number). These operations allow us to combine or scale vectors.&#xa;- Vectors can be visualized as arrows, with the length of the arrow representing the magnitude and the direction of the arrow representing the direction of the vector.&#xa;- Vectors can be used to represent physical quantities such as velocity, force, or displacement.&#xa;- Vectors can be used in various fields, including mathematics, physics, computer science, and engineering, to solve problems and analyze data.&#xa;&#xa;Understanding vectors and their properties is important in many areas, especially in fields like machine learning and data science, where vectors are used to represent and analyze data." id="mJZr7r-K7zNxxutXxyBj-2">
+          <mxCell style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="400" y="360" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-4" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="50" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-6" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="60" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-7" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="70" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-8" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="80" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-9" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="90" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-10" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="100" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-11" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="110" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-12" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-13" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="130" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-14" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="140" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mJZr7r-K7zNxxutXxyBj-15" value="What is Vector and How is it different from matrix?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="L2 - Norms" tooltip="L1-norm:&#xa;&#xa;    The L1-norm is also known as the taxicab distance or Manhattan distance.&#xa;    It is calculated by taking the sum of the absolute values of the vector&#39;s components.&#xa;    For a vector with coordinates (a, b), the L1-norm is |a| + |b|.&#xa;    The L1-norm measures the distance between the origin and the point represented by the vector, considering only horizontal and vertical movements.&#xa;    It is called the taxicab distance because it represents the distance a taxicab would have to travel on a grid-like city with horizontal and vertical streets.&#xa;" id="mJZr7r-K7zNxxutXxyBj-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="360" y="120" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="L3 - Norms" tooltip="L2-norm:&#xa;&#xa;    The L2-norm is also known as the Euclidean distance.&#xa;    It is calculated by taking the square root of the sum of the squares of the vector&#39;s components.&#xa;    For a vector with coordinates (a, b), the L2-norm is √(a^2 + b^2).&#xa;    The L2-norm measures the straight-line distance between the origin and the point represented by the vector, considering both horizontal and vertical movements.&#xa;    It is called the Euclidean distance because it is derived from the Pythagorean theorem, which relates the lengths of the sides of a right triangle.&#xa;" id="mJZr7r-K7zNxxutXxyBj-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="480" y="120" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
