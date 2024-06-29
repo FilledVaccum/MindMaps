@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-29T05:19:04.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="iMMc-tOC8HdtHAzZcb1y" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-29T06:36:45.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="n1toVB4g2on_pvngoOHI" version="24.6.4" type="github" pages="3">
   <diagram name="Week 1 : System of Linear Equations" id="nGq-RNul7dS_J2vn8LUW">
     <mxGraphModel dx="3774" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -424,7 +424,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iTs2RIZrrkQwSm75mULg" name="Week 3 : Vectors and Linear Transformations">
-    <mxGraphModel dx="2726" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -485,7 +485,7 @@
             <mxGeometry x="-1120" y="40" width="320" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="What is Semantic Relationship?" tooltip="Semantic relationships are the connections between words based on their meaning. They can show similarities (synonyms), differences (antonyms), or even hierarchical structures (hypernyms/hyponyms). Understanding these relationships unlocks a deeper comprehension of language and offers a range of benefits." id="mJZr7r-K7zNxxutXxyBj-9">
+        <UserObject label="What is &lt;font color=&quot;#ff0000&quot;&gt;Semantic Relationship&lt;/font&gt;?" tooltip="Semantic relationships are the connections between words based on their meaning. They can show similarities (synonyms), differences (antonyms), or even hierarchical structures (hypernyms/hyponyms). Understanding these relationships unlocks a deeper comprehension of language and offers a range of benefits." id="mJZr7r-K7zNxxutXxyBj-9">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
             <mxGeometry x="-1120" width="320" height="40" as="geometry" />
           </mxCell>
@@ -678,9 +678,11 @@
             <mxGeometry x="300" y="1080" width="320" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="VO2Qh7VkAxee0oLE7ZKD-32" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1210" width="320" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Can you explain how matrix-vector multiplication works and what the resulting vector represents in the context of linear transformations?" tooltip="Matrix-vector multiplication is a fundamental operation in linear algebra. When a matrix is multiplied by a vector, each row of the matrix is multiplied by the corresponding element of the vector, and the resulting products are summed to form a new vector.&#xa;&#xa;In the context of linear transformations, matrix-vector multiplication represents the transformation of a vector by a matrix. Each column of the matrix represents a basis vector, and the resulting vector represents the coordinates of the transformed vector in the new basis.&#xa;&#xa;For example, if we have a 2x2 matrix A and a 2-dimensional vector v, multiplying Av will result in a new vector that represents the transformation of v by A." id="VO2Qh7VkAxee0oLE7ZKD-32">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="300" y="1120" width="320" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What are some common applications of matrix-vector multiplication in machine learning?&lt;/p&gt;&lt;/div&gt;" tooltip="Matrix-vector multiplication plays a fundamental role in various aspects of machine learning. Here are some common applications where matrix-vector multiplication is used:&#xa;&#xa;    Linear Regression: In linear regression, matrix-vector multiplication is used to calculate the predicted values of the target variable based on the input features. The input features are represented as a matrix, and the model parameters (coefficients) are represented as a vector. By multiplying the matrix of features with the parameter vector, the predicted values can be obtained.&#xa;&#xa;    Neural Networks: In neural networks, matrix-vector multiplication is used extensively in the forward propagation step. Each layer of a neural network consists of weights (matrix) and biases (vector). The input to a layer is multiplied by the weight matrix and then added to the bias vector to produce the output of that layer. This process is repeated for each layer, allowing the network to learn complex representations and make predictions.&#xa;&#xa;    Dimensionality Reduction: Techniques like Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) involve matrix-vector multiplication. These techniques aim to reduce the dimensionality of the data while preserving important information. By multiplying the data matrix with a vector of principal components or singular vectors, the transformed representation of the data can be obtained.&#xa;&#xa;    Recommender Systems: Matrix-vector multiplication is used in collaborative filtering-based recommender systems. The user-item interaction data is represented as a matrix, where each row corresponds to a user and each column corresponds to an item. By multiplying this matrix with a vector representing user preferences or item features, personalized recommendations can be generated.&#xa;&#xa;    Natural Language Processing: In natural language processing tasks like sentiment analysis or text classification, matrix-vector multiplication is used to transform text data into numerical representations. Techniques like word embeddings or document-term matrix multiplication involve multiplying a matrix (representing word embeddings or document-term frequencies) with a vector (representing a text sample) to obtain a numerical representation.&#xa;&#xa;These are just a few examples, but matrix-vector multiplication is a fundamental operation in machine learning and is used in various algorithms and models to process and transform data." id="VO2Qh7VkAxee0oLE7ZKD-33">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
             <mxGeometry x="300" y="1000" width="320" height="40" as="geometry" />
@@ -691,6 +693,17 @@
             <mxGeometry x="280" y="880" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="What is &lt;font color=&quot;#ff0000&quot;&gt;Basis Vecto&lt;/font&gt;r?" tooltip="In linear algebra, a basis vector refers to a vector that forms part of a basis for a vector space. A basis is a set of linearly independent vectors that can be used to represent any vector within that vector space. Basis vectors play a fundamental role in describing and analyzing vectors and vector spaces." id="VO2Qh7VkAxee0oLE7ZKD-37">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-1120" y="120" width="320" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VO2Qh7VkAxee0oLE7ZKD-38" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VO2Qh7VkAxee0oLE7ZKD-39" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=0;size=20;pointerEvents=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1320" width="320" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
