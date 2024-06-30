@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T17:22:17.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="cF0oJ8_mJZgAjW4VFKde" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-30T18:58:27.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="zaDZPdR9L5gOQ5T1WxLr" version="24.6.4" type="github" pages="4">
   <diagram name="Week 1 : System of Linear Equations" id="nGq-RNul7dS_J2vn8LUW">
     <mxGraphModel dx="3774" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1050,6 +1050,9 @@
         <mxCell id="fxJ0LUJSjjYhwIXRaaiv-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="fxJ0LUJSjjYhwIXRaaiv-38" target="fxJ0LUJSjjYhwIXRaaiv-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fxJ0LUJSjjYhwIXRaaiv-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="fxJ0LUJSjjYhwIXRaaiv-38" target="fxJ0LUJSjjYhwIXRaaiv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Eigen Values &amp;amp; Eigen Vectors" tooltip="Eigenvalues and eigenvectors are important concepts in linear algebra that have wide applications in various fields, including machine learning and data science. Here&#39;s an explanation of eigenvalues and eigenvectors:&#xa;&#xa;    Eigenvalues: Eigenvalues are scalar values that represent the scaling factor of eigenvectors in a linear transformation. They provide information about how a linear transformation stretches or compresses vectors in a particular direction. Each eigenvalue corresponds to a specific eigenvector.&#xa;&#xa;    Eigenvectors: Eigenvectors are non-zero vectors that remain in the same direction after a linear transformation, only scaled by their corresponding eigenvalues. They represent the directions along which a linear transformation acts as a simple stretch or compression.&#xa;&#xa;    Eigenvalue-Eigenvector Pair: Eigenvalues and eigenvectors come in pairs. Each eigenvalue corresponds to a specific eigenvector. The eigenvalue determines the scaling factor, while the eigenvector determines the direction of the transformation.&#xa;&#xa;    Matrix Representation: Eigenvalues and eigenvectors are calculated for square matrices. The eigenvalues are the solutions to the characteristic equation of the matrix, while the eigenvectors are the corresponding solutions to the homogeneous equation.&#xa;&#xa;    Applications: Eigenvalues and eigenvectors have various applications, such as dimensionality reduction, image compression, principal component analysis (PCA), and solving systems of linear differential equations.&#xa;&#xa;Understanding eigenvalues and eigenvectors is crucial for analyzing and manipulating linear transformations, as they provide insights into the behavior and properties of matrices." id="fxJ0LUJSjjYhwIXRaaiv-38">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;hachureGap=4;fillStyle=solid;pointerEvents=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;gradientDirection=north;" vertex="1" parent="1">
             <mxGeometry x="600" y="1160" width="120" height="40" as="geometry" />
@@ -1065,6 +1068,9 @@
             <mxGeometry x="680" y="1360" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="fxJ0LUJSjjYhwIXRaaiv-44" value="How to Calculate?" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;hachureGap=4;fillStyle=solid;pointerEvents=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
