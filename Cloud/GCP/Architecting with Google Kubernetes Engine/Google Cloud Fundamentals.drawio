@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T13:28:40.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="MD55Q2eVavqG5sOwkCnM" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-02T13:49:48.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Sg72fIhpxpM8rzOlTzWJ" version="24.6.4" type="github" pages="5">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -989,6 +989,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--1" value="&lt;div&gt;&lt;h3 class=&quot;css-13hhzop&quot; tabindex=&quot;-1&quot;&gt;Learning Objectives&lt;/h3&gt;&lt;hr class=&quot;cds-613 cds-Divider-dark css-yc753g&quot; aria-hidden=&quot;true&quot;&gt;&lt;ul&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Define the concept of a container and identify uses for containers.&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Identify the purpose of and use cases for Kubernetes and Google Kubernetes Engine.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="530" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
