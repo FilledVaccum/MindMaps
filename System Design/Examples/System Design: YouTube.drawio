@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T19:19:50.757Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mQvdKbVYA_1MwMeAXrih" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T19:22:30.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="sRsfOxLq85l9ltscRi_K" version="24.6.4" type="github" pages="2">
   <diagram id="XV_F08Q1czeO9Irw11SP" name="Template">
     <mxGraphModel dx="1865" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,6 +31,14 @@
         </mxCell>
         <mxCell id="Dzg4y6ASQQuMCWbkH8KU-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-VdvPEtbYk1i-mrQ4Xzj-1" target="Dzg4y6ASQQuMCWbkH8KU-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-52" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-VdvPEtbYk1i-mrQ4Xzj-1" target="Dzg4y6ASQQuMCWbkH8KU-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="400" />
+              <mxPoint x="1980" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-VdvPEtbYk1i-mrQ4Xzj-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;System Design of&lt;/font&gt;&lt;font face=&quot;tfk9lIc08U-ekHdBVRub&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;rounded=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="860" y="480" width="240" height="80" as="geometry" />
@@ -191,8 +199,11 @@
             <mxGeometry x="1320" y="160" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-28" value="" style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="920" y="-140" width="120" height="40" as="geometry" />
+        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-54" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Dzg4y6ASQQuMCWbkH8KU-28" target="Dzg4y6ASQQuMCWbkH8KU-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-28" value="Basic Building Blocks" style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dzg4y6ASQQuMCWbkH8KU-31" value="Reliability" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-320" y="-40" width="80" height="80" as="geometry" />
@@ -220,6 +231,12 @@
         </mxCell>
         <mxCell id="Dzg4y6ASQQuMCWbkH8KU-49" value="Total Outgoing Data" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1400" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-51" value="" style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzg4y6ASQQuMCWbkH8KU-53" value="Other Building Blocks" style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-320" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
