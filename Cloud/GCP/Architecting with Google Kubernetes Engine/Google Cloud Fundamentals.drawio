@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T13:49:48.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Sg72fIhpxpM8rzOlTzWJ" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-02T13:59:08.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="qPgBzkDC4So1gh_4-wAw" version="24.6.4" type="github" pages="5">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="v6Jo8LS-hOTCWGCjr5my-3" value="&lt;div style=&quot;font-size: 15px;&quot; class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What are the situational based questions that can be asked in an Solutions Architect interview on this Topic?&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="770" width="780" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3nuq4k1OzVTwAFC_pxr-1" value="Create a deciding flow chart for ___" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="938" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -991,6 +994,74 @@
         <mxCell id="1" parent="0" />
         <mxCell id="R0iTMmbfNtg9Xo1IWaP--1" value="&lt;div&gt;&lt;h3 class=&quot;css-13hhzop&quot; tabindex=&quot;-1&quot;&gt;Learning Objectives&lt;/h3&gt;&lt;hr class=&quot;cds-613 cds-Divider-dark css-yc753g&quot; aria-hidden=&quot;true&quot;&gt;&lt;ul&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Define the concept of a container and identify uses for containers.&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Identify the purpose of and use cases for Kubernetes and Google Kubernetes Engine.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry width="530" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0iTMmbfNtg9Xo1IWaP--3" target="R0iTMmbfNtg9Xo1IWaP--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="520" />
+              <mxPoint x="580" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0iTMmbfNtg9Xo1IWaP--3" target="R0iTMmbfNtg9Xo1IWaP--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="520" />
+              <mxPoint x="1120" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0iTMmbfNtg9Xo1IWaP--3" target="R0iTMmbfNtg9Xo1IWaP--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--3" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Comic Sans MS&quot;&gt;Containers in Cloud&lt;/font&gt;&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0iTMmbfNtg9Xo1IWaP--4" target="V7m0uADZAgamQkXc68QH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Introduction to Containers" tooltip="[Introduction to containers](https://www.coursera.org/learn/gcp-fundamentals/lecture/Int2o/introduction-to-containers?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 2, 2024&#xa;&#xa;Containers are a fundamental concept in cloud computing and software development. They provide a way to package and isolate applications and their dependencies, allowing them to run consistently across different computing environments. Here is a detailed and structured explanation of containers:&#xa;&#xa;1. Definition: A container is an isolated and lightweight runtime environment that encapsulates an application and its dependencies. It provides a consistent and reproducible environment for running software.&#xa;&#xa;2. Purpose: Containers are used to simplify the deployment and management of applications. They allow developers to package their code, libraries, and dependencies into a single unit that can be easily deployed and run on any system that supports containers.&#xa;&#xa;3. Benefits of Containers:&#xa;   - Portability: Containers are highly portable, meaning they can run on any system that supports containerization, regardless of the underlying infrastructure or operating system.&#xa;   - Consistency: Containers ensure that applications run consistently across different environments, eliminating the &quot;it works on my machine&quot; problem.&#xa;   - Isolation: Containers provide a level of isolation between applications, preventing conflicts and ensuring that one application does not affect the performance or stability of others.&#xa;   - Efficiency: Containers are lightweight and have minimal overhead, allowing for efficient resource utilization and faster startup times compared to traditional virtual machines.&#xa;&#xa;4. How Containers Work:&#xa;   - Containerization Technology: Containers are created and managed using containerization technologies like Docker or Kubernetes. These technologies provide the tools and frameworks to build, deploy, and manage containers.&#xa;   - Container Images: Containers are created from container images, which are read-only templates that contain the application code, libraries, and dependencies. These images are built using a Dockerfile or similar configuration file.&#xa;   - Container Runtimes: Container runtimes, such as Docker Engine, are responsible for running and managing containers. They provide the necessary infrastructure to create, start, stop, and manage containers.&#xa;   - Container Orchestration: Container orchestration platforms, like Kubernetes, help manage and scale containers across multiple hosts or clusters. They provide features like load balancing, automatic scaling, and service discovery.&#xa;&#xa;5. Use Cases for Containers:&#xa;   - Application Deployment: Containers simplify the deployment of applications by providing a consistent and reproducible environment. They are commonly used in microservices architectures and cloud-native applications.&#xa;   - DevOps and Continuous Integration/Continuous Deployment (CI/CD): Containers are an integral part of DevOps practices, enabling teams to build, test, and deploy applications more efficiently and reliably.&#xa;   - Scalability and Resource Efficiency: Containers allow applications to scale horizontally by running multiple instances of the same container across different hosts. This enables efficient resource utilization and better performance.&#xa;   - Hybrid and Multi-Cloud Environments: Containers provide a consistent runtime environment, making it easier to deploy applications across different cloud providers or on-premises infrastructure." id="R0iTMmbfNtg9Xo1IWaP--4">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="520" y="400" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--6" value="Kubernetes" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0iTMmbfNtg9Xo1IWaP--8" target="V7m0uADZAgamQkXc68QH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0iTMmbfNtg9Xo1IWaP--8" value="Google Kubernetes Engine" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ask Conceptual &amp;amp; tricky Questions to check my fundamentals on this topic &amp;amp; to check my understanding of the topic. &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="10" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-2" value="&lt;div style=&quot;font-size: 14px;&quot; class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;What are the questions that can be asked in an Solutions Architect interview on this Topic?&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-3" value="&lt;div style=&quot;font-size: 15px;&quot; class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What are the situational based questions that can be asked in an Solutions Architect interview on this Topic?&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="780" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7m0uADZAgamQkXc68QH-4" target="V7m0uADZAgamQkXc68QH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Questions" tooltip="Here are some conceptual and tricky questions to check your fundamentals and understanding of containers:&#xa;&#xa;    Question: What is the difference between a container and a virtual machine (VM)?&#xa;        Answer: Containers and VMs both provide isolation and encapsulation, but they differ in their level of abstraction. Containers share the host operating system kernel, while VMs have their own complete operating system. Containers are lightweight and start quickly, while VMs have more overhead and take longer to start.&#xa;&#xa;    Question: How are containers different from traditional software installations?&#xa;        Answer: Containers package applications and their dependencies into a single unit, making them portable and consistent across different environments. Traditional software installations typically involve manually configuring the operating system and installing dependencies, which can lead to compatibility issues and inconsistencies.&#xa;&#xa;    Question: Can you run multiple containers on a single host?&#xa;        Answer: Yes, you can run multiple containers on a single host. Containers are designed to be lightweight and share the host&#39;s resources efficiently, allowing for the simultaneous execution of multiple containers.&#xa;&#xa;    Question: How do containers achieve isolation between applications?&#xa;        Answer: Containers achieve isolation by leveraging features of the host operating system, such as namespaces and control groups. Namespaces provide process-level isolation, while control groups manage resource allocation and usage limits for containers.&#xa;&#xa;    Question: What is the purpose of a container image?&#xa;        Answer: A container image is a read-only template that contains the application code, libraries, and dependencies. It serves as the basis for creating and running containers. Container images are portable and can be shared across different environments.&#xa;&#xa;    Question: How do container orchestration platforms like Kubernetes help manage containers?&#xa;        Answer: Container orchestration platforms like Kubernetes provide features for managing and scaling containers across multiple hosts or clusters. They handle tasks such as container deployment, load balancing, automatic scaling, and service discovery.&#xa;&#xa;    Question: Can containers be used in a hybrid or multi-cloud environment?&#xa;        Answer: Yes, containers are highly portable and can be deployed in hybrid or multi-cloud environments. They provide a consistent runtime environment, making it easier to deploy applications across different cloud providers or on-premises infrastructure.&#xa;" id="V7m0uADZAgamQkXc68QH-4">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="260" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="V7m0uADZAgamQkXc68QH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V7m0uADZAgamQkXc68QH-6" target="V7m0uADZAgamQkXc68QH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-6" value="Questions" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-8" value="S-Questions" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V7m0uADZAgamQkXc68QH-10" value="S-Questions" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
