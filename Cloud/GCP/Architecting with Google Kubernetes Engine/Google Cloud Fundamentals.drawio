@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T08:55:01.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="dcwSe0unE5Mk4KjD-2Ib" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-02T08:56:24.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="4aIOEdPmZJm4yHcXU18x" version="24.6.4" type="github" pages="4">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -588,6 +588,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="fVgKVIrZxLHax63w3nj7-91" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fVgKVIrZxLHax63w3nj7-23">
+          <mxGeometry x="0.1116" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fVgKVIrZxLHax63w3nj7-25" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -596,19 +601,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fVgKVIrZxLHax63w3nj7-27" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-26">
+        <mxCell id="fVgKVIrZxLHax63w3nj7-92" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fVgKVIrZxLHax63w3nj7-25">
+          <mxGeometry x="0.1196" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fVgKVIrZxLHax63w3nj7-27" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fVgKVIrZxLHax63w3nj7-89" target="fVgKVIrZxLHax63w3nj7-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fVgKVIrZxLHax63w3nj7-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-28">
+        <mxCell id="fVgKVIrZxLHax63w3nj7-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fVgKVIrZxLHax63w3nj7-89" target="fVgKVIrZxLHax63w3nj7-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fVgKVIrZxLHax63w3nj7-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-420" y="600" />
-              <mxPoint x="-840" y="600" />
+              <mxPoint x="-420" y="580" />
+              <mxPoint x="-840" y="580" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fVgKVIrZxLHax63w3nj7-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EDoDhGGd5g6vRe6U-JRV-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Storage in&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Google Cloud&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-540" y="440" width="240" height="80" as="geometry" />
@@ -785,7 +798,7 @@
         <mxCell id="fVgKVIrZxLHax63w3nj7-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fVgKVIrZxLHax63w3nj7-26" target="fVgKVIrZxLHax63w3nj7-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="FireStore" tooltip="Firestore is a storage option provided by Google Cloud. It is a flexible, horizontally scalable, NoSQL cloud database that is commonly used for mobile, web, and server development. Here are some key points about Firestore:&#xa;&#xa;    Firestore stores data in documents, which are then organized into collections. This allows for a flexible and scalable data structure.&#xa;    Each document in Firestore contains a set of key-value pairs. For example, a document representing a user may have keys for the first name and last name, with their associated values.&#xa;    Firestore supports complex nested objects within documents, as well as subcollections. This allows for storing and organizing data in a hierarchical manner.&#xa;    NoSQL queries can be used to retrieve specific documents or to retrieve all the documents in a collection that match certain query parameters. These queries can include multiple filters and sorting options.&#xa;    Firestore is designed to efficiently handle both data synchronization and one-time fetch queries. It caches data that an app is actively using, allowing for read, write, listen, and query operations even when the device is offline.&#xa;    Firestore leverages Google Cloud&#39;s powerful infrastructure, including automatic multi-region data replication, strong consistency guarantees, atomic batch operations, and real transaction support.&#xa;&#xa;Firestore is a powerful tool for managing and accessing data in the cloud. It offers flexibility, scalability, and efficient query capabilities, making it a popular choice for many developers." id="fVgKVIrZxLHax63w3nj7-26">
+        <UserObject label="FireStore&lt;br&gt;(Document)" tooltip="Firestore is a storage option provided by Google Cloud. It is a flexible, horizontally scalable, NoSQL cloud database that is commonly used for mobile, web, and server development. Here are some key points about Firestore:&#xa;&#xa;    Firestore stores data in documents, which are then organized into collections. This allows for a flexible and scalable data structure.&#xa;    Each document in Firestore contains a set of key-value pairs. For example, a document representing a user may have keys for the first name and last name, with their associated values.&#xa;    Firestore supports complex nested objects within documents, as well as subcollections. This allows for storing and organizing data in a hierarchical manner.&#xa;    NoSQL queries can be used to retrieve specific documents or to retrieve all the documents in a collection that match certain query parameters. These queries can include multiple filters and sorting options.&#xa;    Firestore is designed to efficiently handle both data synchronization and one-time fetch queries. It caches data that an app is actively using, allowing for read, write, listen, and query operations even when the device is offline.&#xa;    Firestore leverages Google Cloud&#39;s powerful infrastructure, including automatic multi-region data replication, strong consistency guarantees, atomic batch operations, and real transaction support.&#xa;&#xa;Firestore is a powerful tool for managing and accessing data in the cloud. It offers flexibility, scalability, and efficient query capabilities, making it a popular choice for many developers." id="fVgKVIrZxLHax63w3nj7-26">
           <mxCell style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="-300" y="680" width="120" height="40" as="geometry" />
           </mxCell>
@@ -953,6 +966,9 @@
             <mxGeometry x="-280" y="1000" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="fVgKVIrZxLHax63w3nj7-89" value="NoSQL" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
