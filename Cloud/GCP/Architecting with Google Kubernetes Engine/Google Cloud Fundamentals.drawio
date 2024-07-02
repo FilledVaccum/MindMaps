@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T04:12:24.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="D2Hu-H4a6JgTOgeiwqqm" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-02T04:14:16.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="VLTzkEwZrQfYFPEXw5YD" version="24.6.4" type="github" pages="3">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -190,10 +190,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3d2171pwKwJXhDm0mE4J" name="Virtual Machines &amp; Networks in the Cloud">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2924" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e34jxlxm3t9zBZB5Ybeu-1" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Virtual Machines &amp;amp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Networks&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;hachureGap=4;fillStyle=solid;pointerEvents=1;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;labelBackgroundColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="520" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e34jxlxm3t9zBZB5Ybeu-2" value="&lt;div&gt;&lt;h3 class=&quot;css-13hhzop&quot; tabindex=&quot;-1&quot;&gt;Learning Objectives&lt;/h3&gt;&lt;hr class=&quot;cds-2511 cds-Divider-dark css-yc753g&quot; aria-hidden=&quot;true&quot;&gt;&lt;ul&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Deploy a basic infrastructure to Google Cloud.&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Explore how Cloud Load Balancing functions in Google Cloud.&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;Detail important VPC compatibilities including routing tables, firewalls and VPC peering.&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;Identify the purpose of and use cases for Google Compute Engine.&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;Explore the basics of networking in Google Cloud.&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;Outline how Google Compute Engine can scale.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-840" width="560" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
