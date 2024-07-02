@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T08:56:24.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="4aIOEdPmZJm4yHcXU18x" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-02T08:59:14.575Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="EqU1t81btDRzqYF-TtuX" version="24.6.4" type="github" pages="4">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -596,14 +596,14 @@
         <mxCell id="fVgKVIrZxLHax63w3nj7-25" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EDoDhGGd5g6vRe6U-JRV-1" target="fVgKVIrZxLHax63w3nj7-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-420" y="600" />
-              <mxPoint x="140" y="600" />
+              <mxPoint x="-420" y="570" />
+              <mxPoint x="140" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fVgKVIrZxLHax63w3nj7-92" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fVgKVIrZxLHax63w3nj7-25">
           <mxGeometry x="0.1196" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-33" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fVgKVIrZxLHax63w3nj7-27" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#000000;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fVgKVIrZxLHax63w3nj7-89" target="fVgKVIrZxLHax63w3nj7-26">
