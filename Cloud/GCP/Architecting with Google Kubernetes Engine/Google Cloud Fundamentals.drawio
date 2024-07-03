@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T20:42:45.767Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="yjWvUQu5CXqzgLtiRutZ" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-03T20:42:51.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="v4i57XDGMwgI1GSrwsQV" version="24.6.4" type="github" pages="6">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="1653" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1228,9 +1228,6 @@
             <mxGeometry x="1460" y="400" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="kTqCJImJwupJFtsjHO8D-1" value="List situational or scenario-based questions that a Solutions &lt;br&gt;Architect might encounter during an interview related to this topic. &lt;br&gt;These should test my ability to apply the knowledge in practical &lt;br&gt;situations and demonstrate problem-solving skills." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="70" width="390" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
