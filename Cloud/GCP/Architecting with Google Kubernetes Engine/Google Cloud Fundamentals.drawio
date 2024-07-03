@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T21:14:49.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ypPxmo-WeaqOB9BTTiaF" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-03T21:15:08.151Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ZHTTO10uZ2uQMepMXjNj" version="24.6.4" type="github" pages="7">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="1653" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1232,7 +1232,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iwkrw3_PKJQHfgqgjho9" name="Module 8 : Prompt Engineering">
-    <mxGraphModel dx="1235" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1295,12 +1295,6 @@
         </mxCell>
         <mxCell id="vxCTtbi45Bn4zHT2ScSq-14" value="Role Prompts" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="680" y="880" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1Mfw_iIOY7GAvlX6ACXN-1" value="List conceptual and thought-provoking questions that can help me assess my understanding of the topic&#39;s fundamentals and ability to think critically about it." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" width="680" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1Mfw_iIOY7GAvlX6ACXN-2" value="List situational or scenario-based questions that a Solutions Architect might encounter during an interview related to this topic. These should test my ability to apply the knowledge in practical situations and demonstrate problem-solving skills." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="50" width="630" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Mfw_iIOY7GAvlX6ACXN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Mfw_iIOY7GAvlX6ACXN-3" target="1Mfw_iIOY7GAvlX6ACXN-5">
           <mxGeometry relative="1" as="geometry" />
