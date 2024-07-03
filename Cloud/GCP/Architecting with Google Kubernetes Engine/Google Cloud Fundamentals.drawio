@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T20:47:56.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="fRtU7Z58dtZ1UsYD3Alx" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-03T20:51:21.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="-Sv2i_QYJ_unTuPn4EzA" version="24.6.4" type="github" pages="7">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="1653" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1236,6 +1236,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vxCTtbi45Bn4zHT2ScSq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vxCTtbi45Bn4zHT2ScSq-1" target="vxCTtbi45Bn4zHT2ScSq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxCTtbi45Bn4zHT2ScSq-1" value="Prompt Engineering" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vxCTtbi45Bn4zHT2ScSq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vxCTtbi45Bn4zHT2ScSq-2" target="vxCTtbi45Bn4zHT2ScSq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxCTtbi45Bn4zHT2ScSq-2" value="Questions" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vxCTtbi45Bn4zHT2ScSq-4" value="S-Questions" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
