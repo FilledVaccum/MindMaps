@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T09:24:59.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="a0qkxzysQo9qLXrVjBjG" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-03T09:26:34.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="LL-D8D-aY1b0PTBiPg0m" version="24.6.4" type="github" pages="6">
   <diagram name="Introducing Google Cloud" id="m140OX7gJDVnHVPhYppR">
     <mxGraphModel dx="2924" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1200,6 +1200,9 @@
         </mxCell>
         <mxCell id="vPaXgc2GK7NPev3Vy-eE-6" value="Container Based" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
           <mxGeometry x="560" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPaXgc2GK7NPev3Vy-eE-8" value="&lt;font style=&quot;font-size: 19px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Cloud Functions&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="720" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
