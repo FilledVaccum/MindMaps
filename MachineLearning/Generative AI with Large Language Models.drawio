@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T06:06:46.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="S-oDVHumm3lYPcwuTS3X" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-06T07:12:14.668Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="a6H2XNXOzTFgNRl-52QO" version="24.6.4" type="github" pages="4">
   <diagram id="6q0zYaYVJTbch0IhMMnK" name="Rough Work">
     <mxGraphModel dx="1638" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -421,10 +421,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PqpWoNq0YWqfpFzmFoff" name="Week 1 : Transformers Architecture">
-    <mxGraphModel dx="1777" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4520" dy="3155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-351" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="-560" width="560" height="560" as="geometry" />
+        </mxCell>
         <mxCell id="-BiG9XRmQcVDrp3m3l63-1" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Transformers Architecture&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="410" y="-1085" width="390" height="50" as="geometry" />
         </mxCell>
@@ -453,11 +456,13 @@
           <mxGeometry x="1270" y="-520" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-BiG9XRmQcVDrp3m3l63-10" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="-510" width="360" height="40" as="geometry" />
+          <mxGeometry x="360" y="800" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-BiG9XRmQcVDrp3m3l63-11" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="-500" width="360" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;How does the choice of tokenization method impact the performance of Generative AI or LLM models?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;The choice of tokenization method can have a significant impact on the performance of Generative AI or Large Language Models (LLMs). Here&#39;s how the tokenization method can influence model performance:&#xa;&#xa;1. Vocabulary Size: Different tokenization methods can result in varying vocabulary sizes. Word-level tokenization typically leads to a larger vocabulary compared to subword or character-level tokenization. A larger vocabulary can increase the computational complexity and memory requirements of the model. It may also lead to a higher number of out-of-vocabulary (OOV) words, which can affect the model&#39;s ability to generate coherent and meaningful text.&#xa;&#xa;2. Out-of-Vocabulary Handling: Subword or character-level tokenization methods are more effective in handling OOV words compared to word-level tokenization. By breaking words into smaller units, subword tokenization can handle unseen or rare words by leveraging the subword units that are already present in the vocabulary. This can improve the model&#39;s ability to generate text with a wider range of vocabulary.&#xa;&#xa;3. Morphological Variations: Languages with complex word structures and rich morphology can benefit from subword tokenization. Subword units capture morphological variations and allow the model to generalize better across different word forms. This is particularly useful for tasks like machine translation or text generation in languages with extensive inflectional or derivational morphology.&#xa;&#xa;4. Language-Specific Considerations: Different languages have unique characteristics that can influence the choice of tokenization method. For example, agglutinative languages like Turkish or Finnish, which have rich morphological structures, may benefit from subword tokenization. On the other hand, isolating languages like English may work well with word-level tokenization. Language-specific considerations should be taken into account when selecting the tokenization method.&#xa;&#xa;5. Training Data Size: The size of the training data can also impact the choice of tokenization method. Word-level tokenization may be more suitable when working with large-scale datasets, as it can handle a wide range of vocabulary. Subword or character-level tokenization may be more effective when working with smaller datasets, as they can capture more fine-grained patterns and generalize better.&#xa;&#xa;It&#39;s important to experiment with different tokenization methods and evaluate their impact on the specific task and dataset at hand. The choice of tokenization method should be based on a trade-off between vocabulary size, computational complexity, OOV handling, language characteristics, and the available training data." id="-BiG9XRmQcVDrp3m3l63-11">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
+            <mxGeometry x="360" y="760" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;System Design with Gen/AI LLM Questions?&lt;/font&gt;" tooltip="As a solutions architect seeking a deeper understanding of Generative AI or Large Language Models (LLMs) to design architecture that integrates them effectively, here are some questions you may consider asking:&#xa;&#xa;1. Model Architecture:&#xa;   - What are the key components and architectural considerations of Generative AI or LLM models?&#xa;   - How do these models leverage techniques like self-attention and multi-headed attention to process and generate language?&#xa;&#xa;2. Training and Fine-tuning:&#xa;   - What are the steps involved in training a Generative AI or LLM model?&#xa;   - How can you fine-tune a pre-trained model to adapt it to your specific use case or domain?&#xa;&#xa;3. Model Selection and Evaluation:&#xa;   - What factors should be considered when selecting a Generative AI or LLM model for a particular use case?&#xa;   - How can you evaluate the performance and quality of the generated outputs from the model?&#xa;&#xa;4. Data Requirements and Preprocessing:&#xa;   - What are the data requirements for training and using Generative AI or LLM models?&#xa;   - How can you preprocess and prepare your data to ensure compatibility with the model&#39;s input format?&#xa;&#xa;5. Integration with Existing Architectures:&#xa;   - How can you integrate Generative AI or LLM models with existing architectures and systems?&#xa;   - What considerations should be taken into account when designing the integration points and data flows?&#xa;&#xa;6. Scalability and Performance Optimization:&#xa;   - How can you ensure that the architecture can scale to handle the computational demands of Generative AI or LLM models?&#xa;   - What techniques or optimizations can be applied to improve the performance and efficiency of the models?&#xa;&#xa;7. Deployment and Inference:&#xa;   - What are the options for deploying Generative AI or LLM models in production environments?&#xa;   - How can you optimize the inference process to achieve real-time or near-real-time responses?&#xa;&#xa;8. Model Monitoring and Maintenance:&#xa;   - What metrics and monitoring techniques can be used to track the performance and health of Generative AI or LLM models?&#xa;   - How can you handle model updates, retraining, and versioning in a production architecture?&#xa;&#xa;9. Ethical and Responsible AI:&#xa;   - What ethical considerations should be taken into account when designing architectures that use Generative AI or LLM models?&#xa;   - How can you ensure fairness, transparency, and accountability in the use of these models?&#xa;&#xa;10. Future Developments and Research:&#xa;    - What are the current trends and advancements in Generative AI or LLM research?&#xa;    - How can you stay updated on the latest developments and incorporate them into your architectural designs?&#xa;&#xa;Remember, these questions will help deepen your understanding and guide your architectural design process. It&#39;s important to continuously explore and learn from the latest research and advancements in Generative AI or LLMs to design architectures that leverage their capabilities effectively and responsibly." id="-BiG9XRmQcVDrp3m3l63-12">
           <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
             <mxGeometry x="1320" y="-440" width="360" height="40" as="geometry" />
@@ -472,7 +477,7 @@
           <mxGeometry x="1240" y="-1080" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-BiG9XRmQcVDrp3m3l63-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research_1.png;" parent="1" vertex="1">
-          <mxGeometry x="-850" y="-1100" width="781" height="1100" as="geometry" />
+          <mxGeometry x="-2550" y="-1100" width="639" height="900" as="geometry" />
         </mxCell>
         <mxCell id="-BiG9XRmQcVDrp3m3l63-16" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="-1070" width="360" height="40" as="geometry" />
@@ -519,7 +524,7 @@
         <mxCell id="pB9Cuq-430n-JCbLw7lg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;curved=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-54" target="pB9Cuq-430n-JCbLw7lg-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pB9Cuq-430n-JCbLw7lg-54" value="Multi-Head Attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+        <mxCell id="pB9Cuq-430n-JCbLw7lg-54" value="&lt;div&gt;Multi-Head&amp;nbsp;&lt;/div&gt;&lt;div&gt;Self Attention&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
           <mxGeometry x="300" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pB9Cuq-430n-JCbLw7lg-55" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=default;entryX=0.316;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;curved=0;flowAnimation=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-56" target="pB9Cuq-430n-JCbLw7lg-80" edge="1">
@@ -560,9 +565,11 @@
         <mxCell id="pB9Cuq-430n-JCbLw7lg-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;curved=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-64" target="pB9Cuq-430n-JCbLw7lg-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pB9Cuq-430n-JCbLw7lg-64" value="Input Embedding" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
-          <mxGeometry x="280" y="280" width="160" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Input Embedding" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;An embedding vector space refers to a high-dimensional space where tokens or words are represented as vectors. In Natural Language Processing (NLP), embedding vector spaces are used to capture the meaning and context of individual tokens in a text sequence.&#xa;&#xa;Here&#39;s how embedding vector spaces work:&#xa;&#xa;1. Token Representation: Each token in a vocabulary is assigned a unique vector representation in the embedding vector space. These vectors are typically of fixed length and contain real-valued numbers.&#xa;&#xa;2. Semantic Relationships: Embedding vectors are designed to capture semantic relationships between tokens. Tokens that have similar meanings or appear in similar contexts tend to have embedding vectors that are closer to each other in the vector space. For example, in a well-trained embedding vector space, the vectors for &quot;cat&quot; and &quot;dog&quot; would be closer together than the vectors for &quot;cat&quot; and &quot;car.&quot;&#xa;&#xa;3. Contextual Information: Embedding vectors also encode contextual information. Tokens that appear in similar contexts or have similar syntactic roles tend to have similar vector representations. This allows the embedding vector space to capture the syntactic and semantic properties of the language.&#xa;&#xa;4. Vector Arithmetic: One interesting property of embedding vector spaces is that vector arithmetic operations can be performed to capture relationships between tokens. For example, by subtracting the vector for &quot;king&quot; from the vector for &quot;man&quot; and adding the vector for &quot;woman,&quot; the resulting vector is close to the vector for &quot;queen.&quot; This demonstrates the ability of embedding vector spaces to capture analogical relationships.&#xa;&#xa;5. Training and Learning: Embedding vectors are learned through training on large-scale text data using techniques like Word2Vec, GloVe, or Transformer models. During training, the model learns to optimize the embedding vectors to capture the statistical properties of the language and encode meaningful representations.&#xa;&#xa;Embedding vector spaces have become a fundamental component of many NLP models. They enable models to understand and reason about the meaning and context of words in a text sequence. By leveraging the relationships and contextual information encoded in embedding vector spaces, NLP models can perform tasks like sentiment analysis, machine translation, text generation, and more." id="pB9Cuq-430n-JCbLw7lg-64">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+            <mxGeometry x="280" y="280" width="160" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="pB9Cuq-430n-JCbLw7lg-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;curved=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-66" target="pB9Cuq-430n-JCbLw7lg-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -731,7 +738,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pB9Cuq-430n-JCbLw7lg-106" value="Positional Encoding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
-          <mxGeometry x="40" y="185" width="130" height="30" as="geometry" />
+          <mxGeometry x="430" y="100" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pB9Cuq-430n-JCbLw7lg-107" value="&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;Probabilities&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
           <mxGeometry x="755" y="-1000" width="90" height="40" as="geometry" />
@@ -742,14 +749,19 @@
         <mxCell id="pB9Cuq-430n-JCbLw7lg-109" value="Nx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
           <mxGeometry x="1000" y="-230" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pB9Cuq-430n-JCbLw7lg-110" value="Nx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+        <mxCell id="pB9Cuq-430n-JCbLw7lg-110" value="Nx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=default;fillStyle=auto;" parent="1" vertex="1">
           <mxGeometry x="120" y="-110" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-53" value="" style="group;labelBackgroundColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#f5f5f5;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;strokeColor=#666666;container=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="480" width="720" height="280" as="geometry" />
+        <UserObject label="" tooltip="A tokenizer is a fundamental component in natural language processing (NLP) that converts raw text into smaller units called tokens. These tokens can be words, subwords, or characters, depending on the chosen tokenization method. The purpose of tokenization is to break down the text into meaningful units that can be processed by machine learning models, such as Generative AI or Large Language Models (LLMs).&#xa;&#xa;Here are a few key points about tokenizers:&#xa;&#xa;1. Text to Tokens: Tokenizers take a piece of text as input and split it into individual tokens. For example, given the sentence &quot;I love to learn,&quot; a tokenizer might split it into the tokens [&quot;I&quot;, &quot;love&quot;, &quot;to&quot;, &quot;learn&quot;].&#xa;&#xa;2. Vocabulary Mapping: Tokenizers typically have a predefined vocabulary or dictionary that maps each token to a unique identifier, often called a token ID. This mapping allows the model to work with numerical representations of the text.&#xa;&#xa;3. Tokenization Methods: There are different tokenization methods available, depending on the specific requirements of the task or model. Some common methods include word-level tokenization, subword-level tokenization (e.g., splitting words into smaller units like &quot;un-&quot; and &quot;happy&quot;), and character-level tokenization.&#xa;&#xa;4. Consistency: It is important to use the same tokenizer during both training and inference stages. This ensures consistency in the tokenization process and allows the model to understand and generate text based on the same token representation.&#xa;&#xa;5. Tokenization Libraries: Various NLP libraries and frameworks provide built-in tokenization functionality. For example, libraries like NLTK, spaCy, and Hugging Face&#39;s Transformers offer tokenizers that can be used to preprocess text data for LLMs and other NLP tasks.&#xa;&#xa;Tokenization is a crucial step in NLP as it enables the model to process and understand text data. By converting raw text into tokens, tokenizers facilitate the training and inference processes of LLMs, allowing them to learn and generate meaningful language." id="Mq21YvE8JcFgP_-uPos_-56">
+          <mxCell style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry y="480" width="730" height="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-53" value="" style="group;labelBackgroundColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#f5f5f5;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;strokeColor=#666666;container=0;" vertex="1" connectable="0" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry width="720" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="150" y="480" width="400" height="200" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-7" value="" style="group" vertex="1" connectable="0" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="150" width="400" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Mq21YvE8JcFgP_-uPos_-5" value="" style="shape=flexArrow;endArrow=block;html=1;rounded=1;width=40;endSize=12.176470588235293;endWidth=95.29411764705883;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;endFill=0;startArrow=none;startFill=0;flowAnimation=0;comic=0;orthogonal=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -791,51 +803,989 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-26" target="Mq21YvE8JcFgP_-uPos_-3">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-26" target="Mq21YvE8JcFgP_-uPos_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-26" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#3333ff&quot;&gt;Tokenizer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="10" y="600" width="110" height="40" as="geometry" />
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#3333ff&quot;&gt;Tokenizer&lt;/font&gt;" tooltip="A tokenizer is a fundamental component in natural language processing (NLP) that converts raw text into smaller units called tokens. These tokens can be words, subwords, or characters, depending on the chosen tokenization method. The purpose of tokenization is to break down the text into meaningful units that can be processed by machine learning models, such as Generative AI or Large Language Models (LLMs).&#xa;&#xa;Here are a few key points about tokenizers:&#xa;&#xa;1. Text to Tokens: Tokenizers take a piece of text as input and split it into individual tokens. For example, given the sentence &quot;I love to learn,&quot; a tokenizer might split it into the tokens [&quot;I&quot;, &quot;love&quot;, &quot;to&quot;, &quot;learn&quot;].&#xa;&#xa;2. Vocabulary Mapping: Tokenizers typically have a predefined vocabulary or dictionary that maps each token to a unique identifier, often called a token ID. This mapping allows the model to work with numerical representations of the text.&#xa;&#xa;3. Tokenization Methods: There are different tokenization methods available, depending on the specific requirements of the task or model. Some common methods include word-level tokenization, subword-level tokenization (e.g., splitting words into smaller units like &quot;un-&quot; and &quot;happy&quot;), and character-level tokenization.&#xa;&#xa;4. Consistency: It is important to use the same tokenizer during both training and inference stages. This ensures consistency in the tokenization process and allows the model to understand and generate text based on the same token representation.&#xa;&#xa;5. Tokenization Libraries: Various NLP libraries and frameworks provide built-in tokenization functionality. For example, libraries like NLTK, spaCy, and Hugging Face&#39;s Transformers offer tokenizers that can be used to preprocess text data for LLMs and other NLP tasks.&#xa;&#xa;Tokenization is a crucial step in NLP as it enables the model to process and understand text data. By converting raw text into tokens, tokenizers facilitate the training and inference processes of LLMs, allowing them to learn and generate meaningful language." id="Mq21YvE8JcFgP_-uPos_-26">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+            <mxGeometry x="10" y="120" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="30" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="730" width="60" height="30" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-29" value="I" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="220" y="248" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-29" value="I" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="728" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-31" target="Mq21YvE8JcFgP_-uPos_-19">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-31" target="Mq21YvE8JcFgP_-uPos_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-31" value="Machine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="325" y="730" width="70" height="30" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-31" value="Machine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="325" y="250" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-32" value="Learn" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="395" y="730" width="60" height="30" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-32" value="Learn" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="395" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-33" value="ing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="728" width="40" height="30" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-33" value="ing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="460" y="248" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-30" value="Love " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="730" width="50" height="30" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-30" value="Love " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="275" y="250" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-30" target="Mq21YvE8JcFgP_-uPos_-19">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-30" target="Mq21YvE8JcFgP_-uPos_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.717;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-32" target="Mq21YvE8JcFgP_-uPos_-19">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.717;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-32" target="Mq21YvE8JcFgP_-uPos_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-33" target="Mq21YvE8JcFgP_-uPos_-19">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-33" target="Mq21YvE8JcFgP_-uPos_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-29" target="Mq21YvE8JcFgP_-uPos_-19">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-29" target="Mq21YvE8JcFgP_-uPos_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mq21YvE8JcFgP_-uPos_-41" target="Mq21YvE8JcFgP_-uPos_-20">
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-56" source="Mq21YvE8JcFgP_-uPos_-41" target="Mq21YvE8JcFgP_-uPos_-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq21YvE8JcFgP_-uPos_-41" value="Token IDs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="630" y="600" width="100" height="40" as="geometry" />
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-41" value="Token IDs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-56">
+          <mxGeometry x="630" y="120" width="100" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;What are the key components of a tokenizer in natural language processing?&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;In natural language processing (NLP), a tokenizer is a key component that plays a crucial role in converting raw text into smaller units called tokens. The tokenizer performs several important functions to facilitate the processing and analysis of text data. Here are the key components of a tokenizer:&#xa;&#xa;1. Tokenization Rules: Tokenizers follow specific rules to determine how to split the text into tokens. These rules can be based on whitespace, punctuation, or language-specific patterns. For example, a tokenizer may split text at spaces or punctuation marks to identify individual words.&#xa;&#xa;2. Vocabulary or Dictionary: Tokenizers typically have a predefined vocabulary or dictionary that maps each token to a unique identifier, often called a token ID. This vocabulary allows the model to work with numerical representations of the text. The tokenizer ensures that each token is associated with the correct token ID from the vocabulary.&#xa;&#xa;3. Tokenization Methods: Tokenizers employ different methods to split text into tokens, such as word tokenization, subword tokenization, or character tokenization. The choice of tokenization method depends on the specific requirements of the task and the characteristics of the text data.&#xa;&#xa;4. Special Handling: Tokenizers often include special handling for specific cases, such as handling contractions, abbreviations, or special characters. These rules ensure that tokens are correctly identified and processed, even in cases where the text deviates from standard patterns.&#xa;&#xa;5. Normalization: Tokenizers may perform text normalization to ensure consistency and reduce noise in the text data. This can include converting text to lowercase, removing diacritics or accents, or applying other language-specific normalization techniques.&#xa;&#xa;6. Customization Options: Tokenizers often provide customization options to adapt to specific requirements. This can include adding domain-specific terminology to the vocabulary, defining additional tokenization rules, or incorporating user-defined tokenization patterns.&#xa;&#xa;7. Integration with NLP Libraries: Tokenizers are often integrated with NLP libraries and frameworks, allowing seamless integration with other NLP components and models. These libraries provide pre-trained tokenizers, customizable options, and efficient tokenization algorithms.&#xa;&#xa;By performing these functions, tokenizers enable the conversion of raw text into tokens, which can then be processed by machine learning models for various NLP tasks such as language understanding, sentiment analysis, machine translation, and more." id="Mq21YvE8JcFgP_-uPos_-57">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="760" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain the importance of using the same tokenizer during both training and inference stages?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Using the same tokenizer during both the training and inference stages is important for consistency and accuracy in natural language processing (NLP) models. Here&#39;s why it is crucial:&#xa;&#xa;1. Token Consistency: During the training stage, the tokenizer is used to convert raw text into tokens, which are then used to train the model. The model learns patterns and relationships based on these tokens. If a different tokenizer is used during the inference stage, the tokens generated for the input text may not match the tokens the model was trained on. This inconsistency can lead to incorrect predictions and degraded performance.&#xa;&#xa;2. Vocabulary Mapping: Tokenizers map each token to a unique identifier, often called a token ID. These token IDs are used by the model to process and generate text. If different tokenizers are used during training and inference, the token IDs assigned to the same words or subword units may differ. As a result, the model may not be able to correctly interpret or generate text based on the inconsistent token IDs.&#xa;&#xa;3. Text Encoding: Tokenizers also handle text encoding, such as converting words or characters into numerical representations. If different tokenizers are used, the encoding schemes may differ, leading to incompatible representations of the same text. This can cause issues when passing the encoded text to the model during inference, as the model expects a specific encoding scheme based on its training.&#xa;&#xa;4. Reproducibility: Using the same tokenizer ensures reproducibility of results. If different tokenizers are used, it becomes challenging to compare and reproduce the model&#39;s performance across different runs or experiments. Consistency in tokenization allows for reliable evaluation and comparison of models.&#xa;&#xa;5. Transfer Learning and Fine-tuning: Many NLP models are pre-trained on large datasets and then fine-tuned on specific tasks. During pre-training, a tokenizer is used to tokenize the text data. To effectively fine-tune the model, it is crucial to use the same tokenizer during both pre-training and fine-tuning stages. Inconsistent tokenization can disrupt the transfer of knowledge from pre-training to fine-tuning, leading to suboptimal performance.&#xa;&#xa;By using the same tokenizer during both training and inference, you ensure that the model receives consistent input representations, maintains vocabulary mapping, and produces accurate and reliable predictions. It promotes reproducibility, compatibility, and effective transfer learning in NLP models." id="Mq21YvE8JcFgP_-uPos_-58">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="800" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain the concept of transfer learning in the context of NLP models and the role of tokenization in it?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Transfer learning is a powerful technique in the field of Natural Language Processing (NLP) that involves leveraging pre-trained models on large-scale datasets to improve the performance of specific NLP tasks. Tokenization plays a crucial role in transfer learning for NLP models. Here&#39;s how:&#xa;&#xa;1. Pre-training Phase: In transfer learning, a model is first pre-trained on a large corpus of text data using a language modeling objective. During pre-training, tokenization is applied to the input text to convert it into tokens that the model can process. The tokenization process determines how the text is divided into individual tokens, such as words or subword units. The pre-training phase involves learning the representations of these tokens and capturing the statistical properties of the language.&#xa;&#xa;2. Vocabulary and Token Embeddings: Tokenization determines the vocabulary of tokens used during pre-training. Each token is assigned a unique token ID, and token embeddings are learned to represent the meaning and context of individual tokens. These token embeddings capture the semantic relationships between words and encode the knowledge learned during pre-training.&#xa;&#xa;3. Fine-tuning Phase: After pre-training, the pre-trained model is fine-tuned on a specific downstream NLP task, such as sentiment analysis or named entity recognition. During fine-tuning, tokenization is again applied to the task-specific data. The tokenization process must be consistent with the pre-training tokenization to ensure compatibility between the pre-trained model and the fine-tuning data.&#xa;&#xa;4. Token Alignment: Tokenization also involves aligning the tokens in the fine-tuning data with the pre-training tokens. This alignment ensures that the fine-tuning data is mapped correctly to the pre-trained model&#39;s token embeddings. If the tokenization methods differ between pre-training and fine-tuning, it can lead to misalignment and affect the transfer of knowledge from the pre-trained model to the fine-tuned model.&#xa;&#xa;5. Generalization and Adaptation: The pre-trained model&#39;s knowledge, captured through token embeddings, is transferred to the fine-tuned model. The fine-tuned model can then generalize from the pre-trained knowledge and adapt it to the specific downstream task. Tokenization consistency ensures that the fine-tuned model can effectively utilize the pre-trained token embeddings and benefit from the learned language representations.&#xa;&#xa;By leveraging transfer learning and maintaining tokenization consistency, NLP models can benefit from the knowledge learned during pre-training on large-scale datasets. This approach allows models to achieve better performance, even with limited task-specific training data, and reduces the need for training models from scratch for each specific NLP task." id="Mq21YvE8JcFgP_-uPos_-59">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="1000" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What are the potential challenges of using different tokenizers during training and inference stages?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Using different tokenizers during the training and inference stages of Generative AI models can introduce several challenges. Here are some potential challenges:&#xa;&#xa;1. Vocabulary Mismatch: If different tokenizers are used during training and inference, there can be a vocabulary mismatch. Tokenizers create a vocabulary of tokens during training, and if a different tokenizer is used during inference, it may generate tokens that are not present in the training vocabulary. This can lead to out-of-vocabulary (OOV) issues, where the model encounters tokens it has not seen during training, resulting in incorrect or unexpected behavior.&#xa;&#xa;2. Tokenization Differences: Different tokenizers may tokenize text differently, even if they are based on the same underlying method. This can result in variations in the tokenization process, leading to differences in the input representation during training and inference. Inconsistent tokenization can affect the model&#39;s ability to generalize and make accurate predictions during inference.&#xa;&#xa;3. Sequence Length Mismatch: Tokenizers can impact the length of input sequences. If the tokenization methods used during training and inference result in different sequence lengths, it can cause issues during inference. The model may not be able to handle longer or shorter sequences than what it was trained on, leading to errors or unexpected behavior.&#xa;&#xa;4. Performance and Efficiency: Different tokenizers may have varying computational requirements and efficiency. If the tokenization process during inference is more computationally expensive or time-consuming than during training, it can impact the overall performance and efficiency of the model. This can be particularly important in real-time or resource-constrained applications.&#xa;&#xa;To mitigate these challenges, it is generally recommended to use the same tokenizer during both training and inference stages. This ensures consistency in tokenization, vocabulary, and sequence lengths, reducing the risk of OOV issues and maintaining model performance. If different tokenizers need to be used, it is crucial to carefully handle vocabulary mismatches, ensure consistent tokenization, and address any differences in sequence lengths to maintain the model&#39;s accuracy and reliability during inference." id="Mq21YvE8JcFgP_-uPos_-60">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="960" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain how tokenization impacts the computational complexity and memory requirements of Generative AI models?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Tokenization can have a significant impact on the computational complexity and memory requirements of Generative AI models. Here&#39;s how tokenization affects these aspects:&#xa;&#xa;1. Computational Complexity: Tokenization can impact the computational complexity of Generative AI models in several ways:&#xa;&#xa;   a. Tokenization Time: The process of tokenizing raw text into tokens can be computationally expensive, especially for large datasets. Tokenization involves analyzing and processing each word or subword unit, which can be time-consuming, especially when dealing with complex tokenization methods like BPE or SentencePiece. The larger the dataset, the more time it takes to tokenize the text.&#xa;&#xa;   b. Sequence Length: Tokenization affects the length of input sequences. In Generative AI models, longer input sequences can increase the computational complexity during training and inference. This is because the model needs to process and attend to each token in the sequence, which requires more computational resources and time.&#xa;&#xa;   c. Model Training: Tokenization impacts the number of tokens in the input data, which directly affects the number of computations performed during model training. More tokens require more computations, leading to increased computational complexity. Additionally, tokenization can affect the batch size used during training, which further influences the computational requirements.&#xa;&#xa;2. Memory Requirements: Tokenization also affects the memory requirements of Generative AI models:&#xa;&#xa;   a. Token Vocabulary: Tokenization involves creating a vocabulary of tokens that the model can work with. The size of this vocabulary directly impacts the memory requirements of the model. A larger vocabulary requires more memory to store the token embeddings and associated metadata.&#xa;&#xa;   b. Input Sequence Length: The length of the input sequences, determined by tokenization, affects the memory requirements during training and inference. Longer sequences require more memory to store the input data, intermediate activations, and attention matrices.&#xa;&#xa;   c. Model Size: Tokenization can indirectly impact the overall model size. If the token vocabulary is large, the model parameters associated with token embeddings and attention mechanisms increase, leading to a larger model size. This, in turn, requires more memory to store and process the model.&#xa;&#xa;It&#39;s important to note that the impact of tokenization on computational complexity and memory requirements can vary depending on the specific tokenization method, model architecture, dataset size, and hardware resources available. Optimizations, such as batching, memory-efficient implementations, or using subword-level tokenization, can help mitigate these impacts to some extent.&#xa;&#xa;Understanding the computational and memory implications of tokenization is crucial for efficiently training and deploying Generative AI models, as it allows practitioners to make informed decisions regarding hardware resources, batch sizes, and model architectures." id="Mq21YvE8JcFgP_-uPos_-61">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="920" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain the role of normalization in the tokenization process?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Normalization plays a crucial role in the tokenization process by ensuring consistency and reducing the variability of text data. Here&#39;s how normalization contributes to effective tokenization:&#xa;&#xa;1. Case Normalization: Case normalization involves converting all characters in the text to a consistent case, such as lowercase or uppercase. This helps eliminate the distinction between words based on their capitalization. For example, &quot;apple&quot; and &quot;Apple&quot; would be treated as the same word after case normalization. This is particularly important in tasks where the case of words does not carry significant meaning, such as sentiment analysis or text classification.&#xa;&#xa;2. Punctuation Removal: Punctuation marks, such as periods, commas, or question marks, are often removed during normalization. This helps simplify the text and ensures that punctuation does not interfere with the tokenization process. Removing punctuation can also be beneficial in tasks where punctuation is not relevant, such as language modeling or machine translation.&#xa;&#xa;3. Accent Removal: In some languages, diacritical marks or accents are used to modify the pronunciation or meaning of words. Normalization can involve removing these accents to simplify the text and ensure consistent tokenization. For example, in English, &quot;café&quot; and &quot;cafe&quot; would be treated as the same word after accent removal.&#xa;&#xa;4. Special Character Handling: Normalization may involve handling special characters or symbols in specific ways. For example, replacing certain symbols with their corresponding words (e.g., replacing &quot;&amp;&quot; with &quot;and&quot;) or removing special characters altogether. This helps ensure that special characters do not disrupt the tokenization process or introduce unnecessary noise.&#xa;&#xa;5. Numeric Normalization: Numeric normalization involves converting numbers into a standardized format. This can include replacing digits with words (e.g., replacing &quot;123&quot; with &quot;one hundred twenty-three&quot;) or converting numbers to a common representation (e.g., replacing &quot;3.14&quot; with &quot;pi&quot;). Numeric normalization helps ensure that numbers are treated consistently during tokenization and can be useful in tasks like text generation or machine translation.&#xa;&#xa;By applying normalization techniques, tokenizers can create a more consistent and standardized representation of text data. This consistency facilitates accurate and reliable tokenization, enabling downstream NLP tasks to process and analyze text effectively." id="Mq21YvE8JcFgP_-uPos_-62">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="880" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;How does the tokenizer handle out-of-vocabulary (OOV) words during tokenization?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Tokenizers handle out-of-vocabulary (OOV) words during tokenization in different ways depending on the tokenization method used. Here&#39;s how tokenizers typically handle OOV words:&#xa;&#xa;1. Word-Level Tokenization: In word-level tokenization, each word is treated as a separate token. If an OOV word is encountered during tokenization, it is typically assigned a special token, such as `&lt;unk&gt;` (unknown), to represent it. This allows the model to recognize that the word is not in its vocabulary. However, word-level tokenization may struggle with rare or unseen words that are not present in the vocabulary.&#xa;&#xa;2. Subword-Level Tokenization: Subword-level tokenization, such as Byte-Pair Encoding (BPE) or SentencePiece, is effective in handling OOV words. These methods break words into smaller subword units, which are already present in the vocabulary. If an OOV word is encountered, it can be decomposed into subword units that are part of the vocabulary. This enables the model to handle OOV words by leveraging the subword units it has learned during training.&#xa;&#xa;3. Character-Level Tokenization: Character-level tokenization treats each character as a separate token. This approach is highly effective in handling OOV words because characters are the most basic units of language. Even if a word is unseen or rare, the model can still process it by analyzing the individual characters. Character-level tokenization is particularly useful for languages with complex morphology or when dealing with noisy or informal text data.&#xa;&#xa;4. Special Handling: Tokenizers may have special handling mechanisms for OOV words. For example, they may include rules to handle common cases like handling contractions, abbreviations, or special characters. These rules help ensure that OOV words are correctly identified and processed, even if they deviate from standard patterns.&#xa;&#xa;It&#39;s important to note that the handling of OOV words during tokenization is closely tied to the vocabulary used by the tokenizer. The vocabulary determines which words or subword units are considered in-vocabulary and which are treated as OOV. To improve the handling of OOV words, it may be necessary to update or expand the vocabulary based on the specific requirements of the task or domain.&#xa;&#xa;By employing various strategies, tokenizers aim to handle OOV words during tokenization, allowing models to process and generate text even when encountering words that were not seen during training." id="Mq21YvE8JcFgP_-uPos_-63">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry y="840" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What strategies can be used to optimize tokenization for efficient training and deployment of Generative AI models?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Optimizing tokenization is crucial for efficient training and deployment of Generative AI models. Here are some strategies to consider:&#xa;&#xa;1. Tokenization Method: Choose a tokenization method that balances the trade-off between granularity and vocabulary size. Subword-level tokenization methods like Byte Pair Encoding (BPE) or SentencePiece can handle out-of-vocabulary (OOV) words more effectively and reduce the vocabulary size compared to word-level tokenization. This can help manage computational complexity and memory requirements.&#xa;&#xa;2. Vocabulary Size: Limit the size of the token vocabulary to reduce memory requirements. You can achieve this by setting a maximum vocabulary size or using frequency-based pruning techniques to remove infrequent tokens. Smaller vocabularies require less memory to store token embeddings and associated metadata.&#xa;&#xa;3. Batch Processing: Utilize batch processing during tokenization to improve efficiency. Tokenize multiple input sequences in parallel, taking advantage of vectorized operations and hardware acceleration. This can significantly speed up the tokenization process, especially for large datasets.&#xa;&#xa;4. Caching and Serialization: Cache tokenized data to avoid redundant tokenization during training and inference. Serialize tokenized data into a format that can be efficiently loaded and processed. This reduces the overhead of tokenization and improves overall training and inference speed.&#xa;&#xa;5. Tokenization Pipelines: Optimize the tokenization pipeline by parallelizing tokenization with other preprocessing steps, such as data loading or augmentation. This can help overlap tokenization with other operations, reducing the overall processing time.&#xa;&#xa;6. Hardware Acceleration: Utilize hardware acceleration techniques, such as GPU or TPU, to speed up tokenization. These accelerators can significantly improve the tokenization throughput, especially for large-scale datasets.&#xa;&#xa;7. Tokenization Libraries: Use efficient tokenization libraries or frameworks that are specifically designed for NLP tasks. These libraries often provide optimized implementations and support for parallel processing, reducing the computational overhead of tokenization.&#xa;&#xa;8. Profiling and Optimization: Profile the tokenization process to identify potential bottlenecks and optimize performance. Monitor memory usage, CPU/GPU utilization, and overall processing time. Based on the profiling results, consider optimizations like memory-efficient implementations, parallel processing, or hardware-specific optimizations.&#xa;&#xa;Remember that the optimal tokenization strategy may vary depending on the specific requirements of your Generative AI model, dataset size, hardware resources, and performance constraints. Experimentation and profiling are key to finding the most efficient tokenization approach for your specific use case." id="Mq21YvE8JcFgP_-uPos_-64">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="360" y="920" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-65" value="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain the concept of transfer learning in the context of NLP models and the role of tokenization in it?&lt;/p&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="960" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-66" value="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you explain the concept of transfer learning in the context of NLP models and the role of tokenization in it?&lt;/p&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1000" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-203" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.966;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pB9Cuq-430n-JCbLw7lg-64" target="Mq21YvE8JcFgP_-uPos_-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-204" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.958;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pB9Cuq-430n-JCbLw7lg-64" target="Mq21YvE8JcFgP_-uPos_-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-207" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Vectors&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1790" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-213" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1770" y="80" width="619.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-202" value="" style="group" vertex="1" connectable="0" parent="Mq21YvE8JcFgP_-uPos_-213">
+          <mxGeometry x="140" width="479.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-201" value="" style="whiteSpace=wrap;html=1;fillColor=#F8D8D5;strokeColor=#b85450;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry width="479.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-67" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="79.5" y="320" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-67">
+          <mxGeometry width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-69" value="543" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-70" value="897" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry x="64" width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-71" value="42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry x="128" width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-72" value="39" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry x="192" width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-73" value="3657" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry x="256" width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-129" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="59.5" y="40" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-130" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-129">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-131" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-130">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-132" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-129">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-133" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-132">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-129">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-135" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-134">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-136" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-129">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-137" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-136">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-138" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-129">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-139" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-138">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-140" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="139.5" y="40" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-141" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-140">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-142" value="X&lt;sub&gt;2&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-141">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-143" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-140">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-144" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-143">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-145" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-140">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-146" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-145">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-147" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-140">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-148" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-147">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-149" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-140">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-150" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-149">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-151" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="219.5" y="40" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-151">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-153" value="X&lt;sub&gt;3&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-152">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-154" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-151">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-155" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-154">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-156" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-151">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-157" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-156">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-151">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-159" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-158">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-160" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-151">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-161" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-160">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-173" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="299.5" y="40" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-174" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-173">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-175" value="X&lt;sub&gt;4&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-174">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-176" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-173">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-177" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-176">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-178" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-173">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-179" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-178">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-173">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-181" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-180">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-182" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-173">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-183" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-182">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-184" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="379.5" y="40" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-185" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-184">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-186" value="X&lt;sub&gt;5&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-185">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-187" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-184">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-188" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-187">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-189" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-184">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-190" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-189">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-191" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-184">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-192" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-191">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-193" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-184">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-194" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-193">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-195" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.5" y="319" as="sourcePoint" />
+            <mxPoint x="89.5" y="240.04000000000042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-196" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.303;exitY=0.06;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186.98000000000002" y="322.39999999999964" as="sourcePoint" />
+            <mxPoint x="170.66000000000008" y="242.4000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-198" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.546;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.708;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-202" source="Mq21YvE8JcFgP_-uPos_-68" target="Mq21YvE8JcFgP_-uPos_-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.5" y="298" as="sourcePoint" />
+            <mxPoint x="496.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-199" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="239.32469420818137" y="318.76" as="sourcePoint" />
+            <mxPoint x="238.91000000000003" y="240.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-200" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.903;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.575;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-202" source="Mq21YvE8JcFgP_-uPos_-68" target="Mq21YvE8JcFgP_-uPos_-193">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.5" y="320" as="sourcePoint" />
+            <mxPoint x="509.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-225" value="X&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-202">
+          <mxGeometry x="59.5" y="50" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-205" target="Mq21YvE8JcFgP_-uPos_-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-205" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Token IDs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-213">
+          <mxGeometry y="325" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.434;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-207" target="Mq21YvE8JcFgP_-uPos_-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-207" target="Mq21YvE8JcFgP_-uPos_-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-207" target="Mq21YvE8JcFgP_-uPos_-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.434;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-207" target="Mq21YvE8JcFgP_-uPos_-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.398;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-213" source="Mq21YvE8JcFgP_-uPos_-207" target="Mq21YvE8JcFgP_-uPos_-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;A vector space is a mathematical concept that refers to a collection of vectors along with operations defined on those vectors. In the context of machine learning and data analysis, vector spaces are used to represent and manipulate data in a structured manner.&#xa;&#xa;Here are some key characteristics and concepts related to vector spaces:&#xa;&#xa;1. Vectors: In a vector space, vectors are objects that represent quantities or data points. Vectors can have multiple dimensions, with each dimension corresponding to a specific feature or attribute. For example, in a 2D vector space, a vector could represent a point on a plane with x and y coordinates.&#xa;&#xa;2. Dimensions: The number of dimensions in a vector space refers to the number of components or attributes that each vector possesses. For instance, a 3D vector space has three dimensions, typically denoted as x, y, and z.&#xa;&#xa;3. Scalar Multiplication: Scalar multiplication is an operation in a vector space that involves multiplying a vector by a scalar, which is a single value. This operation scales the vector by the scalar value, affecting its magnitude but not its direction.&#xa;&#xa;4. Vector Addition: Vector addition is another operation in a vector space that combines two vectors to produce a new vector. The resulting vector is obtained by adding the corresponding components of the two vectors. This operation allows for the combination of different quantities or data points.&#xa;&#xa;5. Linear Combinations: In a vector space, linear combinations involve multiplying vectors by scalars and adding them together. This operation allows for the creation of new vectors by combining existing vectors in various proportions.&#xa;&#xa;6. Basis and Span: A basis is a set of linearly independent vectors that can be used to represent any vector in a vector space. The span of a set of vectors is the set of all possible linear combinations of those vectors. The basis and span provide a way to describe and understand the structure of a vector space.&#xa;&#xa;7. Inner Product: An inner product is a mathematical operation defined on vectors in certain vector spaces. It measures the angle between vectors and can be used to calculate distances, similarities, and projections.&#xa;&#xa;Vector spaces are fundamental in various areas of mathematics, physics, and computer science. In machine learning and data analysis, vector spaces provide a framework for representing and manipulating data, enabling algorithms to perform computations, make predictions, and extract meaningful insights." id="Mq21YvE8JcFgP_-uPos_-233">
+          <mxCell style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="-2430" y="-20" width="600" height="580" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-222" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#d6b656;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="600" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-214" value="" style="endArrow=classic;html=1;rounded=0;curved=0;endSize=16;startSize=10;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="240" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-215" value="" style="endArrow=classic;html=1;rounded=0;curved=0;endSize=16;startSize=10;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-216" value="" style="endArrow=classic;html=1;rounded=0;curved=0;endSize=16;startSize=10;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="40" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-217" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="sourcePoint" />
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-218" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-219" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="290" as="sourcePoint" />
+            <mxPoint x="150" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-220" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="385" as="sourcePoint" />
+            <mxPoint x="320" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-221" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="160" as="sourcePoint" />
+            <mxPoint x="80" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;u&gt;Vector Space&lt;/u&gt;&lt;/font&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;A vector space is a mathematical concept that refers to a collection of vectors along with operations defined on those vectors. In the context of machine learning and data analysis, vector spaces are used to represent and manipulate data in a structured manner.&#xa;&#xa;Here are some key characteristics and concepts related to vector spaces:&#xa;&#xa;1. Vectors: In a vector space, vectors are objects that represent quantities or data points. Vectors can have multiple dimensions, with each dimension corresponding to a specific feature or attribute. For example, in a 2D vector space, a vector could represent a point on a plane with x and y coordinates.&#xa;&#xa;2. Dimensions: The number of dimensions in a vector space refers to the number of components or attributes that each vector possesses. For instance, a 3D vector space has three dimensions, typically denoted as x, y, and z.&#xa;&#xa;3. Scalar Multiplication: Scalar multiplication is an operation in a vector space that involves multiplying a vector by a scalar, which is a single value. This operation scales the vector by the scalar value, affecting its magnitude but not its direction.&#xa;&#xa;4. Vector Addition: Vector addition is another operation in a vector space that combines two vectors to produce a new vector. The resulting vector is obtained by adding the corresponding components of the two vectors. This operation allows for the combination of different quantities or data points.&#xa;&#xa;5. Linear Combinations: In a vector space, linear combinations involve multiplying vectors by scalars and adding them together. This operation allows for the creation of new vectors by combining existing vectors in various proportions.&#xa;&#xa;6. Basis and Span: A basis is a set of linearly independent vectors that can be used to represent any vector in a vector space. The span of a set of vectors is the set of all possible linear combinations of those vectors. The basis and span provide a way to describe and understand the structure of a vector space.&#xa;&#xa;7. Inner Product: An inner product is a mathematical operation defined on vectors in certain vector spaces. It measures the angle between vectors and can be used to calculate distances, similarities, and projections.&#xa;&#xa;Vector spaces are fundamental in various areas of mathematics, physics, and computer science. In machine learning and data analysis, vector spaces provide a framework for representing and manipulating data, enabling algorithms to perform computations, make predictions, and extract meaningful insights." id="Mq21YvE8JcFgP_-uPos_-223">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+            <mxGeometry x="30" y="30" width="110" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-224" value="X&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry x="395" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-226" value="X&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry x="415" y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-227" value="X&lt;sub&gt;3&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry x="120" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-229" value="X&lt;sub&gt;4&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry x="40" y="70" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-232" value="X&lt;sub&gt;5&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-233">
+          <mxGeometry x="310" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;How do embedding vector spaces capture semantic relationships between tokens in NLP?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Embedding vector spaces capture semantic relationships between tokens in Natural Language Processing (NLP) through the process of training neural network models on large-scale text data. Here&#39;s how it works:&#xa;&#xa;1. Training on Context: Neural network models, such as Word2Vec or Transformer models, are trained on vast amounts of text data. During training, the models learn to predict the context of a word based on its neighboring words or vice versa. This process is known as unsupervised learning.&#xa;&#xa;2. Contextual Similarity: As the models learn to predict the context of words, they implicitly capture the semantic relationships between tokens. Tokens that appear in similar contexts or have similar syntactic roles tend to have similar embedding vectors. For example, words like &quot;cat&quot; and &quot;dog&quot; are likely to have similar embedding vectors because they often appear in similar contexts related to pets or animals.&#xa;&#xa;3. Distributional Hypothesis: The underlying principle behind capturing semantic relationships in embedding vector spaces is the Distributional Hypothesis. This hypothesis states that words with similar meanings tend to occur in similar contexts. By training on large amounts of text data, the models learn to associate words with similar meanings based on their co-occurrence patterns.&#xa;&#xa;4. Vector Arithmetic: One interesting property of embedding vector spaces is that vector arithmetic operations can be performed to capture semantic relationships. For example, by subtracting the vector for &quot;king&quot; from the vector for &quot;man&quot; and adding the vector for &quot;woman,&quot; the resulting vector is close to the vector for &quot;queen.&quot; This demonstrates the ability of embedding vector spaces to capture analogical relationships.&#xa;&#xa;5. Transfer Learning: Embedding vector spaces trained on large-scale text data can be used as pre-trained models for downstream NLP tasks. By leveraging the semantic relationships captured in the embedding vectors, these pre-trained models can provide a valuable starting point for various NLP tasks like sentiment analysis, text classification, or machine translation.&#xa;&#xa;It&#39;s important to note that while embedding vector spaces can capture semantic relationships to a certain extent, they are not perfect representations of meaning. The models learn from the statistical patterns in the training data, and their performance can be influenced by the quality and diversity of the data. Nonetheless, embedding vector spaces have proven to be effective in capturing semantic relationships and providing valuable representations for NLP tasks." id="Mq21YvE8JcFgP_-uPos_-234">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-2310" y="560" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-235" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="-1085" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-236" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="-1040" width="360" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Different methods and Algorithm do to Positional encoding.&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;There are different methods and algorithms used for positional encoding in transformer-based models. Here are a few commonly used approaches:&#xa;&#xa;1. Sinusoidal Positional Encoding: The original Transformer model introduced sinusoidal positional encoding. In this method, each position in the input sequence is assigned a unique vector that contains sinusoidal functions of different frequencies and phases. The frequencies and phases encode the position information, allowing the model to capture the relative positions of tokens.&#xa;&#xa;2. Learned Positional Encoding: Instead of using fixed sinusoidal functions, learned positional encoding allows the model to learn the positional information during training. In this approach, the positional encoding vectors are learned as part of the model&#39;s parameters. The model can adaptively adjust the encoding vectors based on the specific task and data it is trained on.&#xa;&#xa;3. Relative Positional Encoding: Relative positional encoding takes into account the relative distances between tokens in addition to their absolute positions. It allows the model to capture not only the order of tokens but also the dependencies and relationships between tokens at different distances from each other. This can be particularly useful for tasks that require modeling long-range dependencies.&#xa;&#xa;4. Hybrid Approaches: Some models combine multiple positional encoding methods to capture both absolute and relative positional information. For example, a model may use sinusoidal positional encoding for the absolute positions and incorporate learned positional encoding to capture task-specific positional information.&#xa;&#xa;It&#39;s important to note that the choice of positional encoding method depends on the specific task, dataset, and model architecture. Different methods may have varying effects on the model&#39;s performance and ability to capture positional information effectively. Researchers continue to explore and develop new approaches to positional encoding to improve the performance of transformer-based models in various NLP tasks." id="Mq21YvE8JcFgP_-uPos_-237">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-1550" y="-600" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;Can you provide an example of how vector arithmetic is used in an embedding vector space to capture relationships between tokens?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Certainly! Vector arithmetic in an embedding vector space can be used to capture relationships between tokens. Here&#39;s an example:&#xa;&#xa;Let&#39;s say we have a trained embedding vector space where each word is represented as a vector. We can perform vector arithmetic operations to explore semantic relationships between tokens. Consider the following:&#xa;&#xa;1. &quot;King&quot; - &quot;Man&quot; + &quot;Woman&quot; = ?&#xa;&#xa;In this example, we subtract the vector for &quot;Man&quot; from the vector for &quot;King&quot; and then add the vector for &quot;Woman&quot; to the result. The resulting vector is expected to capture a relationship similar to the one between &quot;King&quot; and &quot;Queen.&quot; By finding the closest vector in the embedding space to the result, we can identify the token that represents the closest approximation to the expected relationship.&#xa;&#xa;2. &quot;Paris&quot; - &quot;France&quot; + &quot;Italy&quot; = ?&#xa;&#xa;Here, we subtract the vector for &quot;France&quot; from the vector for &quot;Paris&quot; and then add the vector for &quot;Italy&quot; to the result. The resulting vector is expected to capture a relationship similar to the one between &quot;Paris&quot; and &quot;Rome&quot; (both being capital cities of France and Italy, respectively). By finding the closest vector in the embedding space to the result, we can identify the token that represents the closest approximation to the expected relationship.&#xa;&#xa;These examples demonstrate how vector arithmetic in an embedding vector space can capture relationships between tokens. By manipulating the vectors in meaningful ways, we can explore analogies, similarities, or other semantic relationships between words. It showcases the ability of embedding vector spaces to encode and represent semantic information in a mathematical form, allowing for various types of reasoning and analysis in NLP tasks." id="Mq21YvE8JcFgP_-uPos_-238">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-2310" y="600" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-239" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="-520" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-240" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-239">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-241" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-240">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-242" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-239">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-243" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-242">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-244" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-239">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-245" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-244">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-246" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-239">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-247" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-246">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-248" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-239">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-249" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-248">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-250" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="-520" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-251" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-250">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-252" value="X&lt;sub&gt;2&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-251">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-253" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-250">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-254" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-253">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-255" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-250">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-256" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-255">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-257" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-250">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-258" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-257">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-259" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-250">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-260" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-259">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-261" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-520" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-262" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-261">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-263" value="X&lt;sub&gt;3&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-262">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-264" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-261">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-265" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-264">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-266" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-261">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-267" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-266">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-268" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-261">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-269" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-268">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-270" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-261">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-271" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-270">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-272" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="-520" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-273" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-272">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-274" value="X&lt;sub&gt;4&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-273">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-275" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-272">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-276" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-275">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-277" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-272">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-278" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-277">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-279" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-272">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-280" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-279">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-281" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-272">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-282" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-281">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-283" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;swimlaneFillColor=default;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="-520" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-284" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-283">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-285" value="X&lt;sub&gt;5&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-284">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-286" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-283">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-287" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-286">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-288" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-283">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-289" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-288">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-290" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-283">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-291" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-290">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-292" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-283">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-293" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;swimlaneFillColor=default;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-292">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-294" value="X&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="-510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-295" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="-240" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-296" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-295">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-297" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-296">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-298" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-295">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-299" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-298">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-300" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-295">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-301" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-300">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-302" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-295">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-303" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-302">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-304" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-295">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-305" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-304">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-306" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="-240" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-307" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-306">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-308" value="X&lt;sub&gt;2&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-307">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-309" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-306">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-310" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-309">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-311" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-306">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-312" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-311">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-313" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-306">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-314" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-313">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-315" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-306">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-316" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-315">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-317" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-240" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-318" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-317">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-319" value="X&lt;sub&gt;3&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-318">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-320" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-317">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-321" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-320">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-322" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-317">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-323" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-322">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-324" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-317">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-325" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-324">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-326" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-317">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-327" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-326">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-328" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="-240" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-329" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-328">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-330" value="X&lt;sub&gt;4&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-329">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-331" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-328">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-332" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-331">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-333" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-328">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-334" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-333">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-335" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-328">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-336" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-335">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-337" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-328">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-338" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-337">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-339" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="-240" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-340" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-339">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-341" value="X&lt;sub&gt;5&lt;/sub&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-340">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-342" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-339">
+          <mxGeometry y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-343" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-342">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-344" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-339">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-345" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-344">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-346" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-339">
+          <mxGeometry y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-347" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-346">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-348" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-339">
+          <mxGeometry y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-349" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Mq21YvE8JcFgP_-uPos_-348">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-350" value="X&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="-230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-352" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzkyIiBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiPjxwYXRoIGQ9Ik0xNjAwIDczNnYxOTJxMCA0MC0yOCA2OHQtNjggMjhoLTQxNnY0MTZxMCA0MC0yOCA2OHQtNjggMjhoLTE5MnEtNDAgMC02OC0yOHQtMjgtNjh2LTQxNmgtNDE2cS00MCAwLTY4LTI4dC0yOC02OHYtMTkycTAtNDAgMjgtNjh0NjgtMjhoNDE2di00MTZxMC00MCAyOC02OHQ2OC0yOGgxOTJxNDAgMCA2OCAyOHQyOCA2OHY0MTZoNDE2cTQwIDAgNjggMjh0MjggNjh6Ii8+PC9zdmc+;labelBackgroundColor=#ffffff;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Positional&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Embedding&lt;/font&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Positional encoding is a technique used in transformer-based models, such as the Transformer architecture used in natural language processing (NLP), to incorporate positional information into the input sequence.&#xa;&#xa;In NLP tasks, the order of words in a sentence carries important information for understanding the meaning and context. However, traditional neural network models, like recurrent neural networks (RNNs), do not inherently capture positional information. Positional encoding addresses this limitation by adding positional information to the input embeddings.&#xa;&#xa;Here&#39;s how positional encoding works in the Transformer architecture:&#xa;&#xa;1. Embedding Tokens: First, the input sequence is tokenized, and each token is converted into a vector representation called an embedding. These embeddings capture the meaning and context of individual tokens.&#xa;&#xa;2. Positional Encoding Addition: To incorporate positional information, a positional encoding vector is added to each token&#39;s embedding. The positional encoding vector is a fixed-length vector that encodes the position of the token within the sequence.&#xa;&#xa;3. Preserving Order: The positional encoding vector is designed in a way that preserves the relative order of tokens in the sequence. It ensures that tokens with similar positions have similar encoding vectors, allowing the model to understand the sequential nature of the input.&#xa;&#xa;4. Combining Embeddings and Positional Encoding: The resulting vectors, which are the sum of the token embeddings and the corresponding positional encoding vectors, are passed as input to the transformer model.&#xa;&#xa;By adding positional encoding to the input embeddings, the transformer model can capture the sequential information and understand the relative positions of tokens within the input sequence. This enables the model to better encode the context and dependencies between words, leading to improved performance in various NLP tasks, such as machine translation, text generation, and sentiment analysis.&#xa;&#xa;It&#39;s important to note that the specific form of positional encoding can vary depending on the implementation and model architecture. The original Transformer paper introduced a sinusoidal positional encoding scheme, but other variations and approaches have been proposed in subsequent research." id="Mq21YvE8JcFgP_-uPos_-353">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-1610" y="-445" width="100" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-354" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Token &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Embedding&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="-165" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-355" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.871;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pB9Cuq-430n-JCbLw7lg-72" target="Mq21YvE8JcFgP_-uPos_-351">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236.35" y="224" as="sourcePoint" />
+            <mxPoint x="-220.65" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mq21YvE8JcFgP_-uPos_-356" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pB9Cuq-430n-JCbLw7lg-72" target="Mq21YvE8JcFgP_-uPos_-351">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="-380" y="-97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What are some potential challenges or limitations of using positional encoding in transformer-based models?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;While positional encoding is a powerful technique for incorporating positional information into transformer-based models, there are some challenges and limitations to consider:&#xa;&#xa;1. Fixed Positional Information: Positional encoding assumes that the position of a token within the sequence is fixed and does not change during training or inference. This assumption may not hold in certain cases where the position of a token is dynamic or context-dependent. For example, in tasks involving dynamic graphs or where the position of a token changes based on the context, positional encoding may not capture the positional relationships accurately.&#xa;&#xa;2. Limited Sequence Length: Positional encoding is typically designed to handle sequences of a fixed maximum length. If the input sequence exceeds this maximum length, the positional encoding may not effectively capture the positional information for tokens beyond that limit. This can be a limitation when dealing with very long sequences or documents.&#xa;&#xa;3. Difficulty with Relative Distances: While positional encoding captures the absolute positions of tokens, it may not explicitly encode the relative distances between tokens. Relative distances can be important for understanding the dependencies and relationships between tokens, especially in tasks involving long-range dependencies. Some variations of positional encoding, such as relative positional encoding, attempt to address this limitation.&#xa;&#xa;4. Task-Specific Positional Information: Different tasks may require different types of positional information. The same positional encoding scheme may not be optimal for all tasks. Task-specific positional encoding or adaptive positional encoding techniques can be explored to address this challenge.&#xa;&#xa;5. Sensitivity to Hyperparameters: The performance of positional encoding can be sensitive to the choice of hyperparameters, such as the dimensionality of the encoding vectors or the frequency of the sinusoidal functions. Finding the optimal hyperparameters for positional encoding may require experimentation and tuning.&#xa;&#xa;Despite these challenges, positional encoding has proven to be effective in many natural language processing tasks and has significantly improved the performance of transformer-based models. Researchers continue to explore variations and improvements to positional encoding techniques to overcome these limitations and enhance the models&#39; ability to capture positional information accurately." id="Mq21YvE8JcFgP_-uPos_-357">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-1550" y="-720" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;What is the purpose of adding the positional encoding vector to each token&#39;s embedding in the Transformer architecture?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;The purpose of adding the positional encoding vector to each token&#39;s embedding in the Transformer architecture is to incorporate positional information into the input sequence. This allows the model to understand the relative positions of tokens and capture the sequential nature of the input.&#xa;&#xa;Here&#39;s why the positional encoding vector is added to each token&#39;s embedding:&#xa;&#xa;1. Preserving Order: The order of words in a sentence carries important information for understanding the meaning and context. By adding the positional encoding vector, the model can preserve the order of tokens in the sequence. Each token&#39;s positional encoding vector encodes its position within the sequence, ensuring that the model understands the relative positions of tokens.&#xa;&#xa;2. Capturing Contextual Dependencies: Positional encoding helps the model capture the contextual dependencies between words based on their positions. It allows the model to differentiate between words that appear in different positions within the sequence and understand how their positions affect their relationships and meanings. This is crucial for tasks like machine translation, where the order of words can significantly impact the translation.&#xa;&#xa;3. Handling Variable-Length Sequences: Positional encoding is particularly useful when dealing with variable-length sequences, such as sentences of different lengths. By incorporating positional information, the model can handle sequences of varying lengths and still capture the positional relationships between tokens. This flexibility is important in real-world applications where input sequences can have different lengths.&#xa;&#xa;By adding the positional encoding vector to each token&#39;s embedding, the Transformer architecture ensures that the model can effectively capture positional information and understand the sequential nature of the input. This allows the model to better encode the context, dependencies, and relationships between words, leading to improved performance in various natural language processing tasks." id="Mq21YvE8JcFgP_-uPos_-358">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-1550" y="-680" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;How does positional encoding help address the limitation of capturing positional information in traditional neural network models?&lt;/p&gt;&lt;/div&gt;" tooltip="[Transformers architecture](https://www.coursera.org/learn/generative-ai-with-llms/lecture/3AqWI/transformers-architecture?trk_ref=coach_copy)&amp;nbsp;&amp;nbsp;Jul 6, 2024&#xa;&#xa;Traditional neural network models, such as recurrent neural networks (RNNs), do not inherently capture positional information. This means that the order of words in a sentence is not explicitly encoded in the model&#39;s architecture. This limitation can hinder the model&#39;s ability to understand the meaning and context of the input sequence.&#xa;&#xa;Positional encoding helps address this limitation by explicitly incorporating positional information into the input sequence. Here&#39;s how positional encoding helps:&#xa;&#xa;1. Preserving Order: By adding positional encoding to the input embeddings, the model can preserve the order of tokens in the sequence. Each token&#39;s positional encoding vector is designed to encode its position within the sequence. This allows the model to understand the relative positions of tokens and capture the sequential nature of the input.&#xa;&#xa;2. Capturing Dependencies: Positional encoding enables the model to capture dependencies between words that are based on their positions. For example, in language tasks, the relationship between a word and its neighboring words can be crucial for understanding the meaning. Positional encoding helps the model learn and leverage these positional dependencies, allowing it to better encode the context and relationships between words.&#xa;&#xa;3. Handling Variable-Length Sequences: Positional encoding is particularly useful when dealing with variable-length sequences, such as sentences of different lengths. Traditional neural network models struggle with variable-length inputs because they lack explicit positional information. Positional encoding provides a mechanism to handle variable-length sequences by encoding the position of each token, regardless of the sequence length.&#xa;&#xa;By incorporating positional encoding, transformer-based models, such as the Transformer architecture, can effectively capture positional information and overcome the limitations of traditional neural network models. This enables the model to better understand the sequential nature of the input, capture dependencies between words, and improve performance in various natural language processing tasks." id="Mq21YvE8JcFgP_-uPos_-359">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="-1550" y="-640" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
