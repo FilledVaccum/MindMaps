@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T07:23:39.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="QJ_DIu1qGy3d8faeSSMc" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-06T07:28:32.997Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="gT29SSIPM41rgH88Zxwe" version="24.6.4" type="github" pages="4">
   <diagram id="6q0zYaYVJTbch0IhMMnK" name="Rough Work">
     <mxGraphModel dx="1638" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PqpWoNq0YWqfpFzmFoff" name="Week 1 : Transformers Architecture">
-    <mxGraphModel dx="3535" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3762" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -610,9 +610,11 @@
         <mxCell id="pB9Cuq-430n-JCbLw7lg-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;curved=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-76" target="pB9Cuq-430n-JCbLw7lg-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pB9Cuq-430n-JCbLw7lg-76" value="Linear" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
-          <mxGeometry x="740" y="-760" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Linear" tooltip="In the context of the Transformer architecture, the term &quot;Linear&quot; refers to a linear transformation applied to the output of the self-attention or feed-forward sub-layers before passing it to the softmax layer. Let&#39;s explore this in more detail:&#xa;&#xa;1. Output of Sub-Layers: The output of the self-attention or feed-forward sub-layers in the Transformer architecture is a vector representation of the input sequence. This output captures the learned information and features from the input.&#xa;&#xa;2. Linear Transformation: Before passing the output of the sub-layers to the softmax layer, a linear transformation is applied. This linear transformation involves multiplying the output vector by a weight matrix and adding a bias term. Mathematically, it can be represented as follows:&#xa;&#xa;   ```python&#xa;   linear_output = W * output + b&#xa;   ```&#xa;&#xa;   Here, `W` represents the weight matrix, `output` is the output vector from the sub-layers, and `b` is the bias term.&#xa;&#xa;3. Purpose of Linear Transformation: The linear transformation serves two main purposes:&#xa;&#xa;   a. Dimensionality Adjustment: The linear transformation allows for adjusting the dimensionality of the output vector. It can increase or decrease the dimensionality based on the specific requirements of the model and the task at hand.&#xa;&#xa;   b. Non-linearity Introduction: While the transformation is linear in nature, it introduces non-linearity when combined with subsequent activation functions. This non-linearity helps the model capture complex patterns and relationships in the data.&#xa;&#xa;4. Softmax Layer: After the linear transformation, the resulting vector is passed to the softmax layer. The softmax layer normalizes the values in the vector, converting them into probabilities. These probabilities represent the likelihood of each token in the tokenizer dictionary being the next predicted token.&#xa;&#xa;The &quot;Linear&quot; transformation before the softmax layer in the Transformer architecture helps adjust the dimensionality of the output vector and introduces non-linearity. It prepares the output for the final step of generating probability scores for each token in the vocabulary through the softmax layer." id="pB9Cuq-430n-JCbLw7lg-76">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+            <mxGeometry x="740" y="-760" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="pB9Cuq-430n-JCbLw7lg-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;curved=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" source="pB9Cuq-430n-JCbLw7lg-78" target="pB9Cuq-430n-JCbLw7lg-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
