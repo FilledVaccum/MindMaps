@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T07:51:19.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="jOTtUyKQdYEUv3x0EkW2" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-06T07:52:13.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="JcCIkvo8Da3lF8l_4WhN" version="24.6.4" type="github" pages="5">
   <diagram id="6q0zYaYVJTbch0IhMMnK" name="Rough Work">
     <mxGraphModel dx="1638" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,6 +18,44 @@
         </mxCell>
         <mxCell id="yILFxuTYcJfJjsMwgqBz-1" value="&lt;div class=&quot;cds-171 css-0 cds-173 cds-grid-item&quot;&gt;&lt;div class=&quot;coach-client coach-message-text css-soikf9&quot;&gt;&lt;p&gt;I am a Solutions Architect, How I can take advantage of knowledge on &lt;br&gt;this topic-&quot;transformer architecture&quot; in my real life of job. How I can use this knowledge to create complete architecture&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;coach-message-actions css-5d7r09&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-55" y="340" width="650" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U7rdG6oQHr9Z9gIyn08f" name="Glossary of Deep Learning: Word Embedding">
+    <mxGraphModel dx="1026" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-1" value="What is &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; &amp;amp; Embedding &lt;font color=&quot;#ff0000&quot;&gt;Algorithm&lt;/font&gt;?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-1000" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-2" value="Why we need to do &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-960" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-3" value="What is &lt;font color=&quot;#ff0000&quot;&gt;Word&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-920" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-4" value="How does &lt;font color=&quot;#ff0000&quot;&gt;Word&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; works?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-880" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-5" value="What is &lt;font color=&quot;#ff0000&quot;&gt;word2vec&lt;/font&gt; and How it is &lt;font color=&quot;#ff0000&quot;&gt;implemented&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-840" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-6" value="Difference between &lt;font color=&quot;#ff0000&quot;&gt;CBOW&lt;/font&gt; and&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;Skip-Gram&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-800" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-7" value="What is Weight Matrix or &lt;font color=&quot;#ff0000&quot;&gt;Embedding Matrix&lt;/font&gt;&amp;nbsp; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-760" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-8" value="&lt;h1 style=&quot;font-size: 23px;&quot;&gt;&lt;a href=&quot;https://ronxin.github.io/wevi/&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;wevi: word embedding visual inspector&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-1080" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-9" value="&lt;div&gt;List of People I met &amp;amp; there work &lt;br&gt;&lt;/div&gt;&lt;div&gt;1. &lt;a href=&quot;https://ronxin.github.io/wevi/&quot;&gt;Xin Rong&lt;/a&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://medium.com/deeper-learning/glossary-of-deep-learning-word-embedding-f90c3cec34ca&quot;&gt;2. Jaron Collis&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-962" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-10" value="How is &lt;font color=&quot;#ff0000&quot;&gt;GloVe&lt;/font&gt; different from &lt;font color=&quot;#ff0000&quot;&gt;word2vec&lt;/font&gt;&amp;nbsp; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-720" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1870,41 +1908,11 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="U7rdG6oQHr9Z9gIyn08f" name="Glossary of Deep Learning: Word Embedding">
-    <mxGraphModel dx="988" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="b6NUVv5HvwXjqUSo2eZw" name="Week 1 : Generating text with transformers">
+    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-1" value="What is &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; &amp;amp; Embedding &lt;font color=&quot;#ff0000&quot;&gt;Algorithm&lt;/font&gt;?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-1000" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-2" value="Why we need to do &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-960" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-3" value="What is &lt;font color=&quot;#ff0000&quot;&gt;Word&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-920" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-4" value="How does &lt;font color=&quot;#ff0000&quot;&gt;Word&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;Embedding&lt;/font&gt; works?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-880" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-5" value="What is &lt;font color=&quot;#ff0000&quot;&gt;word2vec&lt;/font&gt; and How it is &lt;font color=&quot;#ff0000&quot;&gt;implemented&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-840" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-6" value="Difference between &lt;font color=&quot;#ff0000&quot;&gt;CBOW&lt;/font&gt; and&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;Skip-Gram&lt;/font&gt; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-800" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-7" value="What is Weight Matrix or &lt;font color=&quot;#ff0000&quot;&gt;Embedding Matrix&lt;/font&gt;&amp;nbsp; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-760" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-8" value="&lt;h1 style=&quot;font-size: 23px;&quot;&gt;&lt;a href=&quot;https://ronxin.github.io/wevi/&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;wevi: word embedding visual inspector&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-1080" width="430" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-9" value="&lt;div&gt;List of People I met &amp;amp; there work &lt;br&gt;&lt;/div&gt;&lt;div&gt;1. &lt;a href=&quot;https://ronxin.github.io/wevi/&quot;&gt;Xin Rong&lt;/a&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://medium.com/deeper-learning/glossary-of-deep-learning-word-embedding-f90c3cec34ca&quot;&gt;2. Jaron Collis&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="-962" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="L4B3oFEM0BwQ53EOO7Ba-10" value="How is &lt;font color=&quot;#ff0000&quot;&gt;GloVe&lt;/font&gt; different from &lt;font color=&quot;#ff0000&quot;&gt;word2vec&lt;/font&gt;&amp;nbsp; ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-720" width="360" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
