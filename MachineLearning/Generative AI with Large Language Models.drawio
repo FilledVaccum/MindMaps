@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T07:28:32.997Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="gT29SSIPM41rgH88Zxwe" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-06T07:51:19.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="jOTtUyKQdYEUv3x0EkW2" version="24.6.4" type="github" pages="4">
   <diagram id="6q0zYaYVJTbch0IhMMnK" name="Rough Work">
     <mxGraphModel dx="1638" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PqpWoNq0YWqfpFzmFoff" name="Week 1 : Transformers Architecture">
-    <mxGraphModel dx="3762" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5970" dy="3393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
