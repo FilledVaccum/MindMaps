@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T12:48:18.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="51bBdYAyjZEectDK4cVy" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-08T14:09:53.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="8G_FGQs07Z7kc6lscZTX" version="24.6.4" type="github" pages="3">
   <diagram name="Page-1" id="LXVa4mQVWGRKJQZ5Ejbx">
     <mxGraphModel>
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dT02Qv8WAs8uH5uqffLg" name="Week 2.1 : Instruction Fine - Tuning">
-    <mxGraphModel dx="9396" dy="5578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4871" dy="2999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-22" value="Parameter Efficient Fine Tuning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="960" width="80" height="80" as="geometry" />
+          <mxGeometry x="1040" y="1440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-24" target="lLt0yqwQ6SJ-T_8T8hO6-26">
           <mxGeometry relative="1" as="geometry">
