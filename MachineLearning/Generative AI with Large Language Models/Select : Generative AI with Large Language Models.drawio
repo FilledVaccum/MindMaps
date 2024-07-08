@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:19:33.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="u1GHeXeXFeZo6Of-IxbG" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:22:53.701Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="pCDPV9FZiQzNHB6Z-OhJ" version="24.6.4" type="github" pages="4">
   <diagram id="WUlB68pBwkRPz-VRo-0y" name="Rough Work">
     <mxGraphModel dx="821" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -504,7 +504,7 @@
           <mxGeometry x="40" y="120" width="1320" height="680" as="geometry" />
         </mxCell>
         <mxCell id="onAGCrLU1gbxvM9b4hq2-3" value="&lt;h1 class=&quot;cds-129 video-name css-bbd009 cds-131&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;&lt;u&gt;Efficient multi-GPU compute strategies&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="500" height="80" as="geometry" />
+          <mxGeometry x="440" y="30" width="500" height="80" as="geometry" />
         </mxCell>
         <mxCell id="onAGCrLU1gbxvM9b4hq2-4" value="&lt;h2 align=&quot;center&quot;&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; style=&quot;font-size: 16px; font-weight: normal;&quot;&gt;Case 1 : Model Fits on a Single GPU&lt;/font&gt;&lt;/h2&gt;&lt;hr&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="40" y="130" width="280" height="70" as="geometry" />
@@ -683,6 +683,12 @@
         </mxCell>
         <mxCell id="pv7NhM-0TtbQ1ckR_XoD-72" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Synchronise&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="960" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pv7NhM-0TtbQ1ckR_XoD-73" value="" style="whiteSpace=wrap;html=1;comic=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;autosize=1;resizable=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="1320" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="pv7NhM-0TtbQ1ckR_XoD-74" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Case 2 : Fully Sharded Data Parallel (FSDP)&lt;/font&gt;&lt;hr&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Motivated by the &quot;ZeRO&quot; Paper - Zero Data Overlap between GPUs&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="420" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
