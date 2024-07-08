@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T11:36:57.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="nznV__nEKfNWVWgKYiZJ" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-08T12:11:57.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="lDBC9_bQnorCz9vv6gcB" version="24.6.4" type="github" pages="3">
   <diagram name="Page-1" id="LXVa4mQVWGRKJQZ5Ejbx">
     <mxGraphModel>
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dT02Qv8WAs8uH5uqffLg" name="Week 2.1 : Instruction Fine - Tuning">
-    <mxGraphModel dx="3174" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3540" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,8 +166,16 @@
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-16" value="Intrstruction Fine Tuning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="920" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-18" value="Fine Tuning on a Single Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="1120" width="120" height="40" as="geometry" />
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;jumpStyle=arc;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-18" target="lLt0yqwQ6SJ-T_8T8hO6-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Fine Tuning on a Single Task" tooltip="Fine-tuning on a single task refers to the process of taking a pre-trained language model and training it further on a specific task of interest. Here is a detailed and structured explanation of fine-tuning on a single task:&#xa;&#xa;1. Introduction:&#xa;   - Fine-tuning is a technique used to improve the performance of a pre-trained language model on a specific task.&#xa;   - Pre-trained language models, such as Large Language Models (LLMs), have been trained on a large corpus of text data to learn the patterns and structures of language.&#xa;&#xa;2. Purpose of fine-tuning on a single task:&#xa;   - While LLMs are capable of performing multiple language tasks, sometimes we only need the model to perform a single task for our application.&#xa;   - Fine-tuning allows us to focus the model&#39;s learning on the specific task of interest, such as summarization or sentiment analysis.&#xa;&#xa;3. Benefits of fine-tuning on a single task:&#xa;   - Fine-tuning with a relatively small dataset of task-specific examples can result in good performance.&#xa;   - Even with just 500-1,000 examples, the model can achieve good results compared to the billions of pieces of text it saw during pre-training.&#xa;&#xa;4. Potential downside: Catastrophic forgetting:&#xa;   - Fine-tuning on a single task can lead to a phenomenon called catastrophic forgetting.&#xa;   - Catastrophic forgetting occurs because the full fine-tuning process modifies the weights of the original LLM, which can degrade performance on other tasks.&#xa;&#xa;5. Avoiding catastrophic forgetting:&#xa;   - If maintaining the model&#39;s multitask generalized capabilities is important, there are options to avoid catastrophic forgetting.&#xa;   - One option is to perform multitask fine-tuning, where the model is fine-tuned on multiple tasks simultaneously. This requires more data and compute resources.&#xa;   - Another option is parameter efficient fine-tuning (PEFT), which preserves most of the pre-trained weights and trains only a small number of task-specific adapter layers and parameters.&#xa;&#xa;6. Conclusion:&#xa;   - Fine-tuning on a single task allows us to improve the performance of a pre-trained language model on a specific task of interest.&#xa;   - However, it is important to be aware of the potential downside of catastrophic forgetting and consider options to avoid it if necessary.&#xa;&#xa;Remember, this explanation is based on the course content and may not cover all possible aspects of fine-tuning on a single task. If you have any specific questions or need further clarification, feel free to ask!" id="lLt0yqwQ6SJ-T_8T8hO6-18">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-360" y="1120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-20" target="lLt0yqwQ6SJ-T_8T8hO6-100">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-20" value="Multi Task Instruction Fine Tuning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="1120" width="120" height="40" as="geometry" />
@@ -191,6 +199,190 @@
         </mxCell>
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-26" value="Benchmarks" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-78" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1080" y="1560" width="960" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-74" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry width="960" height="520" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;LLM Fine - Tuning&lt;/font&gt;" tooltip="The flow of fine-tuning on a single task involves several steps to improve the performance of a pre-trained language model on a specific task. Here is a detailed explanation of the flow:&#xa;&#xa;1. Pre-training:&#xa;   - The process begins with pre-training a language model on a large corpus of text data.&#xa;   - During pre-training, the model learns the patterns and structures of language by predicting missing words or generating coherent text.&#xa;&#xa;2. Selecting a specific task:&#xa;   - Identify the specific task you want the language model to perform, such as sentiment analysis, summarization, or named entity recognition.&#xa;   - Determine the dataset that contains examples of the task you want the model to learn.&#xa;&#xa;3. Fine-tuning setup:&#xa;   - Prepare the dataset for fine-tuning by organizing it into training, validation, and test sets.&#xa;   - The training set contains examples of the specific task, while the validation set is used to tune hyperparameters and monitor the model&#39;s performance.&#xa;   - The test set is used to evaluate the final performance of the fine-tuned model.&#xa;&#xa;4. Fine-tuning process:&#xa;   - Initialize the pre-trained language model with its learned weights from pre-training.&#xa;   - Fine-tuning involves training the model on the task-specific dataset using techniques like gradient descent and backpropagation.&#xa;   - The model&#39;s weights are updated during training to optimize its performance on the specific task.&#xa;&#xa;5. Evaluating performance:&#xa;   - After fine-tuning, evaluate the performance of the model on the validation set.&#xa;   - Metrics such as accuracy, precision, recall, or F1 score can be used to assess the model&#39;s performance.&#xa;   - Iterate and adjust hyperparameters or fine-tuning techniques if necessary to improve performance.&#xa;&#xa;6. Testing and deployment:&#xa;   - Once satisfied with the model&#39;s performance, evaluate it on the test set to get a final measure of its effectiveness.&#xa;   - If the model meets the desired performance criteria, it can be deployed for real-world applications.&#xa;&#xa;It&#39;s important to note that fine-tuning on a single task may lead to catastrophic forgetting, where the model&#39;s performance on other tasks may degrade. To avoid this, alternative approaches like multitask fine-tuning or parameter efficient fine-tuning (PEFT) can be considered." id="lLt0yqwQ6SJ-T_8T8hO6-55">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+            <mxGeometry x="40" y="40" width="190" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-56" value="Prepared Instruction Dataset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;enumerate=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="40" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-57" target="lLt0yqwQ6SJ-T_8T8hO6-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-57" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.documents;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="97" y="173" width="46" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-60" value="Pre trained LLM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;enumerate=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="350" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-61" target="lLt0yqwQ6SJ-T_8T8hO6-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-61" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/brain-think-brainstorm-creative-idea-128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="370" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-62" value="LLM Completion - LLM Output" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;enumerate=1;enumerateValue=3.1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="640" y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-63" value="Label Data - Expected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;enumerate=1;enumerateValue=3.2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="640" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-64" target="lLt0yqwQ6SJ-T_8T8hO6-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="160" />
+              <mxPoint x="920" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-64" value="&lt;div align=&quot;left&quot;&gt;Classify this Review&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#9999ff&quot;&gt;I loved this DVD!&lt;/font&gt;&lt;br&gt;&lt;br&gt;Sentiment: &lt;font color=&quot;#9999ff&quot;&gt;Neutral&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;disableMultiStrokeFill=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="640" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-65" target="lLt0yqwQ6SJ-T_8T8hO6-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-65" value="&lt;div align=&quot;left&quot;&gt;Classify this Review&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#9999ff&quot;&gt;I loved this DVD!&lt;/font&gt;&lt;br&gt;&lt;br&gt;Sentiment:&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="40" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-67" target="lLt0yqwQ6SJ-T_8T8hO6-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="320" />
+              <mxPoint x="920" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-67" value="&lt;div align=&quot;left&quot;&gt;Classify this Review&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#9999ff&quot;&gt;I loved this DVD!&lt;/font&gt;&lt;br&gt;&lt;br&gt;Sentiment: &lt;font color=&quot;#9999ff&quot;&gt;Positive&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="640" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78" source="lLt0yqwQ6SJ-T_8T8hO6-68" target="lLt0yqwQ6SJ-T_8T8hO6-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-72" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Update Model Weight in Standard Back Propogation&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];enumerate=1;enumerateValue=5;" vertex="1" connectable="0" parent="lLt0yqwQ6SJ-T_8T8hO6-71">
+          <mxGeometry x="-0.4113" y="-3" relative="1" as="geometry">
+            <mxPoint x="-14" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-68" value="Loss : Cross Entropy Function to calculate the loss" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;enumerate=1;enumerateValue=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-78">
+          <mxGeometry x="720" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-80" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1080" y="1280" width="895" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-79" value="" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry width="880" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80" source="lLt0yqwQ6SJ-T_8T8hO6-33" target="lLt0yqwQ6SJ-T_8T8hO6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-33" value="" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="360" y="40" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80" source="lLt0yqwQ6SJ-T_8T8hO6-29" target="lLt0yqwQ6SJ-T_8T8hO6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-29" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.documents;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="240" y="80" width="46" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-30" value="&lt;div&gt;PROMPT [...], COMPLETION[...]&lt;/div&gt;&lt;div&gt;PROMPT [...], COMPLETION[...]&lt;/div&gt;&lt;div&gt;PROMPT [...], COMPLETION[...]&lt;/div&gt;&lt;div&gt;PROMPT [...], COMPLETION[...]&lt;/div&gt;&lt;div&gt;PROMPT [...], COMPLETION[...]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="400" y="55" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-31" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="760" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flowAnimation=1;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80" source="lLt0yqwQ6SJ-T_8T8hO6-32" target="lLt0yqwQ6SJ-T_8T8hO6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/brain-think-brainstorm-creative-idea-128.png;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="40" y="67" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-34" value="&lt;div&gt;Full Fine Tuning &lt;br&gt;&lt;/div&gt;&lt;div&gt;Updates all parameters&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="5" y="147" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-35" value="Pre-Trained LLM" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="25" y="27" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-36" value="Task Specific Examples" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="425" y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-37" value="Update Model (&lt;font color=&quot;#ff0000&quot;&gt;Instruct&lt;/font&gt; Model)" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="710" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-38" value="Datasets are assembled and converted into the format of instruction as Prompt &amp;amp; Completion" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-80">
+          <mxGeometry x="240" y="180" width="520" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;LLM Fine - Tuning&lt;/font&gt;" link="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;LLM Fine - Tuning&lt;/font&gt;" tooltip="The flow of fine-tuning on a single task involves several steps to improve the performance of a pre-trained language model on a specific task. Here is a detailed explanation of the flow:&#xa;&#xa;1. Pre-training:&#xa;   - The process begins with pre-training a language model on a large corpus of text data.&#xa;   - During pre-training, the model learns the patterns and structures of language by predicting missing words or generating coherent text.&#xa;&#xa;2. Selecting a specific task:&#xa;   - Identify the specific task you want the language model to perform, such as sentiment analysis, summarization, or named entity recognition.&#xa;   - Determine the dataset that contains examples of the task you want the model to learn.&#xa;&#xa;3. Fine-tuning setup:&#xa;   - Prepare the dataset for fine-tuning by organizing it into training, validation, and test sets.&#xa;   - The training set contains examples of the specific task, while the validation set is used to tune hyperparameters and monitor the model&#39;s performance.&#xa;   - The test set is used to evaluate the final performance of the fine-tuned model.&#xa;&#xa;4. Fine-tuning process:&#xa;   - Initialize the pre-trained language model with its learned weights from pre-training.&#xa;   - Fine-tuning involves training the model on the task-specific dataset using techniques like gradient descent and backpropagation.&#xa;   - The model&#39;s weights are updated during training to optimize its performance on the specific task.&#xa;&#xa;5. Evaluating performance:&#xa;   - After fine-tuning, evaluate the performance of the model on the validation set.&#xa;   - Metrics such as accuracy, precision, recall, or F1 score can be used to assess the model&#39;s performance.&#xa;   - Iterate and adjust hyperparameters or fine-tuning techniques if necessary to improve performance.&#xa;&#xa;6. Testing and deployment:&#xa;   - Once satisfied with the model&#39;s performance, evaluate it on the test set to get a final measure of its effectiveness.&#xa;   - If the model meets the desired performance criteria, it can be deployed for real-world applications.&#xa;&#xa;It&#39;s important to note that fine-tuning on a single task may lead to catastrophic forgetting, where the model&#39;s performance on other tasks may degrade. To avoid this, alternative approaches like multitask fine-tuning or parameter efficient fine-tuning (PEFT) can be considered." id="lLt0yqwQ6SJ-T_8T8hO6-81">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-1080" y="1240" width="200" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-82" target="lLt0yqwQ6SJ-T_8T8hO6-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-500" y="380" />
+              <mxPoint x="-500" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-82" value="Disadvantages of Single Task Fine Tuning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-13" target="lLt0yqwQ6SJ-T_8T8hO6-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-85" target="lLt0yqwQ6SJ-T_8T8hO6-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-85" value="Catastrophic Forgetting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-87" target="lLt0yqwQ6SJ-T_8T8hO6-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-820" y="280" />
+              <mxPoint x="-960" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-87" target="lLt0yqwQ6SJ-T_8T8hO6-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-820" y="280" />
+              <mxPoint x="-680" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-87" target="lLt0yqwQ6SJ-T_8T8hO6-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-87" value="Solutions" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-97" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-89" target="lLt0yqwQ6SJ-T_8T8hO6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-89" value="Multi Task Fine Tuning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-91" target="lLt0yqwQ6SJ-T_8T8hO6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-91" value="PEFT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-95" value="&lt;div&gt;You may not require&amp;nbsp;&lt;/div&gt;&lt;div&gt;if your model need to&amp;nbsp;&lt;/div&gt;&lt;div&gt;perform only one task&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-100" value="Examples :&lt;br&gt;&lt;div&gt;FLAN - T5&lt;/div&gt;&lt;div&gt;FLAN-PALM&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
