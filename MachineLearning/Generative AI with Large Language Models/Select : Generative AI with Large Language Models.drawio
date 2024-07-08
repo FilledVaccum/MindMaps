@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T11:01:58.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="V3wBPny1Vdla-B4HDiYj" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-08T11:07:56.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="TA-D6gPNfPlk2R-eFjbV" version="24.6.4" type="github" pages="6">
   <diagram id="WUlB68pBwkRPz-VRo-0y" name="Rough Work">
     <mxGraphModel dx="821" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2109,6 +2109,14 @@
             <mxGeometry x="640" y="1400" width="280" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="r_K-qYoO8uhUGBfowBy2" name="Week 1.2 : Pre-training for domain adaptation">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
