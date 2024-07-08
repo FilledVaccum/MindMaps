@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T09:16:10.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="HPupl1T5wEwCuknXUwPb" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-08T09:22:19.767Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="qd6GhRA1IgFlnV8Y3zcE" version="24.6.4" type="github" pages="4">
   <diagram id="WUlB68pBwkRPz-VRo-0y" name="Rough Work">
     <mxGraphModel dx="821" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -496,7 +496,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-WQNy2UXTod0-sWtP-UW" name="Week 1.2 : Efficient multi-GPU compute strategies">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1645,13 +1645,13 @@
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-493" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-494" target="-LFOfgVjVKxMVEEpH-zx-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-494" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-494" value="Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="1240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-495" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-496" target="-LFOfgVjVKxMVEEpH-zx-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-496" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-496" value="Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="1240" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-497" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
@@ -1660,13 +1660,13 @@
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-498" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-499" target="-LFOfgVjVKxMVEEpH-zx-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-499" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-499" value="Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="1240" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-500" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-501" target="-LFOfgVjVKxMVEEpH-zx-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-501" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-501" value="Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="1240" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-506" target="-LFOfgVjVKxMVEEpH-zx-507">
@@ -1831,13 +1831,13 @@
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-559" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-544" target="-LFOfgVjVKxMVEEpH-zx-550">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-544" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-544" value="Forward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="860" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-560" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-545" target="-LFOfgVjVKxMVEEpH-zx-550">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-545" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-545" value="Forward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="860" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-546" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
@@ -1846,13 +1846,13 @@
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-547" target="-LFOfgVjVKxMVEEpH-zx-550">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-547" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-547" value="Forward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="860" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-561" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-548" target="-LFOfgVjVKxMVEEpH-zx-550">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-LFOfgVjVKxMVEEpH-zx-548" value="Forward /&lt;br&gt;Backward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
+        <mxCell id="-LFOfgVjVKxMVEEpH-zx-548" value="Forward Pass" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="860" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-555" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;curved=1;" edge="1" parent="-LFOfgVjVKxMVEEpH-zx-568" source="-LFOfgVjVKxMVEEpH-zx-549" target="-LFOfgVjVKxMVEEpH-zx-545">
@@ -1885,6 +1885,11 @@
         <mxCell id="-LFOfgVjVKxMVEEpH-zx-550" value="Get Weight" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="-LFOfgVjVKxMVEEpH-zx-568">
           <mxGeometry x="1060" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="What is &lt;font color=&quot;#ff0000&quot;&gt;Fully Sharded Data Parallel (FSDP)&lt;/font&gt; ?" tooltip="Fully Sharded Data Parallel (FSDP) is an implementation of model sharding in PyTorch. It is motivated by the ZeRO (Zero Redundancy Optimizer) technique proposed by researchers at Microsoft in 2019. FSDP allows for the scaling of model training across multiple GPUs when the model is too large to fit in the memory of a single GPU.&#xa;&#xa;Here is a detailed and structured explanation of FSDP:&#xa;&#xa;1. Motivation:&#xa;   - FSDP is motivated by the need to train large models that do not fit in the memory of a single GPU. It aims to optimize memory usage by distributing or sharding the model parameters, gradients, and optimizer states across GPUs.&#xa;&#xa;2. ZeRO Optimization:&#xa;   - ZeRO stands for Zero Redundancy Optimizer. It is a technique proposed by Microsoft researchers to optimize memory usage in model sharding. ZeRO aims to eliminate redundancy by distributing the model states across GPUs instead of replicating them.&#xa;&#xa;3. Memory Components:&#xa;   - FSDP considers the memory components required for training large language models (LLMs). The largest memory requirement is for the optimizer states, followed by the weights and gradients.&#xa;&#xa;4. Model Sharding:&#xa;   - FSDP distributes or shards the model parameters, gradients, and optimizer states across the GPU nodes using strategies specified in the ZeRO paper. This allows for working with models that are too big to fit on a single GPU.&#xa;&#xa;5. Data Distribution:&#xa;   - Similar to Distributed Data Parallel (DDP), FSDP distributes the data across multiple GPUs. However, with FSDP, the model parameters, gradients, and optimizer states are also distributed or sharded across the GPUs.&#xa;&#xa;6. Local and Non-Local Data:&#xa;   - In FSDP, each GPU has the local model states required for processing each batch of data. However, FSDP requires the collection of non-local data from all GPUs before the forward and backward pass.&#xa;&#xa;7. On-Demand Data Materialization:&#xa;   - FSDP requests data from other GPUs on-demand to materialize the sharded data into unsharded data for the duration of the operation. After the operation, the unsharded non-local data is released back to the other GPUs.&#xa;&#xa;8. Performance and Memory Trade-off:&#xa;   - FSDP allows for the reduction of overall GPU memory utilization. By configuring the level of sharding using the FSDP sharding factor, you can manage the trade-off between performance and memory utilization.&#xa;&#xa;9. Gradient Synchronization:&#xa;   - After the backward pass, FSDP synchronizes the gradients across the GPUs in the same way as in DDP. This synchronization step ensures that the model updates are consistent across all GPUs.&#xa;&#xa;10. Performance Comparison:&#xa;    - FSDP performance can be compared to DDP in terms of teraflops per GPU. Tests have shown that FSDP can handle models of various sizes and achieve higher teraflops when lowering the model&#39;s precision to 16-bit.&#xa;&#xa;In summary, Fully Sharded Data Parallel (FSDP) is an implementation of model sharding in PyTorch. It allows for the distribution of model parameters, gradients, and optimizer states across multiple GPUs, enabling the training of large models that do not fit in the memory of a single GPU. FSDP optimizes memory usage and provides a trade-off between performance and memory utilization." id="-LFOfgVjVKxMVEEpH-zx-569">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="1">
+            <mxGeometry x="1760" y="880" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
