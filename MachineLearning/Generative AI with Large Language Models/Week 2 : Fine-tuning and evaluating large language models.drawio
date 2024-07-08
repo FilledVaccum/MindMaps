@@ -1,6 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T11:20:29.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.6.4" etag="K2PLudTlKiCb2uREobt8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T11:23:18.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="70u074VZ6sxdmwP-eu01" version="24.6.4" type="github" pages="3">
   <diagram name="Page-1" id="LXVa4mQVWGRKJQZ5Ejbx">
     <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FAiyLZoty-whUXqiBdeG" name="Week 2 : Fine-tuning and evaluating large language models">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V0c3voEDvwPtRk2GQ4Yh-1" value="&lt;div align=&quot;justify&quot; class=&quot;cds-1 css-0 cds-3 cds-grid-item cds-48&quot;&gt;&lt;div class=&quot;cds-1 css-0 cds-2 cds-3 cds-grid-item cds-48&quot;&gt;&lt;div class=&quot;cds-1 css-0 cds-3 cds-grid-item&quot;&gt;&lt;h1 class=&quot;css-ibyw7c&quot; data-testid=&quot;instructor-note-body&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Fine-tuning and evaluating large language models&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h3 tabindex=&quot;-1&quot; class=&quot;css-13hhzop&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Learning Objectives&lt;/font&gt;&lt;/h3&gt;&lt;hr aria-hidden=&quot;true&quot; class=&quot;cds-164 cds-Divider-dark css-yc753g&quot;&gt;&lt;ul&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Describe how fine-tuning with instructions using prompt datasets can improve performance on one or more tasks&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Define catastrophic forgetting and explain techniques that can be used to overcome it&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Define the term Parameter-efficient Fine Tuning (PEFT)&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Explain how PEFT decreases computational cost and overcomes catastrophic forgetting&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Explain how fine-tuning with instructions using prompt datasets can increase LLM performance on one or more tasks&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry width="720" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dT02Qv8WAs8uH5uqffLg" name="Week 2.1 : Instruction Fine - Tuning">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
