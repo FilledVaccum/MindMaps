@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:18:35.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="KjF3PnmtwuCaqvtPZtVC" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:19:33.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="u1GHeXeXFeZo6Of-IxbG" version="24.6.4" type="github" pages="4">
   <diagram id="WUlB68pBwkRPz-VRo-0y" name="Rough Work">
     <mxGraphModel dx="821" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -680,6 +680,9 @@
         </mxCell>
         <mxCell id="pv7NhM-0TtbQ1ckR_XoD-71" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 13px;&quot;&gt;LLM is loaded in each GPU&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pv7NhM-0TtbQ1ckR_XoD-72" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Synchronise&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="310" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
