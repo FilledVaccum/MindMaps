@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T11:23:18.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="70u074VZ6sxdmwP-eu01" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-08T11:36:57.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="nznV__nEKfNWVWgKYiZJ" version="24.6.4" type="github" pages="3">
   <diagram name="Page-1" id="LXVa4mQVWGRKJQZ5Ejbx">
     <mxGraphModel>
       <root>
@@ -12,17 +12,186 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G2og5KNSgikm_XLiq1vp-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="345" y="210" width="245" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="V0c3voEDvwPtRk2GQ4Yh-1" value="&lt;div align=&quot;justify&quot; class=&quot;cds-1 css-0 cds-3 cds-grid-item cds-48&quot;&gt;&lt;div class=&quot;cds-1 css-0 cds-2 cds-3 cds-grid-item cds-48&quot;&gt;&lt;div class=&quot;cds-1 css-0 cds-3 cds-grid-item&quot;&gt;&lt;h1 class=&quot;css-ibyw7c&quot; data-testid=&quot;instructor-note-body&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Fine-tuning and evaluating large language models&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h3 tabindex=&quot;-1&quot; class=&quot;css-13hhzop&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Learning Objectives&lt;/font&gt;&lt;/h3&gt;&lt;hr aria-hidden=&quot;true&quot; class=&quot;cds-164 cds-Divider-dark css-yc753g&quot;&gt;&lt;ul&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Describe how fine-tuning with instructions using prompt datasets can improve performance on one or more tasks&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Define catastrophic forgetting and explain techniques that can be used to overcome it&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;false&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Define the term Parameter-efficient Fine Tuning (PEFT)&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Explain how PEFT decreases computational cost and overcomes catastrophic forgetting&lt;/font&gt;&lt;/li&gt;&lt;li data-collapsible=&quot;true&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Explain how fine-tuning with instructions using prompt datasets can increase LLM performance on one or more tasks&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry width="720" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-1" value="Scope" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-2" value="Select" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-3" value="Adapt &amp;amp; Align" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-4" value="Application Integration" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-5" value="Define the Use - Case" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-6" value="Choose an existing Model or Pre-train your own" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-9" value="Prompt Engineering" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-10" value="Fine Tuning" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-11" value="Align with Human Feedback" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-12" value="Evaluate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-13" value="Optimise &amp;amp; Deploy Model for Inference" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-14" value="Augument Model &amp;amp; Build LLM Powered Applications" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=dashed;" edge="1" parent="1" source="G2og5KNSgikm_XLiq1vp-12" target="G2og5KNSgikm_XLiq1vp-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="sourcePoint" />
+            <mxPoint x="530" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="280" />
+              <mxPoint x="480" y="280" />
+              <mxPoint x="440" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2og5KNSgikm_XLiq1vp-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=dashed;flowAnimation=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G2og5KNSgikm_XLiq1vp-10" target="G2og5KNSgikm_XLiq1vp-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="410" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="460" />
+              <mxPoint x="490" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="dT02Qv8WAs8uH5uqffLg" name="Week 2.1 : Instruction Fine - Tuning">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3174" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="120" width="465" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry width="465" height="449.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-2" value="Adapt &amp;amp; Align" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="47.44897959183674" y="45" width="379.5918367346939" height="59.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="28.46938775510204" y="119.99999999999999" width="417.5510204081633" height="284.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-4" value="Prompt Engineering" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="47.44897959183674" y="135" width="180.30612244897958" height="74.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-5" value="Fine Tuning" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="47.44897959183674" y="224.99999999999997" width="180.30612244897958" height="74.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-6" value="Align with Human Feedback" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="47.44897959183674" y="315" width="180.30612244897958" height="74.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-7" value="Evaluate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="256.2244897959184" y="135" width="170.81632653061223" height="254.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=dashed;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10" source="lLt0yqwQ6SJ-T_8T8hO6-7" target="lLt0yqwQ6SJ-T_8T8hO6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351.12244897959187" y="194.99999999999997" as="sourcePoint" />
+            <mxPoint x="351.12244897959187" y="29.999999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="313.16326530612247" y="104.99999999999999" />
+              <mxPoint x="256.2244897959184" y="104.99999999999999" />
+              <mxPoint x="180.30612244897958" y="104.99999999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=dashed;flowAnimation=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10" source="lLt0yqwQ6SJ-T_8T8hO6-5" target="lLt0yqwQ6SJ-T_8T8hO6-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="132.85714285714286" y="299.99999999999994" as="sourcePoint" />
+            <mxPoint x="227.75510204081633" y="224.99999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="199.2857142857143" y="374.99999999999994" />
+              <mxPoint x="275.2040816326531" y="389.99999999999994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-13" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#FF9999;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=0;" vertex="1" parent="lLt0yqwQ6SJ-T_8T8hO6-10">
+          <mxGeometry x="40" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-11" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 24px;&quot;&gt;GenAI Project Lifecycle&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="40" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-14" target="lLt0yqwQ6SJ-T_8T8hO6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-14" target="lLt0yqwQ6SJ-T_8T8hO6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-14" value="Types of Fine Tuning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-13" target="lLt0yqwQ6SJ-T_8T8hO6-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="640" />
+              <mxPoint x="580" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-16" target="lLt0yqwQ6SJ-T_8T8hO6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-16" target="lLt0yqwQ6SJ-T_8T8hO6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-16" value="Intrstruction Fine Tuning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-18" value="Fine Tuning on a Single Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-20" value="Multi Task Instruction Fine Tuning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-22" value="Parameter Efficient Fine Tuning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-24" target="lLt0yqwQ6SJ-T_8T8hO6-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="383" />
+              <mxPoint x="1120" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-24" value="Model Evaluation " style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="352.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lLt0yqwQ6SJ-T_8T8hO6-7" target="lLt0yqwQ6SJ-T_8T8hO6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-26" value="Benchmarks" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
