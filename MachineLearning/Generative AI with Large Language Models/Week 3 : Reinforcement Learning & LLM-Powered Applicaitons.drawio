@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T07:25:27.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="RillV5IZJ2CJ9jVJsup7" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T08:12:31.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="xGyIAqdUOwkwvo2__xNI" version="24.6.4" type="github">
   <diagram name="Page-1" id="8BF3PKnMfptFRbR6Tfph">
-    <mxGraphModel dx="1803" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2903" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,8 +74,138 @@
             <mxPoint x="460.6326530612246" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-16" value="&lt;div align=&quot;center&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Re-Inforcement Learning from Human Feedback&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry y="1160" width="200" height="40" as="geometry" />
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-16" target="77kNSFqW6hVMuivZZqSJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="1320" />
+              <mxPoint x="-300" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-16" target="77kNSFqW6hVMuivZZqSJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div align=&quot;center&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Re-Inforcement Learning from Human Feedback&lt;/font&gt;&lt;/div&gt;" tooltip="Here is a summary of what you will learn:&#xa;&#xa;    RLHF (Reinforcement Learning from Human Feedback): You will dive into the concept of RLHF, which is a technique used to align the model with human values. By using reinforcement learning algorithms, you can train the model to reduce harmful content and generate more helpful and aligned outputs.&#xa;&#xa;    Responsible AI: The module will also cover the topic of responsible AI. You will have a discussion with Dr. Nashley Sepus about the importance of responsible AI and the efforts being made by AI teams to address AI risks.&#xa;&#xa;    Using LLMs as a Reasoning Engine: Another exciting topic covered in this module is using large language models as a reasoning engine. You will learn about techniques like React and Rag, which allow the models to reason, take actions, and access external sources of information. This enables the models to go beyond memorizing facts and become powerful reasoning engines.&#xa;&#xa;Overall, this module will provide you with insights into RLHF, responsible AI, and the capabilities of large language models as reasoning engines. " id="77kNSFqW6hVMuivZZqSJ-16">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+            <mxGeometry y="1160" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-18" target="77kNSFqW6hVMuivZZqSJ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="1540" />
+              <mxPoint x="-480" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-18" target="77kNSFqW6hVMuivZZqSJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="1540" />
+              <mxPoint x="-120" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-18" target="77kNSFqW6hVMuivZZqSJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Aligning with Human Values" tooltip="Aligning models with human values is an important aspect of responsible AI development. It involves training large language models (LLMs) to generate responses that are helpful, honest, and harmless, in line with human preferences. Here is a detailed and structured explanation of the topic:&#xa;&#xa;1. Introduction:&#xa;   - Large language models (LLMs) are trained on vast amounts of text data from the internet, which can include toxic language, misleading information, and harmful content.&#xa;   - Aligning models with human values aims to address these issues and ensure that LLMs generate responses that are more human-like and aligned with human preferences.&#xa;&#xa;2. Challenges with large language models:&#xa;   - LLMs may generate responses that are not helpful for the given task. For example, if you ask an LLM for a knock-knock joke and it responds with &quot;clap, clap,&quot; it is not providing the desired answer.&#xa;   - LLMs may give misleading or incorrect answers. For instance, if you ask an LLM about disproven health advice, it should refute the story, but it might confidently provide incorrect information.&#xa;   - LLMs should not create harmful completions, such as offensive or discriminatory language, or suggestions for criminal behavior. For example, if you ask an LLM how to hack your neighbor&#39;s WiFi, it should not provide a valid strategy.&#xa;&#xa;3. Principles of aligning models with human values:&#xa;   - The principles guiding the responsible use of AI in this context are often referred to as HHH: helpfulness, honesty, and harmlessness.&#xa;   - Developers aim to train LLMs to generate responses that are helpful, providing relevant and accurate information.&#xa;   - LLMs should also prioritize honesty, ensuring that they do not generate misleading or false information.&#xa;   - Harmlessness is another important principle, ensuring that LLMs do not generate responses that are offensive, discriminatory, or encourage illegal activities.&#xa;&#xa;4. Fine-tuning with human feedback:&#xa;   - Additional fine-tuning with human feedback is a technique used to align models with human values.&#xa;   - By incorporating feedback from humans, developers can train LLMs to better understand human-like prompts and generate more human-like responses.&#xa;   - This feedback helps increase the helpfulness, honesty, and harmlessness of the completions, reducing toxicity and incorrect information generation.&#xa;&#xa;5. Conclusion:&#xa;   - Aligning models with human values is crucial for responsible AI development.&#xa;   - By training LLMs to generate responses that are helpful, honest, and harmless, developers can ensure that AI systems are more aligned with human preferences and values." id="77kNSFqW6hVMuivZZqSJ-18">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-360" y="1440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-20" value="Helpful" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-22" value="Harmless" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-24" value="Honest" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-26" value="Responsible AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-27" value="RLHF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-300" y="1760" width="800" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-47" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry width="800" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="77kNSFqW6hVMuivZZqSJ-49" source="77kNSFqW6hVMuivZZqSJ-29" target="77kNSFqW6hVMuivZZqSJ-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="120" />
+              <mxPoint x="760" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="320" y="80" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-30" value="&lt;font color=&quot;#ffffff&quot;&gt;Instruct LLM&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="320" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-31" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Agent&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;RL Policy&amp;nbsp; = LLM&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="410" y="95" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="77kNSFqW6hVMuivZZqSJ-49" source="77kNSFqW6hVMuivZZqSJ-32" target="77kNSFqW6hVMuivZZqSJ-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="320" />
+              <mxPoint x="120" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="320" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-33" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Enivironment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;LLM Context&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="420" y="290" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-conversation-128.png;fontColor=#CCFFFF;imageBackground=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="340" y="295" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-35" value="&lt;font color=&quot;#ffffff&quot;&gt;Reward Model&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="460" y="180" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="510" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="77kNSFqW6hVMuivZZqSJ-49" source="77kNSFqW6hVMuivZZqSJ-32" target="77kNSFqW6hVMuivZZqSJ-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-42" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Rollout&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="620" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-43" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Token Vocabulary&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;action a&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="610" y="195" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-44" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Rubik&quot;&gt;Reward r&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="350" y="205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-45" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Current Context&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;state s&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="120" y="195" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-46" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Objective:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Generate Aligned Text(HHH)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry x="10" y="70" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Reinforcement Learning : Fine - Tune LLM for Human Aligned Response&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+          <mxGeometry width="690" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
