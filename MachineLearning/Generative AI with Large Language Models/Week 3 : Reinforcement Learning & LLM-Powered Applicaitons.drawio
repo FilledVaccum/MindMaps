@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T09:15:22.969Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="xBLufXL_oRgtI_jBWACu" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T10:29:00.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="qOM8vxBKFgoElamKsPZr" version="24.6.4" type="github">
   <diagram name="Page-1" id="8BF3PKnMfptFRbR6Tfph">
-    <mxGraphModel dx="2903" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3540" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,19 +267,31 @@
         <mxCell id="77kNSFqW6hVMuivZZqSJ-64" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="1680" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-65" value="Prompt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-119" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-65" target="77kNSFqW6hVMuivZZqSJ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-65" value="Prompt" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-320" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-66" target="77kNSFqW6hVMuivZZqSJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-66" target="77kNSFqW6hVMuivZZqSJ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-66" target="77kNSFqW6hVMuivZZqSJ-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-66" value="LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="2380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-67" value="Completion 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-67" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="120" y="2320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-68" value="Completion 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-68" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="120" y="2400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-69" value="Completion 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-69" value="Completion 3" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="2480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-70" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="1">
@@ -318,8 +330,139 @@
         <mxCell id="77kNSFqW6hVMuivZZqSJ-84" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="2400" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-85" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Ranking the completion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="281" y="2280" width="190" height="30" as="geometry" />
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-85" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Ranking the completion by Humans&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="241" y="2280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-118" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-86" target="77kNSFqW6hVMuivZZqSJ-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-86" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2280" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-87" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-88" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-89" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-90" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-91" value="Completion 3" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-92" value="Completion 3" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-93" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Reward&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-94" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[0, 1]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-95" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[1, 0]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-96" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[1, 0]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-97" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Completion Pair&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="2280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-99" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Final Rank&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-100" value="2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560.5" y="2320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-101" value="3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559.5" y="2480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-102" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560.5" y="2400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-103" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="2280" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-104" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-105" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-106" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-107" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-108" value="Completion 3" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-109" value="Completion 3" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-110" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Reward&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-111" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[0, 1]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-112" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[1, 0]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-113" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;[1, 0]&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-114" value="&lt;b&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Sorted Completion pair {y&lt;sub&gt;j&lt;/sub&gt;, y&lt;sub&gt;k&lt;/sub&gt;}&lt;/font&gt;&lt;font face=&quot;7SMgu0TCWRymlXnH_ESR&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="2280" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-120" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Prompt x&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-122" target="77kNSFqW6hVMuivZZqSJ-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-122" value="Completion 2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="241" y="2720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-123" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Prompt x&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2920" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-127" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-124" target="77kNSFqW6hVMuivZZqSJ-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-124" value="Completion 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="241" y="2960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ffffff&quot;&gt;Reward Model&lt;br&gt;&lt;/font&gt;" tooltip="In the context of reinforcement learning from human feedback (RLHF), the reward is a measure of how well the output of a large language model (LLM) aligns with human preferences. It is used to guide the model&#39;s learning process and update its weights iteratively. The reward can be assigned based on various criteria, such as the usefulness, accuracy, non-toxicity, or other desired qualities of the generated text.&#xa;&#xa;The reward model, on the other hand, is a separate model that is used to evaluate the outputs of the LLM and assign reward values. It acts as a classifier to assess the degree of alignment between the LLM&#39;s output and human preferences. The reward model is trained using a smaller number of human examples through traditional supervised learning methods. Once trained, it can be used to evaluate the LLM&#39;s output and assign reward values, which are then used to update the LLM&#39;s weights and train a new version that is more aligned with human preferences. The reward model plays a central role in the RLHF process, encoding the preferences learned from human feedback and guiding the LLM&#39;s learning process." id="77kNSFqW6hVMuivZZqSJ-125">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="1">
+            <mxGeometry x="560.5" y="2820" width="79.5" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Rubik&quot;&gt;Reward r&lt;sub&gt;j&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" tooltip="In the context of reinforcement learning, a reward is a scalar value that represents the feedback or evaluation given to an agent based on its actions in an environment. The reward serves as a signal to the agent, indicating the desirability or quality of its actions. The goal of the agent is to maximize its cumulative reward over time by learning an optimal policy.&#xa;&#xa;The reward can be positive, negative, or zero, depending on the outcome of the agent&#39;s action. Positive rewards are typically given for desirable or successful actions that bring the agent closer to its goal. Negative rewards, also known as penalties or punishments, are given for undesirable or unsuccessful actions. Zero rewards can be used to indicate neutral or inconsequential actions.&#xa;&#xa;The assignment of rewards is crucial in reinforcement learning, as it guides the agent&#39;s learning process. By receiving feedback in the form of rewards, the agent can learn from its experiences and adjust its policy to make better decisions that lead to higher rewards." id="77kNSFqW6hVMuivZZqSJ-129">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry x="880" y="2730" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Rubik&quot;&gt;Reward r&lt;sub&gt;k&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" tooltip="In the context of reinforcement learning, a reward is a scalar value that represents the feedback or evaluation given to an agent based on its actions in an environment. The reward serves as a signal to the agent, indicating the desirability or quality of its actions. The goal of the agent is to maximize its cumulative reward over time by learning an optimal policy.&#xa;&#xa;The reward can be positive, negative, or zero, depending on the outcome of the agent&#39;s action. Positive rewards are typically given for desirable or successful actions that bring the agent closer to its goal. Negative rewards, also known as penalties or punishments, are given for undesirable or unsuccessful actions. Zero rewards can be used to indicate neutral or inconsequential actions.&#xa;&#xa;The assignment of rewards is crucial in reinforcement learning, as it guides the agent&#39;s learning process. By receiving feedback in the form of rewards, the agent can learn from its experiences and adjust its policy to make better decisions that lead to higher rewards." id="77kNSFqW6hVMuivZZqSJ-130">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry x="880" y="2970" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-125" target="77kNSFqW6hVMuivZZqSJ-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-133" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="77kNSFqW6hVMuivZZqSJ-125" target="77kNSFqW6hVMuivZZqSJ-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-134" value="loss = log(" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3298" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
