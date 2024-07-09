@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T08:12:31.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="xGyIAqdUOwkwvo2__xNI" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T09:15:22.969Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="xBLufXL_oRgtI_jBWACu" version="24.6.4" type="github">
   <diagram name="Page-1" id="8BF3PKnMfptFRbR6Tfph">
     <mxGraphModel dx="2903" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -154,9 +154,11 @@
         <mxCell id="77kNSFqW6hVMuivZZqSJ-30" value="&lt;font color=&quot;#ffffff&quot;&gt;Instruct LLM&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
           <mxGeometry x="320" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-31" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Agent&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;RL Policy&amp;nbsp; = LLM&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="410" y="95" width="150" height="50" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Agent&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;RL Policy&amp;nbsp; = LLM&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" tooltip="In the context of machine learning and reinforcement learning, an agent refers to an entity that interacts with an environment to achieve a specific goal. The agent can be an algorithm, a program, or an intelligent system that is designed to make decisions and take actions based on its observations of the environment.&#xa;&#xa;The agent&#39;s main objective is to learn and improve its decision-making process over time to maximize its cumulative reward or achieve a specific outcome. It does so by perceiving the state of the environment, selecting actions based on its policy or strategy, and receiving feedback in the form of rewards or penalties.&#xa;&#xa;The agent&#39;s actions can have an impact on the environment, causing it to transition to a new state. The agent learns from these state transitions and the associated rewards to update its policy or strategy, aiming to make better decisions in the future.&#xa;&#xa;In reinforcement learning, the agent learns through a trial-and-error process, exploring different actions and observing their consequences. By interacting with the environment and receiving feedback, the agent gradually improves its decision-making abilities and learns to make optimal choices to achieve its goals.&#xa;&#xa;RL policy stands for Reinforcement Learning policy. In the context of reinforcement learning, a policy is a strategy or a set of rules that an agent follows to make decisions in an environment. The RL policy guides the agent&#39;s actions based on the current state of the environment. It determines what action the agent should take in a given state to maximize its cumulative reward. The RL policy can be deterministic, meaning it always chooses the same action in a given state, or it can be stochastic, meaning it chooses actions probabilistically based on the state. The goal of reinforcement learning is to learn an optimal policy that maximizes the agent&#39;s rewards over time." id="77kNSFqW6hVMuivZZqSJ-31">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="410" y="95" width="150" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="77kNSFqW6hVMuivZZqSJ-49" source="77kNSFqW6hVMuivZZqSJ-32" target="77kNSFqW6hVMuivZZqSJ-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -168,15 +170,19 @@
         <mxCell id="77kNSFqW6hVMuivZZqSJ-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
           <mxGeometry x="320" y="280" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-33" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Enivironment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;LLM Context&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="420" y="290" width="130" height="50" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Enivironment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;LLM Context&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" tooltip="In the context of large language models (LLMs), the environment refers to the &quot;LLM context&quot; or the context window of the model. It represents the space in which text can be entered via a prompt or input. The LLM context is the state that the model considers before taking an action, which is generating text. It includes any text currently contained in the context window. The LLM uses the information in the context to make decisions about what text to generate next based on the prompt and the probability distribution over the token vocabulary. The LLM context plays a crucial role in determining the model&#39;s output and how it aligns with human preferences." id="77kNSFqW6hVMuivZZqSJ-33">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="420" y="290" width="130" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-conversation-128.png;fontColor=#CCFFFF;imageBackground=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
           <mxGeometry x="340" y="295" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-35" value="&lt;font color=&quot;#ffffff&quot;&gt;Reward Model&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="460" y="180" width="70" height="70" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ffffff&quot;&gt;Reward Model&lt;br&gt;&lt;/font&gt;" tooltip="In the context of reinforcement learning from human feedback (RLHF), the reward is a measure of how well the output of a large language model (LLM) aligns with human preferences. It is used to guide the model&#39;s learning process and update its weights iteratively. The reward can be assigned based on various criteria, such as the usefulness, accuracy, non-toxicity, or other desired qualities of the generated text.&#xa;&#xa;The reward model, on the other hand, is a separate model that is used to evaluate the outputs of the LLM and assign reward values. It acts as a classifier to assess the degree of alignment between the LLM&#39;s output and human preferences. The reward model is trained using a smaller number of human examples through traditional supervised learning methods. Once trained, it can be used to evaluate the LLM&#39;s output and assign reward values, which are then used to update the LLM&#39;s weights and train a new version that is more aligned with human preferences. The reward model plays a central role in the RLHF process, encoding the preferences learned from human feedback and guiding the LLM&#39;s learning process." id="77kNSFqW6hVMuivZZqSJ-35">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=#9673a6;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="460" y="180" width="70" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
           <mxGeometry x="510" y="200" width="40" height="40" as="geometry" />
         </mxCell>
@@ -189,23 +195,131 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-42" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Rollout&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="620" y="90" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-43" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Token Vocabulary&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;action a&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="610" y="195" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-44" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Rubik&quot;&gt;Reward r&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="350" y="205" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-45" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Current Context&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;state s&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="120" y="195" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="77kNSFqW6hVMuivZZqSJ-46" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Objective:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Generate Aligned Text(HHH)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
-          <mxGeometry x="10" y="70" width="220" height="50" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Rollout&lt;/font&gt;" tooltip="In the context of reinforcement learning, a rollout refers to the sequence of actions and states taken by an agent in an environment. It is a simulation of the agent&#39;s decision-making process, where it takes actions based on its current policy and observes the resulting changes in the environment. A rollout starts from an initial state and continues until a terminal state is reached or a predetermined number of steps have been taken. Rollouts are often used to gather experience and collect data for training reinforcement learning models. By performing multiple rollouts and observing the rewards obtained, the agent can learn from its experiences and improve its policy over time." id="77kNSFqW6hVMuivZZqSJ-42">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="620" y="90" width="70" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Token Vocabulary&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;action a&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;" tooltip="Token vocabulary refers to the set of all possible tokens that a language model can choose from when generating text. In the context of large language models, tokens can represent individual words, subwords, or even characters. The token vocabulary encompasses the entire range of linguistic units that the model has been trained on. Each token in the vocabulary is assigned a unique identifier, which allows the model to generate text by selecting tokens from the vocabulary based on the context and the desired output. The size of the token vocabulary can vary depending on the specific language model and its training data." id="77kNSFqW6hVMuivZZqSJ-43">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="610" y="195" width="150" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Rubik&quot;&gt;Reward r&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" tooltip="In the context of reinforcement learning, a reward is a scalar value that represents the feedback or evaluation given to an agent based on its actions in an environment. The reward serves as a signal to the agent, indicating the desirability or quality of its actions. The goal of the agent is to maximize its cumulative reward over time by learning an optimal policy.&#xa;&#xa;The reward can be positive, negative, or zero, depending on the outcome of the agent&#39;s action. Positive rewards are typically given for desirable or successful actions that bring the agent closer to its goal. Negative rewards, also known as penalties or punishments, are given for undesirable or unsuccessful actions. Zero rewards can be used to indicate neutral or inconsequential actions.&#xa;&#xa;The assignment of rewards is crucial in reinforcement learning, as it guides the agent&#39;s learning process. By receiving feedback in the form of rewards, the agent can learn from its experiences and adjust its policy to make better decisions that lead to higher rewards." id="77kNSFqW6hVMuivZZqSJ-44">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="350" y="205" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Current Context&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;state s&lt;sub&gt;t&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" tooltip="In the context of large language models (LLMs), the current context refers to the text or prompt that is currently being considered by the model before it generates the next token or piece of text. It represents the state of the model at a given moment during the text generation process.&#xa;&#xa;The current context includes any text that has been provided as input to the model up to that point. It serves as the basis for the model&#39;s decision-making process, influencing the selection of the next token or the generation of the next piece of text. The model takes into account the information in the current context to generate text that is coherent and relevant to the given prompt.&#xa;&#xa;The current context is dynamic and changes as the model generates more text. Each token generated by the model becomes part of the context for generating subsequent tokens. This iterative process allows the model to build upon the context and generate text that is coherent and contextually appropriate." id="77kNSFqW6hVMuivZZqSJ-45">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="120" y="195" width="140" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Objective:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Rubik&quot;&gt;Generate Aligned Text(HHH)&lt;/font&gt;&lt;/div&gt;" tooltip="In the context of machine learning and optimization, the objective refers to the goal or target that a model or algorithm aims to achieve. It represents the desired outcome or performance metric that the model or algorithm seeks to optimize or maximize.&#xa;&#xa;The objective can vary depending on the specific task or problem at hand. For example, in a classification task, the objective may be to minimize the misclassification rate or maximize the accuracy of the model&#39;s predictions. In a regression task, the objective may be to minimize the mean squared error or maximize the coefficient of determination (R-squared).&#xa;&#xa;In reinforcement learning, the objective is often defined in terms of maximizing the cumulative reward obtained by an agent over a sequence of actions in an environment. The agent&#39;s objective is to learn a policy that maximizes its long-term rewards.&#xa;&#xa;The choice of objective is crucial as it guides the learning or optimization process. Models and algorithms are designed to iteratively update their parameters or strategies to improve their performance with respect to the objective." id="77kNSFqW6hVMuivZZqSJ-46">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
+            <mxGeometry x="10" y="70" width="220" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="77kNSFqW6hVMuivZZqSJ-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Reinforcement Learning : Fine - Tune LLM for Human Aligned Response&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77kNSFqW6hVMuivZZqSJ-49">
           <mxGeometry width="690" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;What is &lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ff0000&quot;&gt;RH Policy&lt;/font&gt; ?&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" tooltip="RL policy stands for Reinforcement Learning policy. In the context of reinforcement learning, a policy is a strategy or a set of rules that an agent follows to make decisions in an environment. The RL policy guides the agent&#39;s actions based on the current state of the environment. It determines what action the agent should take in a given state to maximize its cumulative reward. The RL policy can be deterministic, meaning it always chooses the same action in a given state, or it can be stochastic, meaning it chooses actions probabilistically based on the state. The goal of reinforcement learning is to learn an optimal policy that maximizes the agent&#39;s rewards over time." id="77kNSFqW6hVMuivZZqSJ-51">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="1760" width="300" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-52" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1560" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-53" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1570" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-54" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1580" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-55" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1590" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-56" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1600" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-57" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1610" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-58" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1620" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-59" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1630" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-60" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1640" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-61" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1650" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-62" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1660" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-63" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1670" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-64" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1680" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-65" value="Prompt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-66" value="LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-67" value="Completion 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-68" value="Completion 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-69" value="Completion 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-70" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2240" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-71" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2240" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-72" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="439" y="2240" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-76" value="2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="2320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-77" value="2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="2320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-78" value="2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="2320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-79" value="3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-80" value="3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-81" value="3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-82" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-83" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="2400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-84" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77kNSFqW6hVMuivZZqSJ-85" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 15px;&quot;&gt;Ranking the completion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281" y="2280" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
