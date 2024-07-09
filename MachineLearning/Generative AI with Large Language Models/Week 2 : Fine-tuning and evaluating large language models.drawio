@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T04:41:07.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="gZjHn_3753vxs5MFIEX0" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-09T06:58:50.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="wxi7Sy6r7HmIBJbxb873" version="24.6.4" type="github" pages="3">
   <diagram name="Page-1" id="LXVa4mQVWGRKJQZ5Ejbx">
     <mxGraphModel>
       <root>
@@ -484,9 +484,11 @@
         <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-110" value="ROUGE - (n)&lt;br&gt;here n =(n-grams)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1959" y="470" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lLt0yqwQ6SJ-T_8T8hO6-112" value="BLEU&lt;br&gt;SCORE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1959" y="1110" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="BLEU&lt;br&gt;SCORE" tooltip="The BLEU score, which stands for Bilingual Evaluation Understudy, is a metric used to evaluate the quality of machine-translated text. It quantifies how well a machine-generated translation matches a reference translation by comparing the n-grams (groups of n words) in both texts. Here is a detailed and structured explanation of the BLEU score:&#xa;&#xa;1. Calculation: The BLEU score is calculated by averaging the precision scores across a range of different n-gram sizes. The precision score measures the percentage of n-grams in the machine-generated translation that match those in the reference translation.&#xa;&#xa;2. N-gram sizes: The n-gram sizes used in the calculation can vary, but commonly include unigrams (single words), bigrams (pairs of words), trigrams (groups of three words), and sometimes even higher n-gram sizes.&#xa;&#xa;3. Precision calculation: To calculate the precision for each n-gram size, you count the number of matching n-grams in the machine-generated translation and divide it by the total number of n-grams in the machine-generated translation.&#xa;&#xa;4. Average precision: After calculating the precision for each n-gram size, you average all the precision scores to obtain the final BLEU score. This average takes into account the quality of the translation across different n-gram sizes.&#xa;&#xa;5. Interpretation: The BLEU score ranges from 0 to 1, with 1 indicating a perfect match between the machine-generated translation and the reference translation. A higher BLEU score indicates a higher quality translation.&#xa;&#xa;6. Limitations: While the BLEU score is a useful metric, it has some limitations. It primarily focuses on the matching of n-grams and does not consider other aspects of translation quality, such as fluency or semantic accuracy. Additionally, the choice of n-gram sizes and the reference translations can affect the BLEU score, so it should be used in conjunction with other evaluation methods.&#xa;&#xa;Overall, the BLEU score provides a quantitative measure of the quality of machine-translated text by comparing n-grams in the machine-generated translation to those in the reference translation. It is a widely used metric in the field of natural language processing and machine translation." id="lLt0yqwQ6SJ-T_8T8hO6-112">
+          <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1959" y="1120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;div&gt;Why we&amp;nbsp;&lt;/div&gt;&lt;div&gt;need metrics&lt;/div&gt;" tooltip="Normally we can compare the output of a model with the validation dataset but in case of generative model or in case where we need metrics to compare or evaluate the model with other model." id="lLt0yqwQ6SJ-T_8T8hO6-114">
           <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="1659" y="630" width="120" height="80" as="geometry" />
