@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T05:12:49.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="uY2IyP-vxDon9SmpsgoU" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-10T05:16:10.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="0D8ba_KOwoYPkTQbA2U3" version="24.6.4" type="github" pages="2">
   <diagram name="Week 3.1 : Reinforcement learning from human Feedback" id="8BF3PKnMfptFRbR6Tfph">
     <mxGraphModel dx="7026" dy="3377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
@@ -690,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k4i7lBX9jh155DHKva8a" name="Week 3.2 : LLM-Powered Application">
-    <mxGraphModel dx="2252" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
+    <mxGraphModel dx="3404" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -855,7 +855,7 @@
           <mxGeometry x="980" y="720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-98" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1280" y="400" width="1040" height="440" as="geometry" />
+          <mxGeometry x="520" y="1640" width="1040" height="440" as="geometry" />
         </mxCell>
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-32" value="" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="2O0aMr_Zv1vYZ4K_RTh9-98" vertex="1">
           <mxGeometry width="1040" height="440" as="geometry" />
@@ -1110,14 +1110,14 @@
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-30" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" parent="2O0aMr_Zv1vYZ4K_RTh9-100" vertex="1">
           <mxGeometry x="40" y="269" width="161.76" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2O0aMr_Zv1vYZ4K_RTh9-9" target="2O0aMr_Zv1vYZ4K_RTh9-32" edge="1">
+        <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=-0.036;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="2O0aMr_Zv1vYZ4K_RTh9-9" target="2O0aMr_Zv1vYZ4K_RTh9-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="2O0aMr_Zv1vYZ4K_RTh9-10" target="2O0aMr_Zv1vYZ4K_RTh9-32" edge="1">
+        <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="2O0aMr_Zv1vYZ4K_RTh9-10" target="2O0aMr_Zv1vYZ4K_RTh9-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YDy9lLSeIGWahGkBaheS-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1760" y="1120" width="240" height="120" as="geometry" />
+          <mxGeometry x="780" y="2160" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YDy9lLSeIGWahGkBaheS-2" value="" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="YDy9lLSeIGWahGkBaheS-1">
           <mxGeometry width="239.99999999999997" height="120" as="geometry" />
