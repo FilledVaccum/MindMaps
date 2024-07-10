@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T03:30:01.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="gAGmEN0x1NsLwN6X9SYx" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-10T03:54:41.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="IYoNk99BYhGUaBpj5brt" version="24.6.4" type="github" pages="2">
   <diagram name="Week 3.1 : Reinforcement learning from human Feedback" id="8BF3PKnMfptFRbR6Tfph">
     <mxGraphModel dx="7026" dy="3377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
@@ -690,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k4i7lBX9jh155DHKva8a" name="Week 3.2 : LLM-Powered Application">
-    <mxGraphModel dx="1774" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
+    <mxGraphModel dx="4557" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -729,9 +729,12 @@
             <mxGeometry x="-10" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Srpc0W_OAilxzc5-DHm-4" target="Wpu66uGHNzarSeYi8BB8-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Distillation" tooltip="### Distillation LLM Optimization Technique&#xa;&#xa;**Introduction**&#xa;&#xa;The distillation technique in the context of Large Language Models (LLMs) involves transferring knowledge from a large, complex model (teacher model) to a smaller, more efficient model (student model). This process allows the student model to achieve comparable performance with significantly fewer computational resources. The technique is particularly useful for deploying models in resource-constrained environments.&#xa;&#xa;**Steps of the Distillation Process**&#xa;&#xa;1. **Training the Teacher Model**:&#xa;   - The teacher model is a large, pre-trained model that has been trained on a vast dataset. This model typically has high accuracy and performance due to its complexity and size.&#xa;&#xa;2. **Generating Soft Labels**:&#xa;   - The teacher model processes the training data and produces output probabilities for each class, known as &quot;soft labels.&quot; These soft labels represent the teacher model&#39;s confidence in each possible output class, providing richer information than hard labels (e.g., binary class labels).&#xa;&#xa;3. **Training the Student Model**:&#xa;   - The student model is initialized and trained using both the soft labels from the teacher model and the hard labels from the training data. The objective is for the student model to mimic the output distribution of the teacher model.&#xa;&#xa;4. **Calculating Distillation Loss**:&#xa;   - The distillation loss measures the difference between the soft predictions of the student model and the soft labels provided by the teacher model. This loss guides the student model to learn the decision patterns of the teacher model.&#xa;   - A common approach is to use a temperature parameter \(T\) in the softmax function to smooth the probabilities and make the learning process more effective. Higher temperatures produce softer probability distributions.&#xa;&#xa;5. **Calculating Student Loss**:&#xa;   - In addition to the distillation loss, the student model is also trained using the traditional loss function (e.g., cross-entropy loss) with the hard labels (ground truth).&#xa;   - The total loss for the student model is a weighted sum of the distillation loss and the student loss, ensuring that the student model generalizes well to new data.&#xa;&#xa;6. **Knowledge Distillation**:&#xa;   - This term refers to the overall process of transferring the learned knowledge from the teacher model to the student model. The goal is to encapsulate the teacher model&#39;s learned patterns and decision boundaries within the student model.&#xa;&#xa;**Benefits of Distillation**&#xa;&#xa;1. **Efficiency**:&#xa;   - The student model is smaller and requires fewer computational resources, making it suitable for deployment in environments with limited hardware capabilities.&#xa;&#xa;2. **Speed**:&#xa;   - The student model can achieve faster inference times due to its reduced complexity, which is beneficial for real-time applications.&#xa;&#xa;3. **Retained Performance**:&#xa;   - Despite being smaller, the student model retains much of the performance and accuracy of the teacher model, thanks to the detailed guidance provided by the soft labels.&#xa;&#xa;**Applications**&#xa;&#xa;1. **Mobile and Edge Devices**:&#xa;   - Deploying efficient models on mobile phones, IoT devices, and other edge computing platforms where computational resources are limited.&#xa;&#xa;2. **Real-time Applications**:&#xa;   - Scenarios requiring fast inference times, such as real-time translation, speech recognition, and autonomous driving.&#xa;&#xa;3. **Scalable Services**:&#xa;   - Large-scale services where computational efficiency can lead to cost savings and improved scalability.&#xa;&#xa;**Conclusion**&#xa;&#xa;The distillation technique offers a powerful method for optimizing large language models by training a smaller student model to replicate the performance of a larger teacher model. By leveraging the detailed information provided by soft labels, the student model can achieve high accuracy with significantly reduced computational demands, making it ideal for a wide range of practical applications." id="9Srpc0W_OAilxzc5-DHm-4">
           <mxCell style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-            <mxGeometry x="-280" y="960" width="120" height="40" as="geometry" />
+            <mxGeometry x="-278" y="960" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Quantization" tooltip="Quantization is a model optimization technique used to reduce the size and memory footprint of a large language model (LLM) by transforming its weights to a lower precision representation. This technique helps improve the efficiency of the model during deployment. Here is a detailed and structured explanation of quantization:&#xa;&#xa;1. Purpose of Quantization: The purpose of quantization is to reduce the size and memory footprint of the LLM, as well as the compute resources needed for serving the model. By representing the model&#39;s weights in a lower precision format, quantization helps optimize the model for deployment.&#xa;&#xa;2. Quantization Aware Training (QAT): Quantization can be performed during training or after the model is trained. Quantization Aware Training (QAT) is a technique where the model is trained with the awareness that it will be quantized later. This helps the model adapt to the lower precision representation during training.&#xa;&#xa;3. Post Training Quantization (PTQ): After a model is trained, post training quantization (PTQ) can be applied to optimize it for deployment. PTQ involves transforming the model&#39;s weights to a lower precision representation, such as 16-bit floating point or 8-bit integer.&#xa;&#xa;4. Model Weights and Activation Layers: Quantization can be applied to both the model&#39;s weights and activation layers. Including the activation layers in the quantization process can have a higher impact on model performance, but it may also require additional compute resources.&#xa;&#xa;5. Calibration Step: Quantization requires an extra calibration step to statistically capture the dynamic range of the original parameter values. This step helps determine the appropriate quantization ranges for the model&#39;s weights and activation layers.&#xa;&#xa;6. Impact on Model Performance: Quantization can result in a small reduction in model evaluation metrics, such as accuracy or other performance measures. However, the reduction is often worth the cost savings and performance gains achieved by reducing the model size and memory footprint.&#xa;&#xa;7. Tradeoffs: Like other optimization techniques, quantization involves tradeoffs. While it reduces the model size and improves efficiency, there may be a slight impact on model performance. It&#39;s important to carefully evaluate the tradeoffs and consider the specific requirements of the deployment scenario.&#xa;&#xa;8. Quantization Techniques: There are different quantization techniques available, such as fixed-point quantization and dynamic quantization. These techniques determine the precision and representation format used for quantizing the model&#39;s weights.&#xa;&#xa;9. Deployment Considerations: When quantizing a model for deployment, it&#39;s important to consider factors such as the available compute resources, the desired level of precision, and the specific requirements of the application or deployment environment.&#xa;&#xa;Quantization is a valuable technique for optimizing large language models for deployment. By reducing the size, memory footprint, and compute resources needed for serving the model, quantization helps improve the efficiency and performance of the model during inference." id="9Srpc0W_OAilxzc5-DHm-6">
@@ -744,6 +747,101 @@
             <mxGeometry x="260" y="960" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-678" y="1400" width="920" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-37" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry width="920" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-16" target="Wpu66uGHNzarSeYi8BB8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-17" target="Wpu66uGHNzarSeYi8BB8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-17" target="Wpu66uGHNzarSeYi8BB8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;startArrow=classic;startFill=1;strokeWidth=2;fillColor=#fff2cc;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-1" target="Wpu66uGHNzarSeYi8BB8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-1" value="Soft Labels" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-3" value="Soft Predictions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-7" value="" style="group;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-2" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Softmax&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-7">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-bar-chart-alt-2-128.png;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-7">
+          <mxGeometry x="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-8" value="" style="group;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-9" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Softmax&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-8">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-bar-chart-alt-2-128.png;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-8">
+          <mxGeometry x="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-11" value="" style="group;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-12" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;Softmax&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-11">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-bar-chart-alt-2-128.png;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-11">
+          <mxGeometry x="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-14" target="Wpu66uGHNzarSeYi8BB8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-14" value="Hard prediction" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="520" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-15" value="Hard Labels (Ground Truth)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="760" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-16" target="Wpu66uGHNzarSeYi8BB8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-35" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Knowledge &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Distillation&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wpu66uGHNzarSeYi8BB8-24">
+          <mxGeometry x="-0.0083" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-16" value="LLM Teacher" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="40" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-17" value="LLM Student" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#E6D0DE;strokeColor=#9673a6;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="440" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-19" target="Wpu66uGHNzarSeYi8BB8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;flowAnimation=1;" edge="1" parent="Wpu66uGHNzarSeYi8BB8-39" source="Wpu66uGHNzarSeYi8BB8-19" target="Wpu66uGHNzarSeYi8BB8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Training Data&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="220" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-25" value="Distillation&lt;br&gt;Loss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-28" value="Student &lt;br&gt;Loss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="670" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/line-christmas-icons/75/_snowflake-128.png" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry x="40" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wpu66uGHNzarSeYi8BB8-38" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Distilation - LLM Optimisation Techniques&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wpu66uGHNzarSeYi8BB8-39">
+          <mxGeometry width="410" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
