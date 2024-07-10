@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T06:40:25.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="PyN0O0ST_yaIzBR5j_mM" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-10T06:54:28.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="RPV8rL3MxhsKN8xQUSXO" version="24.6.4" type="github" pages="2">
   <diagram name="Week 3.1 : Reinforcement learning from human Feedback" id="8BF3PKnMfptFRbR6Tfph">
     <mxGraphModel dx="7026" dy="3377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
@@ -861,7 +861,7 @@
           <mxGeometry x="980" y="720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-98" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="280" y="1840" width="1040" height="440" as="geometry" />
+          <mxGeometry x="40" y="2040" width="1040" height="440" as="geometry" />
         </mxCell>
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-32" value="" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="2O0aMr_Zv1vYZ4K_RTh9-98" vertex="1">
           <mxGeometry width="1040" height="440" as="geometry" />
@@ -1123,7 +1123,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YDy9lLSeIGWahGkBaheS-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="540" y="2360" width="240" height="120" as="geometry" />
+          <mxGeometry x="300" y="2560" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YDy9lLSeIGWahGkBaheS-2" value="" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="YDy9lLSeIGWahGkBaheS-1">
           <mxGeometry width="239.99999999999997" height="120" as="geometry" />
@@ -1191,7 +1191,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="YDy9lLSeIGWahGkBaheS-31" value="&lt;div&gt;Trigger API Call&lt;/div&gt;&lt;div&gt;Create Python Script&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2140" width="130" height="60" as="geometry" />
+          <mxGeometry x="1080" y="2260" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YDy9lLSeIGWahGkBaheS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDy9lLSeIGWahGkBaheS-32" target="YDy9lLSeIGWahGkBaheS-34">
           <mxGeometry relative="1" as="geometry" />
@@ -1248,10 +1248,10 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2960" y="1200" />
-              <mxPoint x="2960" y="1360" />
-              <mxPoint x="3680" y="1360" />
-              <mxPoint x="3680" y="1720" />
-              <mxPoint x="2680" y="1720" />
+              <mxPoint x="2960" y="1320" />
+              <mxPoint x="3680" y="1320" />
+              <mxPoint x="3680" y="1760" />
+              <mxPoint x="2680" y="1760" />
               <mxPoint x="2680" y="1880" />
             </Array>
           </mxGeometry>
@@ -1330,7 +1330,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="zV00082XZP-sGx6rBUi9-29" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1720" y="1930" width="800" height="440" as="geometry" />
+          <mxGeometry x="1320" y="2040" width="800" height="440" as="geometry" />
         </mxCell>
         <mxCell id="zV00082XZP-sGx6rBUi9-7" value="" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="zV00082XZP-sGx6rBUi9-29">
           <mxGeometry width="800" height="440" as="geometry" />
