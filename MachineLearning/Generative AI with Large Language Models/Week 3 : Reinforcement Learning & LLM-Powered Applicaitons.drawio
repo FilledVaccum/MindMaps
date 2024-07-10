@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T05:16:10.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="0D8ba_KOwoYPkTQbA2U3" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-10T05:23:03.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="YVsyUP4ghAvGJXfVNlIk" version="24.6.4" type="github" pages="2">
   <diagram name="Week 3.1 : Reinforcement learning from human Feedback" id="8BF3PKnMfptFRbR6Tfph">
     <mxGraphModel dx="7026" dy="3377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
@@ -690,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k4i7lBX9jh155DHKva8a" name="Week 3.2 : LLM-Powered Application">
-    <mxGraphModel dx="3404" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
+    <mxGraphModel dx="2285" dy="1525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,6 +710,9 @@
           <mxGeometry x="460" y="190" width="90" height="170" as="geometry" />
         </mxCell>
         <mxCell id="2O0aMr_Zv1vYZ4K_RTh9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zGpERFi0YEIZnHXCx_ca-4" target="2O0aMr_Zv1vYZ4K_RTh9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zGpERFi0YEIZnHXCx_ca-4" target="YDy9lLSeIGWahGkBaheS-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zGpERFi0YEIZnHXCx_ca-4" value="Augument Model &amp;amp; Build LLM Powered Applications" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
@@ -1176,6 +1179,46 @@
         <mxCell id="YDy9lLSeIGWahGkBaheS-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Vector DB&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YDy9lLSeIGWahGkBaheS-1">
           <mxGeometry x="115.55999999999995" y="86.25" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDy9lLSeIGWahGkBaheS-29" target="YDy9lLSeIGWahGkBaheS-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Interacting with External Applications" tooltip="Interacting with external applications is an important aspect of using large language models (LLMs) in real-world scenarios. It allows LLMs to go beyond language tasks and connect with the broader world, extending their utility. Here is a detailed and structured explanation of the topic:&#xa;&#xa;1. Motivation: To understand the need for interacting with external applications, let&#39;s consider an example of a customer service bot called ShopBot. In this example, a customer wants to return some genes they purchased. ShopBot interacts with the customer to process the return request from end to end.&#xa;&#xa;2. Integrations: To enable ShopBot to process the return request, it needs to integrate with various external applications. These integrations include:&#xa;&#xa;   a. Retrieving data: ShopBot needs to look up the order number in the transaction database. It can use a rag implementation or a SQL query to retrieve data from a back-end order database.&#xa;&#xa;   b. Requesting a return label: ShopBot initiates a request to the company&#39;s shipping partner for a return label. It uses the shipper&#39;s Python API to make the request.&#xa;&#xa;   c. Emailing the label: ShopBot emails the shipping label to the customer. It asks the customer to confirm their email address and includes this information in the API call to the shipper.&#xa;&#xa;3. Possible interactions: The example of ShopBot illustrates one possible set of interactions that an LLM might need to be capable of to power an application. Some other possible interactions include:&#xa;&#xa;   a. Triggering actions: LLMs can be used to trigger actions when given the ability to interact with APIs. For example, an LLM can initiate a request to an external service or retrieve information from a database.&#xa;&#xa;   b. Connecting to programming resources: LLMs can connect to other programming resources, such as a Python interpreter. This enables models to incorporate accurate calculations into their outputs.&#xa;&#xa;4. Prompts and completions: Prompts and completions play a crucial role in these workflows. The actions that an application takes in response to user requests are determined by the LLM, which serves as the application&#39;s reasoning engine. To trigger actions, the completions generated by the LLM must contain certain important information:&#xa;&#xa;   a. Generating instructions: The model needs to generate a set of instructions that the application can understand. These instructions should correspond to allowed actions and be formatted in a way that the application can interpret.&#xa;&#xa;   b. Formatting for application understanding: The completion needs to be formatted in a way that the broader application can understand. This could be as simple as a specific sentence structure or as complex as writing a script in Python or generating a SQL command.&#xa;&#xa;   c. Collecting validation information: The model may need to collect information to validate an action. This information should be obtained from the user and included in the completion so that it can be passed through to the application.&#xa;&#xa;5. Importance of structuring prompts: Structuring prompts in the correct way is crucial for all of these tasks. It can make a huge difference in the quality of a plan generated or the adherence to a desired output format specification.&#xa;&#xa;In summary, interacting with external applications allows LLMs to connect with the broader world and extend their utility beyond language tasks. It involves integrating with external applications, triggering actions, connecting to programming resources, and structuring prompts and completions appropriately." id="YDy9lLSeIGWahGkBaheS-29">
+          <mxCell style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="2020" y="720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-31" value="&lt;div&gt;Trigger API Call&lt;/div&gt;&lt;div&gt;Create Python Script&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1940" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDy9lLSeIGWahGkBaheS-32" target="YDy9lLSeIGWahGkBaheS-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Requirement - Prompt Structure" tooltip="the prompt structure involves generating clear instructions, formatting the completion in a way that the application can understand, and collecting any necessary validation information from the user. This structure ensures that the LLM can effectively guide the application&#39;s actions and produce outputs that align with the desired functionality." id="YDy9lLSeIGWahGkBaheS-32">
+          <mxCell style="whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1740" y="880" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDy9lLSeIGWahGkBaheS-34" target="YDy9lLSeIGWahGkBaheS-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Plan Actions" tooltip="&#xa;&#xa;Generating instructions:&#xa;&#xa;    The model needs to generate a set of instructions that the application can understand.&#xa;    These instructions should correspond to allowed actions and guide the application on what steps to take.&#xa;    The instructions need to be clear, concise, and formatted in a way that the application can interpret.&#xa;    For example, in the ShopBot example, the instructions included checking the order ID, requesting a shipping label, verifying the user&#39;s email, and emailing the label." id="YDy9lLSeIGWahGkBaheS-34">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1760" y="980" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YDy9lLSeIGWahGkBaheS-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDy9lLSeIGWahGkBaheS-36" target="YDy9lLSeIGWahGkBaheS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Format Outputs" tooltip="&#xa;&#xa;Formatting for application understanding:&#xa;&#xa;    The completion needs to be formatted in a way that the broader application can understand.&#xa;    This formatting can vary depending on the specific requirements of the application.&#xa;    It could be as simple as using a specific sentence structure or as complex as writing a script in a programming language like Python or generating a SQL command.&#xa;    The formatting should ensure that the application can process and interpret the completion correctly.&#xa;    For example, in the ShopBot example, the completion might include a SQL query to determine whether an order is present in the database of all orders." id="YDy9lLSeIGWahGkBaheS-36">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1920" y="980" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Validate Actions" tooltip="&#xa;&#xa;    Collecting validation information:&#xa;        The model may need to collect information from the user to validate an action.&#xa;        This information is necessary to ensure that the action taken by the application is accurate and appropriate.&#xa;        The model should prompt the user for the required information and include it in the completion so that it can be passed through to the application.&#xa;        For example, in the ShopBot example, the application needed to verify the email address the customer used to make the original order. The model would prompt the user to confirm their email address and include it in the completion." id="YDy9lLSeIGWahGkBaheS-38">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="980" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
