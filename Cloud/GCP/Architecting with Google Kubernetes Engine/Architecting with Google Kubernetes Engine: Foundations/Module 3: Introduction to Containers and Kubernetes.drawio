@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T09:46:49.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="tDMs5IGmLSTqWrqilHxB" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T11:15:34.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="eL5g4x9PF1wGcWlh5UT2" version="24.6.5" type="github" pages="3">
   <diagram name="Rough Work" id="Z0RLh-x2iGoPqDhNkfDR">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="An7nGalS76s6UcQ0cuXH-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="960" width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-1" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" vertex="1" connectable="0" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxGeometry width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="An7nGalS76s6UcQ0cuXH-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Container &amp;amp; Container Images" tooltip="" id="An7nGalS76s6UcQ0cuXH-11">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="160" y="160" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practice Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conceptual Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scenario Based Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry y="160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="You need to know" tooltip="" id="An7nGalS76s6UcQ0cuXH-15">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cheat Sheet" tooltip="" id="An7nGalS76s6UcQ0cuXH-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="180" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Flow Chart " tooltip="" id="An7nGalS76s6UcQ0cuXH-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Real-Life Examples" tooltip="" id="An7nGalS76s6UcQ0cuXH-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry x="360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Topic in Simpler Terms" tooltip="" id="An7nGalS76s6UcQ0cuXH-19">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+            <mxGeometry width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;What are the top 10 things that I should know in order to answer most of the question (greater than 80%) on the topic of containers in an interview?&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1440" width="1040" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List conceptual and thought-provoking questions that can help me assess my understanding of the topic&#39;s fundamentals and ability to think critically about it.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1480" width="1040" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List situational or scenario-based questions that a Solutions Architect might encounter during an interview related to this topic. These should test my ability to apply the knowledge in practical situations and demonstrate problem-solving skills.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1520" width="1040" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Create a deciding flow chart for ___&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1570" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -112,79 +202,171 @@
         <mxCell id="rUSBVPTudUEnR5MmYgSm-22" value="Dependencies Management" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=cross-hatch;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="880" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-46" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-46" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="660" y="910" width="440" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-30" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-29">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-30" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-32" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-31">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-32" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-33">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-36" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-35">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-36" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-37">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-33">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-41" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-40">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-41" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-43" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-42">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-43" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="rUSBVPTudUEnR5MmYgSm-46" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-44">
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="rUSBVPTudUEnR5MmYgSm-28" target="rUSBVPTudUEnR5MmYgSm-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUSBVPTudUEnR5MmYgSm-28" value="Containers Testing Arena" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-          <mxGeometry x="160" y="160" width="120" height="80" as="geometry" />
+        <mxCell id="rUSBVPTudUEnR5MmYgSm-28" value="Containers Testing Arena" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1070" width="120" height="80" as="geometry" />
         </mxCell>
         <UserObject label="Practice Questions" tooltip="1. What are the key features of containers and how do they differ from traditional virtual machines?&#xa;2. Explain the concept of containerization and its benefits in application deployment.&#xa;3. How do containers provide isolation between applications? Why is this important?&#xa;4. Discuss the advantages of using containers for application deployment compared to deploying apps directly to virtual machines.&#xa;5. What is the role of container runtimes in executing containers? Provide examples of popular container runtimes.&#xa;6. How do containers enable portability and scalability in application deployment?&#xa;7. Describe the process of building containers and creating container images.&#xa;8. Explain the role of container orchestration platforms, such as Kubernetes, in managing and scaling containers.&#xa;9. Discuss the use cases for containers, including their relevance in microservices architecture and DevOps practices.&#xa;10. What are some of the challenges and considerations in container networking and security?" id="rUSBVPTudUEnR5MmYgSm-29">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="840" y="1230" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Conceptual Questions" tooltip="Here are some conceptual and thought-provoking questions to assess your understanding of the fundamentals of containers and your ability to think critically about the topic:&#xa;&#xa;    How do containers differ from traditional virtual machines in terms of resource utilization and startup times? Why is this difference significant?&#xa;    Containers provide isolation between applications, but what are some potential challenges or risks associated with this isolation? How can these challenges be mitigated?&#xa;    In what scenarios would you choose to use containers over other deployment methods, such as virtual machines or bare-metal servers? What factors would you consider in making this decision?&#xa;    Containers are often associated with microservices architecture. How do containers enable the development and deployment of microservices-based applications? What benefits does this architecture offer?&#xa;    Consider a scenario where you have a complex application with multiple dependencies. How would you approach containerizing this application to ensure efficient management of dependencies and scalability?&#xa;    Container orchestration platforms, like Kubernetes, provide advanced features for managing containers at scale. What are some key considerations when choosing a container orchestration platform for your application? How would you evaluate the suitability of different platforms?&#xa;    Containers are known for their portability, but what are some challenges that can arise when moving containers between different environments or platforms? How can these challenges be addressed?&#xa;    Security is a critical aspect of containerization. What are some best practices for securing containerized applications? How can you ensure the integrity and security of container images and the runtime environment?&#xa;    Containers offer a flexible and scalable solution for application deployment, but what are some potential drawbacks or limitations of using containers? How can these limitations be mitigated or addressed?&#xa;    Reflecting on your understanding of containers, how do you envision the future of containerization and its impact on software development and deployment practices?" id="rUSBVPTudUEnR5MmYgSm-31">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry y="320" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="660" y="1230" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Scenario Based Questions" tooltip="1. Scenario: A company wants to modernize their application infrastructure and migrate their monolithic application to a microservices architecture using containers. How would you approach this migration process? What considerations would you take into account?&#xa;&#xa;2. Scenario: A client has expressed concerns about the security of containerized applications. How would you address these concerns and ensure the security of their containerized environment? What security measures and best practices would you recommend?&#xa;&#xa;3. Scenario: A company is experiencing high traffic and wants to ensure high availability and scalability for their containerized application. How would you design an architecture that can handle the increased load and automatically scale containers based on demand?&#xa;&#xa;4. Scenario: A client wants to deploy their containerized application across multiple cloud providers for redundancy and disaster recovery purposes. How would you design a multi-cloud architecture that allows for seamless deployment and management of containers across different cloud environments?&#xa;&#xa;5. Scenario: A company is considering using a container orchestration platform like Kubernetes for managing their containers. How would you evaluate the suitability of Kubernetes for their specific requirements? What factors would you consider in making this decision?&#xa;&#xa;6. Scenario: A client wants to optimize resource utilization and cost efficiency in their containerized environment. How would you design a solution that maximizes resource utilization and minimizes costs, considering factors like container density and resource allocation?&#xa;&#xa;7. Scenario: A company wants to implement a CI/CD pipeline for their containerized applications. How would you design the pipeline to automate the build, testing, and deployment of containers? What tools and technologies would you recommend?&#xa;&#xa;8. Scenario: A client is concerned about the complexity of managing a large number of containers in a production environment. How would you design a solution that simplifies container management and provides visibility into the health and performance of containers?&#xa;&#xa;9. Scenario: A company wants to implement container networking to enable communication between containers and external services. How would you design a networking solution that ensures secure and efficient communication between containers while maintaining isolation?&#xa;&#xa;10. Scenario: A client wants to implement a hybrid cloud architecture, with some containers running on-premises and others in the cloud. How would you design a solution that allows for seamless integration and communication between on-premises and cloud-based containers?" id="rUSBVPTudUEnR5MmYgSm-33">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry y="160" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="660" y="1070" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="You need to know" tooltip="1. Containerization: Understand the concept of containerization and how it differs from traditional virtualization. Know the benefits of using containers for application deployment.&#xa;&#xa;2. Container Engines and Runtimes: Familiarize yourself with popular container engines and runtimes such as Docker and containerd. Understand their role in creating and managing containers.&#xa;&#xa;3. Container Orchestration: Learn about container orchestration platforms like Kubernetes and their importance in managing and scaling containers in production environments.&#xa;&#xa;4. Microservices Architecture: Understand how containers enable the development and deployment of microservices-based applications. Know the benefits and challenges of using microservices.&#xa;&#xa;5. Container Images: Learn about container images and how they are created. Understand the difference between base images and application-specific images.&#xa;&#xa;6. Container Networking: Familiarize yourself with container networking concepts, including how containers communicate with each other and with external services.&#xa;&#xa;7. Container Security: Understand the security considerations and best practices for containerized environments, including image security, runtime security, and access control.&#xa;&#xa;8. Container Storage: Learn about container storage options and how to manage persistent data in containerized applications.&#xa;&#xa;9. Container Lifecycle Management: Understand the lifecycle of containers, including container creation, deployment, scaling, and termination. Know how to manage container updates and rollbacks.&#xa;&#xa;10. Monitoring and Logging: Familiarize yourself with monitoring and logging practices for containerized environments. Understand how to collect and analyze container metrics and logs." id="rUSBVPTudUEnR5MmYgSm-35">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1020" y="1070" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cheat Sheet" tooltip="1. Containerization:&#xa;   - Definition: Containerization is a lightweight form of virtualization that allows applications to run in isolated environments called containers.&#xa;   - Benefits: Efficient resource utilization, faster startup times, portability, scalability, and simplified deployment.&#xa;&#xa;2. Container Engines:&#xa;   - Examples: Docker, containerd, rkt.&#xa;   - Function: Container engines provide the runtime environment for containers, managing their creation, execution, and termination.&#xa;&#xa;3. Container Images:&#xa;   - Definition: A container image is a lightweight, standalone, and executable software package that includes everything needed to run an application, including the code, runtime, libraries, and dependencies.&#xa;   - Image Formats: Docker images (Dockerfile), OCI images (Open Container Initiative).&#xa;&#xa;4. Container Orchestration:&#xa;   - Examples: Kubernetes, Docker Swarm, Apache Mesos.&#xa;   - Function: Container orchestration platforms automate the deployment, scaling, and management of containers in a cluster or distributed environment.&#xa;&#xa;5. Microservices Architecture:&#xa;   - Definition: Microservices architecture is an architectural style that structures an application as a collection of small, loosely coupled, and independently deployable services.&#xa;   - Benefits: Scalability, fault isolation, independent development and deployment, and easier maintenance.&#xa;&#xa;6. Container Networking:&#xa;   - Concepts: Container-to-container communication, container-to-host communication, container-to-external service communication.&#xa;   - Networking Solutions: Docker networking, Kubernetes Services, overlay networks.&#xa;&#xa;7. Container Security:&#xa;   - Best Practices: Use trusted base images, regularly update container images, implement access controls, isolate containers, scan for vulnerabilities, and monitor container activity.&#xa;&#xa;8. Container Storage:&#xa;   - Options: Volumes, persistent volumes, storage drivers, cloud storage solutions.&#xa;   - Considerations: Data persistence, data sharing between containers, performance, and scalability.&#xa;&#xa;9. Container Lifecycle Management:&#xa;   - Phases: Container creation, deployment, scaling, updates, and termination.&#xa;   - Tools: Container registries (Docker Hub, Google Container Registry), container orchestration platforms, CI/CD pipelines.&#xa;&#xa;10. Monitoring and Logging:&#xa;    - Tools: Prometheus, Grafana, ELK stack (Elasticsearch, Logstash, Kibana).&#xa;    - Metrics: CPU and memory usage, network traffic, container health, and performance.&#xa;    - Logs: Collecting and analyzing container logs for troubleshooting and monitoring.&#xa;&#xa;Remember, this cheatsheet provides a high-level overview of containers. It&#39;s important to dive deeper into each topic to gain a comprehensive understanding." id="rUSBVPTudUEnR5MmYgSm-37">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry x="180" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="840" y="910" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Flow Chart " tooltip="Decision flow chart to help determine when to adopt containers:&#xa;&#xa;1. Do you have a monolithic application that needs modernization?&#xa;   - Yes: Consider adopting containers to break down the monolithic application into microservices for improved scalability, maintainability, and deployment flexibility.&#xa;   - No: Move to the next question.&#xa;&#xa;2. Do you need to improve resource utilization and scalability?&#xa;   - Yes: Containers can help optimize resource utilization and enable horizontal scaling by running multiple containers on a single host or across a cluster.&#xa;   - No: Move to the next question.&#xa;&#xa;3. Is your application deployment process complex and time-consuming?&#xa;   - Yes: Containers simplify the deployment process by packaging applications and their dependencies into portable and self-contained units, reducing deployment time and complexity.&#xa;   - No: Move to the next question.&#xa;&#xa;4. Do you require consistent application behavior across different environments?&#xa;   - Yes: Containers provide consistency in application behavior by encapsulating the application and its dependencies, ensuring that it runs the same way across different environments.&#xa;   - No: Move to the next question.&#xa;&#xa;5. Do you need to improve development and testing efficiency?&#xa;   - Yes: Containers enable developers to work in isolated environments, making it easier to develop, test, and debug applications. They also facilitate the use of continuous integration and continuous deployment (CI/CD) pipelines.&#xa;   - No: Move to the next question.&#xa;&#xa;6. Do you need to improve application scalability and availability?&#xa;   - Yes: Containers, when combined with container orchestration platforms like Kubernetes, provide built-in scalability and high availability features, making it easier to scale and manage applications.&#xa;   - No: Containers may still offer other benefits, but scalability and availability may not be the primary drivers.&#xa;&#xa;7. Do you have a need for efficient resource utilization and cost optimization?&#xa;   - Yes: Containers allow for efficient resource utilization by running multiple containers on a single host, reducing infrastructure costs and improving cost efficiency.&#xa;   - No: Containers may still offer other benefits, but resource utilization and cost optimization may not be the primary drivers.&#xa;&#xa;Based on the answers to these questions, you can determine whether adopting containers would be beneficial for your specific use case. Remember, the decision to adopt containers should be based on a thorough analysis of your application requirements, infrastructure, and organizational needs." id="rUSBVPTudUEnR5MmYgSm-40">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1020" y="1230" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Real-Life Examples" tooltip="Some real-life examples of how containers are being used in various industries:&#xa;&#xa;1. E-commerce: Online retailers often use containers to deploy and scale their applications. For example, a containerized microservices architecture can enable seamless scaling of different components of an e-commerce platform, such as inventory management, order processing, and payment systems.&#xa;&#xa;2. Financial Services: Banks and financial institutions use containers to improve the agility and scalability of their applications. Containers allow them to quickly deploy and update services, such as online banking platforms, payment gateways, and fraud detection systems, while maintaining security and compliance.&#xa;&#xa;3. Media and Entertainment: Streaming platforms and media companies leverage containers to deliver content efficiently and handle high traffic loads. Containers enable them to scale their video encoding, content delivery, and recommendation systems based on demand, ensuring a seamless user experience.&#xa;&#xa;4. Healthcare: Healthcare organizations adopt containers to streamline the deployment of healthcare applications and services. Containers can facilitate the secure sharing of patient data, enable telemedicine platforms, and support healthcare analytics and machine learning applications.&#xa;&#xa;5. Software Development: Containers are widely used in software development workflows. Development teams use containers to create consistent development environments, enable reproducible builds, and simplify the deployment of applications across different stages of the software development lifecycle.&#xa;&#xa;6. Internet of Things (IoT): Containers play a crucial role in managing and deploying applications in IoT environments. They provide a lightweight and scalable solution for running edge computing applications, managing IoT gateways, and orchestrating data processing and analytics at the edge.&#xa;&#xa;7. Gaming: Game developers and publishers utilize containers to deploy and manage game servers, multiplayer platforms, and game analytics systems. Containers enable efficient scaling of game infrastructure based on player demand and provide a consistent environment for game development and testing.&#xa;&#xa;These are just a few examples of how containers are being used in different industries. The versatility and benefits of containers make them applicable to a wide range of use cases, enabling organizations to improve efficiency, scalability, and agility in their operations." id="rUSBVPTudUEnR5MmYgSm-42">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry x="360" width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="1020" y="910" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Topic in Simpler Terms" tooltip="1. Introduction:&#xa;   - Containers are a way to package and run applications with their dependencies in a consistent and isolated manner.&#xa;   - They provide a lightweight and portable solution for deploying and managing applications.&#xa;&#xa;2. Key Features of Containers:&#xa;   - Isolation: Containers provide a level of isolation between applications, ensuring that they do not interfere with each other.&#xa;   - Portability: Containers can be easily moved between different environments, such as development, testing, and production.&#xa;   - Efficiency: Containers are lightweight and consume fewer resources compared to traditional virtual machines.&#xa;   - Scalability: Containers can be easily scaled up or down based on demand, allowing for efficient resource utilization.&#xa;&#xa;3. Advantages of Containers over Traditional Deployment Methods:&#xa;   - Resource Efficiency: Containers do not require a full operating system, resulting in lower resource usage and faster startup times.&#xa;   - Portability: Containers can be easily deployed across different platforms and environments, reducing compatibility issues.&#xa;   - Dependency Management: Containers encapsulate all the dependencies required by an application, ensuring consistent and reliable execution.&#xa;   - Isolation: Containers provide a secure and isolated environment for running applications, preventing conflicts and ensuring stability.&#xa;   - Scalability: Containers can be orchestrated and managed at scale, allowing for efficient deployment and management of large-scale applications.&#xa;&#xa;4. Containerization Process:&#xa;   - Building Containers: Containers are created by defining a container image, which includes the application code and its dependencies.&#xa;   - Container Runtimes: Containers are executed by container runtimes, such as Docker, which manage the lifecycle of containers.&#xa;   - Container Orchestration: Container orchestration platforms, like Kubernetes, provide tools for managing and scaling containers in a distributed environment.&#xa;&#xa;5. Use Cases for Containers:&#xa;   - Microservices Architecture: Containers are well-suited for building applications based on the microservices design pattern, where applications are composed of loosely coupled and independently deployable components.&#xa;   - DevOps and Continuous Integration/Continuous Deployment (CI/CD): Containers enable faster and more efficient software development and deployment processes, allowing for seamless integration and deployment of new features.&#xa;   - Hybrid and Multi-Cloud Environments: Containers provide a consistent deployment model across different cloud providers and on-premises infrastructure, enabling flexibility and portability.&#xa;&#xa;6. Container Ecosystem:&#xa;   - Container Registries: Container registries, such as Docker Hub, allow for the storage and distribution of container images.&#xa;   - Container Orchestration Platforms: Container orchestration platforms, like Kubernetes, provide advanced features for managing and scaling containers in production environments.&#xa;   - Container Networking: Container networking solutions enable communication between containers and external services.&#xa;   - Container Security: Container security tools and practices help ensure the integrity and security of containerized applications.&#xa;&#xa;Containers have revolutionized the way applications are deployed and managed, providing a flexible, efficient, and scalable solution for modern software development and deployment." id="rUSBVPTudUEnR5MmYgSm-44">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="rUSBVPTudUEnR5MmYgSm-46">
-            <mxGeometry width="80" height="80" as="geometry" />
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="660" y="910" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UoQnQ9PB46Y3yfIx1Nhb" name="Containers and Container Images">
+    <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-1" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="1720" width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2ah8WZL5TC1EaXRE68qS-11" target="2ah8WZL5TC1EaXRE68qS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Container &amp;amp; Container Images" tooltip="Containers and container images are a way to package and run software applications. Think of an application as a set of instructions and all the things it needs to work properly. &#xa;&#xa;A container is like a little box that holds the application and everything it needs. It&#39;s a self-contained unit that can run on any computer or server. Containers make it easy to move applications from one place to another without worrying about compatibility issues.&#xa;&#xa;A container image is like a blueprint for creating a container. It&#39;s a file that contains all the necessary files and settings for the application. You can think of it as a snapshot of the application at a specific point in time.&#xa;&#xa;By using containers and container images, developers can package their applications in a consistent and portable way. This makes it easier to deploy and manage applications, especially in complex environments with multiple dependencies.&#xa;&#xa;Overall, containers and container images provide a way to package and run applications in a consistent and efficient manner, making it easier for developers to build and deploy software." id="2ah8WZL5TC1EaXRE68qS-11">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="160" y="1880" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practice Questions" tooltip="" id="2ah8WZL5TC1EaXRE68qS-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="180" y="2040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conceptual Questions" tooltip="" id="2ah8WZL5TC1EaXRE68qS-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry y="2040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scenario Based Questions" tooltip="" id="2ah8WZL5TC1EaXRE68qS-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry y="1880" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="You need to know" tooltip="" id="2ah8WZL5TC1EaXRE68qS-15">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="360" y="1880" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cheat Sheet" tooltip="Containers:&#xa;- Containers are like little boxes that hold software applications and all their dependencies.&#xa;- They provide a consistent and isolated environment for running applications.&#xa;- Containers are portable and can run on any computer or server without compatibility issues.&#xa;- They are lightweight and start quickly, making them ideal for scaling and deploying applications.&#xa;&#xa;Container Images:&#xa;- Container images are like blueprints for creating containers.&#xa;- They contain all the necessary files, libraries, and settings for the application.&#xa;- Images are created using tools like Docker and can be stored in registries.&#xa;- Images are immutable, meaning they cannot be changed once created.&#xa;- Multiple containers can be created from the same image, each with its own isolated environment.&#xa;&#xa;Benefits of Containers and Container Images:&#xa;- Portability: Containers can run on any system, making it easy to move applications between environments.&#xa;- Scalability: Containers can be easily scaled up or down to meet demand.&#xa;- Efficiency: Containers are lightweight and start quickly, optimizing resource usage.&#xa;- Isolation: Containers provide a secure and isolated environment for running applications.&#xa;- Consistency: Container images ensure that applications run the same way across different environments.&#xa;&#xa;Tools and Technologies:&#xa;- Docker: A popular tool for creating and managing container images.&#xa;- Kubernetes: An orchestration platform for managing containerized applications at scale.&#xa;- Container Registries: Repositories for storing and sharing container images, such as Docker Hub or Google Container Registry." id="2ah8WZL5TC1EaXRE68qS-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="180" y="1720" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Flow Chart " tooltip="" id="2ah8WZL5TC1EaXRE68qS-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="360" y="2040" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Real-Life Examples" tooltip="Here are some real-life examples of how containers and container images are used:&#xa;&#xa;1. Web Application Deployment: Containers are commonly used to deploy web applications. For example, a company may use containers to package their web application along with all its dependencies, such as web servers, databases, and caching systems. This allows for easy deployment and scaling of the application across different servers or cloud platforms.&#xa;&#xa;2. Microservices Architecture: Containers are often used in microservices architecture, where applications are broken down into smaller, independent services. Each microservice can be packaged as a container, allowing for easy deployment, scaling, and management of individual services. This approach enables flexibility and agility in developing and maintaining complex applications.&#xa;&#xa;3. Continuous Integration and Deployment (CI/CD): Containers are integral to CI/CD pipelines, where software is built, tested, and deployed automatically. Developers can use container images to create consistent and reproducible build environments, ensuring that the application behaves the same way in different stages of the pipeline.&#xa;&#xa;4. Hybrid Cloud and Multi-Cloud Environments: Containers provide a consistent runtime environment across different cloud platforms and on-premises infrastructure. This allows organizations to easily migrate applications between different environments or distribute them across multiple cloud providers for redundancy and cost optimization.&#xa;&#xa;5. DevOps Practices: Containers are a key component of DevOps practices, enabling collaboration between development and operations teams. Developers can package their applications as containers, and operations teams can deploy and manage them using container orchestration platforms like Kubernetes. This streamlines the deployment process and promotes faster and more efficient software delivery.&#xa;&#xa;These are just a few examples of how containers and container images are used in real-life scenarios. The versatility and flexibility of containers make them a popular choice for modern application development and deployment." id="2ah8WZL5TC1EaXRE68qS-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="360" y="1720" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Topic in Simpler Terms" tooltip="" id="2ah8WZL5TC1EaXRE68qS-19">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry y="1720" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2ah8WZL5TC1EaXRE68qS-20" value="&lt;h1&gt;&lt;u&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Containers &amp;amp; Container Images&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;luuKt9ZSKadJ12jj4eAL&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/u&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="850" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t2kT-tDYgJFI-C6ke8Em-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Container &amp;amp; Container Images&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t2kT-tDYgJFI-C6ke8Em-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;What are the top 10 things that I should know in order to answer most of the question (greater than 80%) on the topic of containers in an interview?&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="2160" width="1040" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
