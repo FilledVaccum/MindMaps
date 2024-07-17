@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T06:42:51.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="tnxgubO4xjTqGCalgIIV" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T06:48:54.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="JSZaRak6BUvWg-ncnbjG" version="24.6.5" type="github" pages="4">
   <diagram name="Rough Work" id="Z0RLh-x2iGoPqDhNkfDR">
     <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1277,7 +1277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jGyyzWLPptnB-Gbz-b2B" name="Kubernetes">
-    <mxGraphModel dx="3035" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="5248" dy="3214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1517,6 +1517,27 @@
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-46" value="&lt;font style=&quot;font-size: 50px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;&lt;u&gt;Introduction to Kubernetes&lt;/u&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="255" y="-830" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1080" y="-800" width="453.75" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-49" value="Automation" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fontSize=15;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry x="240" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-50" value="Open Source" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;gradientColor=none;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fontSize=15;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry x="40" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-51" value="Container Management" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fontSize=15;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry y="100" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-52" value="Declarative Configuration" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fontSize=15;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry x="290" y="100" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-53" value="Imperative Configuration" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fontSize=15;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry x="136.25" y="190" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-48" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=15;image=img/lib/mscae/Kubernetes.svg;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
+          <mxGeometry x="130" y="40.80000000000001" width="176.25" height="169.2" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
