@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T06:52:34.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="VvZ9SxNKr3ZybPRRHjKb" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T06:56:38.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="P3t3dErdZlo-yP72GWrQ" version="24.6.5" type="github" pages="4">
   <diagram name="Rough Work" id="Z0RLh-x2iGoPqDhNkfDR">
     <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1277,7 +1277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jGyyzWLPptnB-Gbz-b2B" name="Kubernetes">
-    <mxGraphModel dx="3174" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2483" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1559,6 +1559,86 @@
         <mxCell id="WoEVb5lETHN-ysGrnOy0-59" value="Portability" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-440" y="440" width="80" height="80" as="geometry" />
         </mxCell>
+        <UserObject label="" tooltip="1. Definition and Purpose: Understand what containers are and their purpose in software development and deployment.&#xa;&#xa;2. Containerization Technologies: Familiarize yourself with popular containerization technologies like Docker and container orchestration platforms like Kubernetes.&#xa;&#xa;3. Container Images: Understand the concept of container images, including how they are created, stored, and used to create containers.&#xa;&#xa;4. Container Lifecycle: Know the different stages of a container&#39;s lifecycle, from creation to deployment, scaling, and termination.&#xa;&#xa;5. Container Orchestration: Learn about container orchestration platforms like Kubernetes, which help manage and automate the deployment, scaling, and management of containers.&#xa;&#xa;6. Container Networking: Understand how containers communicate with each other and with external systems, including concepts like container networking models and service discovery.&#xa;&#xa;7. Container Security: Be aware of container security best practices, such as image scanning, access control, and isolation techniques, to ensure the security of containerized applications.&#xa;&#xa;8. Container Storage: Learn about container storage options, including persistent storage solutions and container-specific storage technologies.&#xa;&#xa;9. Container Monitoring and Logging: Understand how to monitor and collect logs from containers to ensure performance, troubleshoot issues, and gain insights into containerized applications.&#xa;&#xa;10. Containerization Benefits and Challenges: Be able to articulate the benefits of containerization, such as portability, scalability, and resource efficiency, as well as the challenges and considerations involved in adopting containerization." id="Xzrzw3eyOWSgA3PQRU-R-1">
+          <mxCell style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="-520" y="-800" width="440" height="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-2" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" vertex="1" connectable="0" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+          <mxGeometry width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xzrzw3eyOWSgA3PQRU-R-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Xzrzw3eyOWSgA3PQRU-R-1" source="Xzrzw3eyOWSgA3PQRU-R-12" target="Xzrzw3eyOWSgA3PQRU-R-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Kubernetes" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-12">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="160" y="160" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practice Questions" tooltip="Certainly! Here are some practice questions to test your understanding of Kubernetes:&#xa;&#xa;1. What is Kubernetes and what problem does it solve in container management?&#xa;&#xa;2. Describe the difference between declarative and imperative configuration in Kubernetes.&#xa;&#xa;3. How does Kubernetes support different types of workloads? Provide examples of stateless and stateful applications.&#xa;&#xa;4. Explain how Kubernetes handles resource utilization and scaling of containerized applications.&#xa;&#xa;5. What is the role of plugins and add-ons in extending the functionality of Kubernetes? Provide an example of a popular extension.&#xa;&#xa;6. How does Kubernetes ensure workload portability across different environments? Why is this important?&#xa;&#xa;7. Compare and contrast Kubernetes with other container management and orchestration solutions.&#xa;&#xa;8. What are some key benefits of using Kubernetes for managing container infrastructure?&#xa;&#xa;9. Describe the role of the Cloud Native Computing Foundation in the development and maintenance of Kubernetes.&#xa;&#xa;10. How can Kubernetes help in automating deployment, scaling, load balancing, logging, and monitoring of containerized applications?" id="Xzrzw3eyOWSgA3PQRU-R-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conceptual Questions" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scenario Based Questions" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-15">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry y="160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="You need to know" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cheat Sheet" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="180" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Flow Chart to create container image" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Real-Life Examples" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-19">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry x="360" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Topic in Simpler Terms" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
+            <mxGeometry width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
