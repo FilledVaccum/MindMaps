@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T06:48:54.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="JSZaRak6BUvWg-ncnbjG" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T06:52:34.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="VvZ9SxNKr3ZybPRRHjKb" version="24.6.5" type="github" pages="4">
   <diagram name="Rough Work" id="Z0RLh-x2iGoPqDhNkfDR">
     <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1277,7 +1277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jGyyzWLPptnB-Gbz-b2B" name="Kubernetes">
-    <mxGraphModel dx="5248" dy="3214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3174" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1317,9 +1317,20 @@
         <mxCell id="WoEVb5lETHN-ysGrnOy0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CLxS5UusRlOprPDnJHCM-2" target="WoEVb5lETHN-ysGrnOy0-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CLxS5UusRlOprPDnJHCM-2" value="Features" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="280" width="120" height="40" as="geometry" />
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CLxS5UusRlOprPDnJHCM-2" target="WoEVb5lETHN-ysGrnOy0-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CLxS5UusRlOprPDnJHCM-2" target="WoEVb5lETHN-ysGrnOy0-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CLxS5UusRlOprPDnJHCM-2" target="WoEVb5lETHN-ysGrnOy0-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Features" tooltip="Kubernetes is a popular container management and orchestration solution that helps you manage your container infrastructure on-premises or in the Cloud. It is an open-source platform that was originally developed by Google and is now maintained by the Cloud Native Computing Foundation. &#xa;&#xa;Here are some key points about Kubernetes:&#xa;&#xa;1. Container-centric management environment: Kubernetes is designed to manage and orchestrate containerized applications. It automates various management features such as deployment, scaling, load balancing, logging, monitoring, and more.&#xa;&#xa;2. Declarative configuration: Kubernetes supports declarative configurations, where you describe the desired state of your infrastructure instead of issuing a series of commands. Kubernetes then ensures that the deployed system conforms to the desired state and maintains it even in the event of failures. This approach reduces manual work and minimizes the risk of errors.&#xa;&#xa;3. Workload types: Kubernetes supports different types of workloads, including stateless applications (e.g., web servers), stateful applications (where user and session data can be stored persistently), batched jobs, and daemon tasks.&#xa;&#xa;4. Resource utilization and scaling: Kubernetes can automatically scale containerized applications based on resource utilization. You can specify resource request levels and limits for your workloads, and Kubernetes will optimize workload performance within the cluster.&#xa;&#xa;5. Extensibility: Kubernetes has a rich ecosystem of plugins and add-ons that allow developers to extend its functionality. For example, custom resource definitions enable the management of various other resources using the Kubernetes declarative model.&#xa;&#xa;6. Portability: Kubernetes is designed to be portable across different environments, including on-premises and multiple cloud service providers. This allows you to deploy Kubernetes workloads anywhere without being locked into a specific vendor.&#xa;&#xa;Overall, Kubernetes provides a powerful and flexible platform for managing containerized applications, enabling efficient deployment, scaling, and management of your infrastructure." id="CLxS5UusRlOprPDnJHCM-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+            <mxGeometry x="-520" y="280" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="-wMBnqwL9XzpgmEAooVf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-wMBnqwL9XzpgmEAooVf-1" target="-wMBnqwL9XzpgmEAooVf-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1501,19 +1512,19 @@
           <mxGeometry x="140" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-35" value="Self-Healing" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-80" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-37" value="Automated Rollouts &amp;amp; Rollbacks" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-200" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-39" value="Horizontal Scaling" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-680" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-41" value="Service Discovery and Load Balacing" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-800" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-44" value="Secrets and Configuration Management" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-920" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-46" value="&lt;font style=&quot;font-size: 50px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;&lt;u&gt;Introduction to Kubernetes&lt;/u&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="255" y="-830" width="650" height="70" as="geometry" />
@@ -1538,6 +1549,15 @@
         </mxCell>
         <mxCell id="WoEVb5lETHN-ysGrnOy0-48" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=15;image=img/lib/mscae/Kubernetes.svg;fontFamily=Rubik;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRubik;" vertex="1" parent="WoEVb5lETHN-ysGrnOy0-54">
           <mxGeometry x="130" y="40.80000000000001" width="176.25" height="169.2" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-55" value="Support Stateful and Stateless Apps" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-57" value="Resource Limits" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoEVb5lETHN-ysGrnOy0-59" value="Portability" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=cross-hatch;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="440" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
