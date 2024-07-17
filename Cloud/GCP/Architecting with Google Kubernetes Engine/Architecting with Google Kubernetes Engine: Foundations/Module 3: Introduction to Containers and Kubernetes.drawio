@@ -1,99 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T06:56:50.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="Lmrw7dIVWA6ZYEmjnuIq" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T07:01:17.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" etag="VXz19NMD1M2t7yI6ZJqB" version="24.6.5" type="github" pages="4">
   <diagram name="Rough Work" id="Z0RLh-x2iGoPqDhNkfDR">
     <mxGraphModel dx="2074" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="" tooltip="1. Definition and Purpose: Understand what containers are and their purpose in software development and deployment.&#xa;&#xa;2. Containerization Technologies: Familiarize yourself with popular containerization technologies like Docker and container orchestration platforms like Kubernetes.&#xa;&#xa;3. Container Images: Understand the concept of container images, including how they are created, stored, and used to create containers.&#xa;&#xa;4. Container Lifecycle: Know the different stages of a container&#39;s lifecycle, from creation to deployment, scaling, and termination.&#xa;&#xa;5. Container Orchestration: Learn about container orchestration platforms like Kubernetes, which help manage and automate the deployment, scaling, and management of containers.&#xa;&#xa;6. Container Networking: Understand how containers communicate with each other and with external systems, including concepts like container networking models and service discovery.&#xa;&#xa;7. Container Security: Be aware of container security best practices, such as image scanning, access control, and isolation techniques, to ensure the security of containerized applications.&#xa;&#xa;8. Container Storage: Learn about container storage options, including persistent storage solutions and container-specific storage technologies.&#xa;&#xa;9. Container Monitoring and Logging: Understand how to monitor and collect logs from containers to ensure performance, troubleshoot issues, and gain insights into containerized applications.&#xa;&#xa;10. Containerization Benefits and Challenges: Be able to articulate the benefits of containerization, such as portability, scalability, and resource efficiency, as well as the challenges and considerations involved in adopting containerization." id="An7nGalS76s6UcQ0cuXH-20">
-          <mxCell style="group" vertex="1" connectable="0" parent="1">
+          <mxCell style="group" parent="1" vertex="1" connectable="0">
             <mxGeometry y="960" width="440" height="400" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-1" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" vertex="1" connectable="0" parent="An7nGalS76s6UcQ0cuXH-20">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-1" value="" style="group;fillColor=#b6a4cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;container=0;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1" connectable="0">
           <mxGeometry width="440" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-12">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-13">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-15">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-16">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-17">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-18">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="An7nGalS76s6UcQ0cuXH-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-19">
+        <mxCell id="An7nGalS76s6UcQ0cuXH-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" source="An7nGalS76s6UcQ0cuXH-11" target="An7nGalS76s6UcQ0cuXH-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Container &amp;amp; Container Images" tooltip="" id="An7nGalS76s6UcQ0cuXH-11">
-          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="160" y="160" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Practice Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-12">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Conceptual Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-13">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+        <UserObject label="Conceptual Questions" tooltip="List conceptual and thought-provoking questions that can help me assess my understanding of the topic&#39;s fundamentals and ability to think critically about it." id="An7nGalS76s6UcQ0cuXH-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Scenario Based Questions" tooltip="" id="An7nGalS76s6UcQ0cuXH-14">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+        <UserObject label="Scenario Based Questions" tooltip="List situational or scenario-based questions that a Solutions Architect might encounter during an interview related to this topic. These should test my ability to apply the knowledge in practical situations and demonstrate problem-solving skills." id="An7nGalS76s6UcQ0cuXH-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry y="160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="You need to know" tooltip="" id="An7nGalS76s6UcQ0cuXH-15">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+        <UserObject label="You need to know" tooltip="What are the top 10 things that I should know in order to answer most of the question (greater than 80%) on the topic of containers in an interview?" id="An7nGalS76s6UcQ0cuXH-15">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cheat Sheet" tooltip="" id="An7nGalS76s6UcQ0cuXH-16">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="180" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Flow Chart to create container image" tooltip="" id="An7nGalS76s6UcQ0cuXH-17">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+        <UserObject label="Flow Chart to create container image" tooltip="Create a deciding flow chart for ___" id="An7nGalS76s6UcQ0cuXH-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Real-Life Examples" tooltip="" id="An7nGalS76s6UcQ0cuXH-18">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry x="360" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Topic in Simpler Terms" tooltip="" id="An7nGalS76s6UcQ0cuXH-19">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="An7nGalS76s6UcQ0cuXH-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="An7nGalS76s6UcQ0cuXH-20" vertex="1">
             <mxGeometry width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="M0NAi-zBaZHkk52bHGqp-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;What are the top 10 things that I should know in order to answer most of the question (greater than 80%) on the topic of containers in an interview?&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;What are the top 10 things that I should know in order to answer most of the question (greater than 80%) on the topic of containers in an interview?&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1440" width="1040" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M0NAi-zBaZHkk52bHGqp-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List conceptual and thought-provoking questions that can help me assess my understanding of the topic&#39;s fundamentals and ability to think critically about it.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List conceptual and thought-provoking questions that can help me assess my understanding of the topic&#39;s fundamentals and ability to think critically about it.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1480" width="1040" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M0NAi-zBaZHkk52bHGqp-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List situational or scenario-based questions that a Solutions Architect might encounter during an interview related to this topic. These should test my ability to apply the knowledge in practical situations and demonstrate problem-solving skills.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;List situational or scenario-based questions that a Solutions Architect might encounter during an interview related to this topic. These should test my ability to apply the knowledge in practical situations and demonstrate problem-solving skills.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1520" width="1040" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M0NAi-zBaZHkk52bHGqp-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Create a deciding flow chart for ___&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="M0NAi-zBaZHkk52bHGqp-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Create a deciding flow chart for ___&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="1570" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -1604,12 +1604,12 @@
             <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Conceptual Questions" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-14">
+        <UserObject label="Conceptual Questions" tooltip="Certainly! Here are some conceptual and thought-provoking questions to assess your understanding of Kubernetes and your ability to think critically about it:&#xa;&#xa;1. How does Kubernetes handle container orchestration and management differently from traditional virtual machines?&#xa;&#xa;2. Discuss the advantages and disadvantages of using declarative configuration in Kubernetes compared to imperative configuration.&#xa;&#xa;3. In what scenarios would you choose to use stateful applications in Kubernetes instead of stateless applications? What are the considerations and challenges involved?&#xa;&#xa;4. Explain the concept of workload portability in Kubernetes. How does it enable organizations to avoid vendor lock-in and facilitate multi-cloud deployments?&#xa;&#xa;5. Discuss the role of Kubernetes in ensuring high availability and fault tolerance for containerized applications. How does it handle failures and maintain system stability?&#xa;&#xa;6. Consider a scenario where a Kubernetes cluster is experiencing high resource utilization. How would you troubleshoot and optimize the cluster to improve performance and scalability?&#xa;&#xa;7. Discuss the security considerations and best practices when deploying containerized applications in Kubernetes. How can you ensure the confidentiality, integrity, and availability of your applications and data?&#xa;&#xa;8. Explore the concept of Kubernetes federation and its use cases. How can it be leveraged to manage multiple Kubernetes clusters across different regions or environments?&#xa;&#xa;9. Discuss the challenges and strategies for scaling Kubernetes clusters to handle large-scale deployments with thousands of containers. What are the potential bottlenecks and how can they be addressed?&#xa;&#xa;10. Reflect on the future of Kubernetes and its impact on the containerization and cloud-native ecosystem. How do you envision Kubernetes evolving to meet the changing needs of organizations?&#xa;&#xa;These questions will not only test your understanding of Kubernetes but also encourage critical thinking and deeper exploration of the topic. Take your time to reflect on each question and provide well-thought-out answers." id="Xzrzw3eyOWSgA3PQRU-R-14">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
             <mxGeometry y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Scenario Based Questions" tooltip="" id="Xzrzw3eyOWSgA3PQRU-R-15">
+        <UserObject label="Scenario Based Questions" tooltip="1. Scenario: A company wants to migrate their existing monolithic application to a microservices architecture using Kubernetes. How would you approach this migration process? What considerations and steps would you take to ensure a successful transition?&#xa;&#xa;2. Scenario: A company is experiencing high traffic on their website and wants to ensure scalability and high availability of their application using Kubernetes. How would you design and implement an architecture that can handle the increased load and automatically scale based on demand?&#xa;&#xa;3. Scenario: A company wants to deploy their application on multiple cloud providers for redundancy and disaster recovery purposes. How would you design a multi-cloud architecture using Kubernetes to ensure workload portability and seamless failover between different cloud environments?&#xa;&#xa;4. Scenario: A company is concerned about the security of their containerized applications in Kubernetes. How would you address their security concerns and implement best practices to protect the applications and data within the Kubernetes cluster?&#xa;&#xa;5. Scenario: A company wants to implement a CI/CD pipeline for their Kubernetes-based applications. How would you design and set up a pipeline that automates the build, testing, and deployment of containerized applications using Kubernetes?&#xa;&#xa;6. Scenario: A company wants to implement advanced networking features in their Kubernetes cluster, such as network policies and load balancing. How would you configure and manage these networking features to ensure secure communication and efficient traffic distribution?&#xa;&#xa;7. Scenario: A company wants to monitor and troubleshoot their Kubernetes cluster to identify performance bottlenecks and optimize resource utilization. How would you set up monitoring and logging solutions to gain insights into the cluster&#39;s health and performance?&#xa;&#xa;8. Scenario: A company wants to implement rolling updates and zero-downtime deployments for their applications in Kubernetes. How would you design and implement a deployment strategy that minimizes downtime and ensures smooth updates without impacting user experience?&#xa;&#xa;9. Scenario: A company wants to implement autoscaling for their Kubernetes cluster based on custom metrics, such as application-specific performance indicators. How would you configure autoscaling policies and metrics to dynamically adjust the cluster size based on workload demands?&#xa;&#xa;10. Scenario: A company wants to implement a disaster recovery plan for their Kubernetes cluster to ensure business continuity in case of a major outage. How would you design and implement a disaster recovery strategy that includes backup, replication, and failover mechanisms?" id="Xzrzw3eyOWSgA3PQRU-R-15">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Xzrzw3eyOWSgA3PQRU-R-1">
             <mxGeometry y="160" width="80" height="80" as="geometry" />
           </mxCell>
