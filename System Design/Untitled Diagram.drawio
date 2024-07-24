@@ -4,30 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KgVVAKD5pRhXKj0-UC9b-1" value="" style="rounded=0;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="590" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="KgVVAKD5pRhXKj0-UC9b-3" value="" style="rounded=1;hachureGap=4;strokeColor=#E07A5F;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="450" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KgVVAKD5pRhXKj0-UC9b-4" value="" style="endArrow=classic;startArrow=classic;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=default;flowAnimation=1;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" source="KgVVAKD5pRhXKj0-UC9b-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="380" as="sourcePoint" />
-            <mxPoint x="550" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="600" y="510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KgVVAKD5pRhXKj0-UC9b-5" value="" style="endArrow=classic;startArrow=classic;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=default;flowAnimation=1;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" target="KgVVAKD5pRhXKj0-UC9b-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="380" as="sourcePoint" />
-            <mxPoint x="550" y="350" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KgVVAKD5pRhXKj0-UC9b-2" value="" style="aspect=fixed;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="330" y="340" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
