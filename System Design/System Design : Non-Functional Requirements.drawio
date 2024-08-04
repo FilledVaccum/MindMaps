@@ -338,7 +338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-wMa5Ywaz3-k0hqwGa49" name="Performance">
-    <mxGraphModel dx="604" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -362,9 +362,12 @@
             <mxGeometry x="480" y="40" width="160" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;div&gt;Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;Time&lt;/div&gt;" tooltip="Response Time:&#xa;   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction.&#xa;   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses.&#xa;   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-2">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="280" y="280" width="80" height="80" as="geometry" />
+            <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Throughput" tooltip="Throughput:&#xa;   - Throughput refers to the amount of work or the number of requests the system can handle within a given time period. It is often measured in terms of transactions per second, requests per second, or data transfer rates. High throughput is essential for systems that need to process large volumes of data or handle heavy workloads.&#xa;" id="eCiPeXA1i9GlVME2L5HB-4">
@@ -377,6 +380,12 @@
             <mxGeometry x="520" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Scalability" tooltip="Scalability:&#xa;   - Load Scalability: The ability of the system to handle increasing workloads by adding more resources (e.g., servers, instances, or containers) horizontally. This is essential for systems that experience fluctuating or growing demand.&#xa;   - Geographic Scalability: The ability of the system to scale across multiple geographic regions or data centers, enabling better performance for geographically distributed users or providing disaster recovery capabilities." id="eCiPeXA1i9GlVME2L5HB-8">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="640" y="280" width="80" height="80" as="geometry" />
@@ -387,6 +396,33 @@
             <mxGeometry x="760" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="User Interface Response" tooltip="   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction." id="eCiPeXA1i9GlVME2L5HB-12">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;System Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;TIme&lt;/div&gt;" tooltip="   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses." id="eCiPeXA1i9GlVME2L5HB-14">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="180" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Transaction Response Time" tooltip="   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-16">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-18" value="Load Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-20" value="Geo Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
