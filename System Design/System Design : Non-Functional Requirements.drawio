@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6" pages="4">
   <diagram name="Page-1" id="8OOmqV49meYUIze-WekJ">
     <mxGraphModel dx="2383" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -423,6 +423,14 @@
         <mxCell id="eCiPeXA1i9GlVME2L5HB-20" value="Geo Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="700" y="480" width="120" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i5LgoZL7gx5EHzfAm9LC" name="Availability">
+    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
