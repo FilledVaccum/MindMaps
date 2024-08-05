@@ -480,10 +480,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RXVamwE5Dz88XhjdXkP-" name="Metrics">
-    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="System Availability Percentage" tooltip="Measure the actual uptime of the system over a specific period (e.g., monthly, quarterly, yearly) and compare it to the target availability percentage defined in the requirements." id="itxJbIK594DIeItm8pM9-1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="40" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scheduled Downtime Windows" tooltip="Monitor and track the duration and frequency of scheduled downtime events, ensuring they align with the defined maintenance windows." id="itxJbIK594DIeItm8pM9-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="160" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Maximum Allowable Downtime Duration" tooltip="Implement monitoring and alerting mechanisms to detect and report instances where the system downtime exceeds the specified maximum allowable duration.&#xa;" id="itxJbIK594DIeItm8pM9-3">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="280" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Unplanned Downtime Duration" tooltip="Measure the duration of unplanned downtime events and compare them to the maximum allowable downtime defined in the requirements." id="itxJbIK594DIeItm8pM9-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="400" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Component Failover Success Rate" tooltip="Measure the success rate of failover mechanisms for redundant hardware, software, network, and data components." id="itxJbIK594DIeItm8pM9-5">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="520" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Failover Time" tooltip="Measure the time taken for failover mechanisms to detect and recover from failures." id="itxJbIK594DIeItm8pM9-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="640" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Degraded Performance Impact" tooltip="Measure the impact on system performance during failover or degraded states." id="itxJbIK594DIeItm8pM9-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="760" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
