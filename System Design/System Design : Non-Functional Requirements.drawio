@@ -564,7 +564,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XbPVlImQx_GBxyKwW5T2" name="Reliability">
-    <mxGraphModel dx="3434" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3516" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -572,7 +572,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-540" y="120" />
-              <mxPoint x="-840" y="120" />
+              <mxPoint x="-1200" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -592,19 +592,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-14">
+        <mxCell id="clAIt_91yGAmfW-32lht-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="clAIt_91yGAmfW-32lht-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-16">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="160" />
-              <mxPoint x="-360" y="160" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <UserObject label="Reliability" tooltip="Reliability is a critical non-functional requirement for any system, as it determines the system&#39;s ability to perform its intended functions consistently and accurately over time. Reliability requirements ensure that the system can operate without failures or disruptions, even in the presence of faults, errors, or unexpected conditions.&#xa;&#xa;These elements of Reliability Requirements are closely related and work together to ensure the overall dependability and trustworthiness of the system.&#xa;&#xa;Fault Tolerance mechanisms help the system gracefully handle and recover from faults or failures, while Robustness ensures that the system can withstand unexpected conditions without crashing or producing incorrect results. Resilience enables the system to quickly bounce back from failures and resume normal operations, and Self-Healing capabilities allow the system to automatically detect and resolve issues without human intervention.&#xa;&#xa;By addressing these Reliability Requirements during the architecture and design phases, systems can be built to be more fault-tolerant, robust, resilient, and self-healing, which ultimately leads to increased uptime, reduced downtime, and improved overall system reliability.&#xa;&#xa;It&#39;s important to note that achieving high reliability often involves trade-offs with other non-functional requirements, such as performance, cost, or complexity. Architects and designers must carefully balance these trade-offs to ensure that the system meets its reliability goals while also satisfying other critical requirements." id="clAIt_91yGAmfW-32lht-4">
           <mxCell style="strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
@@ -612,7 +604,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="clAIt_91yGAmfW-32lht-5" value="Availability" style="ellipse;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="160" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1240" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yW-4CH4MOtYigknJk-VK-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-6" target="yW-4CH4MOtYigknJk-VK-1">
           <mxGeometry relative="1" as="geometry" />
@@ -671,12 +663,12 @@
         </UserObject>
         <UserObject label="Resilience" tooltip="   - The capacity of the system to quickly recover and resume normal operations after a failure or disruption.&#xa;   - Resilience involves mechanisms such as automatic failover, self-healing, and automatic recovery strategies to minimize downtime and maintain service continuity." id="clAIt_91yGAmfW-32lht-16">
           <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="-520.5" y="320" width="80" height="80" as="geometry" />
+            <mxGeometry y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Self-Healing" tooltip=" - The ability of the system to automatically detect, diagnose, and resolve issues or failures without manual intervention.&#xa;   - Self-healing mechanisms may include automatic restart of failed components, rollback to a known good state, or dynamic reconfiguration of the system to work around failures." id="clAIt_91yGAmfW-32lht-18">
           <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="-400.5" y="320" width="80" height="80" as="geometry" />
+            <mxGeometry x="160" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="yW-4CH4MOtYigknJk-VK-1" value="Backup &amp;amp; Restore" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
