@@ -236,249 +236,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XbPVlImQx_GBxyKwW5T2" name="Reliability">
-    <mxGraphModel dx="2383" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="clAIt_91yGAmfW-32lht-1" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="120" />
-              <mxPoint x="-840" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="160" />
-              <mxPoint x="-720" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="120" />
-              <mxPoint x="-199" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="160" />
-              <mxPoint x="-360" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="Reliability" tooltip="Reliability is a critical non-functional requirement for any system, as it determines the system&#39;s ability to perform its intended functions consistently and accurately over time. Reliability requirements ensure that the system can operate without failures or disruptions, even in the presence of faults, errors, or unexpected conditions.&#xa;&#xa;These elements of Reliability Requirements are closely related and work together to ensure the overall dependability and trustworthiness of the system.&#xa;&#xa;Fault Tolerance mechanisms help the system gracefully handle and recover from faults or failures, while Robustness ensures that the system can withstand unexpected conditions without crashing or producing incorrect results. Resilience enables the system to quickly bounce back from failures and resume normal operations, and Self-Healing capabilities allow the system to automatically detect and resolve issues without human intervention.&#xa;&#xa;By addressing these Reliability Requirements during the architecture and design phases, systems can be built to be more fault-tolerant, robust, resilient, and self-healing, which ultimately leads to increased uptime, reduced downtime, and improved overall system reliability.&#xa;&#xa;It&#39;s important to note that achieving high reliability often involves trade-offs with other non-functional requirements, such as performance, cost, or complexity. Architects and designers must carefully balance these trade-offs to ensure that the system meets its reliability goals while also satisfying other critical requirements." id="clAIt_91yGAmfW-32lht-4">
-          <mxCell style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-600.5" y="40" width="120" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="clAIt_91yGAmfW-32lht-5" value="Availability" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-6" value="Recoverability" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Fault Tolerance" tooltip="  - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system.&#xa;   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption.&#xa;   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-7">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-239.5" y="320" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Error Handling" tooltip="   - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system." id="clAIt_91yGAmfW-32lht-8">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-360" y="520" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Failure Recovery" tooltip="   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption." id="clAIt_91yGAmfW-32lht-10">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-239.5" y="520" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Redundancy" tooltip="   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-12">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-119.5" y="520" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Robustness" tooltip="- The ability of the system to handle and remain operational under unexpected inputs, conditions, or workloads without crashing or producing incorrect results.&#xa;   - Robustness ensures that the system can gracefully handle edge cases, invalid inputs, or anomalous situations without compromising its core functionality." id="clAIt_91yGAmfW-32lht-14">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-640" y="320" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Resilience" tooltip="   - The capacity of the system to quickly recover and resume normal operations after a failure or disruption.&#xa;   - Resilience involves mechanisms such as automatic failover, self-healing, and automatic recovery strategies to minimize downtime and maintain service continuity." id="clAIt_91yGAmfW-32lht-16">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-520.5" y="320" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Self-Healing" tooltip=" - The ability of the system to automatically detect, diagnose, and resolve issues or failures without manual intervention.&#xa;   - Self-healing mechanisms may include automatic restart of failed components, rollback to a known good state, or dynamic reconfiguration of the system to work around failures." id="clAIt_91yGAmfW-32lht-18">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-            <mxGeometry x="-400.5" y="320" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="-wMa5Ywaz3-k0hqwGa49" name="Performance">
-    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Performance" tooltip="In the context of Architecture System Design, Performance Requirements are crucial for ensuring that the system meets the desired levels of responsiveness, efficiency, and scalability. Let&#39;s explore each element of the Performance Requirements section in detail:&#xa;&#xa;In the context of Architecture System Design, these Performance Requirements play a vital role in shaping the system&#39;s architecture, infrastructure, and design decisions. For example:&#xa;&#xa;- Response Time requirements may influence the choice of programming languages, frameworks, caching strategies, and database technologies.&#xa;- Throughput requirements may necessitate load balancing, horizontal scaling, and optimizations for concurrent processing.&#xa;- Resource Utilization monitoring and optimization may involve techniques like code profiling, database indexing, and resource pooling.&#xa;- Scalability requirements may lead to the adoption of cloud-native architectures, containerization, or serverless computing models.&#xa;- Capacity Planning informs decisions about infrastructure sizing, resource provisioning, and autoscaling mechanisms.&#xa;&#xa;By carefully considering and defining these Performance Requirements during the architecture and design phases, system architects and designers can make informed decisions that ensure the system meets the desired performance levels, remains responsive under varying workloads, and can scale efficiently as demand grows.&#xa;" id="eCiPeXA1i9GlVME2L5HB-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="480" y="40" width="160" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div&gt;Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;Time&lt;/div&gt;" tooltip="Response Time:&#xa;   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction.&#xa;   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses.&#xa;   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-2">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Throughput" tooltip="Throughput:&#xa;   - Throughput refers to the amount of work or the number of requests the system can handle within a given time period. It is often measured in terms of transactions per second, requests per second, or data transfer rates. High throughput is essential for systems that need to process large volumes of data or handle heavy workloads.&#xa;" id="eCiPeXA1i9GlVME2L5HB-4">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="400" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Resource Utilisation" tooltip="Resource Utilization:&#xa;   - CPU Utilization: Monitoring and optimizing CPU usage is crucial for performance, as excessive CPU consumption can lead to bottlenecks and slow response times.&#xa;   - Memory Utilization: Efficient memory management is essential, as inadequate memory can lead to slowdowns, crashes, or out-of-memory errors.&#xa;   - Disk Utilization: Disk I/O performance can significantly impact system performance, especially for data-intensive applications or those relying heavily on disk storage.&#xa;   - Network Bandwidth Utilization: For distributed systems or those relying on remote data access, network bandwidth utilization must be monitored and optimized to prevent network bottlenecks and latency issues." id="eCiPeXA1i9GlVME2L5HB-6">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="520" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Scalability" tooltip="Scalability:&#xa;   - Load Scalability: The ability of the system to handle increasing workloads by adding more resources (e.g., servers, instances, or containers) horizontally. This is essential for systems that experience fluctuating or growing demand.&#xa;   - Geographic Scalability: The ability of the system to scale across multiple geographic regions or data centers, enabling better performance for geographically distributed users or providing disaster recovery capabilities." id="eCiPeXA1i9GlVME2L5HB-8">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="640" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Capacity Planning" tooltip="Capacity Planning:&#xa;   - Current Capacity: Understanding the system&#39;s current capacity in terms of resources (CPU, memory, storage, network) and its ability to handle the current workload is essential for performance management.&#xa;   - Forecast Capacity: Estimating future capacity requirements based on projected workload growth, user base expansion, or additional functionality is crucial for proactive capacity planning and ensuring the system can meet future performance demands.&#xa;" id="eCiPeXA1i9GlVME2L5HB-10">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="760" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="User Interface Response" tooltip="   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction." id="eCiPeXA1i9GlVME2L5HB-12">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div&gt;System Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;TIme&lt;/div&gt;" tooltip="   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses." id="eCiPeXA1i9GlVME2L5HB-14">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="180" y="480" width="120" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Transaction Response Time" tooltip="   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-16">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-18" value="Load Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="540" y="480" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eCiPeXA1i9GlVME2L5HB-20" value="Geo Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="700" y="480" width="120" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="i5LgoZL7gx5EHzfAm9LC" name="Availability">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-1" value="Availability" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-2" target="nEFFdC0jwmZ0yVWEnFpQ-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-2" value="SLA" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-4" value="Disaster Recovery" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-6" value="Uptime" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-8" value="Fault Tolerance" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-10" value="Recoverability" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-12" value="Reliability" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-14" value="Resilience" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="800" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="RXVamwE5Dz88XhjdXkP-" name="Metrics">
     <mxGraphModel dx="2383" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -801,6 +558,359 @@
         <UserObject label="How to Measure" tooltip=" - **Degraded Performance Impact**:&#xa;     - Establish baseline performance metrics for the system under normal operating conditions, such as response times, throughput, and resource utilization.&#xa;     - Implement load testing tools and performance monitoring mechanisms to measure the system&#39;s performance during failover or degraded states.&#xa;     - Compare the performance metrics during failover or degraded states with the baseline metrics to quantify the performance impact.&#xa;     - Analyze the performance impact data to identify potential bottlenecks or areas for optimization in the system&#39;s fault tolerance mechanisms." id="itxJbIK594DIeItm8pM9-67">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="-920" y="760" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XbPVlImQx_GBxyKwW5T2" name="Reliability">
+    <mxGraphModel dx="2383" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clAIt_91yGAmfW-32lht-1" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="120" />
+              <mxPoint x="-840" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="160" />
+              <mxPoint x="-720" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="120" />
+              <mxPoint x="-199" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-4" target="clAIt_91yGAmfW-32lht-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="160" />
+              <mxPoint x="-360" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Reliability" tooltip="Reliability is a critical non-functional requirement for any system, as it determines the system&#39;s ability to perform its intended functions consistently and accurately over time. Reliability requirements ensure that the system can operate without failures or disruptions, even in the presence of faults, errors, or unexpected conditions.&#xa;&#xa;These elements of Reliability Requirements are closely related and work together to ensure the overall dependability and trustworthiness of the system.&#xa;&#xa;Fault Tolerance mechanisms help the system gracefully handle and recover from faults or failures, while Robustness ensures that the system can withstand unexpected conditions without crashing or producing incorrect results. Resilience enables the system to quickly bounce back from failures and resume normal operations, and Self-Healing capabilities allow the system to automatically detect and resolve issues without human intervention.&#xa;&#xa;By addressing these Reliability Requirements during the architecture and design phases, systems can be built to be more fault-tolerant, robust, resilient, and self-healing, which ultimately leads to increased uptime, reduced downtime, and improved overall system reliability.&#xa;&#xa;It&#39;s important to note that achieving high reliability often involves trade-offs with other non-functional requirements, such as performance, cost, or complexity. Architects and designers must carefully balance these trade-offs to ensure that the system meets its reliability goals while also satisfying other critical requirements." id="clAIt_91yGAmfW-32lht-4">
+          <mxCell style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-600.5" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="clAIt_91yGAmfW-32lht-5" value="Availability" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-6" value="Recoverability" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clAIt_91yGAmfW-32lht-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Fault Tolerance" tooltip="  - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system.&#xa;   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption.&#xa;   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-239.5" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Error Handling" tooltip="   - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system." id="clAIt_91yGAmfW-32lht-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-360" y="520" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Failure Recovery" tooltip="   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption." id="clAIt_91yGAmfW-32lht-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-239.5" y="520" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Redundancy" tooltip="   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-119.5" y="520" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Robustness" tooltip="- The ability of the system to handle and remain operational under unexpected inputs, conditions, or workloads without crashing or producing incorrect results.&#xa;   - Robustness ensures that the system can gracefully handle edge cases, invalid inputs, or anomalous situations without compromising its core functionality." id="clAIt_91yGAmfW-32lht-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-640" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Resilience" tooltip="   - The capacity of the system to quickly recover and resume normal operations after a failure or disruption.&#xa;   - Resilience involves mechanisms such as automatic failover, self-healing, and automatic recovery strategies to minimize downtime and maintain service continuity." id="clAIt_91yGAmfW-32lht-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-520.5" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Self-Healing" tooltip=" - The ability of the system to automatically detect, diagnose, and resolve issues or failures without manual intervention.&#xa;   - Self-healing mechanisms may include automatic restart of failed components, rollback to a known good state, or dynamic reconfiguration of the system to work around failures." id="clAIt_91yGAmfW-32lht-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-400.5" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-wMa5Ywaz3-k0hqwGa49" name="Performance">
+    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-1" target="eCiPeXA1i9GlVME2L5HB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Performance" tooltip="In the context of Architecture System Design, Performance Requirements are crucial for ensuring that the system meets the desired levels of responsiveness, efficiency, and scalability. Let&#39;s explore each element of the Performance Requirements section in detail:&#xa;&#xa;In the context of Architecture System Design, these Performance Requirements play a vital role in shaping the system&#39;s architecture, infrastructure, and design decisions. For example:&#xa;&#xa;- Response Time requirements may influence the choice of programming languages, frameworks, caching strategies, and database technologies.&#xa;- Throughput requirements may necessitate load balancing, horizontal scaling, and optimizations for concurrent processing.&#xa;- Resource Utilization monitoring and optimization may involve techniques like code profiling, database indexing, and resource pooling.&#xa;- Scalability requirements may lead to the adoption of cloud-native architectures, containerization, or serverless computing models.&#xa;- Capacity Planning informs decisions about infrastructure sizing, resource provisioning, and autoscaling mechanisms.&#xa;&#xa;By carefully considering and defining these Performance Requirements during the architecture and design phases, system architects and designers can make informed decisions that ensure the system meets the desired performance levels, remains responsive under varying workloads, and can scale efficiently as demand grows.&#xa;" id="eCiPeXA1i9GlVME2L5HB-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="480" y="40" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;Time&lt;/div&gt;" tooltip="Response Time:&#xa;   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction.&#xa;   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses.&#xa;   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Throughput" tooltip="Throughput:&#xa;   - Throughput refers to the amount of work or the number of requests the system can handle within a given time period. It is often measured in terms of transactions per second, requests per second, or data transfer rates. High throughput is essential for systems that need to process large volumes of data or handle heavy workloads.&#xa;" id="eCiPeXA1i9GlVME2L5HB-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="400" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Resource Utilisation" tooltip="Resource Utilization:&#xa;   - CPU Utilization: Monitoring and optimizing CPU usage is crucial for performance, as excessive CPU consumption can lead to bottlenecks and slow response times.&#xa;   - Memory Utilization: Efficient memory management is essential, as inadequate memory can lead to slowdowns, crashes, or out-of-memory errors.&#xa;   - Disk Utilization: Disk I/O performance can significantly impact system performance, especially for data-intensive applications or those relying heavily on disk storage.&#xa;   - Network Bandwidth Utilization: For distributed systems or those relying on remote data access, network bandwidth utilization must be monitored and optimized to prevent network bottlenecks and latency issues." id="eCiPeXA1i9GlVME2L5HB-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="520" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Scalability" tooltip="Scalability:&#xa;   - Load Scalability: The ability of the system to handle increasing workloads by adding more resources (e.g., servers, instances, or containers) horizontally. This is essential for systems that experience fluctuating or growing demand.&#xa;   - Geographic Scalability: The ability of the system to scale across multiple geographic regions or data centers, enabling better performance for geographically distributed users or providing disaster recovery capabilities." id="eCiPeXA1i9GlVME2L5HB-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="640" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Capacity Planning" tooltip="Capacity Planning:&#xa;   - Current Capacity: Understanding the system&#39;s current capacity in terms of resources (CPU, memory, storage, network) and its ability to handle the current workload is essential for performance management.&#xa;   - Forecast Capacity: Estimating future capacity requirements based on projected workload growth, user base expansion, or additional functionality is crucial for proactive capacity planning and ensuring the system can meet future performance demands.&#xa;" id="eCiPeXA1i9GlVME2L5HB-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="760" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="User Interface Response" tooltip="   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction." id="eCiPeXA1i9GlVME2L5HB-12">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;System Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;TIme&lt;/div&gt;" tooltip="   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses." id="eCiPeXA1i9GlVME2L5HB-14">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="180" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Transaction Response Time" tooltip="   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-16">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-18" value="Load Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCiPeXA1i9GlVME2L5HB-20" value="Geo Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i5LgoZL7gx5EHzfAm9LC" name="Availability">
+    <mxGraphModel dx="3133" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-1" target="nEFFdC0jwmZ0yVWEnFpQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-1" value="Availability" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-2" target="nEFFdC0jwmZ0yVWEnFpQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-2" value="SLA" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-4" value="Disaster Recovery" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TVEgVV122kuklaV1Sry-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TVEgVV122kuklaV1Sry-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TVEgVV122kuklaV1Sry-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TVEgVV122kuklaV1Sry-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-6" value="Uptime" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-8" target="jM4unvtQWSIvGqwc91iI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-8" target="jM4unvtQWSIvGqwc91iI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-8" target="jM4unvtQWSIvGqwc91iI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-8" value="Fault Tolerance" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-10" value="Recoverability" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-12" value="Reliability" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-14" value="Resilience" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TVEgVV122kuklaV1Sry-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-2" target="2TVEgVV122kuklaV1Sry-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="System Availability Percentage" tooltip="Measure the actual uptime of the system over a specific period (e.g., monthly, quarterly, yearly) and compare it to the target availability percentage defined in the requirements." id="2TVEgVV122kuklaV1Sry-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1200" y="480" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2TVEgVV122kuklaV1Sry-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-4" target="2TVEgVV122kuklaV1Sry-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Scheduled Downtime Windows" tooltip="Monitor and track the duration and frequency of scheduled downtime events, ensuring they align with the defined maintenance windows." id="2TVEgVV122kuklaV1Sry-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1200" y="600" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2TVEgVV122kuklaV1Sry-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-6" target="2TVEgVV122kuklaV1Sry-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Maximum Allowable Downtime Duration" tooltip="Implement monitoring and alerting mechanisms to detect and report instances where the system downtime exceeds the specified maximum allowable duration.&#xa;" id="2TVEgVV122kuklaV1Sry-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1200" y="720" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2TVEgVV122kuklaV1Sry-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-8" target="2TVEgVV122kuklaV1Sry-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Unplanned Downtime Duration" tooltip="Measure the duration of unplanned downtime events and compare them to the maximum allowable downtime defined in the requirements." id="2TVEgVV122kuklaV1Sry-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1200" y="840" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **System Availability Percentage**:&#xa;     - Implement a comprehensive monitoring solution that can continuously track the system&#39;s uptime and downtime events.&#xa;     - Configure the monitoring solution to detect and log the start and end times of system outages or downtime events, as well as the reason for the outage (e.g., scheduled maintenance, unplanned failure, etc.).&#xa;     - Calculate the system availability percentage over a defined period (e.g., monthly, quarterly, yearly) using the formula: (Total Uptime / (Total Uptime + Total Downtime)) x 100.&#xa;     - Total Uptime should be calculated by summing up the durations when the system was operational during the defined period.&#xa;     - Total Downtime should be calculated by summing up the durations of all downtime events (scheduled and unplanned) during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders if the system availability percentage falls below the defined threshold." id="2TVEgVV122kuklaV1Sry-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1320" y="480" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip="   - **Scheduled Downtime Duration**:&#xa;     - Define and document scheduled maintenance windows and the expected duration of each maintenance activity.&#xa;     - Implement processes to log the start and end times of scheduled maintenance events.&#xa;     - Calculate the total scheduled downtime duration by summing up the durations of all scheduled maintenance events during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders if the scheduled downtime duration exceeds the defined limits." id="2TVEgVV122kuklaV1Sry-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1320" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2TVEgVV122kuklaV1Sry-11" value="How to Measure" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="How to Measure" tooltip="  - **Unplanned Downtime Duration**:&#xa;     - Leverage the monitoring solution to detect and log unplanned system outages or downtime events.&#xa;     - Calculate the total unplanned downtime duration by summing up the durations of all unplanned downtime events during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders when unplanned downtime occurs and when the duration exceeds the defined maximum allowable downtime." id="2TVEgVV122kuklaV1Sry-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-1320" y="840" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jM4unvtQWSIvGqwc91iI-2" target="jM4unvtQWSIvGqwc91iI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Component Failover Success Rate" tooltip="Measure the success rate of failover mechanisms for redundant hardware, software, network, and data components." id="jM4unvtQWSIvGqwc91iI-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="520" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jM4unvtQWSIvGqwc91iI-4" target="jM4unvtQWSIvGqwc91iI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Failover Time" tooltip="Measure the time taken for failover mechanisms to detect and recover from failures." id="jM4unvtQWSIvGqwc91iI-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="640" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jM4unvtQWSIvGqwc91iI-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jM4unvtQWSIvGqwc91iI-6" target="jM4unvtQWSIvGqwc91iI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Degraded Performance Impact" tooltip="Measure the impact on system performance during failover or degraded states." id="jM4unvtQWSIvGqwc91iI-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="40" y="760" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **Component Failover Success Rate**:&#xa;     - Identify and document all redundant components (hardware, software, network, data) within the system architecture.&#xa;     - Develop test scenarios to simulate failures for each redundant component, such as hardware failures, software crashes, network outages, or data corruption.&#xa;     - Implement monitoring and logging mechanisms to track failover events and their outcomes (success or failure).&#xa;     - Execute the test scenarios in a controlled environment and measure the success rate of failover mechanisms for each redundant component.&#xa;     - Calculate the overall failover success rate as the number of successful failover events divided by the total number of failover attempts.&#xa;" id="jM4unvtQWSIvGqwc91iI-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="520" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip="  - **Failover Time**:&#xa;     - During failover testing or actual failover events, implement mechanisms to log the time of failure detection and the time of successful failover completion.&#xa;     - Calculate the failover time as the difference between the failover completion time and the failure detection time.&#xa;     - Analyze the failover time data to identify potential bottlenecks or areas for optimization in the failover mechanisms.&#xa;" id="jM4unvtQWSIvGqwc91iI-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="640" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **Degraded Performance Impact**:&#xa;     - Establish baseline performance metrics for the system under normal operating conditions, such as response times, throughput, and resource utilization.&#xa;     - Implement load testing tools and performance monitoring mechanisms to measure the system&#39;s performance during failover or degraded states.&#xa;     - Compare the performance metrics during failover or degraded states with the baseline metrics to quantify the performance impact.&#xa;     - Analyze the performance impact data to identify potential bottlenecks or areas for optimization in the system&#39;s fault tolerance mechanisms." id="jM4unvtQWSIvGqwc91iI-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="760" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
