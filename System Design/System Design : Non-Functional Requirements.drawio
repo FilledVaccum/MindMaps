@@ -754,7 +754,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i5LgoZL7gx5EHzfAm9LC" name="Availability">
-    <mxGraphModel dx="1955" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3665" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -783,7 +783,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-2" value="SLA" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="-720" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="U6_IILP5AXGUf6CIW3WR-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-4" target="U6_IILP5AXGUf6CIW3WR-22">
           <mxGeometry relative="1" as="geometry" />
@@ -792,7 +792,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-4" value="Disaster Recovery" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="-400" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="U6_IILP5AXGUf6CIW3WR-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-2">
           <mxGeometry relative="1" as="geometry" />
@@ -807,7 +807,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-6" value="Uptime" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="-820" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jM4unvtQWSIvGqwc91iI-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-8" target="jM4unvtQWSIvGqwc91iI-2">
           <mxGeometry relative="1" as="geometry" />
@@ -876,7 +876,7 @@
         </mxCell>
         <UserObject label="System Availability Percentage" tooltip="Measure the actual uptime of the system over a specific period (e.g., monthly, quarterly, yearly) and compare it to the target availability percentage defined in the requirements." id="2TVEgVV122kuklaV1Sry-2">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-1000" y="520" width="120" height="80" as="geometry" />
+            <mxGeometry x="-720" y="520" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="2TVEgVV122kuklaV1Sry-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-4" target="2TVEgVV122kuklaV1Sry-10">
@@ -884,7 +884,7 @@
         </mxCell>
         <UserObject label="Scheduled Downtime Windows" tooltip="Monitor and track the duration and frequency of scheduled downtime events, ensuring they align with the defined maintenance windows." id="2TVEgVV122kuklaV1Sry-4">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-1000" y="640" width="120" height="80" as="geometry" />
+            <mxGeometry x="-720" y="640" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="2TVEgVV122kuklaV1Sry-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-6" target="2TVEgVV122kuklaV1Sry-11">
@@ -892,7 +892,7 @@
         </mxCell>
         <UserObject label="Maximum Allowable Downtime Duration" tooltip="Implement monitoring and alerting mechanisms to detect and report instances where the system downtime exceeds the specified maximum allowable duration.&#xa;" id="2TVEgVV122kuklaV1Sry-6">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-1000" y="760" width="120" height="80" as="geometry" />
+            <mxGeometry x="-720" y="760" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="2TVEgVV122kuklaV1Sry-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2TVEgVV122kuklaV1Sry-8" target="2TVEgVV122kuklaV1Sry-12">
@@ -900,25 +900,25 @@
         </mxCell>
         <UserObject label="Unplanned Downtime Duration" tooltip="Measure the duration of unplanned downtime events and compare them to the maximum allowable downtime defined in the requirements." id="2TVEgVV122kuklaV1Sry-8">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-1000" y="880" width="120" height="80" as="geometry" />
+            <mxGeometry x="-720" y="880" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="How to Measure" tooltip=" - **System Availability Percentage**:&#xa;     - Implement a comprehensive monitoring solution that can continuously track the system&#39;s uptime and downtime events.&#xa;     - Configure the monitoring solution to detect and log the start and end times of system outages or downtime events, as well as the reason for the outage (e.g., scheduled maintenance, unplanned failure, etc.).&#xa;     - Calculate the system availability percentage over a defined period (e.g., monthly, quarterly, yearly) using the formula: (Total Uptime / (Total Uptime + Total Downtime)) x 100.&#xa;     - Total Uptime should be calculated by summing up the durations when the system was operational during the defined period.&#xa;     - Total Downtime should be calculated by summing up the durations of all downtime events (scheduled and unplanned) during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders if the system availability percentage falls below the defined threshold." id="2TVEgVV122kuklaV1Sry-9">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-840" y="520" width="80" height="80" as="geometry" />
+            <mxGeometry x="-560" y="520" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="How to Measure" tooltip="   - **Scheduled Downtime Duration**:&#xa;     - Define and document scheduled maintenance windows and the expected duration of each maintenance activity.&#xa;     - Implement processes to log the start and end times of scheduled maintenance events.&#xa;     - Calculate the total scheduled downtime duration by summing up the durations of all scheduled maintenance events during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders if the scheduled downtime duration exceeds the defined limits." id="2TVEgVV122kuklaV1Sry-10">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-840" y="640" width="80" height="80" as="geometry" />
+            <mxGeometry x="-560" y="640" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="2TVEgVV122kuklaV1Sry-11" value="How to Measure" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="760" width="80" height="80" as="geometry" />
+          <mxGeometry x="-560" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <UserObject label="How to Measure" tooltip="  - **Unplanned Downtime Duration**:&#xa;     - Leverage the monitoring solution to detect and log unplanned system outages or downtime events.&#xa;     - Calculate the total unplanned downtime duration by summing up the durations of all unplanned downtime events during the defined period.&#xa;     - Implement alerting mechanisms to notify stakeholders when unplanned downtime occurs and when the duration exceeds the defined maximum allowable downtime." id="2TVEgVV122kuklaV1Sry-12">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-840" y="880" width="80" height="80" as="geometry" />
+            <mxGeometry x="-560" y="880" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jM4unvtQWSIvGqwc91iI-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jM4unvtQWSIvGqwc91iI-2" target="jM4unvtQWSIvGqwc91iI-7">
@@ -1134,7 +1134,7 @@
         </mxCell>
         <UserObject label="Recovery Time Objective (RTO)" tooltip="Measure the actual time taken to recover from a disaster or failure, and compare it to the defined RTO." id="U6_IILP5AXGUf6CIW3WR-22">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-520" y="520" width="120" height="80" as="geometry" />
+            <mxGeometry x="-320" y="520" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="U6_IILP5AXGUf6CIW3WR-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="U6_IILP5AXGUf6CIW3WR-24" target="U6_IILP5AXGUf6CIW3WR-26">
@@ -1142,17 +1142,17 @@
         </mxCell>
         <UserObject label="Recovery Point Objective (RPO)" tooltip="Measure the amount of data loss or inconsistency after recovery, and compare it to the defined RPO." id="U6_IILP5AXGUf6CIW3WR-24">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-520" y="640" width="120" height="80" as="geometry" />
+            <mxGeometry x="-320" y="640" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="How to Measure" tooltip=" - **Recovery Time Objective (RTO)**:&#xa;     - Define the Recovery Time Objective (RTO) for the system, which specifies the maximum acceptable time for recovering from a disaster or failure event.&#xa;     - Develop and document disaster recovery plans and procedures, including the steps and processes required for recovery.&#xa;     - During disaster recovery testing or actual recovery events, implement mechanisms to log the time of disaster declaration and the time of successful recovery completion.&#xa;     - Calculate the actual recovery time as the difference between the recovery completion time and the disaster declaration time.&#xa;     - Compare the actual recovery time with the defined RTO to measure compliance and identify areas for improvement in the disaster recovery processes." id="U6_IILP5AXGUf6CIW3WR-25">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-360" y="520" width="80" height="80" as="geometry" />
+            <mxGeometry x="-160" y="520" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="How to Measure" tooltip="  - **Recovery Point Objective (RPO)**:&#xa;     - Define the Recovery Point Objective (RPO) for the system, which specifies the maximum acceptable data loss or inconsistency after recovery.&#xa;     - Implement mechanisms to log and track data changes or transactions during normal operation.&#xa;     - After recovery from a disaster or failure event, analyze the system&#39;s data and state to identify any data loss or inconsistency.&#xa;     - Quantify the data loss or inconsistency and compare it with the defined RPO to measure compliance.&#xa;     - Implement data replication, transaction logging, or other mechanisms to minimize data loss and meet the defined RPO." id="U6_IILP5AXGUf6CIW3WR-26">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-360" y="640" width="80" height="80" as="geometry" />
+            <mxGeometry x="-160" y="640" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
