@@ -652,9 +652,21 @@
             <mxGeometry x="-119.5" y="520" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-6" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-14" target="yW-4CH4MOtYigknJk-VK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-14" target="yW-4CH4MOtYigknJk-VK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-14" target="yW-4CH4MOtYigknJk-VK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="clAIt_91yGAmfW-32lht-14" target="yW-4CH4MOtYigknJk-VK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Robustness" tooltip="- The ability of the system to handle and remain operational under unexpected inputs, conditions, or workloads without crashing or producing incorrect results.&#xa;   - Robustness ensures that the system can gracefully handle edge cases, invalid inputs, or anomalous situations without compromising its core functionality." id="clAIt_91yGAmfW-32lht-14">
           <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="-800" y="320" width="80" height="80" as="geometry" />
+            <mxGeometry x="-700" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Resilience" tooltip="   - The capacity of the system to quickly recover and resume normal operations after a failure or disruption.&#xa;   - Resilience involves mechanisms such as automatic failover, self-healing, and automatic recovery strategies to minimize downtime and maintain service continuity." id="clAIt_91yGAmfW-32lht-16">
@@ -673,6 +685,45 @@
         <mxCell id="yW-4CH4MOtYigknJk-VK-3" value="Disaster Recovery" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1030" y="480" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="yW-4CH4MOtYigknJk-VK-5" target="yW-4CH4MOtYigknJk-VK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Input Validation" tooltip="   - **Input Validation**: The ability of the system to handle and validate various types of input data, including malformed, malicious, or unexpected inputs." id="yW-4CH4MOtYigknJk-VK-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-880" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="yW-4CH4MOtYigknJk-VK-8" target="yW-4CH4MOtYigknJk-VK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Error and Exceptional Handling" tooltip="   - **Error and Exception Handling**: The ability of the system to handle and recover from errors or exceptions that occur during execution." id="yW-4CH4MOtYigknJk-VK-8">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-720" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yW-4CH4MOtYigknJk-VK-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="yW-4CH4MOtYigknJk-VK-10" target="yW-4CH4MOtYigknJk-VK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Stress &amp;amp; Load Testing" tooltip="   - **Stress and Load Testing**: The ability of the system to maintain reliability and performance under high stress or load conditions." id="yW-4CH4MOtYigknJk-VK-10">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-560.5" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to measure" tooltip="     - Implement input validation mechanisms and test them with different types of valid and invalid input data.&#xa;     - Measure the system&#39;s ability to handle and gracefully recover from invalid or malicious inputs." id="yW-4CH4MOtYigknJk-VK-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-860" y="640" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to measure" tooltip="- Implement comprehensive error and exception handling mechanisms throughout the system.&#xa;     - Simulate various error and exception scenarios, and measure the system&#39;s ability to handle them gracefully without crashing or causing data corruption." id="yW-4CH4MOtYigknJk-VK-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-700" y="640" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - Implement load testing tools and scripts to simulate increasing workloads and stress conditions.&#xa;     - Monitor and measure the system&#39;s reliability and performance metrics (e.g., response times, throughput, error rates) under different load levels.&#xa;     - Identify the system&#39;s capacity limits and potential bottlenecks or failure points under high load." id="yW-4CH4MOtYigknJk-VK-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+            <mxGeometry x="-540.5" y="640" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
