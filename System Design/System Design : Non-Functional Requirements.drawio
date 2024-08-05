@@ -665,7 +665,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-wMa5Ywaz3-k0hqwGa49" name="Performance">
-    <mxGraphModel dx="1026" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1670" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,17 +694,38 @@
         </mxCell>
         <UserObject label="&lt;div&gt;Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;Time&lt;/div&gt;" tooltip="Response Time:&#xa;   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction.&#xa;   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses.&#xa;   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-2">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-240" y="280" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-4" target="EarcAvde9u4FVMvXJsQ4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-4" target="EarcAvde9u4FVMvXJsQ4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-4" target="EarcAvde9u4FVMvXJsQ4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Throughput" tooltip="Throughput:&#xa;   - Throughput refers to the amount of work or the number of requests the system can handle within a given time period. It is often measured in terms of transactions per second, requests per second, or data transfer rates. High throughput is essential for systems that need to process large volumes of data or handle heavy workloads.&#xa;" id="eCiPeXA1i9GlVME2L5HB-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Throughput" tooltip="Throughput:&#xa;   - Throughput refers to the amount of work or the number of requests the system can handle within a given time period. It is often measured in terms of transactions per second, requests per second, or data transfer rates. High throughput is essential for systems that need to process large volumes of data or handle heavy workloads.&#xa;" id="eCiPeXA1i9GlVME2L5HB-4">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="400" y="280" width="80" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-6" target="EarcAvde9u4FVMvXJsQ4-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-6" target="EarcAvde9u4FVMvXJsQ4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-6" target="EarcAvde9u4FVMvXJsQ4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-6" target="EarcAvde9u4FVMvXJsQ4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Resource Utilisation" tooltip="Resource Utilization:&#xa;   - CPU Utilization: Monitoring and optimizing CPU usage is crucial for performance, as excessive CPU consumption can lead to bottlenecks and slow response times.&#xa;   - Memory Utilization: Efficient memory management is essential, as inadequate memory can lead to slowdowns, crashes, or out-of-memory errors.&#xa;   - Disk Utilization: Disk I/O performance can significantly impact system performance, especially for data-intensive applications or those relying heavily on disk storage.&#xa;   - Network Bandwidth Utilization: For distributed systems or those relying on remote data access, network bandwidth utilization must be monitored and optimized to prevent network bottlenecks and latency issues." id="eCiPeXA1i9GlVME2L5HB-6">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="520" y="280" width="80" height="80" as="geometry" />
+            <mxGeometry x="1200" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="eCiPeXA1i9GlVME2L5HB-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-8" target="eCiPeXA1i9GlVME2L5HB-18">
@@ -715,41 +736,173 @@
         </mxCell>
         <UserObject label="Scalability" tooltip="Scalability:&#xa;   - Load Scalability: The ability of the system to handle increasing workloads by adding more resources (e.g., servers, instances, or containers) horizontally. This is essential for systems that experience fluctuating or growing demand.&#xa;   - Geographic Scalability: The ability of the system to scale across multiple geographic regions or data centers, enabling better performance for geographically distributed users or providing disaster recovery capabilities." id="eCiPeXA1i9GlVME2L5HB-8">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="640" y="280" width="80" height="80" as="geometry" />
+            <mxGeometry x="560" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Capacity Planning" tooltip="Capacity Planning:&#xa;   - Current Capacity: Understanding the system&#39;s current capacity in terms of resources (CPU, memory, storage, network) and its ability to handle the current workload is essential for performance management.&#xa;   - Forecast Capacity: Estimating future capacity requirements based on projected workload growth, user base expansion, or additional functionality is crucial for proactive capacity planning and ensuring the system can meet future performance demands.&#xa;" id="eCiPeXA1i9GlVME2L5HB-10">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="760" y="280" width="80" height="80" as="geometry" />
+            <mxGeometry x="880" y="280" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="eCiPeXA1i9GlVME2L5HB-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-12" target="EarcAvde9u4FVMvXJsQ4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="User Interface Response" tooltip="   - User Interface Response Time: This refers to the time it takes for the system to respond to user interactions, such as displaying a web page, loading a form, or rendering a visual element. Slow response times can lead to poor user experience and dissatisfaction." id="eCiPeXA1i9GlVME2L5HB-12">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
+            <mxGeometry x="-400" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="eCiPeXA1i9GlVME2L5HB-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-2" target="eCiPeXA1i9GlVME2L5HB-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-14" target="EarcAvde9u4FVMvXJsQ4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;div&gt;System Response&amp;nbsp;&lt;/div&gt;&lt;div&gt;TIme&lt;/div&gt;" tooltip="   - System Response Time: This measures the overall responsiveness of the system, including the time taken to process requests, retrieve data, and generate responses." id="eCiPeXA1i9GlVME2L5HB-14">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="180" y="480" width="120" height="40" as="geometry" />
+            <mxGeometry x="-260" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-16" target="EarcAvde9u4FVMvXJsQ4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Transaction Response Time" tooltip="   - Transaction Response Time: For systems that handle transactions (e.g., e-commerce, financial systems), this measures the time required to complete a specific transaction, from initiation to completion." id="eCiPeXA1i9GlVME2L5HB-16">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-            <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
+            <mxGeometry x="-120" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-18" target="EarcAvde9u4FVMvXJsQ4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="eCiPeXA1i9GlVME2L5HB-18" target="EarcAvde9u4FVMvXJsQ4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eCiPeXA1i9GlVME2L5HB-18" value="Load Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="540" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eCiPeXA1i9GlVME2L5HB-20" value="Geo Scalability" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="700" y="480" width="120" height="40" as="geometry" />
+          <mxGeometry x="760" y="480" width="120" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="How to Measure" tooltip="**Response Time**:&#xa;   - **User Interface Response Time**:&#xa;     - Implement client-side monitoring tools or scripts to capture the time from user action (e.g., clicking a button, submitting a form) to the display of the response on the user interface.&#xa;     - Use techniques like navigation timing API, performance.now(), or custom instrumentation to measure the response time accurately.&#xa;     - Simulate user interactions and capture response times under different scenarios, workloads, and system configurations.&#xa;     - Define acceptable response time thresholds based on user expectations and business requirements (e.g., 200ms for simple actions, 2s for complex operations)." id="EarcAvde9u4FVMvXJsQ4-1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-380" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **Transaction Response Time**:&#xa;     - Implement distributed tracing or transaction monitoring tools to track the end-to-end execution time of specific transactions or operations within the system.&#xa;     - Instrument code at various points (e.g., entry, exit, key steps) to measure the total time taken for the transaction.&#xa;     - Simulate different transaction types and workloads, and capture response times under various system configurations.&#xa;     - Define acceptable response time thresholds based on business requirements and service-level agreements (SLAs) for each transaction type." id="EarcAvde9u4FVMvXJsQ4-3">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-240" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **Server Response Time**:&#xa;     - Implement server-side monitoring tools or agents to capture the time from receiving a request to sending the response back to the client.&#xa;     - Use techniques like request logging, middleware instrumentation, or custom instrumentation to measure the server response time accurately.&#xa;     - Simulate different request types and workloads, and capture server response times under various system configurations.&#xa;     - Define acceptable server response time thresholds based on expected workloads and performance requirements.&#xa;" id="EarcAvde9u4FVMvXJsQ4-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-100" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip="- **Horizontal Scalability**:&#xa;     - Implement a load testing environment or simulation that can simulate increasing workloads or user requests.&#xa;     - Monitor and measure performance metrics (e.g., response times, throughput, resource utilization) as the workload increases.&#xa;     - Identify the workload thresholds at which performance degradation or system failures occur with the current resource allocation.&#xa;     - Add or remove instances or nodes (e.g., web servers, application servers, database nodes) to distribute the workload horizontally.&#xa;     - Measure the impact of horizontal scaling on system performance and workload handling capacity.&#xa;     - Analyze scalability metrics across different system configurations, resource allocations, and scaling strategies.&#xa;" id="EarcAvde9u4FVMvXJsQ4-5">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="460" y="760" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-6" value="How to Measure" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="How to Measure" tooltip="  - **Request Throughput**:&#xa;     - Implement load testing tools or scripts to simulate increasing numbers of concurrent user requests or system operations.&#xa;     - Monitor and measure the number of requests processed successfully within a given time period (e.g., requests per second, requests per minute).&#xa;     - Gradually increase the load until the system reaches its maximum sustainable throughput or performance degradation occurs.&#xa;     - Analyze throughput metrics across different system configurations, resource allocations, and optimization techniques.&#xa;     - Define throughput targets based on expected user concurrency and business requirements." id="EarcAvde9u4FVMvXJsQ4-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="60" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-10" target="EarcAvde9u4FVMvXJsQ4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-10" value="Request Throughput" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-12" target="EarcAvde9u4FVMvXJsQ4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-12" value="Transaction Throughput" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-14" target="EarcAvde9u4FVMvXJsQ4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-14" value="Data Throughput" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="How to Measure" tooltip="- **Transaction Throughput**:&#xa;     - Implement load testing tools or scripts to simulate increasing numbers of concurrent transactions or operations.&#xa;     - Monitor and measure the number of transactions processed successfully within a given time period (e.g., transactions per second, transactions per minute).&#xa;     - Gradually increase the load until the system reaches its maximum sustainable throughput or performance degradation occurs.&#xa;     - Analyze throughput metrics across different system configurations, resource allocations, and optimization techniques.&#xa;     - Define throughput targets based on expected transaction volumes and business requirements.&#xa;" id="EarcAvde9u4FVMvXJsQ4-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip="   - **Data Throughput**:&#xa;     - Implement data transfer or processing scenarios to measure the rate at which data can be transferred or processed within the system.&#xa;     - Use tools or scripts to simulate data transfer or processing workloads (e.g., file uploads, database queries, data transformations).&#xa;     - Measure the data throughput in bytes per second or other relevant units.&#xa;     - Analyze data throughput metrics across different system configurations, network conditions, and optimization techniques.&#xa;     - Define data throughput targets based on expected data volumes and business requirements.&#xa;" id="EarcAvde9u4FVMvXJsQ4-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="340" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-21" target="EarcAvde9u4FVMvXJsQ4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-21" value="Horizontal" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-23" target="EarcAvde9u4FVMvXJsQ4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-23" value="Vertical" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="How to Measure" tooltip="   - **Vertical Scalability**:&#xa;     - Implement a load testing environment or simulation that can simulate increasing workloads or user requests.&#xa;     - Monitor and measure performance metrics (e.g., response times, throughput, resource utilization) as the workload increases.&#xa;     - Identify the workload thresholds at which performance degradation or system failures occur with the current resource allocation.&#xa;     - Increase or decrease the resources (CPU, memory, storage) of existing instances or nodes to scale vertically.&#xa;     - Measure the impact of vertical scaling on system performance and workload handling capacity.&#xa;     - Analyze scalability metrics across different system configurations, resource allocations, and scaling strategies.&#xa;" id="EarcAvde9u4FVMvXJsQ4-25">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="650" y="760" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-28" target="EarcAvde9u4FVMvXJsQ4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-28" value="CPU" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-30" target="EarcAvde9u4FVMvXJsQ4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-30" value="Memory" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-31" target="EarcAvde9u4FVMvXJsQ4-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-31" value="Disk" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EarcAvde9u4FVMvXJsQ4-32" target="EarcAvde9u4FVMvXJsQ4-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EarcAvde9u4FVMvXJsQ4-32" value="Network" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="How to Measure" tooltip=" - **Disk I/O Utilization**:&#xa;     - Implement monitoring tools or agents to collect disk I/O metrics (read/write operations, latency, throughput) from the system or application processes.&#xa;     - Monitor and analyze disk I/O utilization patterns under different workloads and system configurations.&#xa;     - Identify disk-intensive operations or components and optimize them accordingly (e.g., caching, data partitioning, disk configuration).&#xa;     - Define acceptable disk I/O utilization thresholds based on system capacity and performance requirements.&#xa;" id="EarcAvde9u4FVMvXJsQ4-36">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1280" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" **Network Utilization**:&#xa;     - Implement network monitoring tools or agents to collect network traffic and bandwidth usage metrics.&#xa;     - Monitor and analyze network utilization patterns under different workloads and system configurations.&#xa;     - Identify network-intensive operations or components and optimize them accordingly (e.g., compression, caching, load balancing).&#xa;     - Define acceptable network utilization thresholds based on system capacity and performance requirements." id="EarcAvde9u4FVMvXJsQ4-38">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to Measure" tooltip=" - **Memory Utilization**:&#xa;     - Implement monitoring tools or agents to collect memory usage metrics from the system or application processes.&#xa;     - Monitor and analyze memory utilization patterns under different workloads and system configurations.&#xa;     - Identify memory leaks or inefficient memory usage patterns and optimize them accordingly.&#xa;     - Define acceptable memory utilization thresholds based on system capacity and performance requirements." id="EarcAvde9u4FVMvXJsQ4-40">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1120" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="How to measure" tooltip="   - **CPU Utilization**:&#xa;     - Implement monitoring tools or agents to collect CPU usage metrics from the system or application processes.&#xa;     - Monitor and analyze CPU utilization patterns under different workloads and system configurations.&#xa;     - Identify processes or components that consume excessive CPU resources and optimize them accordingly.&#xa;     - Define acceptable CPU utilization thresholds based on system capacity and performance requirements.&#xa;" id="EarcAvde9u4FVMvXJsQ4-42">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="960" y="600" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
