@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RXVamwE5Dz88XhjdXkP-" name="Metrics">
-    <mxGraphModel dx="733" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,6 +517,41 @@
         <UserObject label="Degraded Performance Impact" tooltip="Measure the impact on system performance during failover or degraded states." id="itxJbIK594DIeItm8pM9-7">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
             <mxGeometry x="40" y="760" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Backup Success Rate" tooltip="Measure the success rate of data and system backup processes." id="itxJbIK594DIeItm8pM9-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="40" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Restore Success Rate" tooltip="Measure the success rate of data and system restoration processes." id="itxJbIK594DIeItm8pM9-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="160" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recovery Time Objective (RTO)" tooltip="Measure the actual time taken to recover from a disaster or failure, and compare it to the defined RTO." id="itxJbIK594DIeItm8pM9-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recovery Point Objective (RPO)" tooltip="Measure the amount of data loss or inconsistency after recovery, and compare it to the defined RPO." id="itxJbIK594DIeItm8pM9-11">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="400" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mean Time Between Failures (MTBF)" tooltip="Calculate the average time between system failures or downtime events." id="itxJbIK594DIeItm8pM9-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="520" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mean Time to Repair (MTTR)" tooltip="Calculate the average time taken to diagnose and resolve failures or issues." id="itxJbIK594DIeItm8pM9-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="640" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Defect Density" tooltip="Measure the number of software defects or bugs per unit of code or functionality." id="itxJbIK594DIeItm8pM9-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="200" y="760" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
