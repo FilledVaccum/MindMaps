@@ -629,7 +629,7 @@
         <mxCell id="clAIt_91yGAmfW-32lht-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#dae8fc;strokeWidth=3;" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="Fault Tolerance" tooltip="  - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system.&#xa;   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption.&#xa;   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-7">
+        <UserObject label="Fault Tolerance" tooltip="**Fault Tolerance**:&#xa;   - Fault tolerance is essential for maintaining reliability in the face of hardware or software failures.&#xa;   - By allowing the system to continue operating correctly despite the presence of faults, fault tolerance mechanisms ensure that the system remains reliable and available, even when individual components fail.&#xa;&#xa;  - Error Handling: Mechanisms to detect, handle, and recover from errors or exceptional conditions in the system.&#xa;   - Failure Recovery: Processes and techniques to restore the system to a stable and consistent state after a failure or disruption.&#xa;   - Redundancy: Incorporating redundant components, such as backup systems, failover mechanisms, or load balancing, to ensure the system remains operational even if some components fail." id="clAIt_91yGAmfW-32lht-7">
           <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
             <mxGeometry x="-239.5" y="320" width="80" height="80" as="geometry" />
           </mxCell>
@@ -679,9 +679,11 @@
         <mxCell id="yW-4CH4MOtYigknJk-VK-1" value="Backup &amp;amp; Restore" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-1190" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yW-4CH4MOtYigknJk-VK-3" value="Disaster Recovery" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="480" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Disaster Recovery" tooltip=" Disaster recovery plans and procedures are critical for ensuring the system&#39;s reliability in the event of catastrophic incidents or disasters.&#xa;   - Robust disaster recovery mechanisms enable the system to be restored to a functional state, minimizing downtime and data loss, thereby preserving reliability." id="yW-4CH4MOtYigknJk-VK-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+            <mxGeometry x="-1030" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="yW-4CH4MOtYigknJk-VK-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#dae8fc;strokeWidth=3;" parent="1" source="yW-4CH4MOtYigknJk-VK-5" target="yW-4CH4MOtYigknJk-VK-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1010,9 +1012,11 @@
         <mxCell id="U6_IILP5AXGUf6CIW3WR-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-6" target="2TVEgVV122kuklaV1Sry-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nEFFdC0jwmZ0yVWEnFpQ-6" value="Uptime" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Uptime" tooltip="**Uptime**:&#xa;   - Uptime is a direct measure of the system&#39;s reliability. A highly reliable system should have minimal downtime, ensuring that it is available and operational for its intended purpose.&#xa;   - High uptime is a crucial aspect of reliability, as it demonstrates the system&#39;s ability to consistently function without disruptions or failures." id="nEFFdC0jwmZ0yVWEnFpQ-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+            <mxGeometry x="-400" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="jM4unvtQWSIvGqwc91iI-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#ffe6cc;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;" parent="1" source="nEFFdC0jwmZ0yVWEnFpQ-8" target="jM4unvtQWSIvGqwc91iI-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
