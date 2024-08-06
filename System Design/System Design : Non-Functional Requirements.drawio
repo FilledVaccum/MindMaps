@@ -912,16 +912,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="upaRdPpfkxEhicNmow0J" name="Relations">
-    <mxGraphModel dx="3174" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2126" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="Availability" tooltip=" **Availability**&#xa;   - Availability refers to the degree to which a system or service is accessible and operational for its intended users.&#xa;   - It is typically measured as a percentage of uptime over a given period, with high availability systems aiming for minimal downtime.&#xa;   - Availability is influenced by factors such as system reliability, resiliency, and maintenance processes.&#xa;" id="7xnTzAHhHij7qDFlpPrR-1">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="240" y="400" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="7xnTzAHhHij7qDFlpPrR-5" value="Impacts" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=3;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-2" target="7xnTzAHhHij7qDFlpPrR-1">
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-5" value="Impacts" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=3;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-2" target="7xnTzAHhHij7qDFlpPrR-1">
           <mxGeometry x="-0.8339" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -935,11 +935,11 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Resiliency" tooltip="**Resiliency**&#xa;   - Resiliency is the ability of a system to recover quickly from failures, errors, or unexpected conditions.&#xa;   - A resilient system can adapt and continue operating, even in the face of disruptions or component failures.&#xa;   - Resiliency is achieved through techniques like redundancy, failover mechanisms, load balancing, and self-healing capabilities.&#xa;   - Resiliency directly impacts availability by minimizing downtime and ensuring continuity of service." id="7xnTzAHhHij7qDFlpPrR-2">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="640" y="760" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="7xnTzAHhHij7qDFlpPrR-6" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=3;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-1">
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-6" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=3;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7xnTzAHhHij7qDFlpPrR-8" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-6">
@@ -959,7 +959,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Reliability" tooltip=". **Reliability**&#xa;   - Reliability refers to the system&#39;s ability to perform its intended functions consistently and accurately over time.&#xa;   - A reliable system operates without failures or errors under specified conditions and within specified constraints.&#xa;   - Reliability is influenced by factors such as fault tolerance, error handling, and maintainability.&#xa;   - Reliable systems contribute to higher availability by reducing the frequency and duration of outages or failures.&#xa;" id="7xnTzAHhHij7qDFlpPrR-3">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="-200" y="760" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
@@ -972,7 +972,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Performance" tooltip=" **Performance**&#xa;   - Performance refers to the system&#39;s responsiveness, throughput, and scalability under varying workloads.&#xa;   - It encompasses metrics like response time, latency, and resource utilization.&#xa;   - Performance is influenced by factors such as system design, hardware resources, and optimization techniques.&#xa;   - Poor performance can indirectly impact availability and resiliency, as sluggish or overloaded systems may become unresponsive or experience failures." id="7xnTzAHhHij7qDFlpPrR-4">
-          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
             <mxGeometry x="240" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
