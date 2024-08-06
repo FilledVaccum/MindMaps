@@ -1189,7 +1189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XbPVlImQx_GBxyKwW5T2" name="Reliability">
-    <mxGraphModel dx="3568" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3910" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1302,7 +1302,7 @@
         </UserObject>
         <UserObject label="Self-Healing" tooltip=" - The ability of the system to automatically detect, diagnose, and resolve issues or failures without manual intervention.&#xa;   - Self-healing mechanisms may include automatic restart of failed components, rollback to a known good state, or dynamic reconfiguration of the system to work around failures." id="clAIt_91yGAmfW-32lht-18">
           <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-            <mxGeometry x="160" y="320" width="80" height="80" as="geometry" />
+            <mxGeometry x="120" y="320" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="yW-4CH4MOtYigknJk-VK-1" value="Backup &amp;amp; Restore" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
