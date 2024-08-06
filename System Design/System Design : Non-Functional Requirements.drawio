@@ -1672,7 +1672,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_ST3un9Q5T5oonJE1oa3" name="Flow">
-    <mxGraphModel dx="4104" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="-41" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2009,6 +2009,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OXLDwLvdC0NMarhtmeI3-90" value="List all the categories" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;strokeWidth=2;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="OXLDwLvdC0NMarhtmeI3-89">
+          <mxGeometry x="120" y="420.75" width="166" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OXLDwLvdC0NMarhtmeI3-91" value="" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="OXLDwLvdC0NMarhtmeI3-89" source="OXLDwLvdC0NMarhtmeI3-47" target="OXLDwLvdC0NMarhtmeI3-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
