@@ -1375,25 +1375,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7xnTzAHhHij7qDFlpPrR-7" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-1" target="7xnTzAHhHij7qDFlpPrR-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7xnTzAHhHij7qDFlpPrR-9" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-7">
-          <mxGeometry x="0.1748" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <UserObject label="Availability" tooltip=" **Availability**&#xa;   - Availability refers to the degree to which a system or service is accessible and operational for its intended users.&#xa;   - It is typically measured as a percentage of uptime over a given period, with high availability systems aiming for minimal downtime.&#xa;   - Availability is influenced by factors such as system reliability, resiliency, and maintenance processes.&#xa;" id="7xnTzAHhHij7qDFlpPrR-1">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-            <mxGeometry x="230" y="390" width="80" height="80" as="geometry" />
+            <mxGeometry x="240" y="400" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="7xnTzAHhHij7qDFlpPrR-5" value="Impacts" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-2" target="7xnTzAHhHij7qDFlpPrR-1">
+          <mxGeometry x="-0.8339" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-20" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-2" target="7xnTzAHhHij7qDFlpPrR-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-23" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-20">
+          <mxGeometry x="-0.528" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="Resiliency" tooltip="**Resiliency**&#xa;   - Resiliency is the ability of a system to recover quickly from failures, errors, or unexpected conditions.&#xa;   - A resilient system can adapt and continue operating, even in the face of disruptions or component failures.&#xa;   - Resiliency is achieved through techniques like redundancy, failover mechanisms, load balancing, and self-healing capabilities.&#xa;   - Resiliency directly impacts availability by minimizing downtime and ensuring continuity of service." id="7xnTzAHhHij7qDFlpPrR-2">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-            <mxGeometry x="480" y="230" width="80" height="80" as="geometry" />
+            <mxGeometry x="640" y="760" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="7xnTzAHhHij7qDFlpPrR-6" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-1">
@@ -1401,17 +1403,72 @@
         </mxCell>
         <mxCell id="7xnTzAHhHij7qDFlpPrR-8" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-6">
           <mxGeometry x="-0.1361" y="2" relative="1" as="geometry">
+            <mxPoint x="-61" y="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-13" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-14" target="7xnTzAHhHij7qDFlpPrR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-24" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-26" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-24">
+          <mxGeometry x="-0.6813" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Reliability" tooltip=". **Reliability**&#xa;   - Reliability refers to the system&#39;s ability to perform its intended functions consistently and accurately over time.&#xa;   - A reliable system operates without failures or errors under specified conditions and within specified constraints.&#xa;   - Reliability is influenced by factors such as fault tolerance, error handling, and maintainability.&#xa;   - Reliable systems contribute to higher availability by reducing the frequency and duration of outages or failures.&#xa;" id="7xnTzAHhHij7qDFlpPrR-3">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-            <mxGeometry x="620" y="410" width="80" height="80" as="geometry" />
+            <mxGeometry x="-200" y="760" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-16" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-4" target="7xnTzAHhHij7qDFlpPrR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-17" value="&lt;div&gt;Poor Performance&lt;/div&gt;&lt;div&gt;Impact&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-16">
+          <mxGeometry x="-0.8154" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="Performance" tooltip=" **Performance**&#xa;   - Performance refers to the system&#39;s responsiveness, throughput, and scalability under varying workloads.&#xa;   - It encompasses metrics like response time, latency, and resource utilization.&#xa;   - Performance is influenced by factors such as system design, hardware resources, and optimization techniques.&#xa;   - Poor performance can indirectly impact availability and resiliency, as sluggish or overloaded systems may become unresponsive or experience failures." id="7xnTzAHhHij7qDFlpPrR-4">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-            <mxGeometry x="-80" y="400" width="80" height="80" as="geometry" />
+            <mxGeometry x="240" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Availability and Reliability" tooltip="- **Availability and Reliability**: A highly reliable system is more likely to have higher availability, as it experiences fewer failures or outages. However, reliability alone does not guarantee availability, as planned downtime for maintenance or upgrades can still impact availability." id="7xnTzAHhHij7qDFlpPrR-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry y="600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Availability and Resiliency" tooltip="- **Availability and Resiliency**: Resiliency enhances availability by enabling the system to recover quickly from failures or disruptions. A resilient system can maintain a higher level of availability by minimizing downtime and ensuring continuous operation, even in the face of faults or errors." id="7xnTzAHhHij7qDFlpPrR-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="460" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-15" value="" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="800" as="sourcePoint" />
+            <mxPoint x="640" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Reliability and Resiliency" tooltip="- **Reliability and Resiliency**: Reliability and resiliency are closely related, as a reliable system is less likely to experience failures, and a resilient system can recover quickly from failures when they do occur. Together, they contribute to overall system stability and continuity of service." id="7xnTzAHhHij7qDFlpPrR-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="210" y="770" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Performance and Availability" tooltip="- **Performance and Availability**: While performance and availability are not directly related, poor performance can indirectly impact availability. If a system becomes overloaded or unresponsive due to performance issues, it may become unavailable or experience failures, leading to downtime and reduced availability." id="7xnTzAHhHij7qDFlpPrR-18">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="220" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Performance and Resiliency" tooltip="- **Performance and Resiliency**: Resiliency mechanisms, such as load balancing and failover, can help maintain acceptable performance levels by distributing workloads across multiple resources or redirecting traffic to healthy nodes." id="7xnTzAHhHij7qDFlpPrR-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="440" y="400" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Performance and Reliability" tooltip="**Impact of Reliability on Performance**:&#xa;   - A reliable system with robust error handling and fault tolerance mechanisms can maintain consistent performance even in the presence of failures or errors.&#xa;   - Reliable systems are less likely to experience unexpected downtime or disruptions, ensuring uninterrupted service and consistent performance.&#xa;   - Effective failure detection and recovery processes can prevent cascading failures, minimizing the impact on overall system performance.&#xa;   - Reliable systems often employ techniques like redundancy and load balancing, which can also contribute to better performance by distributing workloads across multiple resources." id="7xnTzAHhHij7qDFlpPrR-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+            <mxGeometry x="-10" y="400" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
