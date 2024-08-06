@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6" pages="6">
   <diagram name="Page-1" id="8OOmqV49meYUIze-WekJ">
     <mxGraphModel dx="2383" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -608,18 +608,22 @@
             <mxGeometry x="-600.5" y="40" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="clAIt_91yGAmfW-32lht-5" value="Availability" style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-1440" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Availability" tooltip="   - **Availability**: The percentage of time the system is operational and accessible to users. High availability is often a requirement for critical systems, such as banking applications, telecommunications systems, or healthcare systems, where downtime can have severe consequences." id="clAIt_91yGAmfW-32lht-5">
+          <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+            <mxGeometry x="-1440" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="yW-4CH4MOtYigknJk-VK-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeWidth=3;" parent="1" source="clAIt_91yGAmfW-32lht-6" target="yW-4CH4MOtYigknJk-VK-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW-4CH4MOtYigknJk-VK-4" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#dae8fc;strokeWidth=3;" parent="1" source="clAIt_91yGAmfW-32lht-6" target="yW-4CH4MOtYigknJk-VK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clAIt_91yGAmfW-32lht-6" value="Recoverability" style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Recoverability" tooltip="   - **Recoverability**: The system&#39;s ability to restore itself to a known good state after a failure or data loss. Effective backup and recovery strategies, including data replication and disaster recovery plans, are essential for ensuring recoverability and minimizing data loss or downtime." id="clAIt_91yGAmfW-32lht-6">
+          <mxCell style="ellipse;strokeWidth=2;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+            <mxGeometry x="-1080" y="320" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="clAIt_91yGAmfW-32lht-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#dae8fc;strokeWidth=3;" parent="1" source="clAIt_91yGAmfW-32lht-7" target="clAIt_91yGAmfW-32lht-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1361,6 +1365,53 @@
         <UserObject label="How to Measure" tooltip="  - **Recovery Point Objective (RPO)**:&#xa;     - Define the Recovery Point Objective (RPO) for the system, which specifies the maximum acceptable data loss or inconsistency after recovery.&#xa;     - Implement mechanisms to log and track data changes or transactions during normal operation.&#xa;     - After recovery from a disaster or failure event, analyze the system&#39;s data and state to identify any data loss or inconsistency.&#xa;     - Quantify the data loss or inconsistency and compare it with the defined RPO to measure compliance.&#xa;     - Implement data replication, transaction logging, or other mechanisms to minimize data loss and meet the defined RPO." id="U6_IILP5AXGUf6CIW3WR-26">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
             <mxGeometry x="220" y="640" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="upaRdPpfkxEhicNmow0J" name="Relations">
+    <mxGraphModel dx="3174" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-7" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-1" target="7xnTzAHhHij7qDFlpPrR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-9" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-7">
+          <mxGeometry x="0.1748" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Availability" tooltip=" **Availability**&#xa;   - Availability refers to the degree to which a system or service is accessible and operational for its intended users.&#xa;   - It is typically measured as a percentage of uptime over a given period, with high availability systems aiming for minimal downtime.&#xa;   - Availability is influenced by factors such as system reliability, resiliency, and maintenance processes.&#xa;" id="7xnTzAHhHij7qDFlpPrR-1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="230" y="390" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-5" value="Impacts" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-2" target="7xnTzAHhHij7qDFlpPrR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Resiliency" tooltip="**Resiliency**&#xa;   - Resiliency is the ability of a system to recover quickly from failures, errors, or unexpected conditions.&#xa;   - A resilient system can adapt and continue operating, even in the face of disruptions or component failures.&#xa;   - Resiliency is achieved through techniques like redundancy, failover mechanisms, load balancing, and self-healing capabilities.&#xa;   - Resiliency directly impacts availability by minimizing downtime and ensuring continuity of service." id="7xnTzAHhHij7qDFlpPrR-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="480" y="230" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-6" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="7xnTzAHhHij7qDFlpPrR-3" target="7xnTzAHhHij7qDFlpPrR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xnTzAHhHij7qDFlpPrR-8" value="Impacts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="7xnTzAHhHij7qDFlpPrR-6">
+          <mxGeometry x="-0.1361" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Reliability" tooltip=". **Reliability**&#xa;   - Reliability refers to the system&#39;s ability to perform its intended functions consistently and accurately over time.&#xa;   - A reliable system operates without failures or errors under specified conditions and within specified constraints.&#xa;   - Reliability is influenced by factors such as fault tolerance, error handling, and maintainability.&#xa;   - Reliable systems contribute to higher availability by reducing the frequency and duration of outages or failures.&#xa;" id="7xnTzAHhHij7qDFlpPrR-3">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="620" y="410" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Performance" tooltip=" **Performance**&#xa;   - Performance refers to the system&#39;s responsiveness, throughput, and scalability under varying workloads.&#xa;   - It encompasses metrics like response time, latency, and resource utilization.&#xa;   - Performance is influenced by factors such as system design, hardware resources, and optimization techniques.&#xa;   - Poor performance can indirectly impact availability and resiliency, as sluggish or overloaded systems may become unresponsive or experience failures." id="7xnTzAHhHij7qDFlpPrR-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="-80" y="400" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
