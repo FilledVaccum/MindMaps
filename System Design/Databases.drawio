@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="QGAENbP_7samY_ILDqjr">
-    <mxGraphModel dx="1833" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2077" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,44 +110,38 @@
         <mxCell id="RMSyVIdG78tPgDftZzgw-29" value="Architecture" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="760" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-31" target="RMSyVIdG78tPgDftZzgw-33">
+        <mxCell id="RMSyVIdG78tPgDftZzgw-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-31" target="RMSyVIdG78tPgDftZzgw-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-31" value="RDBMS" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="780" y="560" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-33" target="RMSyVIdG78tPgDftZzgw-35">
+        <UserObject label="RDBMS : Intro to SQL" tooltip="Introduction of SQL: Structured Query Language (SQL) was introduced to query relational databases, making data access easier and more standardized." id="RMSyVIdG78tPgDftZzgw-31">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="780" y="560" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-35" target="RMSyVIdG78tPgDftZzgw-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-33" value="Introduction to SQL" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="760" y="680" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-35" target="RMSyVIdG78tPgDftZzgw-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-35" value="Problem:" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="760" y="840" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-37" target="RMSyVIdG78tPgDftZzgw-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-37" value="Performance" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="780" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Problem: Performance" tooltip="Performance: Early RDBMS implementations were slower compared to hierarchical and network models, particularly when dealing with large datasets or complex queries." id="RMSyVIdG78tPgDftZzgw-35">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="760" y="760" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="RMSyVIdG78tPgDftZzgw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-39" target="RMSyVIdG78tPgDftZzgw-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RMSyVIdG78tPgDftZzgw-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-39" target="RMSyVIdG78tPgDftZzgw-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RMSyVIdG78tPgDftZzgw-39" value="Solution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1080" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Solution" tooltip="Indexing and Query Optimization: Techniques like indexing and query optimization were introduced to speed up data retrieval and improve overall performance." id="RMSyVIdG78tPgDftZzgw-39">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="760" y="920" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="RMSyVIdG78tPgDftZzgw-41" value="Indexing" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1200" width="80" height="80" as="geometry" />
+          <mxGeometry x="640" y="1040" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RMSyVIdG78tPgDftZzgw-43" value="Query Optimization" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1200" width="80" height="80" as="geometry" />
+          <mxGeometry x="920" y="1040" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
