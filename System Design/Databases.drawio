@@ -427,6 +427,40 @@
         <mxCell id="RMSyVIdG78tPgDftZzgw-122" value="Raft" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="2680" y="1160" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-124" target="RMSyVIdG78tPgDftZzgw-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-124" value="NoSQL Databases" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-130" target="RMSyVIdG78tPgDftZzgw-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-130" value="Problem : Unstructured Data" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-132" target="RMSyVIdG78tPgDftZzgw-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-132" target="RMSyVIdG78tPgDftZzgw-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-132" value="Solutions" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Key-Value Stores, Document, Columnar, and Graph Databases:" tooltip="Key-Value Stores, Document, Columnar, and Graph Databases: NoSQL databases like MongoDB, Cassandra, and Neo4j were introduced to handle these challenges by offering flexible schemas, distributed architectures, and optimized storage for specific use cases." id="RMSyVIdG78tPgDftZzgw-134">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="2900" y="960" width="130" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Eventual Consistency" tooltip="Eventual Consistency: Many NoSQL databases prioritized availability and partition tolerance, allowing for eventual consistency in exchange for higher scalability." id="RMSyVIdG78tPgDftZzgw-136">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="3060" y="960" width="130" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-106" target="RMSyVIdG78tPgDftZzgw-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
