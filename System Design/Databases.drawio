@@ -231,6 +231,9 @@
         <mxCell id="RMSyVIdG78tPgDftZzgw-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-68" target="RMSyVIdG78tPgDftZzgw-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-68" target="RMSyVIdG78tPgDftZzgw-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RMSyVIdG78tPgDftZzgw-68" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;1980s-2000s :&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Performance &amp;amp; Scalability :&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Addressing The Growing Data Needs&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="1920" y="280" width="400" height="80" as="geometry" />
         </mxCell>
@@ -265,6 +268,47 @@
         <UserObject label="Caching" tooltip="Caching: Techniques like buffer pools and in-memory caching were used to store frequently accessed data in memory for quicker access." id="RMSyVIdG78tPgDftZzgw-78">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
             <mxGeometry x="2000" y="960" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-80" target="RMSyVIdG78tPgDftZzgw-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-80" value="Scalability" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-82" target="RMSyVIdG78tPgDftZzgw-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Problem : Not Scalable" tooltip="Problem: Early databases were often limited to vertical scaling (adding more resources to a single server), which had physical and cost limitations." id="RMSyVIdG78tPgDftZzgw-82">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="2260" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-84" target="RMSyVIdG78tPgDftZzgw-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-84" target="RMSyVIdG78tPgDftZzgw-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-84" target="RMSyVIdG78tPgDftZzgw-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-84" value="Solutions" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Distributed Databases" tooltip="Distributed Databases: Data was spread across multiple servers to improve scalability and fault tolerance." id="RMSyVIdG78tPgDftZzgw-86">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="2160" y="960" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Replication" tooltip="Replication: Data replication across multiple nodes ensured high availability and reliability." id="RMSyVIdG78tPgDftZzgw-88">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="2400" y="960" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Sharding" tooltip="Sharding: The practice of splitting databases into smaller, more manageable pieces (shards) that could be distributed across multiple servers became common." id="RMSyVIdG78tPgDftZzgw-90">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="2280" y="960" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
