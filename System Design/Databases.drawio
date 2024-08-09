@@ -511,6 +511,9 @@
         <mxCell id="RMSyVIdG78tPgDftZzgw-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-152" target="RMSyVIdG78tPgDftZzgw-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-152" target="RMSyVIdG78tPgDftZzgw-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RMSyVIdG78tPgDftZzgw-152" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;2010&#39;s- 2020s&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Modern Databases:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Cloud, Serverless, and Beyond &lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;size=40.00000000000091;" vertex="1" parent="1">
           <mxGeometry x="3680" y="280" width="480" height="80" as="geometry" />
         </mxCell>
@@ -545,6 +548,39 @@
         <UserObject label="Serverless Databases" tooltip="Serverless Databases: Serverless databases, like AWS Aurora Serverless, automatically scale based on demand, eliminating the need for provisioning and managing database servers." id="RMSyVIdG78tPgDftZzgw-165">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
             <mxGeometry x="3640" y="920" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-167" target="RMSyVIdG78tPgDftZzgw-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-167" value="Multi-Model or Polyglot Persistence" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-169" target="RMSyVIdG78tPgDftZzgw-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Problem : Different Needs" tooltip="Serverless Databases: Serverless databases, like AWS Aurora Serverless, automatically scale based on demand, eliminating the need for provisioning and managing database servers." id="RMSyVIdG78tPgDftZzgw-169">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="3860" y="600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-171" target="RMSyVIdG78tPgDftZzgw-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RMSyVIdG78tPgDftZzgw-171" target="RMSyVIdG78tPgDftZzgw-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMSyVIdG78tPgDftZzgw-171" value="Solutions" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Multi-Model Database" tooltip="Multi-Model Databases: Databases like Cosmos DB and ArangoDB support multiple data models (document, graph, key-value) within the same database, providing flexibility and reducing the complexity of maintaining multiple systems." id="RMSyVIdG78tPgDftZzgw-173">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="3800" y="920" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Polyglot Persistence" tooltip="Polyglot Persistence: Applications increasingly adopted polyglot persistence, using different databases optimized for specific tasks (e.g., a graph database for relationships, a document database for unstructured data)." id="RMSyVIdG78tPgDftZzgw-175">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="3960" y="920" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
