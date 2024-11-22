@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
   <diagram name="Page-1" id="qT4ehJSb8JvAcf5rCi-n">
-    <mxGraphModel dx="4003" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3736" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
         <mxCell id="F2ghaZuJ-phgNiPlRmCp-33" value="Entitlement Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2ghaZuJ-phgNiPlRmCp-43">
           <mxGeometry y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F2ghaZuJ-phgNiPlRmCp-34" value="Privileged Identity Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2ghaZuJ-phgNiPlRmCp-43">
+        <mxCell id="F2ghaZuJ-phgNiPlRmCp-34" value="Privileged Identity Management (PIM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2ghaZuJ-phgNiPlRmCp-43">
           <mxGeometry x="160" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F2ghaZuJ-phgNiPlRmCp-35" value="Access Reviews" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2ghaZuJ-phgNiPlRmCp-43">
