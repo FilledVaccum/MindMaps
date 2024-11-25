@@ -55,8 +55,54 @@
         <mxCell id="4GKKFWEUCo8rr3pjgwcH-16" value="VM, Vnet + NIC , Storage disk can be in different resource group but they need to be in same region." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1040" width="200" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-17" target="4GKKFWEUCo8rr3pjgwcH-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-17" target="4GKKFWEUCo8rr3pjgwcH-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4GKKFWEUCo8rr3pjgwcH-17" value="VM Storage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-19" target="4GKKFWEUCo8rr3pjgwcH-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-19" target="4GKKFWEUCo8rr3pjgwcH-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-19" target="4GKKFWEUCo8rr3pjgwcH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-19" value="Types of Disk" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-21" value="Disk Performance" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-23" value="OS Disk" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-25" value="Temp Disk" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-27" value="Data Disk/s" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
