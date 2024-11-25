@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.0">
   <diagram name="Page-1" id="cbFLLo0eFX_HLdYKL4IW">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-1" target="4GKKFWEUCo8rr3pjgwcH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-1" value="Azure Virtual Machines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="395" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GKKFWEUCo8rr3pjgwcH-2" target="4GKKFWEUCo8rr3pjgwcH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-2" value="VM Family" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-4" value="General Purpose" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-6" value="Compute Optimised" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-7" value="Memory Optimised" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-8" value="Storage Optimised" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-9" value="High Performance Compute" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-10" value="GPU" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GKKFWEUCo8rr3pjgwcH-16" value="VM, Vnet + NIC , Storage disk can be in different resource group but they need to be in same region." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="200" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
