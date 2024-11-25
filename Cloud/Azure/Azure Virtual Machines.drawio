@@ -95,9 +95,11 @@
         <mxCell id="4GKKFWEUCo8rr3pjgwcH-21" value="Disk Performance" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="600" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4GKKFWEUCo8rr3pjgwcH-23" value="OS Disk" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="OS Disk" tooltip="1. OS comes pre installed on the disk.&#xa;2. Can use marketplace images, uploaded VHD or custom images.&#xa;3. Disk can be resized, but this requires downtime. &#xa;4. OS disk can&#39;t be attached or deattached but they can be swapped." id="4GKKFWEUCo8rr3pjgwcH-23">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="1480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="4GKKFWEUCo8rr3pjgwcH-25" value="Temp Disk" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="280" width="120" height="50" as="geometry" />
         </mxCell>
