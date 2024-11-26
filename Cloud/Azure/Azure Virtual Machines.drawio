@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.0">
   <diagram name="Page-1" id="cbFLLo0eFX_HLdYKL4IW">
-    <mxGraphModel dx="1026" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,9 +103,11 @@
         <mxCell id="4GKKFWEUCo8rr3pjgwcH-25" value="Temp Disk" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="280" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4GKKFWEUCo8rr3pjgwcH-27" value="Data Disk/s" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="Data Disk/s" tooltip="1. Used for persistent Data Storage&#xa;2. Disk can be resized without downtime for some VM SKUs&#xa;3. You can attach and deattach data disk without downtime(but you shouds" id="4GKKFWEUCo8rr3pjgwcH-27">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="1480" y="130" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
