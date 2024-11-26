@@ -498,19 +498,21 @@
             <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Fault Domains" tooltip="A group of physical devices that represents a single point of failure." id="jfbzpN5iZARhszp77R6F-7">
+        <UserObject label="Fault Domains" tooltip="A physical grouping of hardware within a data center that shares a common power sources and network switch. &#xa;&#xa;A group of physical devices that represents a single point of failure." id="jfbzpN5iZARhszp77R6F-7">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="800" y="370" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Update Domains" tooltip="Requires an OS Disk, but can also support additional data disks" id="jfbzpN5iZARhszp77R6F-9">
+        <UserObject label="Update Domains" tooltip="A logical groups of VMs within an Availability set that undergoes maintainence updates at same time. &#xa;&#xa;Requires an OS Disk, but can also support additional data disks" id="jfbzpN5iZARhszp77R6F-9">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="480" y="560" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="jfbzpN5iZARhszp77R6F-11" value="Availability Zones" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="Availability Zones" tooltip="A physically seperated data center within an Azure region, with independent power, cooling and networking." id="jfbzpN5iZARhszp77R6F-11">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="160" y="370" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="jfbzpN5iZARhszp77R6F-22" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="17" y="560" width="166" height="648.9000000000001" as="geometry" />
         </mxCell>
