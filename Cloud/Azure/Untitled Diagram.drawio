@@ -458,9 +458,11 @@
             <mxGeometry x="480" y="2920" width="80" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-135" value="Standard" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2920" width="80" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Standard" tooltip="Scope : High Availbility and advanced features.&#xa;&#xa;Features:&#xa;Zone-redundant&#xa;Required for advance networking" id="1B5nOFQUwSh8O8ZnLM8u-135">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="2920" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Dynamic" tooltip="Azure Automatically assigns an available IP from the subnets or public pool.&#xa;Work with basic IP." id="1B5nOFQUwSh8O8ZnLM8u-137">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="840" y="2920" width="80" height="40" as="geometry" />
