@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.1">
   <diagram name="Page-1" id="glysZnFxbkq1BgOJw1s-">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,19 +11,44 @@
           <mxGeometry x="480" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMTPzyj43wh1Darj2Y3F-2" value="Overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="zMTPzyj43wh1Darj2Y3F-3" target="zMTPzyj43wh1Darj2Y3F-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zMTPzyj43wh1Darj2Y3F-3" value="Architecture" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMTPzyj43wh1Darj2Y3F-4" value="Key Properties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMTPzyj43wh1Darj2Y3F-5" value="Key Types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMTPzyj43wh1Darj2Y3F-6" value="Types" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="zMTPzyj43wh1Darj2Y3F-8" target="zMTPzyj43wh1Darj2Y3F-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="zMTPzyj43wh1Darj2Y3F-8" target="zMTPzyj43wh1Darj2Y3F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-8" value="Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="zMTPzyj43wh1Darj2Y3F-10" target="zMTPzyj43wh1Darj2Y3F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-10" value="Storage Accounts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zMTPzyj43wh1Darj2Y3F-12" value="Storage Services" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="80" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
