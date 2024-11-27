@@ -169,7 +169,7 @@
           <mxGeometry x="918" y="2360" width="360" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-44" value="IP Addressing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1240" width="120" height="40" as="geometry" />
+          <mxGeometry x="1760" y="1240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
