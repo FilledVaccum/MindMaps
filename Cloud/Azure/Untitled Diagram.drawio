@@ -196,7 +196,7 @@
           <mxGeometry x="402" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-116" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="3020" y="1760" width="840" height="360" as="geometry" />
+          <mxGeometry x="3640" y="1760" width="840" height="360" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1B5nOFQUwSh8O8ZnLM8u-116" source="1B5nOFQUwSh8O8ZnLM8u-62" target="1B5nOFQUwSh8O8ZnLM8u-63">
           <mxGeometry relative="1" as="geometry" />
@@ -206,6 +206,12 @@
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-63" value="Components" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1B5nOFQUwSh8O8ZnLM8u-116">
           <mxGeometry x="400" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-67" value="Augmented Security Rules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1B5nOFQUwSh8O8ZnLM8u-116">
+          <mxGeometry x="120" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1B5nOFQUwSh8O8ZnLM8u-116" source="1B5nOFQUwSh8O8ZnLM8u-63" target="1B5nOFQUwSh8O8ZnLM8u-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-117" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1118" y="1760" width="1162" height="720" as="geometry" />
@@ -617,23 +623,29 @@
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-185" value="Deny all other inbound and outbound" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3360" y="2640" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-67" value="Application Security Groups" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="2080" width="120" height="40" as="geometry" />
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1B5nOFQUwSh8O8ZnLM8u-67" target="1B5nOFQUwSh8O8ZnLM8u-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1B5nOFQUwSh8O8ZnLM8u-67" target="1B5nOFQUwSh8O8ZnLM8u-189">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-69" value="Azure Firewall" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3600" y="2080" width="120" height="40" as="geometry" />
+          <mxGeometry x="4380" y="2080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-71" value="DDoS Protection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3800" y="2080" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1B5nOFQUwSh8O8ZnLM8u-63" target="1B5nOFQUwSh8O8ZnLM8u-67">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="4580" y="2080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1B5nOFQUwSh8O8ZnLM8u-63" target="1B5nOFQUwSh8O8ZnLM8u-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1B5nOFQUwSh8O8ZnLM8u-63" target="1B5nOFQUwSh8O8ZnLM8u-71">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-189" value="Application Security Groups" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="4000" y="2240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-190" value="Service Tags" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="2240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
