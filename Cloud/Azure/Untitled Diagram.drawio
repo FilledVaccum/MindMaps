@@ -166,9 +166,11 @@
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-49" value="Address Allocation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1418.5" y="2800" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1B5nOFQUwSh8O8ZnLM8u-51" value="Address Availability" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1596.5" y="2800" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Address Availability" tooltip="Azure Reserves the first 4 and last IP addresses in the subnet for system use." id="1B5nOFQUwSh8O8ZnLM8u-51">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="1596.5" y="2800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-108" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="2120" y="640" width="522" height="280" as="geometry" />
         </mxCell>
