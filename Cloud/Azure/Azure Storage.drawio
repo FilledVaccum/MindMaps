@@ -256,8 +256,14 @@
         <mxCell id="EPBGdcF4mttxsyj3LN69-8" value="Data Redundancy" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-10" target="EPBGdcF4mttxsyj3LN69-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-10" target="EPBGdcF4mttxsyj3LN69-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EPBGdcF4mttxsyj3LN69-10" value="Flexible Access Mode" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EPBGdcF4mttxsyj3LN69-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-2" target="EPBGdcF4mttxsyj3LN69-12">
           <mxGeometry relative="1" as="geometry">
@@ -266,7 +272,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EPBGdcF4mttxsyj3LN69-12" value="Monitoring and Analytics" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1280" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EPBGdcF4mttxsyj3LN69-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-16" target="EPBGdcF4mttxsyj3LN69-18">
           <mxGeometry relative="1" as="geometry" />
@@ -383,6 +389,30 @@
         </mxCell>
         <mxCell id="EPBGdcF4mttxsyj3LN69-62" value="Archive" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1440" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-66" target="EPBGdcF4mttxsyj3LN69-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-66" value="Multiple Protocols" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-68" value="REST API, SMB, NFS, HTTPS" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-70" target="EPBGdcF4mttxsyj3LN69-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-70" target="EPBGdcF4mttxsyj3LN69-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-70" value="Access Control" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-72" value="RBAC" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EPBGdcF4mttxsyj3LN69-74" value="Shared Access Signatures (SAS)" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
