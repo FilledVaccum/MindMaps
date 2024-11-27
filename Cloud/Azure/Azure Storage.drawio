@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IRWc3lRuoqyWzxZwGpI0" name="Azure Storage Account">
-    <mxGraphModel dx="3865" dy="2426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3540" dy="2241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,27 +284,27 @@
           <mxGeometry x="479.5" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="General Purpose v2" tooltip="Commonly used and recommended storage account type.&#xa;&#xa;Supports:-&#xa;Blob Storage (Block Blob, Append Blob, Page Blob)&#xa;File Storage&#xa;Table Storage&#xa;Queue Storage&#xa;&#xa;Performance:&#xa;Standard &amp; Premium i.e HDD and SDD&#xa;" id="EPBGdcF4mttxsyj3LN69-18">
-          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;fillStyle=cross-hatch;gradientColor=none;" vertex="1" parent="1">
             <mxGeometry x="80" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="General Purpose v1" tooltip="Older Version and for legacy use.&#xa;&#xa;Supports:-&#xa;Blob Storage&#xa;File Storage&#xa;Table Storage&#xa;Queue Storage&#xa;&#xa;Lacks Advance features&#xa;" id="EPBGdcF4mttxsyj3LN69-20">
-          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
             <mxGeometry x="280" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Blob Storage" tooltip="Specialised account for Blob Storage Services.&#xa;&#xa;Supports:-&#xa;Blob Storage (Block Blob, Append Blob)&#xa;Hot, Cool and Archive tier for CO&#xa;&#xa;Usecase:&#xa;Media Streaming, Backups and data lakes&#xa;" id="EPBGdcF4mttxsyj3LN69-21">
-          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;fillStyle=cross-hatch;gradientColor=none;" vertex="1" parent="1">
             <mxGeometry x="480" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="File Storage" tooltip="Premium Storage account for Azure File Shares.&#xa;&#xa;Supports:-&#xa;Fully Managed SMB and NFS File share.&#xa;&#xa;Performance:&#xa;Optimised for low-latency and high performance workload&#xa;" id="EPBGdcF4mttxsyj3LN69-22">
-          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;fillStyle=cross-hatch;gradientColor=none;" vertex="1" parent="1">
             <mxGeometry x="680" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Premium Storage" tooltip="Optimised for low-latency, high-throughput.&#xa;&#xa;Supports:-&#xa;Disk&#xa;Block Blobs&#xa;File Shares&#xa;&#xa;Performance:&#xa;Running DB, Virtual Machines, and High Performance applications&#xa;" id="EPBGdcF4mttxsyj3LN69-23">
-          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;fillStyle=cross-hatch;gradientColor=none;" vertex="1" parent="1">
             <mxGeometry x="880" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
