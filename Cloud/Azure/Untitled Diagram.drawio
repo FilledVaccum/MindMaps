@@ -161,7 +161,7 @@
           <mxGeometry x="1220" y="1720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1B5nOFQUwSh8O8ZnLM8u-40" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;1. Address Space &lt;/b&gt;: IPv4 (supporting subnets from /2 and /29) and IPv6 (supporting /64 subnets only)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;2. DNS&lt;/b&gt; : DNS is provided for you, but you can use custom DNS Servers also (per VNet or NIC).&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;3. Protocols&lt;/b&gt; : TCP, UDP and ICMP TCP/IP are supported. Unicast (excluding DHCP) is supported.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1800" width="360" height="160" as="geometry" />
+          <mxGeometry x="918" y="1800" width="360" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
