@@ -221,9 +221,11 @@
         <mxCell id="EPBGdcF4mttxsyj3LN69-2" value="Key Features" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPBGdcF4mttxsyj3LN69-4" value="Unified NameSpace" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="40" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Unified NameSpace" tooltip="Provides a unique URL endpoint for accessing storage services.&#xa;&#xa;https://storageaccountname.blob.core.windows.net" id="EPBGdcF4mttxsyj3LN69-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=default;rounded=1;strokeWidth=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-360" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="EPBGdcF4mttxsyj3LN69-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1" source="EPBGdcF4mttxsyj3LN69-6" target="EPBGdcF4mttxsyj3LN69-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
