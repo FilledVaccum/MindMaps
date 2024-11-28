@@ -593,9 +593,11 @@
             <mxGeometry x="1440" y="-80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="fjZekA1ATj830Zso1B5E-3" value="Soft Delete for Blobs" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-80" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Soft Delete for Blobs" tooltip="Blob soft delete protects an individual blob, snapshot, or version from accidental deletes or overwrites by maintaining the deleted data in the system for a specified period of time. During the retention period, you can restore a soft-deleted object to its state at the time it was deleted. After the retention period has expired, the object is permanently deleted." id="fjZekA1ATj830Zso1B5E-3">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1680" y="-80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="fjZekA1ATj830Zso1B5E-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aayQJy1a_nQsrMrdTt-r-26" target="aayQJy1a_nQsrMrdTt-r-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
