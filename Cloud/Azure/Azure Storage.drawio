@@ -589,38 +589,146 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mO_k7gDAK1q4l4HTIkfp" name="Azure Access Control">
-    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2737" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JcbRk2Jq9Nes5mzSABla-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-1" target="JcbRk2Jq9Nes5mzSABla-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-1" target="JIlZ4LySztMzZ9KRMk95-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JcbRk2Jq9Nes5mzSABla-1" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Azure Access &lt;font color=&quot;#00ffff&quot;&gt;Data&lt;/font&gt; Control&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="480" y="360" width="200" height="80" as="geometry" />
+          <mxGeometry x="438" y="360" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JcbRk2Jq9Nes5mzSABla-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JcbRk2Jq9Nes5mzSABla-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JcbRk2Jq9Nes5mzSABla-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JcbRk2Jq9Nes5mzSABla-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="170" as="sourcePoint" />
+            <mxPoint x="618" y="131" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JcbRk2Jq9Nes5mzSABla-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JcbRk2Jq9Nes5mzSABla-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JcbRk2Jq9Nes5mzSABla-2" value="Ways to Access Data Stored in Storage Account" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="120" height="80" as="geometry" />
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JcbRk2Jq9Nes5mzSABla-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JcbRk2Jq9Nes5mzSABla-4" value="Account Access Key" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JIlZ4LySztMzZ9KRMk95-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JcbRk2Jq9Nes5mzSABla-6" value="Azure AD Tenant" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JIlZ4LySztMzZ9KRMk95-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JcbRk2Jq9Nes5mzSABla-7" value="SAS Based Access Data Access" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JIlZ4LySztMzZ9KRMk95-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JcbRk2Jq9Nes5mzSABla-2" target="JIlZ4LySztMzZ9KRMk95-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcbRk2Jq9Nes5mzSABla-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Types of &lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Authorization for&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Data Operations&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="161" width="120" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Shared Key " tooltip="Shared Key authorization: Applies to blobs, files, queues, and tables. A client using Shared Key passes a header with every request that is signed using the storage account access key. For more information, see Authorize with Shared Key.&#xa;&#xa;The storage account access key should be used with caution. Anyone who has the access key is able to authorize requests against the storage account, and effectively has access to all the data. Microsoft recommends that you disallow Shared Key authorization for your storage account. When Shared Key authorization is disallowed, clients must use Microsoft Entra ID or a user delegation SAS to authorize requests for data in that storage account. For more information, see Prevent Shared Key authorization for an Azure Storage account." id="JcbRk2Jq9Nes5mzSABla-4">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="-2" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Shared Access Signature (SAS)" tooltip="Shared access signatures for blobs, files, queues, and tables. Shared access signatures (SAS) provide limited delegated access to resources in a storage account via a signed URL. The signed URL specifies the permissions granted to the resource and the interval over which the signature is valid. A service SAS or account SAS is signed with the account key, while the user delegation SAS is signed with Microsoft Entra credentials and applies to blobs only. For more information, see Using shared access signatures (SAS).&#xa;" id="JcbRk2Jq9Nes5mzSABla-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="158" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Microsoft Entra Integration" tooltip="Microsoft Entra integration: Applies to blob, queue, and table resources. Microsoft recommends using Microsoft Entra credentials with managed identities to authorize requests to data when possible for optimal security and ease of use. For more information about Microsoft Entra integration, see the articles for blob, queue, or table resources.&#xa;&#xa;You can use Azure role-based access control (Azure RBAC) to manage a security principal&#39;s permissions to blob, queue, and table resources in a storage account. You can also use Azure attribute-based access control (ABAC) to add conditions to Azure role assignments for blob resources.&#xa;&#xa;For more information about RBAC, see What is Azure role-based access control (Azure RBAC)?.&#xa;&#xa;For more information about ABAC, see What is Azure attribute-based access control (Azure ABAC)?. To learn about the status of ABAC features, see Status of ABAC condition features in Azure Storage.&#xa;" id="JcbRk2Jq9Nes5mzSABla-7">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="318" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Microsoft Entra Domain Services Authentication" tooltip="Microsoft Entra Domain Services authentication: Applies to Azure Files. Azure Files supports identity-based authorization over Server Message Block (SMB) through Microsoft Entra Domain Services. You can use Azure RBAC for granular control over a client&#39;s access to Azure Files resources in a storage account. For more information about Azure Files authentication using domain services, see Overview of Azure Files identity-based authentication options for SMB access." id="JIlZ4LySztMzZ9KRMk95-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="478" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-4" value="On-Prem Active Directory Services" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="1" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Anonymous Read Access" tooltip="Anonymous read access: Applies to blob resources. This option is not recommended. When anonymous access is configured, clients can read blob data without authorization. We recommend that you disable anonymous access for all of your storage accounts. For more information, see Overview: Remediating anonymous read access for blob data." id="JIlZ4LySztMzZ9KRMk95-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="798" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage Local Users" tooltip="Storage Local Users: Applies to blobs with SFTP or files with SMB. Storage Local Users support container level permissions for authorization. See Connect to Azure Blob Storage by using the SSH File Transfer Protocol (SFTP) for more information on how Storage Local Users can be used with SFTP.&#xa;" id="JIlZ4LySztMzZ9KRMk95-11">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="958" y="1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-38" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="79.5" y="560" width="921" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-16" target="JIlZ4LySztMzZ9KRMk95-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-16" target="JIlZ4LySztMzZ9KRMk95-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-16" target="JIlZ4LySztMzZ9KRMk95-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-16" target="JIlZ4LySztMzZ9KRMk95-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-16" target="JIlZ4LySztMzZ9KRMk95-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Authorisation based on Storage Services&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="398" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-18" target="JIlZ4LySztMzZ9KRMk95-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-18" value="Blobs" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-20" target="JIlZ4LySztMzZ9KRMk95-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-20" value="Tables" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="800" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-21" target="JIlZ4LySztMzZ9KRMk95-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-21" value="Queues" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="598" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-22" target="JIlZ4LySztMzZ9KRMk95-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-22" value="Files(REST)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="398" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="JIlZ4LySztMzZ9KRMk95-38" source="JIlZ4LySztMzZ9KRMk95-23" target="JIlZ4LySztMzZ9KRMk95-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-23" value="Files(SMB)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="198" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-28" value="&lt;div&gt;1. Entra ID&lt;/div&gt;&lt;div&gt;2. Shared Key&lt;/div&gt;&lt;div&gt;3. Shared Access Signature&lt;/div&gt;&lt;div&gt;4. Anonymous Read Access&lt;/div&gt;&lt;div&gt;5. Storage Local Users&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-30" value="&lt;div&gt;1. Entra ID&lt;/div&gt;&lt;div&gt;2. Shared Key&lt;/div&gt;&lt;div&gt;3. On-Prem Active Directory Domain Services&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="197" y="360" width="122" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-31" value="&lt;div&gt;1. Entra ID&lt;/div&gt;&lt;div&gt;2. Shared Key&lt;/div&gt;&lt;div&gt;3. Shared Access Signature&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="398" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-32" value="&lt;div&gt;1. Entra ID&lt;/div&gt;&lt;div&gt;2. Shared Key&lt;/div&gt;&lt;div&gt;3. Shared Access Signature&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="597" y="360" width="122" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JIlZ4LySztMzZ9KRMk95-33" value="&lt;div&gt;1. Entra ID&lt;/div&gt;&lt;div&gt;2. Shared Key&lt;/div&gt;&lt;div&gt;3. Shared Access Signature&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="JIlZ4LySztMzZ9KRMk95-38">
+          <mxGeometry x="799" y="360" width="122" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
