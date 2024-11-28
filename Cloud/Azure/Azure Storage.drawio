@@ -1029,9 +1029,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JIHr-qKU3hRRD0aE8GE6-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" tooltip="Azure Blob Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle.&#xa;&#xa;With the lifecycle management policy, you can:&#xa;&#xa;    Transition current versions of a blob, previous versions of a blob, or blob snapshots to a cooler storage tier if these objects haven&#39;t been accessed or modified for a period of time, to optimize for cost.-&#xa;    Transition blobs back from cool to hot immediately when they&#39;re accessed.&#xa;    Delete current versions of a blob, previous versions of a blob, or blob snapshots at the end of their lifecycles.&#xa;    Apply rules to an entire storage account, to select containers, or to a subset of blobs using name prefixes or blob index tags as filters.&#xa;" id="JIHr-qKU3hRRD0aE8GE6-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-2" target="0A7e5xSqWyu9jWcjf_EX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
