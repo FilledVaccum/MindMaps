@@ -1521,9 +1521,11 @@
             <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="lqlULYvw7RlUhwV1AEWq-13" value="Client Side Encryption" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Client Side Encryption" tooltip="The Azure Blob Storage client libraries for .NET, Java, and Python support encrypting data within client applications before uploading to Azure Storage, and decrypting data while downloading to the client. The Queue Storage client libraries for .NET and Python also support client-side encryption.&#xa;&#xa;&#xa;    Version 2 uses Galois/Counter Mode (GCM) mode with AES. The Blob Storage and Queue Storage SDKs support client-side encryption with v2.&#xa;    Version 1 uses Cipher Block Chaining (CBC) mode with AES. The Blob Storage, Queue Storage, and Table Storage SDKs support client-side encryption with v1.&#xa;" id="lqlULYvw7RlUhwV1AEWq-13">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Customer Managed Keys" tooltip="You can specify a customer-managed key to use for encrypting and decrypting data in Blob Storage and in Azure Files.1,2 Customer-managed keys must be stored in Azure Key Vault or Azure Key Vault Managed Hardware Security Model (HSM). For more information about customer-managed keys, see Use customer-managed keys for Azure Storage encryption." id="lqlULYvw7RlUhwV1AEWq-17">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="-160" y="240" width="120" height="40" as="geometry" />
