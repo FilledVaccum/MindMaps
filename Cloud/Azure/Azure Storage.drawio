@@ -1339,7 +1339,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WfIHDMMCvQt6lDgef9Bz" name="Immutable Blob Storage">
-    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1348,7 +1348,7 @@
         </mxCell>
         <UserObject label="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Immutable Blob Storage&lt;/font&gt;&lt;/b&gt;" tooltip="Immutable storage for Azure Blob Storage enables users to store business-critical data in a WORM (Write Once, Read Many) state. While in a WORM state, data can&#39;t be modified or deleted for a user-specified interval. By configuring immutability policies for blob data, you can protect your data from overwrites and deletes." id="XWdWaLYecbJLf5ZjOMU0-1">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
-            <mxGeometry x="440" y="360" width="200" height="80" as="geometry" />
+            <mxGeometry x="440" y="560" width="200" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="XWdWaLYecbJLf5ZjOMU0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-2" target="XWdWaLYecbJLf5ZjOMU0-4">
@@ -1359,17 +1359,45 @@
         </mxCell>
         <UserObject label="Immutable Policies" tooltip="These policies can be set at the same time as one another. For example, a user can have both a time-based retention policy and a legal hold set at the same level and at the same time. In order for a write to succeed, you must either have versioning enabled or have neither a legal hold or time-based retention policy on the data. In order for a delete to succeed, there must not be a legal hold or time-based retention policy on the data as well." id="XWdWaLYecbJLf5ZjOMU0-2">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+            <mxGeometry x="480" y="400" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-4" target="XWdWaLYecbJLf5ZjOMU0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Time Based Retention Policies" tooltip="Time-based retention policies: With a time-based retention policy, users can set policies to store data for a specified interval. When a time-based retention policy is set, objects can be created and read, but not modified or deleted. After the retention period has expired, objects can be deleted but not overwritten." id="XWdWaLYecbJLf5ZjOMU0-4">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="320" y="40" width="120" height="40" as="geometry" />
+            <mxGeometry x="320" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Legal Hold Policies" tooltip="Legal hold policies: A legal hold stores immutable data until the legal hold is explicitly cleared. When a legal hold is set, objects can be created and read, but not modified or deleted." id="XWdWaLYecbJLf5ZjOMU0-6">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="640" y="40" width="120" height="40" as="geometry" />
+            <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-8" value="&lt;p&gt;1. There are two features under the immutable storage umbrella: &lt;em&gt;container-level WORM&lt;/em&gt; and&lt;em&gt; version-level WORM&lt;/em&gt;. Container-level WORM allows policies to be set at the container level only, while version-level WORM allows policies to be set at the account, container, or version level.&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/storage/blobs/media/immutable-storage-overview/worm-diagram.png;" vertex="1" parent="1">
+          <mxGeometry y="-327" width="600" height="326.9" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-10" target="XWdWaLYecbJLf5ZjOMU0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-10" target="XWdWaLYecbJLf5ZjOMU0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-10" value="Scope" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Version level WORM Policy" tooltip="Version-level WORM policy: A time-based retention policy can be configured at the account, container, or version level. If it&#39;s configured at the account or container level, it will be inherited by all blobs in the respective account or container. If there is a legal hold on a container, Version-level WORM cannot be created for the same container. This is because the versions can&#39;t generated due to the legal hold." id="XWdWaLYecbJLf5ZjOMU0-12">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="220" y="-0.1" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Container Level Worm Policy" tooltip="Container-level WORM policy: A time-based retention policy configured at the container level applies to all blobs in that container. Individual blobs can&#39;t be configured with their own immutability policies." id="XWdWaLYecbJLf5ZjOMU0-14">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="420" y="-0.1" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
