@@ -1465,6 +1465,11 @@
         <mxCell id="lqlULYvw7RlUhwV1AEWq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-1" target="lqlULYvw7RlUhwV1AEWq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-36" value="Azure Storage Service Encryption" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" connectable="0" parent="lqlULYvw7RlUhwV1AEWq-3">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-1" target="lqlULYvw7RlUhwV1AEWq-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1488,6 +1493,9 @@
             <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-4" target="lqlULYvw7RlUhwV1AEWq-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-4" value="Encryption at Transit" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="560" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1505,19 +1513,18 @@
             <mxGeometry x="920" y="370" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="lqlULYvw7RlUhwV1AEWq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-8" target="lqlULYvw7RlUhwV1AEWq-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-8" target="lqlULYvw7RlUhwV1AEWq-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="100" y="540" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-8" target="lqlULYvw7RlUhwV1AEWq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-8" target="lqlULYvw7RlUhwV1AEWq-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Encryption Keys" tooltip="Data in a new storage account is encrypted with Microsoft-managed keys by default. You can continue to rely on Microsoft-managed keys for the encryption of your data, or you can manage encryption with your own keys. If you choose to manage encryption with your own keys, you have two options. You can use either type of key management, or both:" id="lqlULYvw7RlUhwV1AEWq-8">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
@@ -1539,7 +1546,7 @@
         </UserObject>
         <UserObject label="Customer Managed Keys" tooltip="You can specify a customer-managed key to use for encrypting and decrypting data in Blob Storage and in Azure Files.1,2 Customer-managed keys must be stored in Azure Key Vault or Azure Key Vault Managed Hardware Security Model (HSM). For more information about customer-managed keys, see Use customer-managed keys for Azure Storage encryption." id="lqlULYvw7RlUhwV1AEWq-17">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="-160" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="-160" y="380" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Customer Provided Keys" tooltip="You can specify a customer-provided key on Blob Storage operations. A client making a read or write request against Blob Storage can include an encryption key on the request for granular control over how blob data is encrypted and decrypted. For more information about customer-provided keys, see Provide an encryption key on a request to Blob Storage." id="lqlULYvw7RlUhwV1AEWq-19">
@@ -1578,6 +1585,14 @@
         <UserObject label="Override Default Encryption" tooltip="You can permit a client to override the default encryption scope for the container, so that a blob may be uploaded with an encryption scope other than the default scope. In this case, the blobs in the container may be encrypted with different keys." id="lqlULYvw7RlUhwV1AEWq-32">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="1440" y="440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-34" value="SSL/TLS" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Platform Managed Keys" tooltip="" id="lqlULYvw7RlUhwV1AEWq-37">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="-160" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
