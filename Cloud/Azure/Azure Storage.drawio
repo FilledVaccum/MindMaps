@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.1" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.1" pages="7">
   <diagram name="Page-1" id="glysZnFxbkq1BgOJw1s-">
     <mxGraphModel dx="2074" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -435,7 +435,7 @@
           <mxGeometry x="270" y="1100" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="5DeSV0r6Nm5WJd2RW5TO-7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Type of Tier &lt;/u&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Hot,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Cool,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Cold,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Archive&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="639" y="1275" width="130" height="130" as="geometry" />
+          <mxGeometry x="655" y="1275" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="5DeSV0r6Nm5WJd2RW5TO-8" value="&lt;div&gt;&lt;u&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Type of Redundancy (Blob)&lt;/font&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;LRS&lt;br&gt;ZRS&lt;br&gt;GRS-RA&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;GZRS -RA&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="250" y="1260" width="270" height="130" as="geometry" />
@@ -479,6 +479,12 @@
             <mxGeometry x="-240" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="M0cGVd7tcoFzqooBXnfg-1" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;&lt;u&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Type of Disk&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;HDD&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Rubik&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;SDD&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1405" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cGVd7tcoFzqooBXnfg-2" value="&lt;u&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Type of Authorisation&lt;br&gt;&lt;/font&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1405" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1006,6 +1012,60 @@
         </mxCell>
         <mxCell id="X2TT2tdqu74GCimoBYBT-4" value="Archive Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="840" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mqUWKTj9twSefpKJeFsq" name="Azure Blob Storage Lifecycle Management">
+    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="360" />
+              <mxPoint x="40" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIHr-qKU3hRRD0aE8GE6-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-2" target="0A7e5xSqWyu9jWcjf_EX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-2" value="Hot Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-4" target="0A7e5xSqWyu9jWcjf_EX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-4" value="Cool Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-6" target="0A7e5xSqWyu9jWcjf_EX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-6" value="Cold Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-9" target="0A7e5xSqWyu9jWcjf_EX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="800" />
+              <mxPoint x="180" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Rehydration&lt;br&gt;Latency upto 15 hours&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" connectable="0" parent="0A7e5xSqWyu9jWcjf_EX-7">
+          <mxGeometry x="-0.0089" y="-2" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-9" value="Archive Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
