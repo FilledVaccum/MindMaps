@@ -1017,7 +1017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mqUWKTj9twSefpKJeFsq" name="Azure Blob Storage Lifecycle Management">
-    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1036,6 +1036,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" tooltip="Azure Blob Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle.&#xa;&#xa;With the lifecycle management policy, you can:&#xa;&#xa;    Transition current versions of a blob, previous versions of a blob, or blob snapshots to a cooler storage tier if these objects haven&#39;t been accessed or modified for a period of time, to optimize for cost.-&#xa;    Transition blobs back from cool to hot immediately when they&#39;re accessed.&#xa;    Delete current versions of a blob, previous versions of a blob, or blob snapshots at the end of their lifecycles.&#xa;    Apply rules to an entire storage account, to select containers, or to a subset of blobs using name prefixes or blob index tags as filters.&#xa;" id="JIHr-qKU3hRRD0aE8GE6-1">
@@ -1112,7 +1115,7 @@
           <mxGeometry x="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-48" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1120" y="40" width="360" height="280" as="geometry" />
+          <mxGeometry x="1120" y="-160" width="360" height="280" as="geometry" />
         </mxCell>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="0A7e5xSqWyu9jWcjf_EX-48" source="0A7e5xSqWyu9jWcjf_EX-24" target="0A7e5xSqWyu9jWcjf_EX-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1142,7 +1145,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-49" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1120" y="400" width="440" height="360" as="geometry" />
+          <mxGeometry x="1120" y="600" width="440" height="360" as="geometry" />
         </mxCell>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="0A7e5xSqWyu9jWcjf_EX-49" source="0A7e5xSqWyu9jWcjf_EX-35" target="0A7e5xSqWyu9jWcjf_EX-39">
           <mxGeometry relative="1" as="geometry" />
@@ -1177,6 +1180,29 @@
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-42" value="EnableAutoTierToHotFromCool" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="0A7e5xSqWyu9jWcjf_EX-49">
           <mxGeometry x="240" y="240" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-50" value="Action Run Conditions" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="daysAfterModificationGreaterThan" tooltip="The condition for actions on a current version of a blob" id="0A7e5xSqWyu9jWcjf_EX-52">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="220" width="280" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="daysAfterCreationGreaterThan" tooltip="The condition for actions on the current version or previous version of a blob or a blob snapshot" id="0A7e5xSqWyu9jWcjf_EX-58">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="300" width="280" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="daysAfterLastAccessTimeGreaterThan&lt;sup&gt;1&lt;/sup&gt;" tooltip="The condition for a current version of a blob when access tracking is enabled" id="0A7e5xSqWyu9jWcjf_EX-59">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="380" width="280" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="daysAfterLastTierChangeGreaterThan" tooltip="The minimum duration in days that a rehydrated blob is kept in hot, cool or cold tiers before being returned to the archive tier. This condition applies only to tierToArchive actions." id="0A7e5xSqWyu9jWcjf_EX-60">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="1520" y="460" width="280" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
