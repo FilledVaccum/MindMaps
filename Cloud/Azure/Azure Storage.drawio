@@ -1558,12 +1558,28 @@
         <mxCell id="lqlULYvw7RlUhwV1AEWq-23" value="Storage Account Level" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="260" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-25" target="lqlULYvw7RlUhwV1AEWq-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-25" target="lqlULYvw7RlUhwV1AEWq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-25" value="Container Level" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-26" value="Individual Blob Level" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="500" width="120" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="Default encryption - All Blobs" tooltip="You can require that all blobs uploaded to the container use the default encryption scope. In this case, every blob in the container is encrypted with the same key." id="lqlULYvw7RlUhwV1AEWq-30">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="320" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Override Default Encryption" tooltip="You can permit a client to override the default encryption scope for the container, so that a blob may be uploaded with an encryption scope other than the default scope. In this case, the blobs in the container may be encrypted with different keys." id="lqlULYvw7RlUhwV1AEWq-32">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1440" y="440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
