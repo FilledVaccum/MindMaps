@@ -1619,6 +1619,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dMRzErLhni97WbkQcqhG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="dMRzErLhni97WbkQcqhG-1" target="dMRzErLhni97WbkQcqhG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="" tooltip="Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares are accessible from Windows, Linux, and macOS clients. NFS Azure file shares are accessible from Linux clients. Additionally, SMB Azure file shares can be cached on Windows servers with Azure File Sync for fast access near where the data is being used." id="dMRzErLhni97WbkQcqhG-1">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Azure_Files.svg;rounded=1;strokeColor=#000000;strokeWidth=1;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
             <mxGeometry x="480" y="360" width="200" height="162.5" as="geometry" />
@@ -1626,6 +1629,21 @@
         </UserObject>
         <mxCell id="dMRzErLhni97WbkQcqhG-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Storage Files&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="421.25" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMRzErLhni97WbkQcqhG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="dMRzErLhni97WbkQcqhG-3" target="dMRzErLhni97WbkQcqhG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dMRzErLhni97WbkQcqhG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="dMRzErLhni97WbkQcqhG-3" target="dMRzErLhni97WbkQcqhG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dMRzErLhni97WbkQcqhG-3" value="Storage Accounts" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMRzErLhni97WbkQcqhG-5" value="General Purpose v2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMRzErLhni97WbkQcqhG-7" value="Premium File Storage " style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
