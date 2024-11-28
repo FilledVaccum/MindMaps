@@ -1029,6 +1029,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" tooltip="Azure Blob Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle.&#xa;&#xa;With the lifecycle management policy, you can:&#xa;&#xa;    Transition current versions of a blob, previous versions of a blob, or blob snapshots to a cooler storage tier if these objects haven&#39;t been accessed or modified for a period of time, to optimize for cost.-&#xa;    Transition blobs back from cool to hot immediately when they&#39;re accessed.&#xa;    Delete current versions of a blob, previous versions of a blob, or blob snapshots at the end of their lifecycles.&#xa;    Apply rules to an entire storage account, to select containers, or to a subset of blobs using name prefixes or blob index tags as filters.&#xa;" id="JIHr-qKU3hRRD0aE8GE6-1">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
             <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
@@ -1068,6 +1071,39 @@
         </mxCell>
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-9" value="Archive Tier" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="840" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-11" target="0A7e5xSqWyu9jWcjf_EX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-11" target="0A7e5xSqWyu9jWcjf_EX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-11" target="0A7e5xSqWyu9jWcjf_EX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-11" target="0A7e5xSqWyu9jWcjf_EX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-11" target="0A7e5xSqWyu9jWcjf_EX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-11" value="Supported on" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-13" value="Storage Account - General Purpose v2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-15" value="Storage Account - Premium Block Blob" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-17" value="Blob Storage Account" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-19" value="Blob Type - Block Blobs" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-20" value="Blob Type - Append Blobs" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
