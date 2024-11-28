@@ -1524,12 +1524,16 @@
         <mxCell id="lqlULYvw7RlUhwV1AEWq-13" value="Client Side Encryption" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lqlULYvw7RlUhwV1AEWq-17" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lqlULYvw7RlUhwV1AEWq-19" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="520" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Customer Managed Keys" tooltip="You can specify a customer-managed key to use for encrypting and decrypting data in Blob Storage and in Azure Files.1,2 Customer-managed keys must be stored in Azure Key Vault or Azure Key Vault Managed Hardware Security Model (HSM). For more information about customer-managed keys, see Use customer-managed keys for Azure Storage encryption." id="lqlULYvw7RlUhwV1AEWq-17">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="-160" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Customer Provided Keys" tooltip="You can specify a customer-provided key on Blob Storage operations. A client making a read or write request against Blob Storage can include an encryption key on the request for granular control over how blob data is encrypted and decrypted. For more information about customer-provided keys, see Provide an encryption key on a request to Blob Storage." id="lqlULYvw7RlUhwV1AEWq-19">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="-160" y="520" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
