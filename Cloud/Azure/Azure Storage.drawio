@@ -1219,13 +1219,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8dOm14n_ep00W6i_7D0F" name="Object replication for block blobs">
-    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-8Lctrx_0CzW4jGCyrmm-1" value="&lt;h1 id=&quot;object-replication-for-block-blobs&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Object replication for Block Blobs&lt;/font&gt;&lt;/h1&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="440" y="350" width="240" height="90" as="geometry" />
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-1" target="-8Lctrx_0CzW4jGCyrmm-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;h1 id=&quot;object-replication-for-block-blobs&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Object replication for Block Blobs&lt;/font&gt;&lt;/h1&gt;" tooltip="Object replication asynchronously copies block blobs between a source storage account and a destination account. Some scenarios supported by object replication include:" id="-8Lctrx_0CzW4jGCyrmm-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="440" y="350" width="240" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/storage/blobs/media/object-replication-overview/object-replication-diagram.svg;" vertex="1" parent="1">
+          <mxGeometry y="-440" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-3" target="-8Lctrx_0CzW4jGCyrmm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-3" target="-8Lctrx_0CzW4jGCyrmm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-3" value="Pre-Requisites" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Change Feed" tooltip="Change feed: Must be enabled on the source account. To learn how to enable change feed, see Enable and disable the change feed." id="-8Lctrx_0CzW4jGCyrmm-5">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Blob Versioning" tooltip="Blob versioning: Must be enabled on both the source and destination accounts. To learn how to enable versioning, see Enable and manage blob versioning." id="-8Lctrx_0CzW4jGCyrmm-7">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="620" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
