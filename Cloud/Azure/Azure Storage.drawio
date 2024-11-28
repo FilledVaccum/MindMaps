@@ -1357,9 +1357,11 @@
         <mxCell id="XWdWaLYecbJLf5ZjOMU0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-2" target="XWdWaLYecbJLf5ZjOMU0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XWdWaLYecbJLf5ZjOMU0-2" value="Immutable Policies" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Immutable Policies" tooltip="These policies can be set at the same time as one another. For example, a user can have both a time-based retention policy and a legal hold set at the same level and at the same time. In order for a write to succeed, you must either have versioning enabled or have neither a legal hold or time-based retention policy on the data. In order for a delete to succeed, there must not be a legal hold or time-based retention policy on the data as well." id="XWdWaLYecbJLf5ZjOMU0-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Time Based Retention Policies" tooltip="Time-based retention policies: With a time-based retention policy, users can set policies to store data for a specified interval. When a time-based retention policy is set, objects can be created and read, but not modified or deleted. After the retention period has expired, objects can be deleted but not overwritten." id="XWdWaLYecbJLf5ZjOMU0-4">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="320" y="40" width="120" height="40" as="geometry" />
