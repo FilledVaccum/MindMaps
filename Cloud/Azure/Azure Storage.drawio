@@ -573,17 +573,20 @@
         <mxCell id="fjZekA1ATj830Zso1B5E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aayQJy1a_nQsrMrdTt-r-21" target="fjZekA1ATj830Zso1B5E-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fjZekA1ATj830Zso1B5E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aayQJy1a_nQsrMrdTt-r-21" target="fjZekA1ATj830Zso1B5E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aayQJy1a_nQsrMrdTt-r-21" value="Data Protection Features" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="1560" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;Blob Versioning&lt;/div&gt;" tooltip="You can enable Blob storage versioning to automatically maintain previous versions of an object. When blob versioning is enabled, you can access earlier versions of a blob to recover your data if it&#39;s modified or deleted." id="aayQJy1a_nQsrMrdTt-r-23">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="960" y="80" width="120" height="40" as="geometry" />
+            <mxGeometry x="1080" y="80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Blob Snapshot" tooltip=" snapshot of a blob is identical to its base blob, except that the blob URI has a DateTime value appended to the blob URI to indicate the time at which the snapshot was taken. For example, if a page blob URI is http://storagesample.core.blob.windows.net/mydrives/myvhd, the snapshot URI is similar to http://storagesample.core.blob.windows.net/mydrives/myvhd?snapshot=2011-03-09T01:42:34.9360000Z.&#xa;&#xa;Note&#xa;&#xa;All snapshots share the base blob&#39;s URI. The only distinction between the base blob and the snapshot is the appended DateTime value.&#xa;&#xa;A blob can have any number of snapshots. Snapshots persist until they&#39;re explicitly deleted, either independently or as part of a Delete Blob operation for the base blob. You can enumerate the snapshots associated with the base blob to track your current snapshots.&#xa;&#xa;When you create a snapshot of a blob, the blob&#39;s system properties are copied to the snapshot with the same values. The base blob&#39;s metadata is also copied to the snapshot, unless you specify separate metadata for the snapshot when you create it. After you create a snapshot, you can read, copy, or delete it, but you can&#39;t modify it.&#xa;&#xa;Any leases associated with the base blob don&#39;t affect the snapshot. You can&#39;t acquire a lease on a snapshot.&#xa;&#xa;You can create a snapshot of a blob in the hot or cool tier. Snapshots on blobs in the archive tier aren&#39;t supported.&#xa;&#xa;A VHD file is used to store the current information and status for a VM disk. You can detach a disk from within the VM or shut down the VM, and then take a snapshot of its VHD file. You can use that snapshot file later to retrieve the VHD file at that point in time and recreate the VM." id="aayQJy1a_nQsrMrdTt-r-25">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="1280" y="80" width="120" height="40" as="geometry" />
+            <mxGeometry x="1320" y="80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="fjZekA1ATj830Zso1B5E-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aayQJy1a_nQsrMrdTt-r-26" target="fjZekA1ATj830Zso1B5E-1">
@@ -610,7 +613,12 @@
         </mxCell>
         <UserObject label="Point in Time Restore" tooltip="Point-in-time restore provides protection against accidental deletion or corruption by enabling you to restore block blob data to an earlier state. Point-in-time restore is useful in scenarios where a user or application accidentally deletes data or where an application error corrupts data. Point-in-time restore also enables testing scenarios that require reverting a data set to a known state before running further tests.&#xa;&#xa;Point-in-time restore is supported for general-purpose v2 storage accounts in the standard performance tier only. Only data in the hot and cool access tiers can be restored with point-in-time restore. Point-in-time restore is not yet supported in accounts that have a hierarchical namespace." id="fjZekA1ATj830Zso1B5E-6">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="1920" y="80" width="120" height="40" as="geometry" />
+            <mxGeometry x="2040" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Immutable Storage" tooltip="Immutable storage for Azure Blob Storage enables users to store business-critical data in a WORM (Write Once, Read Many) state. While in a WORM state, data can&#39;t be modified or deleted for a user-specified interval. By configuring immutability policies for blob data, you can protect your data from overwrites and deletes.&#xa;&#xa;Immutable storage for Azure Blob Storage supports two types of immutability policies:&#xa;&#xa;    Time-based retention policies: With a time-based retention policy, users can set policies to store data for a specified interval. When a time-based retention policy is set, objects can be created and read, but not modified or deleted. After the retention period has expired, objects can be deleted but not overwritten.&#xa;&#xa;    Legal hold policies: A legal hold stores immutable data until the legal hold is explicitly cleared. When a legal hold is set, objects can be created and read, but not modified or deleted.&#xa;&#xa;These policies can be set at the same time as one another. For example, a user can have both a time-based retention policy and a legal hold set at the same level and at the same time. In order for a write to succeed, you must either have versioning enabled or have neither a legal hold or time-based retention policy on the data. In order for a delete to succeed, there must not be a legal hold or time-based retention policy on the data as well." id="fjZekA1ATj830Zso1B5E-8">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1800" y="80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
