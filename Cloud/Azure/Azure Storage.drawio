@@ -1458,7 +1458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g2zeDU_uBz0VhXV0lqQs" name="Azure Storage Encryption">
-    <mxGraphModel dx="1228" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1001" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1477,9 +1477,17 @@
         <mxCell id="lqlULYvw7RlUhwV1AEWq-1" value="&lt;b&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Storage Encryption&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="440" y="360" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lqlULYvw7RlUhwV1AEWq-2" value="Encryption at Rest" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-2" target="lqlULYvw7RlUhwV1AEWq-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lqlULYvw7RlUhwV1AEWq-2" target="lqlULYvw7RlUhwV1AEWq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Encryption at Rest" tooltip="Azure Storage uses service-side encryption (SSE) to automatically encrypt your data when it is persisted to the cloud. Azure Storage encryption protects your data and to help you to meet your organizational security and compliance commitments.&#xa;&#xa;Microsoft recommends using service-side encryption to protect your data for most scenarios. However, the Azure Storage client libraries for Blob Storage and Queue Storage also provide client-side encryption for customers who need to encrypt data on the client. For more information, see Client-side encryption for blobs and queues." id="lqlULYvw7RlUhwV1AEWq-2">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-4" value="Encryption at Transit" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="560" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1488,6 +1496,15 @@
         </mxCell>
         <mxCell id="lqlULYvw7RlUhwV1AEWq-8" value="Customer Managed Keys" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage;pointerEvents=1;rounded=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-11" value="Server Side Encryption" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lqlULYvw7RlUhwV1AEWq-13" value="Client Side Encryption" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
