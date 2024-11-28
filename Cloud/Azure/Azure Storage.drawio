@@ -1032,6 +1032,9 @@
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JIHr-qKU3hRRD0aE8GE6-1" target="0A7e5xSqWyu9jWcjf_EX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Blob Storage Lifecycle Management&lt;/font&gt;" tooltip="Azure Blob Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle.&#xa;&#xa;With the lifecycle management policy, you can:&#xa;&#xa;    Transition current versions of a blob, previous versions of a blob, or blob snapshots to a cooler storage tier if these objects haven&#39;t been accessed or modified for a period of time, to optimize for cost.-&#xa;    Transition blobs back from cool to hot immediately when they&#39;re accessed.&#xa;    Delete current versions of a blob, previous versions of a blob, or blob snapshots at the end of their lifecycles.&#xa;    Apply rules to an entire storage account, to select containers, or to a subset of blobs using name prefixes or blob index tags as filters.&#xa;" id="JIHr-qKU3hRRD0aE8GE6-1">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
             <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
@@ -1105,6 +1108,33 @@
         <mxCell id="0A7e5xSqWyu9jWcjf_EX-20" value="Blob Type - Append Blobs" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="280" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-24" target="0A7e5xSqWyu9jWcjf_EX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-24" target="0A7e5xSqWyu9jWcjf_EX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="0A7e5xSqWyu9jWcjf_EX-24" target="0A7e5xSqWyu9jWcjf_EX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A7e5xSqWyu9jWcjf_EX-24" value="Rule Filters" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Blob Types" tooltip="The current release supports blockBlob and appendBlob. Only the Delete action is supported for appendBlob; Set Tier isn&#39;t supported." id="0A7e5xSqWyu9jWcjf_EX-26">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1320" y="200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PrefixMatch" tooltip="If you don&#39;t define prefixMatch, the rule applies to all blobs within the storage account. Prefix strings don&#39;t support wildcard matching. Characters such as * and ? are treated as string literals." id="0A7e5xSqWyu9jWcjf_EX-28">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1320" y="340" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="BlobIndexMatch" tooltip="If you don&#39;t define blobIndexMatch, the rule applies to all blobs within the storage account." id="0A7e5xSqWyu9jWcjf_EX-30">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="1320" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
