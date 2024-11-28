@@ -1365,12 +1365,18 @@
         <mxCell id="XWdWaLYecbJLf5ZjOMU0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-4" target="XWdWaLYecbJLf5ZjOMU0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-19" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-4" target="XWdWaLYecbJLf5ZjOMU0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XWdWaLYecbJLf5ZjOMU0-4" target="XWdWaLYecbJLf5ZjOMU0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Time Based Retention Policies" tooltip="Time-based retention policies: With a time-based retention policy, users can set policies to store data for a specified interval. When a time-based retention policy is set, objects can be created and read, but not modified or deleted. After the retention period has expired, objects can be deleted but not overwritten." id="XWdWaLYecbJLf5ZjOMU0-4">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="320" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Legal Hold Policies" tooltip="Legal hold policies: A legal hold stores immutable data until the legal hold is explicitly cleared. When a legal hold is set, objects can be created and read, but not modified or deleted." id="XWdWaLYecbJLf5ZjOMU0-6">
+        <UserObject label="Legal Hold Policies" tooltip="A legal hold is a temporary immutability policy that can be applied for legal investigation purposes or general protection policies. A legal hold stores blob data in a Write-Once, Read-Many (WORM) format until the hold is explicitly cleared. When a legal hold is in effect, blobs can be created and read, but not modified or deleted. Use a legal hold when the period of time that the data must be kept in a WORM state is unknown." id="XWdWaLYecbJLf5ZjOMU0-6">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
           </mxCell>
@@ -1400,6 +1406,12 @@
             <mxGeometry x="420" y="-0.1" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-18" value="Can be locked and unlocked" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWdWaLYecbJLf5ZjOMU0-20" value="Audit Logging" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
