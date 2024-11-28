@@ -1639,11 +1639,21 @@
         <mxCell id="dMRzErLhni97WbkQcqhG-3" value="Storage Accounts" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dMRzErLhni97WbkQcqhG-5" value="General Purpose v2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="120" height="40" as="geometry" />
+        <UserObject label="General Purpose v2" tooltip="General purpose version 2 (GPv2) storage accounts: GPv2 storage accounts allow you to deploy Azure file shares on standard/hard disk-based (HDD-based) hardware. In addition to storing Azure file shares, GPv2 storage accounts can store other storage resources such as blob containers, queues, or tables." id="dMRzErLhni97WbkQcqhG-5">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lmo5TMfqqDMbMkMZZdw_-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="dMRzErLhni97WbkQcqhG-7" target="lmo5TMfqqDMbMkMZZdw_-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dMRzErLhni97WbkQcqhG-7" value="Premium File Storage " style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
+        <UserObject label="Premium File Storage " tooltip="FileStorage storage accounts: FileStorage storage accounts allow you to deploy Azure file shares on premium/solid-state disk-based (SSD-based) hardware. FileStorage accounts can only be used to store Azure file shares; no other storage resources (blob containers, queues, tables, etc.) can be deployed in a FileStorage account. Only FileStorage accounts can deploy both SMB and NFS file shares." id="dMRzErLhni97WbkQcqhG-7">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lmo5TMfqqDMbMkMZZdw_-1" value="Allows Both SMB&lt;br&gt;&amp;amp; NFS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="60" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
