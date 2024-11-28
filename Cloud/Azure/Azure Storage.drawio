@@ -1226,9 +1226,15 @@
         <mxCell id="-8Lctrx_0CzW4jGCyrmm-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-1" target="-8Lctrx_0CzW4jGCyrmm-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-1" target="-8Lctrx_0CzW4jGCyrmm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-1" target="-8Lctrx_0CzW4jGCyrmm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;h1 id=&quot;object-replication-for-block-blobs&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Object replication for Block Blobs&lt;/font&gt;&lt;/h1&gt;" tooltip="Object replication asynchronously copies block blobs between a source storage account and a destination account. Some scenarios supported by object replication include:" id="-8Lctrx_0CzW4jGCyrmm-1">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
-            <mxGeometry x="440" y="350" width="240" height="90" as="geometry" />
+            <mxGeometry x="440" y="360" width="240" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="-8Lctrx_0CzW4jGCyrmm-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/storage/blobs/media/object-replication-overview/object-replication-diagram.svg;" vertex="1" parent="1">
@@ -1251,6 +1257,74 @@
         <UserObject label="Blob Versioning" tooltip="Blob versioning: Must be enabled on both the source and destination accounts. To learn how to enable versioning, see Enable and manage blob versioning." id="-8Lctrx_0CzW4jGCyrmm-7">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
             <mxGeometry x="620" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-9" target="-8Lctrx_0CzW4jGCyrmm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-9" target="-8Lctrx_0CzW4jGCyrmm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-9" value="Support" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-11" target="-8Lctrx_0CzW4jGCyrmm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-11" target="-8Lctrx_0CzW4jGCyrmm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-11" value="Storage Account" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-13" target="-8Lctrx_0CzW4jGCyrmm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-13" target="-8Lctrx_0CzW4jGCyrmm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-23" value="Not Supported" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" connectable="0" parent="-8Lctrx_0CzW4jGCyrmm-22">
+          <mxGeometry x="0.64" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-13" value="Storage Services" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-15" value="General Purpose v2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-17" value="Premium Block Blob" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-19" value="Block Blobs" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-21" value="NOT SUPPORTED&lt;br&gt;append and page Blob" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-24" value="1. Any Snapshot on a blob in the source account aren&#39;t replicated to the destination account.&lt;br&gt;&lt;div&gt;2. Object replication does not copy the source blob&#39;s index tags to the destination blob.&lt;/div&gt;&lt;div&gt;3. Object replication is supported when any source/destination is either hot or cool tier, but it is not supported if any of them are in Archive Tier. &lt;br&gt;&lt;/div&gt;&lt;div&gt;4. Immutable Blobs, if container-level or version-level immutability policy is in effect at destination then operations at source account may succeed by it will fail at destination storage account.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;strokeWidth=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-160" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-25" target="-8Lctrx_0CzW4jGCyrmm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Lctrx_0CzW4jGCyrmm-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="-8Lctrx_0CzW4jGCyrmm-25" target="-8Lctrx_0CzW4jGCyrmm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Object Replication Policies and Rules" tooltip="When you configure object replication, you create a replication policy that specifies the source storage account and the destination account. A replication policy includes one or more rules that specify a source container and a destination container and indicate which block blobs in the source container will be replicated." id="-8Lctrx_0CzW4jGCyrmm-25">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="560" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Replication Policies" tooltip="When you configure object replication, you create a replication policy on the destination account via the Azure Storage resource provider. After the replication policy is created, Azure Storage assigns it a policy ID. You must then associate that replication policy with the source account by using the policy ID. The policy ID on the source and destination accounts must be the same in order for replication to take place.&#xa;&#xa;A source account can replicate to no more than two destination accounts, with one policy for each destination account. Similarly, an account may serve as the destination account for no more than two replication policies.&#xa;&#xa;The source and destination accounts may be in the same region or in different regions. They may also reside in the same subscription or in different subscriptions. Optionally, the source and destination accounts may reside in different Microsoft Entra tenants. Only one replication policy may be created for each source account/destination account pair." id="-8Lctrx_0CzW4jGCyrmm-27">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="640" y="720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Replication Rules" tooltip="Replication rules specify how Azure Storage will replicate blobs from a source container to a destination container. You can specify up to 1000 replication rules for each replication policy. Each replication rule defines a single source and destination container, and each source and destination container can be used in only one rule, meaning that a maximum of 1000 source containers and 1000 destination containers may participate in a single replication policy.&#xa;&#xa;When you create a replication rule, by default only new block blobs that are subsequently added to the source container are copied. You can specify that both new and existing block blobs are copied, or you can define a custom copy scope that copies block blobs created from a specified time onward.&#xa;&#xa;You can also specify one or more filters as part of a replication rule to filter block blobs by prefix. When you specify a prefix, only blobs matching that prefix in the source container will be copied to the destination container.&#xa;&#xa;The source and destination containers must both exist before you can specify them in a rule. After you create the replication policy, write operations to the destination container aren&#39;t permitted. Any attempts to write to the destination container fail with error code 409 (Conflict). To write to a destination container for which a replication rule is configured, you must either delete the rule that is configured for that container, or remove the replication policy. Read and delete operations to the destination container are permitted when the replication policy is active." id="-8Lctrx_0CzW4jGCyrmm-29">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="320" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
