@@ -1615,10 +1615,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g-EEs2vdCJvNkz1IR3DT" name="Azure Files">
-    <mxGraphModel dx="1001" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1054" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="" tooltip="Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares are accessible from Windows, Linux, and macOS clients. NFS Azure file shares are accessible from Linux clients. Additionally, SMB Azure file shares can be cached on Windows servers with Azure File Sync for fast access near where the data is being used." id="dMRzErLhni97WbkQcqhG-1">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Azure_Files.svg;rounded=1;strokeColor=#000000;strokeWidth=1;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+            <mxGeometry x="480" y="360" width="200" height="162.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dMRzErLhni97WbkQcqhG-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Storage Files&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="421.25" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
