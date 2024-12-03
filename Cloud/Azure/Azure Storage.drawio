@@ -1689,12 +1689,23 @@
         <mxCell id="X5JrL361CngyJJvJxUb--7" value="Storage Tier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="20" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="X5JrL361CngyJJvJxUb--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X5JrL361CngyJJvJxUb--8" target="X5JrL361CngyJJvJxUb--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="X5JrL361CngyJJvJxUb--8" value="Premium (SSD)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="-80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X5JrL361CngyJJvJxUb--10" value="Storage Tier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="20" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="X5JrL361CngyJJvJxUb--11" value="&lt;div&gt;Only Support Provisioned&amp;nbsp;&lt;/div&gt;&lt;div&gt;Billing&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;labelBackgroundColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Redundancy" tooltip="Standard Azure file shares up to 5 TiB support all four redundancy types. Standard file shares larger than 5 TiB only support LRS and ZRS. Premium Azure file shares only support LRS and ZRS.&#xa;&#xa;General purpose version 2 (GPv2) storage accounts provide two other redundancy options that Azure Files doesn&#39;t support: read accessible geo-redundant storage (RA-GRS) and read accessible geo-zone-redundant storage (RA-GZRS). You can provision Azure file shares in storage accounts with these options set, however Azure Files doesn&#39;t support reading from the secondary region. Azure file shares deployed into RA-GRS or RA-GZRS storage accounts are billed as GRS or GZRS, respectively." id="X5JrL361CngyJJvJxUb--13">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+            <mxGeometry x="440" y="600" width="320" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
