@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1">
   <diagram name="Page-1" id="l3KExu_yotVdD90ru4p7">
-    <mxGraphModel>
+    <mxGraphModel dx="1949" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zx5YG_Lg_Surl9HjRPeU-1" value="&lt;p align=&quot;left&quot;&gt;When you create an encrypted EBS volume and attach it to a supported instance type, the following types of data are encrypted:                &lt;/p&gt;&lt;div align=&quot;left&quot; class=&quot;itemizedlist&quot;&gt;&lt;ul class=&quot;itemizedlist&quot;&gt;&lt;li class=&quot;listitem&quot;&gt;&lt;p&gt;Data at rest inside the volume&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&lt;p&gt;All data moving between the volume and the instance&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&lt;p&gt;All snapshots created from the volume&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&lt;p&gt;All volumes created from those snapshots            &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx5YG_Lg_Surl9HjRPeU-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx5YG_Lg_Surl9HjRPeU-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.kms;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
