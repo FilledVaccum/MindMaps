@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1">
   <diagram name="Page-1" id="Bjxitd0Z2gR2ux2BzEEL">
-    <mxGraphModel dx="2035" dy="3277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4095" dy="2544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,22 @@
           </mxCell>
         </UserObject>
         <mxCell id="NgvcpbAYPyvycdPd3KWM-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-63" target="NgvcpbAYPyvycdPd3KWM-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="979" y="440" />
+              <mxPoint x="-1379" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-63" target="NgvcpbAYPyvycdPd3KWM-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="440" />
+              <mxPoint x="300" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-63" target="NgvcpbAYPyvycdPd3KWM-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Rule Statement" tooltip="Each rule also requires a rule statement that defines how the rule inspects web requests. The rule statement might contain other, nested statements at any depth, depending on the rule and statement type. Some rule statements take sets of criteria. For example, you can specify up to 10,000 IP addresses or IP address ranges for an IP set match rule.&#xa;&#xa;You can define rules that inspect for criteria like the following:&#xa;&#xa;    Scripts that are likely to be malicious. Attackers embed scripts that can exploit vulnerabilities in web applications. This is known as cross-site scripting (XSS).&#xa;&#xa;    IP addresses or address ranges that requests originate from.&#xa;&#xa;    Country or geographical location that requests originate from.&#xa;&#xa;    Length of a specified part of the request, such as the query string.&#xa;&#xa;    SQL code that is likely to be malicious. Attackers try to extract data from your database by embedding malicious SQL code in a web request. This is known as SQL injection.&#xa;&#xa;    Strings that appear in the request, for example, values that appear in the User-Agent header or text strings that appear in the query string. You can also use regular expressions (regex) to specify these strings.&#xa;&#xa;    Labels that prior rules in the web ACL have added to the request.&#xa;&#xa;In addition to statements with web request inspection criteria, like the ones in the preceding list, AWS WAF supports logical statements for AND, OR, and NOT that you use to combine statements in a rule.&#xa;&#xa;For example, based on recent requests that you&#39;ve seen from an attacker, you might create a rule with a logical AND statement that combines the following nested statements:&#xa;&#xa;    The requests come from 192.0.2.44.&#xa;&#xa;    They contain the value BadBot in the User-Agent header.&#xa;&#xa;    They appear to include SQL-like code in the query string.&#xa;&#xa;In this case, the web request needs to match all of the statements to result in a match for the top-level AND.&#xa;" id="NgvcpbAYPyvycdPd3KWM-63">
@@ -276,7 +292,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NgvcpbAYPyvycdPd3KWM-69" value="Allow" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="1720" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NgvcpbAYPyvycdPd3KWM-71" value="Block" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1900" y="440" width="120" height="40" as="geometry" />
@@ -304,131 +320,215 @@
         <mxCell id="NgvcpbAYPyvycdPd3KWM-87" value="Terminating with Blocked request for invalid or expired token" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="120" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-91">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-123" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2320" y="-160" width="1881" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-96">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-95">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-94">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-93">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-97">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-98">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-99">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-100">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-116">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-117">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-118">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-89" target="NgvcpbAYPyvycdPd3KWM-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-89" value="&lt;div&gt;Request Component&amp;nbsp;&lt;/div&gt;&lt;div&gt;in WAF &lt;/div&gt;that can be inspected" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="939.5" y="400" width="80" height="80" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-89" value="&lt;div&gt;Request Component&amp;nbsp;&lt;/div&gt;&lt;div&gt;in WAF &lt;/div&gt;that can be inspected" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="900.5" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <UserObject label="HTTP Method" tooltip="Inspects the HTTP method for the request. The HTTP method indicates the type of operation that the web request is asking your protected resource to perform, such as POST or GET. " id="NgvcpbAYPyvycdPd3KWM-91">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="39" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Single Header" tooltip="Inspects a single named header in the request.&#xa;&#xa;For this option, you specify the header name, for example, User-Agent or Referer. The string match for the name is not case sensitive." id="NgvcpbAYPyvycdPd3KWM-93">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="199" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="160" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-109">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="240" />
-              <mxPoint x="420" y="240" />
+              <mxPoint x="541" y="120" />
+              <mxPoint x="381" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-111">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-112">
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NgvcpbAYPyvycdPd3KWM-123" source="NgvcpbAYPyvycdPd3KWM-94" target="NgvcpbAYPyvycdPd3KWM-112">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="240" />
-              <mxPoint x="739" y="240" />
+              <mxPoint x="541" y="120" />
+              <mxPoint x="700" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="All Headers" tooltip="Inspects all of the request headers, including cookies. You can apply a filter to inspect a subset of all headers.&#xa;&#xa;For this option, you provide the following specifications:&#xa;&#xa;    Match patterns – The filter to use to obtain a subset of headers for inspection. AWS WAF looks for these patterns in the headers keys.&#xa;&#xa;    The match patterns setting can be one of the following:&#xa;&#xa;        All – Match all keys. Evaluate the rule inspection criteria for all headers.&#xa;&#xa;        Excluded headers – Inspect only the headers whose keys don&#39;t match any of the strings that you specify here. The string match for a key is not case sensitive.&#xa;&#xa;        Included headers – Inspect only the headers that have a key that matches one of the strings that you specify here. The string match for a key is not case sensitive.&#xa;&#xa;    Match scope – The parts of the headers that AWS WAF should inspect with the rule inspection criteria. You can specify Keys, Values, or All to inspect both keys and values for a match.&#xa;&#xa;    All does not require a match to be found in the keys and a match to be found in the values. It requires a match to be found in the keys or the values or both. To require a match in the keys and in the values, use a logical AND statement to combine two match rules, one that inspects the keys and another that inspects the values.&#xa;&#xa;    Oversize handling – How AWS WAF should handle requests that have header data that is larger than AWS WAF can inspect. AWS WAF can inspect at most the first 8 KB (8,192 bytes) of the request headers and at most the first 200 headers. The content is available for inspection by AWS WAF up to the first limit reached. You can choose to continue the inspection, or to skip inspection and mark the request as matching or not matching the rule. For more information about handling oversize content, see Oversize web request components in AWS WAF.&#xa;" id="NgvcpbAYPyvycdPd3KWM-94">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="360" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="321" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Header Order" tooltip="Certainly! Let&#39;s break down the &quot;Header Order&quot; component of a WAF rule in simpler terms:&#xa;&#xa;1. What is Header Order?&#xa;   - It&#39;s a way to look at the order of headers in a web request.&#xa;   - Think of it like checking the sequence of labels on a package.&#xa;&#xa;2. How it works:&#xa;   - AWS WAF takes all the header names from a request.&#xa;   - It puts these names in a single string, in the order they appear.&#xa;   - The names are separated by colons, with no spaces.&#xa;   - Example: &quot;host:user-agent:accept:authorization:referer&quot;&#xa;&#xa;3. Why use this?&#xa;   - It can help detect unusual or potentially malicious requests.&#xa;   - Some attacks might use headers in an unusual order.&#xa;&#xa;4. Limitations:&#xa;   - AWS WAF can only look at:&#xa;     - The first 8 KB (8,192 bytes) of headers&#xa;     - Or the first 200 headers&#xa;   - Whichever limit is reached first&#xa;&#xa;5. Oversize handling:&#xa;   - This is what to do if a request has too many headers or they&#39;re too big.&#xa;   - You have two choices:&#xa;     a. Continue checking the headers that fit within the limits.&#xa;     b. Skip the check and decide if the request matches the rule or not.&#xa;&#xa;In simple terms, &quot;Header Order&quot; lets you create rules based on the sequence of headers in a request. It&#39;s like checking if the labels on a package are in the right order. You also need to decide what to do if there are too many labels or if they&#39;re too big to check completely." id="NgvcpbAYPyvycdPd3KWM-95">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="520" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="481" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cookies" tooltip="Sure, I&#39;ll explain the &quot;Cookies&quot; component of a WAF rule in simpler terms:&#xa;&#xa;1. What are Cookies?&#xa;   - Cookies are small pieces of data stored by websites on your browser.&#xa;   - They&#39;re like little notes that websites use to remember information about you.&#xa;&#xa;2. What this WAF rule does:&#xa;   - It lets you inspect cookies in web requests.&#xa;   - You can choose to look at all cookies or just some of them.&#xa;&#xa;3. Match patterns:&#xa;   This is how you decide which cookies to inspect. You have three options:&#xa;   a. All: Look at every cookie.&#xa;   b. Excluded cookies: Look at all cookies except the ones you specify.&#xa;   c. Included cookies: Only look at the specific cookies you name.&#xa;&#xa;4. Match scope:&#xa;   - You can choose to inspect the cookie names (keys), values, or both.&#xa;   - &quot;All&quot; means a match in either the key or value is enough.&#xa;   - If you want to match both key and value, you need to set up two separate rules.&#xa;&#xa;5. Oversize handling:&#xa;   - AWS WAF can only check up to 8 KB of cookie data or the first 200 cookies.&#xa;   - If there&#39;s more than this, you decide whether to:&#xa;     a. Keep checking what fits within these limits.&#xa;     b. Stop checking and decide if the request matches the rule or not.&#xa;&#xa;6. Why use this?&#xa;   - It helps detect potentially harmful requests based on cookie information.&#xa;   - You can block requests with suspicious cookies or allow only those with expected cookies.&#xa;&#xa;In simple terms, this rule lets you examine the &quot;notes&quot; (cookies) that come with a web request. You can choose which notes to look at, what parts of them to check, and what to do if there are too many to check completely. This helps you protect your website from potential threats that might be hidden in these cookies." id="NgvcpbAYPyvycdPd3KWM-96">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="680" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="641" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="URI" tooltip="Certainly! Let me explain the &quot;URI path&quot; component of a WAF rule in simpler terms:&#xa;&#xa;1. What is a URI path?&#xa;   - URI stands for Uniform Resource Identifier.&#xa;   - The path is the part of a web address that points to a specific resource on a website.&#xa;   - It&#39;s like the file path on your computer, but for a website.&#xa;&#xa;2. Example:&#xa;   - In the URL &quot;https://www.example.com/images/daily-ad.jpg&quot;&#xa;   - The URI path is &quot;/images/daily-ad.jpg&quot;&#xa;&#xa;3. What this WAF rule does:&#xa;   - It allows you to inspect this specific part of the URL in web requests.&#xa;   - You can create rules based on what appears in this path.&#xa;&#xa;4. How it works by default:&#xa;   - Without any special settings (called &quot;text transformations&quot;), AWS WAF looks at the path exactly as it receives it.&#xa;   - It doesn&#39;t change or &quot;normalize&quot; the path in any way.&#xa;&#xa;5. Text transformations (optional):&#xa;   - These are ways to change how the path is interpreted before checking it.&#xa;   - For example, you might convert all letters to lowercase for easier matching.&#xa;&#xa;6. Why use this?&#xa;   - It helps you control access to specific parts of your website.&#xa;   - You can block requests to certain paths or allow only specific patterns.&#xa;   - It&#39;s useful for protecting sensitive areas of your site or blocking known malicious request patterns.&#xa;&#xa;In simple terms, the &quot;URI path&quot; rule lets you examine the &quot;address&quot; part of a web request that says exactly where on your website the request is trying to go. You can use this to make sure requests are only going to places you want them to, helping to keep your website secure." id="NgvcpbAYPyvycdPd3KWM-97">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="839.5" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="800.5" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="JA3 FingerPrint" tooltip="Certainly! Let&#39;s break down the &quot;JA3 fingerprint&quot; component of a WAF rule in simpler terms:&#xa;&#xa;1. What is a JA3 fingerprint?&#xa;   - It&#39;s a unique 32-character code that identifies a client&#39;s TLS (Transport Layer Security) configuration.&#xa;   - Think of it like a digital fingerprint for how a browser or application connects securely to a website.&#xa;&#xa;2. Where it&#39;s used:&#xa;   - This feature is only available for Amazon CloudFront distributions and Application Load Balancers.&#xa;&#xa;3. How it works:&#xa;   - AWS WAF calculates this fingerprint from the TLS Client Hello information in a web request.&#xa;   - Almost all web requests include this information.&#xa;&#xa;4. Getting the JA3 fingerprint:&#xa;   - You can find it in the web ACL (Access Control List) logs.&#xa;   - AWS WAF includes it in the logs if it&#39;s able to calculate it.&#xa;&#xa;5. How to use it in a rule:&#xa;   - You can only use it in a &quot;string match&quot; rule.&#xa;   - You need to set the rule to match exactly with the fingerprint you provide.&#xa;   - You get this fingerprint from your logs.&#xa;&#xa;6. Fallback behavior:&#xa;   - You must decide what to do if AWS WAF can&#39;t calculate the fingerprint.&#xa;   - Options are to either treat the request as matching or not matching the rule.&#xa;&#xa;7. Logging requirement:&#xa;   - To use JA3 fingerprints, you must enable logging for your web ACL.&#xa;&#xa;8. Why use this?&#xa;   - It helps identify and control access based on the client&#39;s TLS configuration.&#xa;   - Useful for detecting unusual or potentially malicious clients.&#xa;&#xa;In simple terms, the JA3 fingerprint is like checking the &quot;handshake&quot; a client uses when connecting to your website. By looking at this unique identifier, you can create rules to allow or block requests based on how clients are configured to connect securely. It&#39;s an advanced way to enhance your website&#39;s security, especially against unusual or suspicious connection attempts." id="NgvcpbAYPyvycdPd3KWM-98">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="1000" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="961" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-99" value="Query String" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="279" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-99" value="Query String" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="1121" y="159" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="Single Query Parameter" tooltip="Certainly! Let&#39;s break down the &quot;Single query parameter&quot; component of a WAF rule in simpler, more accessible terms:&#xa;&#xa;1. What is a query parameter?&#xa;   - It&#39;s part of a URL that comes after a question mark (?)&#xa;   - It&#39;s used to send data to a website as part of a request&#xa;   - Example: In &quot;www.xyz.com?UserName=abc&quot;, &quot;UserName=abc&quot; is a query parameter&#xa;&#xa;2. What this WAF rule does:&#xa;   - It allows you to inspect one specific query parameter in a web request&#xa;   - You choose which parameter you want to look at&#xa;&#xa;3. How it works:&#xa;   - You specify the name of the parameter you want to check&#xa;   - AWS WAF then looks at the value of that parameter&#xa;&#xa;4. Key features:&#xa;   - The parameter name can be up to 30 characters long&#xa;   - It&#39;s not case-sensitive (e.g., &quot;UserName&quot;, &quot;username&quot;, and &quot;USERNAME&quot; are all the same)&#xa;   - If the same parameter appears multiple times, AWS WAF checks all instances&#xa;&#xa;5. Why inspect query parameters?&#xa;   - To detect potential security threats or unwanted requests&#xa;   - To control access based on specific information sent in the request&#xa;   - To filter out malicious or suspicious queries&#xa;&#xa;6. What we&#39;re looking for:&#xa;   - Unusual or unexpected values that could indicate an attack&#xa;   - Specific values that you want to allow or block&#xa;   - Patterns that might suggest automated or malicious behavior&#xa;&#xa;7. Examples of use:&#xa;   - Blocking requests with suspicious parameter values&#xa;   - Allowing access only to requests with expected parameter values&#xa;   - Detecting attempts to exploit vulnerabilities through query parameters&#xa;&#xa;In simple terms, this rule lets you examine a specific piece of information that&#39;s sent to your website as part of a web address. It&#39;s like checking a particular field on a form to make sure it contains what you expect or to spot anything suspicious. This helps protect your website from potential threats that might be hidden in these request parameters." id="NgvcpbAYPyvycdPd3KWM-100">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="1320" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="1281" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-109" value="Match Patterns" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="201" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-109" value="Match Patterns" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="162" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-111" value="Match Scope" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="361" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-111" value="Match Scope" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="322" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-112" value="Oversize Handling" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-112" value="Oversize Handling" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="481" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="All Query Parameter" tooltip="Inspects all query parameters in the request. This is similar to the single query parameter component choice, but AWS WAF inspects the values of all arguments within the query string. For example, if the URL is www.xyz.com?UserName=abc&amp;SalesRegion=seattle, AWS WAF triggers a match if either the value of UserName or SalesRegion match the inspection criteria.&#xa;&#xa;Choosing this option adds 10 WCUs to the base cost." id="NgvcpbAYPyvycdPd3KWM-116">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1480" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="1441" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Body" tooltip="Certainly! Let&#39;s break down the &quot;Body&quot; component of a WAF rule in simpler terms:&#xa;&#xa;1. What is the request body?&#xa;   - It&#39;s the main content of a web request, coming after the headers.&#xa;   - Think of it like the contents of a letter, after the envelope and address.&#xa;&#xa;2. What this WAF rule does:&#xa;   - It allows you to inspect the content of the request body.&#xa;   - By default, it looks at the body as plain text.&#xa;&#xa;3. How to use it:&#xa;   - In the AWS console, you select &quot;Body&quot; under &quot;Request&quot; options.&#xa;   - In the API, you specify &quot;Body&quot; in the rule&#39;s FieldToMatch setting.&#xa;&#xa;4. Inspection limits:&#xa;   - For most AWS services, WAF can check the first 16 KB of the body.&#xa;   - For Application Load Balancer and AWS AppSync, it&#39;s limited to 8 KB.&#xa;   - You can increase this up to 64 KB for some services.&#xa;&#xa;5. Oversize handling:&#xa;   - You must decide what to do if the body is too large to fully inspect.&#xa;   - Options: Continue checking what fits, or skip the check entirely.&#xa;&#xa;6. Why inspect the body?&#xa;   - To detect potential security threats in the request content.&#xa;   - To filter out malicious data or unwanted information.&#xa;   - To ensure the request content meets your security criteria.&#xa;&#xa;7. What we&#39;re looking for:&#xa;   - Suspicious patterns or known attack signatures.&#xa;   - Unexpected or malformed data that could indicate an attack.&#xa;   - Specific content you want to allow or block.&#xa;&#xa;8. Additional feature:&#xa;   - You can also inspect the body as JSON if needed.&#xa;&#xa;In simple terms, this rule lets you look inside the &quot;letter&quot; part of a web request. It&#39;s like opening an envelope to check its contents for anything suspicious or unwanted. This helps protect your website from threats that might be hidden in the main content of requests, rather than just in the headers or URL." id="NgvcpbAYPyvycdPd3KWM-117">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1640" y="279" width="120" height="40" as="geometry" />
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+            <mxGeometry x="1601" y="159" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-118" value="JSON Body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="279" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-118" value="JSON Body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="1761" y="159" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NgvcpbAYPyvycdPd3KWM-119" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-119" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NgvcpbAYPyvycdPd3KWM-123">
+          <mxGeometry x="1281" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-124" target="NgvcpbAYPyvycdPd3KWM-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-124" value="Match Rule Statements" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-126" value="Geographic Match" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-399.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-127" value="IP Set Match" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-239.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-128" value="Label Match Rule Statement" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-79.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-129" value="Regex Match Rule Statement" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-130" value="Regex Pattern Set" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-131" value="Size Constraint" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-132" value="SQLi Attack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-133" value="String Match" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-134" value="XSS Scripting Attack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-145" target="NgvcpbAYPyvycdPd3KWM-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-145" target="NgvcpbAYPyvycdPd3KWM-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NgvcpbAYPyvycdPd3KWM-145" target="NgvcpbAYPyvycdPd3KWM-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-145" value="Logical Rule Statements" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-147" value="AND" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-148" value="OR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-149" value="NOT" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgvcpbAYPyvycdPd3KWM-153" value="Rate Based Rule Statements" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="160" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
