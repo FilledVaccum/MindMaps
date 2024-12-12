@@ -39,7 +39,7 @@
         <mxCell id="2_YO29Pb0tdG56DPXYD9-7" value="Default" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <UserObject label="VNet Peering" tooltip="Peers can support traffic forwarding and gateway/router-server access" id="2_YO29Pb0tdG56DPXYD9-11">
+        <UserObject label="VNet Peering" tooltip="Peers can support traffic forwarding and gateway/router-server access. &#xa;Traffic going through gateway via Vnet peering is not encrypted.&#xa;Peering works acrosss region/subscription/tenants." id="2_YO29Pb0tdG56DPXYD9-11">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="640" y="360" width="120" height="40" as="geometry" />
           </mxCell>
