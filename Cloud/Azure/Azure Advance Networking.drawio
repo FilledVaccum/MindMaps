@@ -10,6 +10,15 @@
         <mxCell id="2_YO29Pb0tdG56DPXYD9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-1" value="Advance Networking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="200" height="80" as="geometry" />
         </mxCell>
@@ -41,9 +50,26 @@
         </mxCell>
         <UserObject label="VNet Peering" tooltip="Peers can support traffic forwarding and gateway/router-server access. &#xa;Traffic going through gateway via Vnet peering is not encrypted.&#xa;Peering works acrosss region/subscription/tenants." id="2_YO29Pb0tdG56DPXYD9-11">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="640" y="360" width="120" height="40" as="geometry" />
+            <mxGeometry x="720" y="360" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-13" value="Service Endpoints" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-15" target="2_YO29Pb0tdG56DPXYD9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="PrivateLink" tooltip="The target resource/subresource can be in diffrerent region" id="2_YO29Pb0tdG56DPXYD9-15">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="720" y="720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-17" value="Private Link Service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-19" value="Resource Firewalls" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
