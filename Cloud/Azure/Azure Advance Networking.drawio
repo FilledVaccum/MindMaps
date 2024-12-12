@@ -7,7 +7,10 @@
         <mxCell id="2_YO29Pb0tdG56DPXYD9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2_YO29Pb0tdG56DPXYD9-1" value="User Defined Networking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-1" value="Advance Networking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-2" target="2_YO29Pb0tdG56DPXYD9-4">
@@ -18,7 +21,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2_YO29Pb0tdG56DPXYD9-2" value="Route Tables" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-2" value="User Defined Routing - Route Tables" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-4" target="2_YO29Pb0tdG56DPXYD9-6">
@@ -36,6 +39,11 @@
         <mxCell id="2_YO29Pb0tdG56DPXYD9-7" value="Default" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="VNet Peering" tooltip="Peers can support traffic forwarding and gateway/router-server access" id="2_YO29Pb0tdG56DPXYD9-11">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="640" y="360" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
