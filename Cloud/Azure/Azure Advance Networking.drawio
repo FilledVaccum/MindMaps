@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1">
   <diagram name="Page-1" id="GJmGULCRLe6vEpErVD_9">
-    <mxGraphModel dx="3033" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3883" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,6 +25,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="MXqrY2-lBqCIHPXiM5xp-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="MXqrY2-lBqCIHPXiM5xp-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-1" value="Advance Networking" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -239,6 +242,53 @@
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-50" value="Premium Support cross geo &amp;amp; greater limits" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-600" y="680" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-52" target="MXqrY2-lBqCIHPXiM5xp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-52" target="MXqrY2-lBqCIHPXiM5xp-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-52" target="MXqrY2-lBqCIHPXiM5xp-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-52" value="Virtual WAN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-54" value="Basic" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-56" value="Standard" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1680" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-58" target="MXqrY2-lBqCIHPXiM5xp-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-58" target="MXqrY2-lBqCIHPXiM5xp-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-58" target="MXqrY2-lBqCIHPXiM5xp-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Components" tooltip="One or more Microsoft Managed VNets within a region." id="MXqrY2-lBqCIHPXiM5xp-58">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="-1440" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hub" tooltip="One or More Microsoft Managed VNets within a region." id="MXqrY2-lBqCIHPXiM5xp-60">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-1600" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hub Gateway" tooltip="Microsoft Managed Gateway that is deployed as part of the Hub." id="MXqrY2-lBqCIHPXiM5xp-61">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-1440" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Connections" tooltip="Supports ER, S2S, P2S, VNet to VNet, Hub to Hub Connectivity." id="MXqrY2-lBqCIHPXiM5xp-62">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-1280" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
