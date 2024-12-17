@@ -13,6 +13,9 @@
         <mxCell id="GLiINWx98hyNIzlWrQBd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-3" target="GLiINWx98hyNIzlWrQBd-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-3" target="GLiINWx98hyNIzlWrQBd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-3" value="&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;App Service Deployments&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-840" y="280" width="200" height="80" as="geometry" />
         </mxCell>
@@ -53,14 +56,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-13" value="Process Overview" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="-901" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-15" target="GLiINWx98hyNIzlWrQBd-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Source" tooltip="The Source code for your app can be stored in a variety of locations" id="GLiINWx98hyNIzlWrQBd-15">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-1080" y="640" width="120" height="40" as="geometry" />
+            <mxGeometry x="-901" y="640" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GLiINWx98hyNIzlWrQBd-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-17" target="GLiINWx98hyNIzlWrQBd-19">
@@ -68,12 +71,53 @@
         </mxCell>
         <UserObject label="Build" tooltip="Source code must be complied." id="GLiINWx98hyNIzlWrQBd-17">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-1080" y="720" width="120" height="40" as="geometry" />
+            <mxGeometry x="-901" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Deploy" tooltip="Deploy with Kudu/FTP/WebDeploy. Uses Storage available to instances." id="GLiINWx98hyNIzlWrQBd-19">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-1080" y="800" width="120" height="40" as="geometry" />
+            <mxGeometry x="-901" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-21" target="GLiINWx98hyNIzlWrQBd-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-21" value="Feature Overview" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-701" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-22" target="GLiINWx98hyNIzlWrQBd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Production Slot" tooltip="By default your app is deployed to a &quot;Production&quot; deployment slot." id="GLiINWx98hyNIzlWrQBd-22">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-701" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-24" target="GLiINWx98hyNIzlWrQBd-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Additional Slot" tooltip="You can optionally add extra slots to use for dev and testing." id="GLiINWx98hyNIzlWrQBd-24">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-701" y="720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-26" target="GLiINWx98hyNIzlWrQBd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-26" target="GLiINWx98hyNIzlWrQBd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-26" value="Slot Features" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-701" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Traffic Split" tooltip="Split traffic by a percentage" id="GLiINWx98hyNIzlWrQBd-28">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-781" y="920" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Swap the slot" tooltip="Swap slots forward and backward." id="GLiINWx98hyNIzlWrQBd-30">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-621" y="920" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
