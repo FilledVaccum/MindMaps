@@ -227,9 +227,11 @@
             <mxGeometry x="1360" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="GLiINWx98hyNIzlWrQBd-64" value="Considerations" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="480" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Considerations" tooltip="You can combine with application insights as additional useful metrics.&#xa;You can report your wond custom metrics. &#xa;You can use metrics from other resources that your solutions uses/relies upon." id="GLiINWx98hyNIzlWrQBd-64">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1600" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
