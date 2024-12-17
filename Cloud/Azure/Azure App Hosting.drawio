@@ -135,6 +135,9 @@
         <mxCell id="GLiINWx98hyNIzlWrQBd-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-34" target="GLiINWx98hyNIzlWrQBd-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-34" target="GLiINWx98hyNIzlWrQBd-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-34" value="Inbound Connectivity" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="440" width="120" height="40" as="geometry" />
         </mxCell>
@@ -146,7 +149,12 @@
         </mxCell>
         <UserObject label="VNet Integration" tooltip="Virtual Network integration for an Azure service enables you to lock down access to the service to only your virtual network infrastructure. The virtual network infrastructure also includes peered virtual networks and on-premises networks.&#xa;&#xa;Virtual network integration provides Azure services the benefits of network isolation with one or more of the following methods:&#xa;&#xa;    Deploying dedicated instances of the service into a virtual network. The services can then be privately accessed within the virtual network and from on-premises networks.&#xa;&#xa;    Using Private Endpoint that connects you privately and securely to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your virtual network, effectively bringing the service into your virtual network.&#xa;&#xa;    Accessing the service using public endpoints by extending a virtual network to the service, through service endpoints. Service endpoints allow service resources to be secured to the virtual network.&#xa;&#xa;    Using service tags to allow or deny traffic to your Azure resources to and from public IP endpoints.&#xa;&#xa;&#xa;Gateway Required for cross region connectivity" id="GLiINWx98hyNIzlWrQBd-40">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-400" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="-480" y="560" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hybrid Connections" tooltip="Uses Azure Relay at the backend for connectivity to on-prem, other cloud etc." id="GLiINWx98hyNIzlWrQBd-42">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-320" y="560" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
