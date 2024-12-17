@@ -207,8 +207,28 @@
         <mxCell id="GLiINWx98hyNIzlWrQBd-55" value="Beyond Azure Services" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="700" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-60" target="GLiINWx98hyNIzlWrQBd-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-60" target="GLiINWx98hyNIzlWrQBd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-60" target="GLiINWx98hyNIzlWrQBd-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-60" value="&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;App Service AutoScaling&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1320" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-61" value="Overview" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="AutoScaling Rules" tooltip="User Azure Monitor behind the scenes" id="GLiINWx98hyNIzlWrQBd-63">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1360" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-64" value="Considerations" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="480" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
