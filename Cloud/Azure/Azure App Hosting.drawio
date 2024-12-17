@@ -136,7 +136,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-34" value="Inbound Connectivity" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="-480" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-36" target="GLiINWx98hyNIzlWrQBd-40">
           <mxGeometry relative="1" as="geometry" />
@@ -145,7 +145,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-36" value="Outbound Connectivity" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="440" width="120" height="40" as="geometry" />
+          <mxGeometry y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-37" target="GLiINWx98hyNIzlWrQBd-48">
           <mxGeometry relative="1" as="geometry" />
@@ -160,14 +160,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-37" value="Plans &amp;amp; Features" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-40" target="GLiINWx98hyNIzlWrQBd-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="VNet Integration" tooltip="Virtual Network integration for an Azure service enables you to lock down access to the service to only your virtual network infrastructure. The virtual network infrastructure also includes peered virtual networks and on-premises networks.&#xa;&#xa;Virtual network integration provides Azure services the benefits of network isolation with one or more of the following methods:&#xa;&#xa;    Deploying dedicated instances of the service into a virtual network. The services can then be privately accessed within the virtual network and from on-premises networks.&#xa;&#xa;    Using Private Endpoint that connects you privately and securely to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your virtual network, effectively bringing the service into your virtual network.&#xa;&#xa;    Accessing the service using public endpoints by extending a virtual network to the service, through service endpoints. Service endpoints allow service resources to be secured to the virtual network.&#xa;&#xa;    Using service tags to allow or deny traffic to your Azure resources to and from public IP endpoints.&#xa;&#xa;&#xa;Gateway Required for cross region connectivity" id="GLiINWx98hyNIzlWrQBd-40">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-80" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="-80" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GLiINWx98hyNIzlWrQBd-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-42" target="GLiINWx98hyNIzlWrQBd-55">
@@ -175,37 +175,40 @@
         </mxCell>
         <UserObject label="Hybrid Connections" tooltip="Uses Azure Relay at the backend for connectivity to on-prem, other cloud etc." id="GLiINWx98hyNIzlWrQBd-42">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="80" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="80" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GLiINWx98hyNIzlWrQBd-46" value="Resource Firewall" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="-480" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="Free/Shared" tooltip="Doesn&#39;t Support VNet Integration.&#xa;Doesn&#39;t Support Hybrid Connections. " id="GLiINWx98hyNIzlWrQBd-48">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="240" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="240" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Basic" tooltip="Newer deployment Support VNet Integration.&#xa;Support Hybrid Connections. " id="GLiINWx98hyNIzlWrQBd-50">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="400" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="400" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Standard" tooltip="Newer deployment Support VNet Integration.&#xa;Support Hybrid Connections. " id="GLiINWx98hyNIzlWrQBd-51">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="560" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="560" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Premium" tooltip="Support VNet Integration.&#xa;Support Hybrid Connections. " id="GLiINWx98hyNIzlWrQBd-52">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="720" y="560" width="120" height="40" as="geometry" />
+            <mxGeometry x="720" y="600" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GLiINWx98hyNIzlWrQBd-53" value="For Azure Services" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="660" width="80" height="80" as="geometry" />
+          <mxGeometry x="-60" y="700" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-55" value="Beyond Azure Services" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="660" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-60" value="&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;App Service AutoScaling&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="280" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
