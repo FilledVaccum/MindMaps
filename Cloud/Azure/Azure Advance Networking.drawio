@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1">
   <diagram name="Page-1" id="GJmGULCRLe6vEpErVD_9">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3033" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,15 @@
         <mxCell id="2_YO29Pb0tdG56DPXYD9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2_YO29Pb0tdG56DPXYD9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="2_YO29Pb0tdG56DPXYD9-19" edge="1">
+        <mxCell id="2_YO29Pb0tdG56DPXYD9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="2_YO29Pb0tdG56DPXYD9-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="MXqrY2-lBqCIHPXiM5xp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-1" target="MXqrY2-lBqCIHPXiM5xp-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-1" value="Advance Networking" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,17 +69,17 @@
         </mxCell>
         <UserObject label="PrivateLink" tooltip="The target resource/subresource can be in diffrerent region" id="2_YO29Pb0tdG56DPXYD9-15">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-            <mxGeometry x="720" y="720" width="120" height="40" as="geometry" />
+            <mxGeometry x="1620" y="680" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-17" value="Private Link Service" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="960" y="720" width="120" height="40" as="geometry" />
+          <mxGeometry x="1860" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_YO29Pb0tdG56DPXYD9-19" target="MXqrY2-lBqCIHPXiM5xp-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2_YO29Pb0tdG56DPXYD9-19" value="Resource Firewalls" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="720" width="120" height="40" as="geometry" />
+          <mxGeometry x="1260" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-1" target="MXqrY2-lBqCIHPXiM5xp-3">
           <mxGeometry relative="1" as="geometry" />
@@ -83,19 +91,154 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-1" value="Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="880" width="120" height="40" as="geometry" />
+          <mxGeometry x="1260" y="840" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-3" value="Resource" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="1100" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MXqrY2-lBqCIHPXiM5xp-5" value="Network Rules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="1260" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="Exceptions" tooltip="Exceptions can be enabled for the platform servcies" id="MXqrY2-lBqCIHPXiM5xp-7">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="520" y="1040" width="120" height="40" as="geometry" />
+            <mxGeometry x="1420" y="1000" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-9" target="MXqrY2-lBqCIHPXiM5xp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-9" target="MXqrY2-lBqCIHPXiM5xp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-9" value="VPN Gateway" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-11" target="MXqrY2-lBqCIHPXiM5xp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-11" target="MXqrY2-lBqCIHPXiM5xp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-11" target="MXqrY2-lBqCIHPXiM5xp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-11" value="Site to Site VPN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="VNet Gateway" tooltip="Configured as VPN type, and policy (static) or Route Based Routing." id="MXqrY2-lBqCIHPXiM5xp-13">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="620" y="920" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-15" value="Local Network Gateway" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-17" value="VPN Connection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-22" target="MXqrY2-lBqCIHPXiM5xp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-22" target="MXqrY2-lBqCIHPXiM5xp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-22" target="MXqrY2-lBqCIHPXiM5xp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Point to Site VPN" tooltip="Configured as VPN type and Route Based routing" id="MXqrY2-lBqCIHPXiM5xp-22">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="220" y="840" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="VNet Gateway" tooltip="Configured as VPN type, and policy (static) or Route Based Routing." id="MXqrY2-lBqCIHPXiM5xp-23">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="920" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-24" value="Authentication" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-25" target="MXqrY2-lBqCIHPXiM5xp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-33" value="Authentication Mechanism" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MXqrY2-lBqCIHPXiM5xp-28">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-25" value="VPN Connection/Client" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-27" target="MXqrY2-lBqCIHPXiM5xp-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-27" value="&lt;div&gt;OpenVPN&lt;/div&gt;&lt;div&gt;(SSL/TLS)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-29" target="MXqrY2-lBqCIHPXiM5xp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-29" value="&lt;div&gt;SSTP&lt;/div&gt;&lt;div&gt;(TLS)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-30" value="&lt;div&gt;IPSec&lt;/div&gt;&lt;div&gt;(IKEv2)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-34" target="MXqrY2-lBqCIHPXiM5xp-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-34" target="MXqrY2-lBqCIHPXiM5xp-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-34" target="MXqrY2-lBqCIHPXiM5xp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-34" value="ExpressRoute" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-36" target="MXqrY2-lBqCIHPXiM5xp-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-36" target="MXqrY2-lBqCIHPXiM5xp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-36" target="MXqrY2-lBqCIHPXiM5xp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-36" value="Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;VNet Gateway&lt;/div&gt;&lt;div&gt;(Express Route)&lt;br&gt;&lt;/div&gt;" tooltip="Configured as ExpressRoute type with BGP Routing" id="MXqrY2-lBqCIHPXiM5xp-38">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="-520" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ExpressRoute Circuit" tooltip="Determines peering location/provider bandwidth, billing model, SKU" id="MXqrY2-lBqCIHPXiM5xp-40">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="-361" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-42" target="MXqrY2-lBqCIHPXiM5xp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MXqrY2-lBqCIHPXiM5xp-42" target="MXqrY2-lBqCIHPXiM5xp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-42" value="ExpressRoute Peering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-44" value="Private Peering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-46" value="Microsoft Peering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-48" value="&lt;div&gt;FastPath&lt;/div&gt;(Ultra/ERGw3Az SKU)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MXqrY2-lBqCIHPXiM5xp-50" value="Premium Support cross geo &amp;amp; greater limits" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
