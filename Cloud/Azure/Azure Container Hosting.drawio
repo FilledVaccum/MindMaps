@@ -13,6 +13,9 @@
         <mxCell id="u2BAlfbX_cgV1St6kAeL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2BAlfbX_cgV1St6kAeL-1" target="u2BAlfbX_cgV1St6kAeL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2BAlfbX_cgV1St6kAeL-1" target="u2BAlfbX_cgV1St6kAeL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u2BAlfbX_cgV1St6kAeL-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Container Registry&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="400" width="200" height="80" as="geometry" />
         </mxCell>
@@ -67,6 +70,35 @@
             <mxGeometry x="840" y="410" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2BAlfbX_cgV1St6kAeL-20" target="u2BAlfbX_cgV1St6kAeL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2BAlfbX_cgV1St6kAeL-20" target="u2BAlfbX_cgV1St6kAeL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u2BAlfbX_cgV1St6kAeL-20" target="u2BAlfbX_cgV1St6kAeL-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-20" value="Resource Hierarchy" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-22" value="Registry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-24" value="Repository" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u2BAlfbX_cgV1St6kAeL-25" value="Artifacts (OCI)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="600" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
