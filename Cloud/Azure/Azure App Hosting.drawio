@@ -217,21 +217,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-60" value="&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;App Service AutoScaling&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="280" width="200" height="80" as="geometry" />
+          <mxGeometry x="1120" y="280" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GLiINWx98hyNIzlWrQBd-61" value="Overview" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="480" width="120" height="40" as="geometry" />
+          <mxGeometry x="920" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="AutoScaling Rules" tooltip="User Azure Monitor behind the scenes" id="GLiINWx98hyNIzlWrQBd-63">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1360" y="480" width="120" height="40" as="geometry" />
+            <mxGeometry x="1160" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Considerations" tooltip="You can combine with application insights as additional useful metrics.&#xa;You can report your wond custom metrics. &#xa;You can use metrics from other resources that your solutions uses/relies upon." id="GLiINWx98hyNIzlWrQBd-64">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1600" y="480" width="120" height="40" as="geometry" />
+            <mxGeometry x="1400" y="480" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-67" target="GLiINWx98hyNIzlWrQBd-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-67" target="GLiINWx98hyNIzlWrQBd-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-67" target="GLiINWx98hyNIzlWrQBd-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-67" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;App Service&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot;&gt;Security&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-68" target="GLiINWx98hyNIzlWrQBd-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-68" value="Encryption" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-70" target="GLiINWx98hyNIzlWrQBd-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-70" value="Secure Data Stored" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLiINWx98hyNIzlWrQBd-71" target="GLiINWx98hyNIzlWrQBd-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-71" value="Network Security" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-72" value="SSL " style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-74" value="Key Vault" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLiINWx98hyNIzlWrQBd-76" value="WAF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
