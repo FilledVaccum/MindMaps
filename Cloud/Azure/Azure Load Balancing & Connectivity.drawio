@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.3" pages="3">
   <diagram name="Page-1" id="SbZpI5vLuQS5GnA2qj7T">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5PPElF6QV49IbZEKUekK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-1" target="5PPElF6QV49IbZEKUekK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-1" target="qoFUSd2NmMvYGtC8wMMS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Rubik&quot;&gt;Azure Load Balancer&lt;br&gt;&lt;/font&gt;" tooltip="Layer 4 Load Balancer : Focus on port and protocol." id="5PPElF6QV49IbZEKUekK-1">
@@ -58,6 +61,28 @@
             <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qoFUSd2NmMvYGtC8wMMS-1" target="qoFUSd2NmMvYGtC8wMMS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-1" value="Key Consideration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-3" value="Sticky Session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="Matching SKU" tooltip="Public IP addressing must match the SKU of the load balancer." id="qoFUSd2NmMvYGtC8wMMS-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="200" y="680" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qGQSGSTRw00uBZcQh0vk" name="Application Gateway">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
