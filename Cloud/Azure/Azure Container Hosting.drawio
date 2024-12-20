@@ -107,6 +107,80 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-1" target="6mvDVIlqsG_HRlmc8xkQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-1" target="6mvDVIlqsG_HRlmc8xkQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-1" target="6mvDVIlqsG_HRlmc8xkQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Container Instances (ACI)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-2" target="6mvDVIlqsG_HRlmc8xkQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-2" target="6mvDVIlqsG_HRlmc8xkQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-2" target="6mvDVIlqsG_HRlmc8xkQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-2" target="6mvDVIlqsG_HRlmc8xkQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-2" value="Overview" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-4" value="Container Groups" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-5" target="6mvDVIlqsG_HRlmc8xkQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-5" value="Container Instances" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-8" value="For Simple task and automation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-10" value="Container hosting building blocks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-12" value="Doesn&#39;t include any scaling and healing capabilities" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-14" value="Price per-second basis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-16" target="6mvDVIlqsG_HRlmc8xkQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-16" target="6mvDVIlqsG_HRlmc8xkQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-16" target="6mvDVIlqsG_HRlmc8xkQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-16" target="6mvDVIlqsG_HRlmc8xkQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-16" value="Architecture &lt;br&gt;Resource Hierarchy" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-18" value="Container Instance" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-20" value="Connectivity" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Storage" tooltip="Containers are able to mount Azure Files shares for persistent storage." id="6mvDVIlqsG_HRlmc8xkQ-23">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="800" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
