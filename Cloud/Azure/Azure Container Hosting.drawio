@@ -215,6 +215,79 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="cUNvEEn-d6z_XgfTMzbo" name="Azure Container Apps">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7-UJP5HW1a665KR0KPOh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-1" target="7-UJP5HW1a665KR0KPOh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-1" target="7-UJP5HW1a665KR0KPOh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Container Apps&lt;/font&gt;&lt;br&gt;Serverless" tooltip="You skill the part of managing cluster. &#xa;You create a container and deploy it directly." id="7-UJP5HW1a665KR0KPOh-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="440" y="360" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-2" target="7-UJP5HW1a665KR0KPOh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-2" target="7-UJP5HW1a665KR0KPOh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-2" target="7-UJP5HW1a665KR0KPOh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-2" target="7-UJP5HW1a665KR0KPOh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-2" target="7-UJP5HW1a665KR0KPOh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-2" value="Key Consideration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-4" value="Kubernetes like features with components and cluster managed for you" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-6" value="Build for micro services developers to more easily get advance capabilities " style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-7" value="Billing based on resources(per sec) and requests. Can scale to Zero" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-8" value="Includes scaling (KEDA), service discovery (DAPR), load balancing (envoy) and more" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-9" value="No Kubernetes API and control plane access" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-10" target="7-UJP5HW1a665KR0KPOh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-10" target="7-UJP5HW1a665KR0KPOh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-UJP5HW1a665KR0KPOh-10" target="7-UJP5HW1a665KR0KPOh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-10" value="Key Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-12" value="Container App" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-13" value="Revision" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-UJP5HW1a665KR0KPOh-14" value="Environment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="3Y93mvsN67ZyXhf8W_eI" name="Azure Kubernetes Service (AKS)">
     <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -310,14 +383,6 @@
         <mxCell id="-o-Ee3GNmBkocmT4r1YU-27" value="Control Plane" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="cUNvEEn-d6z_XgfTMzbo" name="Azure Container Apps">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
