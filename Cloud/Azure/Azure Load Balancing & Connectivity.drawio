@@ -23,9 +23,41 @@
             <mxGeometry x="440" y="360" width="200" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="5PPElF6QV49IbZEKUekK-2" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="5PPElF6QV49IbZEKUekK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-2" target="5PPElF6QV49IbZEKUekK-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5PPElF6QV49IbZEKUekK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-2" target="5PPElF6QV49IbZEKUekK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PPElF6QV49IbZEKUekK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-2" target="5PPElF6QV49IbZEKUekK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PPElF6QV49IbZEKUekK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PPElF6QV49IbZEKUekK-2" target="5PPElF6QV49IbZEKUekK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PPElF6QV49IbZEKUekK-2" value="Key Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Frontend" tooltip="One or more central public/private addresses to reach a solution by." id="5PPElF6QV49IbZEKUekK-4">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="240" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Backend" tooltip="VMs or VM Scale Set resources that host an instance of the solutions." id="5PPElF6QV49IbZEKUekK-6">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Probe" tooltip="HTTP/HTTPS/TCP probes to check if instance is healthy" id="5PPElF6QV49IbZEKUekK-7">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="560" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rules" tooltip="Load balance a frontend to a healthy backed via a port(can persist/float)" id="5PPElF6QV49IbZEKUekK-8">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="720" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
