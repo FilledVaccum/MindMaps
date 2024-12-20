@@ -64,20 +64,34 @@
         <mxCell id="qoFUSd2NmMvYGtC8wMMS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qoFUSd2NmMvYGtC8wMMS-1" target="qoFUSd2NmMvYGtC8wMMS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qoFUSd2NmMvYGtC8wMMS-1" target="qoFUSd2NmMvYGtC8wMMS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qoFUSd2NmMvYGtC8wMMS-1" target="qoFUSd2NmMvYGtC8wMMS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoFUSd2NmMvYGtC8wMMS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qoFUSd2NmMvYGtC8wMMS-1" target="qoFUSd2NmMvYGtC8wMMS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qoFUSd2NmMvYGtC8wMMS-1" value="Key Consideration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qoFUSd2NmMvYGtC8wMMS-3" value="Sticky Session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="120" height="80" as="geometry" />
+          <mxGeometry x="240" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <UserObject label="Matching SKU" tooltip="Public IP addressing must match the SKU of the load balancer." id="qoFUSd2NmMvYGtC8wMMS-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="200" y="680" width="120" height="80" as="geometry" />
+            <mxGeometry x="400" y="680" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Floating IPs" tooltip="Allow load balancing to the same backend port on a backend instance." id="qoFUSd2NmMvYGtC8wMMS-6">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="360" y="680" width="120" height="80" as="geometry" />
+            <mxGeometry x="560" y="680" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="High Availability Ports" tooltip="High availability (HA) ports are a type of load balancing rule that provides an easy way to load-balance all flows that arrive on all ports of an internal standard load balancer. The load-balancing decision is made per flow. This action is based on the following five-tuple connection: source IP address, source port, destination IP address, destination port, and protocol" id="qoFUSd2NmMvYGtC8wMMS-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="720" y="680" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
