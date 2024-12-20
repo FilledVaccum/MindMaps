@@ -75,6 +75,11 @@
             <mxGeometry x="200" y="680" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="Floating IPs" tooltip="Allow load balancing to the same backend port on a backend instance." id="qoFUSd2NmMvYGtC8wMMS-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="360" y="680" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
