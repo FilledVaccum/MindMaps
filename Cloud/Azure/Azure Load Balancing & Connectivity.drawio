@@ -182,19 +182,25 @@
         <mxCell id="JR0aizLlyz0bfYnVabD9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-16" target="JR0aizLlyz0bfYnVabD9-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-16" target="JR0aizLlyz0bfYnVabD9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JR0aizLlyz0bfYnVabD9-16" value="Key Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JR0aizLlyz0bfYnVabD9-18" value="Frontend" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="Backend" tooltip="Supports various Azure Services that are either public and private." id="JR0aizLlyz0bfYnVabD9-20">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="480" y="120" width="120" height="40" as="geometry" />
+            <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="JR0aizLlyz0bfYnVabD9-21" value="Listeners &amp;amp; Settings" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-24" value="Rules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
