@@ -134,9 +134,11 @@
         <mxCell id="6mvDVIlqsG_HRlmc8xkQ-2" value="Overview" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6mvDVIlqsG_HRlmc8xkQ-4" value="Container Groups" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="600" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Container Groups" tooltip="Want to run more than one container running together on same underlying infrastructurer (i.e container host)" id="6mvDVIlqsG_HRlmc8xkQ-4">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="160" y="600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="6mvDVIlqsG_HRlmc8xkQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mvDVIlqsG_HRlmc8xkQ-5" target="6mvDVIlqsG_HRlmc8xkQ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
