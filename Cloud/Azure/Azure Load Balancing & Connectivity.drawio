@@ -123,11 +123,53 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JR0aizLlyz0bfYnVabD9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-1" target="JR0aizLlyz0bfYnVabD9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Application Gateway&lt;br&gt;&lt;/font&gt;" tooltip="Layer 7 Load Balancer" id="JR0aizLlyz0bfYnVabD9-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="440" y="400" width="200" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-2" target="JR0aizLlyz0bfYnVabD9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-2" value="Key Features" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-4" value="End-to-End Encryption" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-6" value="Multi-Site Routing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-7" value="Web Application Firewall (SKU)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-8" value="Additional L7 Features" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-9" value="Path-Based Routing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-10" value="Integrated AutoScaling" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
