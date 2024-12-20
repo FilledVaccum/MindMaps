@@ -126,6 +126,9 @@
         <mxCell id="JR0aizLlyz0bfYnVabD9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-1" target="JR0aizLlyz0bfYnVabD9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-1" target="JR0aizLlyz0bfYnVabD9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Rubik&quot; face=&quot;Rubik&quot; style=&quot;font-size: 20px;&quot;&gt;Azure Application Gateway&lt;br&gt;&lt;/font&gt;" tooltip="Layer 7 Load Balancer" id="JR0aizLlyz0bfYnVabD9-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="440" y="400" width="200" height="80" as="geometry" />
@@ -169,6 +172,29 @@
         </mxCell>
         <mxCell id="JR0aizLlyz0bfYnVabD9-10" value="Integrated AutoScaling" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-16" target="JR0aizLlyz0bfYnVabD9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-16" target="JR0aizLlyz0bfYnVabD9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JR0aizLlyz0bfYnVabD9-16" target="JR0aizLlyz0bfYnVabD9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-16" value="Key Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-18" value="Frontend" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Backend" tooltip="Supports various Azure Services that are either public and private." id="JR0aizLlyz0bfYnVabD9-20">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="480" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JR0aizLlyz0bfYnVabD9-21" value="Listeners &amp;amp; Settings" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
