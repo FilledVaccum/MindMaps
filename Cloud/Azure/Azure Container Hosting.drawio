@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cUNvEEn-d6z_XgfTMzbo" name="Azure Container Apps">
-    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,9 +279,11 @@
         <mxCell id="7-UJP5HW1a665KR0KPOh-12" value="Container App" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7-UJP5HW1a665KR0KPOh-13" value="Revision" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="Revision" tooltip="Container app versioning. Uses immutable container app snapshots." id="7-UJP5HW1a665KR0KPOh-13">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="7-UJP5HW1a665KR0KPOh-14" value="Environment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
         </mxCell>
