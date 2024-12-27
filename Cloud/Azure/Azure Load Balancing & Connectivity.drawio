@@ -244,10 +244,79 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5FpRpd71-RAFlc3IgQ9v" name="Azure Firewall">
-    <mxGraphModel dx="792" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-1" target="pvoOk_U5fxShEfcA2ai7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-1" target="pvoOk_U5fxShEfcA2ai7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-1" value="Azure Firewall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-2" target="pvoOk_U5fxShEfcA2ai7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-2" target="pvoOk_U5fxShEfcA2ai7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-2" target="pvoOk_U5fxShEfcA2ai7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-2" value="Key Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-4" value="Networking" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-6" value="Firewall" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-8" value="Firewall Policy" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvoOk_U5fxShEfcA2ai7-10" target="pvoOk_U5fxShEfcA2ai7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-10" value="Features" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-12" value="Intrusion Detection &amp;amp; Prevention System" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-14" value="Integrated Threat Intelligence" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-15" value="URL Filtering &amp;amp; Web Categories" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-16" value="TLS Inspection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-17" value="L3 to L7 Connectivity Policy" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pvoOk_U5fxShEfcA2ai7-22" value="Fully Managed &amp;amp; Scalable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
