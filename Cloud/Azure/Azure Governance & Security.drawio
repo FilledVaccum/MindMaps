@@ -32,11 +32,17 @@
         <mxCell id="egiYSwGSMIONl7fdC5a--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--1" target="egiYSwGSMIONl7fdC5a--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--1" target="egiYSwGSMIONl7fdC5a--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Resource Locks" tooltip="As an administrator, you can lock an Azure subscription, resource group, or resource to protect them from accidental user deletions and modifications. The lock overrides any user permissions.&#xa;&#xa;You can set locks that prevent either deletions or modifications. In the portal, these locks are called Delete and Read-only. In the command line, these locks are called CanNotDelete and ReadOnly.&#xa;&#xa;    CanNotDelete means authorized users can read and modify a resource, but they can&#39;t delete it.&#xa;    ReadOnly means authorized users can read a resource, but they can&#39;t delete or update it. Applying this lock is similar to restricting all authorized users to the permissions that the Reader role provides.&#xa;&#xa;Unlike role-based access control (RBAC), you use management locks to apply a restriction across all users and roles. To learn about setting permissions for users and roles, see Azure RBAC." id="egiYSwGSMIONl7fdC5a--1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="360" y="560" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="egiYSwGSMIONl7fdC5a--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--2" target="egiYSwGSMIONl7fdC5a--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Lock Inheritance" tooltip="When you apply a lock at a parent scope, all resources within that scope inherit the same lock. Even resources you add later inherit the same parent lock. The most restrictive lock in the inheritance takes precedence." id="egiYSwGSMIONl7fdC5a--2">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="360" y="400" width="120" height="40" as="geometry" />
@@ -47,6 +53,48 @@
             <mxGeometry x="360" y="720" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="egiYSwGSMIONl7fdC5a--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--6" target="egiYSwGSMIONl7fdC5a--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--6" target="egiYSwGSMIONl7fdC5a--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--6" value="Types" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--8" value="CanNotDelete" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--10" value="ReadOnly" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--15" target="egiYSwGSMIONl7fdC5a--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--15" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--17" target="egiYSwGSMIONl7fdC5a--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--17" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="egiYSwGSMIONl7fdC5a--18" target="egiYSwGSMIONl7fdC5a--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--18" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="180" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--19" value="Subscription" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--21" value="Resource Group" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="egiYSwGSMIONl7fdC5a--23" value="Resource" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
