@@ -312,7 +312,7 @@
         <mxCell id="8n3jew7Qbw3wdyCpLZaD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8n3jew7Qbw3wdyCpLZaD-1" target="8n3jew7Qbw3wdyCpLZaD-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8n3jew7Qbw3wdyCpLZaD-1" value="Advance Template" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8n3jew7Qbw3wdyCpLZaD-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Advance Template&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="200" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8n3jew7Qbw3wdyCpLZaD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8n3jew7Qbw3wdyCpLZaD-2" target="8n3jew7Qbw3wdyCpLZaD-4">
