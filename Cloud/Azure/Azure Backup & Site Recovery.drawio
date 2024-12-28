@@ -125,6 +125,9 @@
         <mxCell id="ccEBxg5CaQqyKmjCfbO3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ccEBxg5CaQqyKmjCfbO3-2" target="ccEBxg5CaQqyKmjCfbO3-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ccEBxg5CaQqyKmjCfbO3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ccEBxg5CaQqyKmjCfbO3-2" target="ccEBxg5CaQqyKmjCfbO3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ccEBxg5CaQqyKmjCfbO3-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Service Backup&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359.72" y="1000" width="120" height="80" as="geometry" />
         </mxCell>
