@@ -419,24 +419,27 @@
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Key Vault&lt;/font&gt;" tooltip="Azure Key Vault is a cloud-based service designed for securely storing and managing sensitive information, including secrets, encryption keys, and certificates. It provides centralized key management, secret storage, and certificate lifecycle management with high availability and security." id="8kcwcOA5nRY0R_VKKjH3-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="360" y="400" width="200" height="80" as="geometry" />
+            <mxGeometry x="320" y="400" width="200" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Key Management" tooltip="Manage encryption keys for data protection.&#xa;Use cases: Data encryption at rest (e.g., Azure Storage, Azure SQL)." id="8kcwcOA5nRY0R_VKKjH3-2">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="360" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Secrets Management" tooltip="Store sensitive information such as API keys, passwords, and connection strings.&#xa;Use cases: Application secrets, database credentials, and third-party API tokens." id="8kcwcOA5nRY0R_VKKjH3-4">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="200" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Certificate Management" tooltip="Automate SSL/TLS certificate provisioning and renewal.&#xa;Use cases: Securing web applications and network traffic." id="8kcwcOA5nRY0R_VKKjH3-5">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="600" y="240" width="120" height="40" as="geometry" />
+            <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="8kcwcOA5nRY0R_VKKjH3-8" value="&lt;p style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;The decision tree for Azure Key Vault has been created and saved as an image. It outlines the following key decision points:&lt;/p&gt;&lt;ol style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;li&gt;&lt;strong&gt;Use Case&lt;/strong&gt;: Determine whether you need to manage secrets, keys, or certificates.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Access Control&lt;/strong&gt;: Decide between Role-Based Access Control (RBAC) or Access Policies.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Networking Options&lt;/strong&gt;: Choose between public endpoints, private endpoints, or firewall-based restrictions.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Certificate Automation&lt;/strong&gt;: Decide if certificate renewal should be automated or managed manually.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pricing Tier&lt;/strong&gt;: Select between Standard (software-protected keys) or Premium (HSM-protected keys).&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="680" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
