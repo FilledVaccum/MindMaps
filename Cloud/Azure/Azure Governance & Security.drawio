@@ -404,10 +404,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ANq4J3IkQ5p2tgtSO_Tr" name="Azure Key Vault">
-    <mxGraphModel dx="1488" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8kcwcOA5nRY0R_VKKjH3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kcwcOA5nRY0R_VKKjH3-1" target="8kcwcOA5nRY0R_VKKjH3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kcwcOA5nRY0R_VKKjH3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kcwcOA5nRY0R_VKKjH3-1" target="8kcwcOA5nRY0R_VKKjH3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kcwcOA5nRY0R_VKKjH3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kcwcOA5nRY0R_VKKjH3-1" target="8kcwcOA5nRY0R_VKKjH3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Key Vault&lt;/font&gt;" tooltip="Azure Key Vault is a cloud-based service designed for securely storing and managing sensitive information, including secrets, encryption keys, and certificates. It provides centralized key management, secret storage, and certificate lifecycle management with high availability and security." id="8kcwcOA5nRY0R_VKKjH3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="360" y="400" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Key Management" tooltip="Manage encryption keys for data protection.&#xa;Use cases: Data encryption at rest (e.g., Azure Storage, Azure SQL)." id="8kcwcOA5nRY0R_VKKjH3-2">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Secrets Management" tooltip="Store sensitive information such as API keys, passwords, and connection strings.&#xa;Use cases: Application secrets, database credentials, and third-party API tokens." id="8kcwcOA5nRY0R_VKKjH3-4">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="200" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Certificate Management" tooltip="Automate SSL/TLS certificate provisioning and renewal.&#xa;Use cases: Securing web applications and network traffic." id="8kcwcOA5nRY0R_VKKjH3-5">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
