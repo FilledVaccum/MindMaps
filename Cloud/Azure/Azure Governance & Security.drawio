@@ -246,10 +246,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SIIY8KKzyxRlsFofAQHU" name="Bicep Template">
-    <mxGraphModel dx="1488" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-2" target="-NlxJMg4nQdUIAdgsw3H-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Bicep Template&lt;/font&gt;" tooltip="Bicep is a domain-specific language (DSL) for deploying Azure resources. It simplifies and enhances the authoring experience for Azure Resource Manager (ARM) templates by providing cleaner syntax and improved usability.&#xa;&#xa;Unlike ARM templates, which are JSON-based and verbose, Bicep is designed to be declarative, concise, and human-readable while maintaining all the capabilities of ARM templates." id="-NlxJMg4nQdUIAdgsw3H-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="320" y="400" width="200" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-9" target="-NlxJMg4nQdUIAdgsw3H-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-9" target="-NlxJMg4nQdUIAdgsw3H-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-9" target="-NlxJMg4nQdUIAdgsw3H-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-9" target="-NlxJMg4nQdUIAdgsw3H-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NlxJMg4nQdUIAdgsw3H-9" target="-NlxJMg4nQdUIAdgsw3H-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-9" value="Components" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-11" value="Parameters" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-12" value="Variables" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-13" value="Resources" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NlxJMg4nQdUIAdgsw3H-14" value="Output" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Modules" tooltip="Reusable blocks of Bicep code to organize large templates." id="-NlxJMg4nQdUIAdgsw3H-15">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="680" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
