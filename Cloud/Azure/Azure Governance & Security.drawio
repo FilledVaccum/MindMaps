@@ -129,9 +129,11 @@
         <mxCell id="2md19AOv7SP1K-aVocp4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2md19AOv7SP1K-aVocp4-1" target="2md19AOv7SP1K-aVocp4-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2md19AOv7SP1K-aVocp4-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Policy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1000" width="200" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Azure Policy&lt;/font&gt;" tooltip="Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Through its compliance dashboard, it provides an aggregated view to evaluate the overall state of the environment, with the ability to drill down to the per-resource, per-policy granularity. It also helps to bring your resources to compliance through bulk remediation for existing resources and automatic remediation for new resources." id="2md19AOv7SP1K-aVocp4-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="320" y="1000" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="2md19AOv7SP1K-aVocp4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2md19AOv7SP1K-aVocp4-3" target="2md19AOv7SP1K-aVocp4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
