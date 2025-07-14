@@ -54,10 +54,25 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NJLyC0k2GFpCZJy_lFur" name="SVM">
-    <mxGraphModel dx="1237" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="603" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bRN-EtZGku6e-hKA_Ou--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bRN-EtZGku6e-hKA_Ou--2" target="bRN-EtZGku6e-hKA_Ou--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bRN-EtZGku6e-hKA_Ou--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bRN-EtZGku6e-hKA_Ou--2" target="bRN-EtZGku6e-hKA_Ou--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bRN-EtZGku6e-hKA_Ou--2" value="&lt;div&gt;State Vector Machine&lt;/div&gt;&lt;div&gt;SVM&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRN-EtZGku6e-hKA_Ou--3" value="Soft Margin SVM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRN-EtZGku6e-hKA_Ou--5" value="Hard Margin SVM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
