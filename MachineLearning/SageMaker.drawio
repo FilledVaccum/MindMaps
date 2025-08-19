@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7" pages="4">
   <diagram name="Page-1" id="OAfIW-DoVNaX7ueY04fr">
     <mxGraphModel dx="4606" dy="2160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tkB6OCmFyKro2fdkNh8M" name="Page-2">
-    <mxGraphModel dx="2066" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3443" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,7 +277,7 @@
           <mxGeometry x="1367" y="1328" width="1292" height="550" as="geometry" />
         </mxCell>
         <mxCell id="sFV-OwCciSmLxLvp4_ww-5" value="Inference and hosting" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="2042" y="3275" width="617" height="1142" as="geometry" />
+          <mxGeometry x="2042" y="3275" width="1078" height="1142" as="geometry" />
         </mxCell>
         <mxCell id="sFV-OwCciSmLxLvp4_ww-6" value="Orchestration and MLOps" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="942" y="3397" width="1051" height="372" as="geometry" />
@@ -424,10 +424,10 @@
           <mxGeometry x="2431" y="3622" width="175" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sFV-OwCciSmLxLvp4_ww-54" value="Multi model endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2409" y="3726" width="220" height="54" as="geometry" />
+          <mxGeometry x="2888.5" y="3397" width="220" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sFV-OwCciSmLxLvp4_ww-55" value="Inference pipelines" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="3901" width="197" height="54" as="geometry" />
+          <mxGeometry x="2900" y="3330" width="197" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sFV-OwCciSmLxLvp4_ww-56" value="Production variants AB" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2407" y="4005" width="222" height="54" as="geometry" />
@@ -816,15 +816,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sFV-OwCciSmLxLvp4_ww-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="sFV-OwCciSmLxLvp4_ww-15" target="sFV-OwCciSmLxLvp4_ww-54">
+        <mxCell id="sFV-OwCciSmLxLvp4_ww-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sFV-OwCciSmLxLvp4_ww-50" target="sFV-OwCciSmLxLvp4_ww-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sFV-OwCciSmLxLvp4_ww-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="sFV-OwCciSmLxLvp4_ww-15" target="sFV-OwCciSmLxLvp4_ww-55">
+        <mxCell id="sFV-OwCciSmLxLvp4_ww-127" value="" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sFV-OwCciSmLxLvp4_ww-50" target="sFV-OwCciSmLxLvp4_ww-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2352" y="3928" />
+              <mxPoint x="2800" y="3330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1098,6 +1098,1559 @@
               <mxPoint x="1677" y="4339" />
               <mxPoint x="1702" y="4365" />
               <mxPoint x="2377" y="4365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W3f4_YyVpXBXMcmoXJXH" name="Page-3">
+    <mxGraphModel dx="3178" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-1" value="Core integrations" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="3048" width="310" height="748" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-2" value="Geospatial" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2904" width="310" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-3" value="Monitoring and quality" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="2483" width="620" height="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-4" value="Deployment and inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="715" y="2114" width="645" height="1445" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-5" value="Generative AI and JumpStart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2351" width="310" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-6" value="Automation and orchestration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2079" width="310" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-7" value="Experimentation and governance" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1328" width="310" height="766" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-8" value="Build and train" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="645" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-9" value="Data preparation and features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3816" width="645" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-10" value="Data and labeling" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1472" width="310" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-11" value="Environments" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="600" width="310" height="852" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-12" value="Amazon SageMaker AI (SageMaker)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2255" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-13" value="Studio unified" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="635" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-14" value="Studio classic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="739" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-15" value="Code Editor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="438" y="843" width="144" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-16" value="JupyterLab in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="406" y="947" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-17" value="RStudio on SageMaker" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="402" y="1051" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-18" value="Notebook instances" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1155" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-19" value="Studio Lab" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="442" y="1259" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-20" value="Canvas no code" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1363" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-21" value="Ground Truth" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="433" y="1507" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-22" value="Ground Truth Plus" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="1611" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-23" value="Augmented AI A2I" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="417" y="1715" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-24" value="Data Wrangler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="429" y="3851" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-25" value="Processing jobs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="91" y="3861" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-26" value="Feature Store online and offline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="3965" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-27" value="Built in algorithms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="55" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-28" value="Framework DLCs pytorch tf xgboost sklearn" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="159" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-29" value="Training jobs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="434" y="363" width="151" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-30" value="Automatic model tuning HPO" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="55" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-31" value="Managed Spot training" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="183" width="219" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-32" value="SageMaker Distributed data parallel and model parallel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="287" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-33" value="Training Compiler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="82" y="439" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-34" value="HyperPod clusters" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="491" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-35" value="Experiments and trials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1797" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-36" value="Lineage tracking" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="781" y="1528" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-37" value="Model cards" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="797" y="1632" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-38" value="Model registry" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="789" y="1363" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-39" value="Projects MLOps templates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="747" y="1901" width="246" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-40" value="Role Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="792" y="2005" width="155" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-41" value="Pipelines DAG" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="431" y="2114" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-42" value="Components for Kubeflow Pipelines" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2218" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-43" value="JumpStart model hub and solutions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2386" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-44" value="Foundation model fine tune and deploy" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2514" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-45" value="Canvas foundation models" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="386" y="2642" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-46" value="Real time endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1103" y="2524" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-47" value="Serverless inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1103" y="3134" width="205" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-48" value="Asynchronous inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="3238" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-49" value="Batch transform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="3342" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-50" value="Multi model endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2149" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-51" value="Inference pipelines multi container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2253" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-52" value="Production variants AB and shadow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="3446" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-53" value="Inference Recommender" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="753" y="2381" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-54" value="Large Model Inference DJL Serving" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2485" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-55" value="NVIDIA Triton on SageMaker" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="741" y="2613" width="257" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-56" value="Endpoint data capture" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="2524" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-57" value="Model Monitor drift and quality" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="3227" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-58" value="Clarify bias and explainability" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="3300" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-59" value="Geospatial capabilities" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="398" y="2939" width="223" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-60" value="Amazon S3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="442" y="3083" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-61" value="Amazon ECR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="436" y="3187" width="148" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-62" value="Amazon EFS" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="437" y="3291" width="146" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-63" value="Amazon FSx for Lustre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="3395" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-64" value="Amazon CloudWatch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="407" y="3499" width="206" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-65" value="AWS IAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3603" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-66" value="VPC networking" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="424" y="3707" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="662" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="3857" />
+              <mxPoint x="355" y="3857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0;entryX=0.24;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="497" />
+              <mxPoint x="355" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-71" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1824" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=1;entryX=0.43;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2844" />
+              <mxPoint x="1050" y="2844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=1;entryX=0.43;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2884" />
+              <mxPoint x="690" y="2884" />
+              <mxPoint x="715" y="3579" />
+              <mxPoint x="1720" y="3579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2966" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-12" target="iPaLIK7BhI0Nccz6s_tq-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="3110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-78" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-20" target="iPaLIK7BhI0Nccz6s_tq-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.45;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-38" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="1390" />
+              <mxPoint x="1050" y="2145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-30" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.03;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-32" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.14;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-33" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-31" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.6;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-25" target="iPaLIK7BhI0Nccz6s_tq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="3888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0;entryX=0.5;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-26" target="iPaLIK7BhI0Nccz6s_tq-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="3956" />
+              <mxPoint x="355" y="3956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.47;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-26" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="4014" />
+              <mxPoint x="690" y="4014" />
+              <mxPoint x="715" y="3298" />
+              <mxPoint x="1050" y="3298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-46" target="iPaLIK7BhI0Nccz6s_tq-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-56" target="iPaLIK7BhI0Nccz6s_tq-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="2551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-89" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.18;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-58" target="iPaLIK7BhI0Nccz6s_tq-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="3339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.42;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-51" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.45;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-50" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-53" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-93" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.17;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-54" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPaLIK7BhI0Nccz6s_tq-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.27;entryY=1;rounded=0;" edge="1" parent="1" source="iPaLIK7BhI0Nccz6s_tq-55" target="iPaLIK7BhI0Nccz6s_tq-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="03--OLXs9qhEOW0Em0wV" name="Page-4">
+    <mxGraphModel dx="4132" dy="2376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-1" value="Frameworks languages programming model and API" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="22958" width="335" height="428" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-2" value="Frameworks mxnet spark chainer huggingface pytorch r scikit sparkml tensorflow triton" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-1">
+          <mxGeometry x="46" y="43" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-3" value="API reference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-1">
+          <mxGeometry x="97" y="219" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-4" value="Programming model for SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-1">
+          <mxGeometry x="46" y="323" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-5" value="Metrics logs and events" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="21036" width="4582" height="1872" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-6" value="EventBridge events" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="46" y="43" width="4507" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-7" value="Endpoint deployment state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="43" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-8" value="Endpoint state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="353" y="70" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-9" value="Feature group state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="623" y="70" width="257" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-10" value="Hyperparameter tuning job state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="930" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-11" value="HyperPod cluster node health" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="1240" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-12" value="HyperPod cluster state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="1550" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-13" value="Image and version state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="1860" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-14" value="Model card state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="2170" y="70" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-15" value="Model package state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="2455" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-16" value="Model state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="2765" y="70" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-17" value="Pipeline execution state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="3014" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-18" value="Pipeline step state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="3324" y="70" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-19" value="Processing job state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="3623" y="70" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-20" value="Training job state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="3932" y="70" width="242" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-21" value="Transform job state change" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-6">
+          <mxGeometry x="4223" y="70" width="256" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-22" value="Metrics in CloudWatch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2189" y="271" width="219" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-23" value="Endpoint invocation metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="375" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-24" value="Inference component metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="503" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-25" value="Multi model endpoint metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="631" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-26" value="Jobs and endpoint metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2174" y="759" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-27" value="Inference Recommender metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="863" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-28" value="Ground Truth metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2192" y="991" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-29" value="Feature Store metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2191" y="1095" width="216" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-30" value="Pipelines metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2208" y="1199" width="182" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-31" value="CloudWatch logs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2210" y="1303" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-32" value="CloudTrail logs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2216" y="1407" width="165" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-33" value="SageMaker AI data events in CloudTrail" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="1511" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-34" value="SageMaker AI management events in CloudTrail" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="1639" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-35" value="Operations performed by automatic model tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry x="2169" y="1767" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-36" value="Security privacy IAM compliance and VPC" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="18606" width="335" height="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-37" value="Data privacy and opt out of metadata" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-38" value="Data protection at rest and in transit" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="171" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-39" value="Key management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="84" y="299" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-40" value="Identity and access management overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="403" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-41" value="Authenticating with identities" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="531" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-42" value="Managing access using policies" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="659" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-43" value="How SageMaker AI works with IAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="787" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-44" value="Identity based policy examples" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="915" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-45" value="Cross service confused deputy prevention" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1043" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-46" value="How to use execution roles" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="48" y="1171" width="254" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-47" value="AWS managed policies for SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1275" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-48" value="Logging and monitoring basics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1403" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-49" value="Compliance validation and resilience" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1531" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-50" value="Infrastructure security" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="65" y="1659" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-51" value="Marketplace container vulnerability scans" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1763" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-52" value="Connect to SageMaker AI within your VPC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="1891" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-53" value="Run training and inference in internet free mode" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="2019" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-54" value="Give SageMaker AI access to VPC resources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="2147" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-55" value="Private connectivity and endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry x="46" y="2275" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-56" value="Docker images algorithms and Marketplace" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="16352" width="335" height="2204" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-57" value="Scenarios for prebuilt and custom images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-58" value="Prebuilt deep learning images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="171" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-59" value="Prebuilt scikit learn and Spark images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="299" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-60" value="Deep graph networks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="70" y="427" width="211" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-61" value="Extend a prebuilt container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="47" y="531" width="258" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-62" value="Custom training containers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="49" y="635" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-63" value="Custom inference containers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="739" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-64" value="SageMaker training and inference toolkits" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="867" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-65" value="Examples and more info" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="59" y="995" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-66" value="Host scikit learn" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="87" y="1099" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-67" value="Package TensorFlow and scikit learn models" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1203" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-68" value="Training using pipe mode examples" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1331" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-69" value="Bring your own R model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="60" y="1459" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-70" value="AWS Marketplace algorithms and model packages" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1563" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-71" value="Create algorithm and model package resources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1715" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-72" value="Use algorithm and model package resources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1843" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-73" value="List your algorithm or model package" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="1971" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-74" value="Find and subscribe to Marketplace listings" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry x="46" y="2099" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-75" value="Model governance and controlled assets" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="15662" width="335" height="508" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-76" value="SageMaker Role Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry x="58" y="43" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-77" value="Model cards APIs and cross account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry x="46" y="147" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-78" value="SageMaker Assets controlled access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry x="46" y="275" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-79" value="Model dashboard schedules lineage and endpoint views" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry x="46" y="403" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-80" value="Monitoring drift quality and explainability" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="12100" width="335" height="3380" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-81" value="Capture data from real time endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-82" value="Capture data from batch transform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="171" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-83" value="Data quality baseline and schedules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="299" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-84" value="Model quality baseline and schedules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="427" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-85" value="Bias drift baselines metrics and reports" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="555" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-86" value="Feature attribution drift and SHAP baselines" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="683" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-87" value="Schedule monitoring jobs and cron" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="811" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-88" value="SCPs for monitoring schedules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="939" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-89" value="Prebuilt monitoring container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1067" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-90" value="Interpret results and reports" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1195" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-91" value="Visualize results for real time endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1323" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-92" value="Custom monitoring schedules and CloudFormation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1451" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-93" value="Model Monitor FAQs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="76" y="1603" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-94" value="Evaluate foundation models" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1707" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-95" value="Model evaluations and job results" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1811" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-96" value="Prompt datasets and evaluation dimensions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="1939" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-97" value="Human workers in evaluation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2067" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-98" value="Automatic model evaluation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2195" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-99" value="Using the fmeval library" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="59" y="2323" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-100" value="Evaluation notebook tutorials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2427" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-101" value="Evaluation troubleshooting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="49" y="2555" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-102" value="SageMaker Clarify processing jobs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2659" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-103" value="Configure and run Clarify jobs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2787" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-104" value="Analysis results and troubleshooting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="2915" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-105" value="Pre training data bias" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="69" y="3043" width="214" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-106" value="Post training bias and explainability" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="3147" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-107" value="Model explainability and Autopilot explainability" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry x="46" y="3275" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-108" value="Deployment and inference" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2143" y="9686" width="335" height="2364" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-109" value="Real time endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="74" y="43" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-110" value="Serverless inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="73" y="147" width="205" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-111" value="Asynchronous inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="61" y="251" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-112" value="Batch transform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="88" y="355" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-113" value="Multi model endpoints" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="66" y="459" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-114" value="Inference pipelines multi container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="563" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-115" value="Production variants AB and shadow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="691" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-116" value="Inference Recommender" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="58" y="819" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-117" value="Large model inference with DJL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="923" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-118" value="NVIDIA Triton inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="62" y="1051" width="228" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-119" value="Stateful sessions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="86" y="1155" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-120" value="Model optimization with Neo compiler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="1259" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-121" value="Edge Manager end of life" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="56" y="1387" width="238" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-122" value="Inference best practices and cost optimization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="1491" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-123" value="Low latency real time with PrivateLink" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="1619" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-124" value="Migrate inference workload to Graviton" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="1747" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-125" value="Troubleshoot deployments and driver updates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="1875" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-126" value="Best practices for endpoint security" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="2003" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-127" value="Update containers for NVIDIA toolkit" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="2131" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-128" value="Supported features and resources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry x="46" y="2259" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-129" value="Partner AI Apps" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2528" y="15530" width="335" height="772" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-130" value="How it works and integrations" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-131" value="Supported types" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="87" y="171" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-132" value="Setup and provisioning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="65" y="275" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-133" value="Partner AI Apps SDKs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="71" y="379" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-134" value="Use in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="99" y="483" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-135" value="Use AWS KMS permissions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="55" y="587" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-136" value="Cross account sharing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry x="68" y="691" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-137" value="Jupyter AI and Amazon Q Developer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2528" y="13652" width="335" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-138" value="Jupyter AI installation and use" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-137">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-139" value="Amazon Q Developer setup and use" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-137">
+          <mxGeometry x="46" y="171" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-140" value="HyperPod and distributed training" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2528" y="10314" width="335" height="1108" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-141" value="Regions and quickstart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="65" y="43" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-142" value="Prerequisites and IAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="69" y="147" width="214" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-143" value="Customer managed key encryption" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="46" y="251" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-144" value="HyperPod recipes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="83" y="379" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-145" value="Slurm orchestration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="75" y="483" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-146" value="Amazon EKS orchestration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="52" y="587" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-147" value="Topology aware scheduling" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="50" y="691" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-148" value="Deploy models on HyperPod" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="46" y="795" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-149" value="HyperPod in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="78" y="899" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-150" value="HyperPod AMI and release notes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry x="46" y="1003" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-151" value="Training and orchestration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2336" y="8112" width="335" height="1524" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-152" value="Machine learning with the SageMaker Python SDK" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-153" value="Built in algorithms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="80" y="171" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-154" value="Prebuilt framework and ML images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="46" y="275" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-155" value="Custom Docker containers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="52" y="403" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-156" value="Training using pipe mode" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="56" y="507" width="239" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-157" value="Managed Spot training" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="66" y="611" width="219" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-158" value="SageMaker Debugger" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="72" y="715" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-159" value="Training Compiler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="82" y="819" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-160" value="Experiments and lineage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="57" y="923" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-161" value="Projects and templates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="63" y="1027" width="226" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-162" value="Pipelines DAG and CI CD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="59" y="1131" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-163" value="Model registry" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="95" y="1235" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-164" value="Model cards" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="103" y="1339" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-165" value="Model dashboard" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry x="85" y="1443" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-166" value="Prepare data at scale" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="648" y="6206" width="3711" height="1856" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-167" value="Feature Store" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="46" y="43" width="3636" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-168" value="How Feature Store works" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="43" y="70" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-169" value="Create feature groups" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="333" y="70" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-170" value="Discover and share features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="601" y="70" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-171" value="Online store real time inference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="909" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-172" value="Offline store for training and batch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="1219" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-173" value="Feature data ingestion" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="1529" y="70" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-174" value="Resilience in Feature Store" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="1801" y="70" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-175" value="Get started and concepts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="2104" y="70" width="242" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-176" value="IAM policies" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="2396" y="70" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-177" value="Use with SDK Boto3 and console" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="2590" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-178" value="Delete feature group" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="2900" y="70" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-179" value="Add features and records" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="3161" y="70" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-180" value="API reference" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-167">
+          <mxGeometry x="3451" y="70" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-181" value="Processing jobs" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1123" y="271" width="1481" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-182" value="CloudWatch logs and metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-181">
+          <mxGeometry x="43" y="70" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-183" value="Run with Apache Spark" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-181">
+          <mxGeometry x="353" y="82" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-184" value="Run with scikit learn" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-181">
+          <mxGeometry x="627" y="82" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-185" value="Framework processors mxnet pytorch tensorflow xgboost" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-181">
+          <mxGeometry x="884" y="58" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-186" value="Use your own code or container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-181">
+          <mxGeometry x="1194" y="70" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-187" value="Data Wrangler" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="187" y="523" width="3353" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-188" value="Get started" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="43" y="70" width="142" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-189" value="Import" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="235" y="70" width="108" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-190" value="Create and use a data flow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="393" y="70" width="254" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-191" value="Get insights and data quality" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="697" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-192" value="Automatically train in the flow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="1007" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-193" value="Transform data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="1317" y="70" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-194" value="Analyze and visualize" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="1535" y="70" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-195" value="Reuse data flows" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="1798" y="70" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-196" value="Export destinations" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="2028" y="70" width="198" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-197" value="Use in Studio Classic notebooks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="2277" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-198" value="Security and permissions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="2587" y="70" width="237" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-199" value="Release notes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="2874" y="70" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-200" value="Troubleshoot and updates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-187">
+          <mxGeometry x="3082" y="70" width="244" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-201" value="Choose a feature and use cases" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="751" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-202" value="Data preparation with SQL in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="879" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-203" value="Quickstart query data in S3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1736" y="1007" width="255" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-204" value="Data source connections and params" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="1111" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-205" value="Configure network access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1742" y="1239" width="243" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-206" value="Data preparation using Amazon EMR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="1343" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-207" value="Prepare using EMR Serverless" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="1471" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-208" value="Data preparation using AWS Glue interactive sessions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="1599" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-209" value="Glue interactive session pricing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry x="1733" y="1751" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-210" value="Data labeling and human in the loop" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2235" y="5592" width="335" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-211" value="Ground Truth" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry x="98" y="43" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-212" value="Ground Truth Plus" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry x="81" y="147" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-213" value="Workforces MTurk vendor private" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry x="46" y="251" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-214" value="Crowd HTML elements" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry x="66" y="379" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-215" value="Augmented AI A2I" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry x="82" y="483" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-216" value="JumpStart and foundation models" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2235" y="5034" width="335" height="508" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-217" value="Open and use JumpStart in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-216">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-218" value="Open and use JumpStart in Studio Classic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-216">
+          <mxGeometry x="46" y="171" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-219" value="Foundation models catalog" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-216">
+          <mxGeometry x="49" y="299" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-220" value="Access control for JumpStart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-216">
+          <mxGeometry x="46" y="403" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-221" value="Automated ML no code and low code" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2336" y="3932" width="335" height="1052" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-222" value="SageMaker Autopilot" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="72" y="43" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-223" value="AutoML API jobs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="88" y="147" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-224" value="Regression and classification via API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="46" y="251" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-225" value="Image classification via API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="48" y="379" width="255" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-226" value="Text classification via API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="54" y="483" width="242" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-227" value="Time series forecasting via API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="46" y="587" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-228" value="LLM fine tuning via API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="64" y="715" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-229" value="Regression or classification in Studio Classic UI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="46" y="819" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-230" value="Example notebooks videos tutorials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry x="46" y="947" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-231" value="Machine learning environments" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1844" width="2608" height="2038" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-232" value="Code Editor" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="2749" width="311" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-233" value="Using the Code Editor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-232">
+          <mxGeometry x="56" y="43" width="216" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-234" value="Code Editor admin guide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-232">
+          <mxGeometry x="46" y="147" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-235" value="RStudio on SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1757" y="2581" width="335" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-236" value="Region availability" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-235">
+          <mxGeometry x="80" y="43" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-237" value="RStudio components" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-235">
+          <mxGeometry x="73" y="147" width="205" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-238" value="Differences from Posit Workbench" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-235">
+          <mxGeometry x="46" y="251" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-239" value="RStudio management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-235">
+          <mxGeometry x="70" y="379" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-240" value="RStudio user guide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-235">
+          <mxGeometry x="79" y="483" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-241" value="Studio Lab" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2142" y="2437" width="326" height="852" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-242" value="Components overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="63" y="43" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-243" value="Onboard to Studio Lab" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="61" y="147" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-244" value="Manage your account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="66" y="251" width="211" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-245" value="Launch Studio Lab" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="76" y="355" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-246" value="Use starter assets" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="78" y="459" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-247" value="Pre installed environments" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="46" y="563" width="251" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-248" value="Project runtime" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="85" y="667" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-249" value="Troubleshooting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-241">
+          <mxGeometry x="84" y="771" width="174" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-250" value="Notebook instances" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2518" y="2221" width="335" height="1284" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-251" value="Tutorial and ML with Python SDK" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="46" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-252" value="AL2 instances" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="97" y="171" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-253" value="JupyterLab versioning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="67" y="275" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-254" value="Create a notebook instance" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="47" y="379" width="257" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-255" value="Access notebook instances" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="51" y="483" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-256" value="Update a notebook instance" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="46" y="587" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-257" value="Customize via lifecycle configuration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="46" y="715" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-258" value="Set the notebook kernel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="59" y="843" width="233" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-259" value="Git repos integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="71" y="947" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-260" value="Notebook instance metadata" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="46" y="1051" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-261" value="Monitor Jupyter logs in CloudWatch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-250">
+          <mxGeometry x="46" y="1179" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-262" value="Studio Classic" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2903" y="2257" width="335" height="1212" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-263" value="Maintenance phase plan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="59" y="43" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-264" value="Studio Classic features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="64" y="147" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-265" value="Studio Classic UI overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="52" y="251" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-266" value="Launch Studio Classic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="69" y="355" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-267" value="JupyterLab versioning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="67" y="459" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-268" value="Use Studio Classic Launcher" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="46" y="563" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-269" value="Use Studio Classic notebooks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="46" y="667" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-270" value="Customize Studio Classic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="57" y="795" width="237" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-271" value="Perform common tasks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="64" y="899" width="223" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-272" value="Studio Classic pricing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="70" y="1003" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-273" value="Studio Classic troubleshooting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-262">
+          <mxGeometry x="46" y="1107" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-274" value="Studio unified" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3288" y="1869" width="335" height="1988" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-275" value="Launch Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="95" y="43" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-276" value="Studio UI overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="79" y="147" width="194" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-277" value="Amazon EFS auto mounting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="48" y="251" width="254" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-278" value="Idle shutdown" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="95" y="355" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-279" value="Applications supported in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="46" y="459" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-280" value="Remote access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="93" y="587" width="165" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-281" value="Bring your own image" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="68" y="691" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-282" value="Lifecycle configurations" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="60" y="795" width="231" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-283" value="Studio spaces" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="97" y="899" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-284" value="Trusted identity propagation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="46" y="1003" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-285" value="Perform common UI tasks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="54" y="1131" width="243" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-286" value="NVMe stores in Studio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="68" y="1235" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-287" value="Local mode support" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="75" y="1339" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-288" value="View instances applications and spaces" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="46" y="1443" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-289" value="Stop and delete applications and spaces" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="46" y="1571" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-290" value="Studio image support policy" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="46" y="1699" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-291" value="Studio pricing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="96" y="1803" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-292" value="Studio troubleshooting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry x="64" y="1907" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-293" value="Setup and domain" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1383" y="302" width="335" height="1492" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-294" value="Complete prerequisites" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="62" y="43" width="227" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-295" value="Sign up for an AWS account" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="48" y="147" width="255" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-296" value="Create a user with admin access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="46" y="251" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-297" value="Configure the AWS CLI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="66" y="379" width="219" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-298" value="Quick setup and after quick setup" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="46" y="483" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-299" value="Custom setup" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="97" y="611" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-300" value="Authentication methods" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="59" y="715" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-301" value="Access the domain after onboarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="46" y="819" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-302" value="Domain overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="84" y="947" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-303" value="SageMaker AI domain entities" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="46" y="1051" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-304" value="Choose an Amazon VPC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="62" y="1179" width="226" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-305" value="Supported Regions and quotas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="46" y="1283" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-306" value="Service quotas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry x="94" y="1411" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-307" value="Platform and naming" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1409" y="124" width="2831" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-308" value="Amazon SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1443" y="20" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-309" value="SageMaker AI rename" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1444" y="161" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-310" value="Legacy namespaces remain the same" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2093" y="149" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-311" value="Amazon SageMaker and Amazon SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2403" y="149" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-312" value="Pricing overview" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2713" y="161" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-313" value="Recommendations for first time users" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3326" y="149" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-314" value="Overview of machine learning with SageMaker AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3636" y="149" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-315" value="SageMaker AI features and new features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3946" y="149" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-316" value="JupyterLab user and admin guides" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3673" y="2824" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-317" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-308" target="tAF1xRjiMAA45oDdS-4o-307">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-318" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-307" target="tAF1xRjiMAA45oDdS-4o-293">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-319" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-293" target="tAF1xRjiMAA45oDdS-4o-231">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-320" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-231" target="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-321" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-221" target="tAF1xRjiMAA45oDdS-4o-216">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2402" y="5009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-322" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-216" target="tAF1xRjiMAA45oDdS-4o-210">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-323" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-210" target="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2402" y="6181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-324" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-166" target="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2493" y="8087" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-325" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-151" target="tAF1xRjiMAA45oDdS-4o-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2696" y="9661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-326" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-140" target="tAF1xRjiMAA45oDdS-4o-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-327" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-137" target="tAF1xRjiMAA45oDdS-4o-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-328" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-151" target="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="9661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-329" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-108" target="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="12075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-330" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.48;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-80" target="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="15505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-331" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-75" target="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="16327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-332" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-56" target="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="18581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-333" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-36" target="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="21011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-334" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-5" target="tAF1xRjiMAA45oDdS-4o-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="22933" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-335" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-313" target="tAF1xRjiMAA45oDdS-4o-274">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-336" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.41;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-274" target="tAF1xRjiMAA45oDdS-4o-221">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3456" y="3907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-337" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-221" target="tAF1xRjiMAA45oDdS-4o-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2605" y="5009" />
+              <mxPoint x="2605" y="6181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-338" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-166" target="tAF1xRjiMAA45oDdS-4o-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2513" y="8087" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-339" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=1;entryY=0.03;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-151" target="tAF1xRjiMAA45oDdS-4o-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2493" y="9661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-340" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=1;entryY=0.03;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-108" target="tAF1xRjiMAA45oDdS-4o-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2493" y="12075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-341" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.84;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-80" target="tAF1xRjiMAA45oDdS-4o-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2493" y="15505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-342" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-75" target="tAF1xRjiMAA45oDdS-4o-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2321" y="16327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-343" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-56" target="tAF1xRjiMAA45oDdS-4o-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2321" y="18581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-344" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-36" target="tAF1xRjiMAA45oDdS-4o-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2321" y="21011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAF1xRjiMAA45oDdS-4o-345" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="tAF1xRjiMAA45oDdS-4o-5" target="tAF1xRjiMAA45oDdS-4o-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2321" y="22933" />
             </Array>
           </mxGeometry>
         </mxCell>
