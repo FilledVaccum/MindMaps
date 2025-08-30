@@ -1,4 +1,3 @@
-
 My personal collection of technical diagrams and mind maps. I created these while studying for interviews and learning new technologies. Thought they might be useful for others too.
 
 ## What's in here
@@ -29,15 +28,6 @@ Honestly, I learn better with visual diagrams than reading documentation. Starte
 
 Most diagrams are made in draw.io because it's free and works well. Some key ones:
 
-## Some interesting ones are from distributed computing :
-<img width="798" height="324" alt="image" src="https://github.com/user-attachments/assets/0cec08aa-b5e5-43a8-9a4c-d498c2cd7e7d" />
-![Generative AI with Large Language Models-Week 1 _ Transformers Architecture](https://github.com/user-attachments/assets/dc6dbbc1-1bb7-474f-a702-c1ffb1ae0a76)
-![Generative AI with Large Language Models-Week 1 _ Generating text with transformers](https://github.com/user-attachments/assets/6760e440-2526-46f5-96d8-193eb5b13a58)
-![Week 2 _ Fine-tuning and evaluating large language models-Week 2 1 _ Instruction Fine - Tuning](https://github.com/user-attachments/assets/7789cb79-36e1-49a1-bc8f-1708f6d3be72)
-![Week 3 _ Reinforcement Learning   LLM-Powered Applicaitons-Week 3 1 _ Reinforcement learning from human Feedback](https://github.com/user-attachments/assets/f3a7bbfd-5ad4-41fe-88fa-7e00479e722b)
-![Week 3 _ Reinforcement Learning   LLM-Powered Applicaitons-Week 3 2 _ LLM-Powered Application](https://github.com/user-attachments/assets/7f505e3b-d91b-4806-9db2-43abf65a05b5)
-
-
 **Cloud:**
 - AWS services I actually use (SQS, Lambda, BedRock for the AI stuff)
 - Azure deep dive (had to learn this for work)
@@ -52,6 +42,14 @@ Most diagrams are made in draw.io because it's free and works well. Some key one
 - Transformers architecture (this one took weeks to get right)
 - LLM fine-tuning process
 - Linear algebra refresher (because I forgot most of it)
+
+![Transformers Architecture](MachineLearning/Generative%20AI%20with%20Large%20Language%20Models-Week%201%20:%20Transformers%20Architecture.drawio.svg)
+
+![Generating Text with Transformers](MachineLearning/Generative%20AI%20with%20Large%20Language%20Models-Week%201%20:%20Generating%20text%20with%20transformers.drawio.svg)
+
+![Reinforcement Learning from Human Feedback](MachineLearning/Week%203%20:%20Reinforcement%20Learning%20&%20LLM-Powered%20Applicaitons-Week%203.1%20:%20Reinforcement%20learning%20from%20human%20Feedback.drawio.svg)
+
+![LLM-Powered Applications](MachineLearning/Week%203%20:%20Reinforcement%20Learning%20&%20LLM-Powered%20Applicaitons-Week%203.2%20:%20LLM-Powered%20Application.drawio.svg)
 
 ## How to use these
 
@@ -79,4 +77,3 @@ Just draw.io really. Sometimes I export to SVG for presentations or sharing.
 ---
 
 Hope these help someone else learn this stuff. Making visual diagrams has definitely helped me understand and remember technical concepts better than just reading about them.
-
