@@ -1,4 +1,4 @@
-My personal collection of technical diagrams and mind maps. I created these while studying for interviews and learning new technologies. Thought they might be useful for others too.
+My personal collection of technical diagrams and mind maps. I created these while studying courses and learning new technologies to keep a track and understand relations between things. Thought they might be useful for others too.
 
 ## What's in here
 
@@ -77,3 +77,4 @@ Just draw.io really. Sometimes I export to SVG for presentations or sharing.
 ---
 
 Hope these help someone else learn this stuff. Making visual diagrams has definitely helped me understand and remember technical concepts better than just reading about them.
+
