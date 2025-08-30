@@ -29,6 +29,15 @@ Honestly, I learn better with visual diagrams than reading documentation. Starte
 
 Most diagrams are made in draw.io because it's free and works well. Some key ones:
 
+## Some interesting ones are from distributed computing :
+<img width="798" height="324" alt="image" src="https://github.com/user-attachments/assets/0cec08aa-b5e5-43a8-9a4c-d498c2cd7e7d" />
+![Generative AI with Large Language Models-Week 1 _ Transformers Architecture](https://github.com/user-attachments/assets/dc6dbbc1-1bb7-474f-a702-c1ffb1ae0a76)
+![Generative AI with Large Language Models-Week 1 _ Generating text with transformers](https://github.com/user-attachments/assets/6760e440-2526-46f5-96d8-193eb5b13a58)
+![Week 2 _ Fine-tuning and evaluating large language models-Week 2 1 _ Instruction Fine - Tuning](https://github.com/user-attachments/assets/7789cb79-36e1-49a1-bc8f-1708f6d3be72)
+![Week 3 _ Reinforcement Learning   LLM-Powered Applicaitons-Week 3 1 _ Reinforcement learning from human Feedback](https://github.com/user-attachments/assets/f3a7bbfd-5ad4-41fe-88fa-7e00479e722b)
+![Week 3 _ Reinforcement Learning   LLM-Powered Applicaitons-Week 3 2 _ LLM-Powered Application](https://github.com/user-attachments/assets/7f505e3b-d91b-4806-9db2-43abf65a05b5)
+
+
 **Cloud:**
 - AWS services I actually use (SQS, Lambda, BedRock for the AI stuff)
 - Azure deep dive (had to learn this for work)
@@ -70,3 +79,4 @@ Just draw.io really. Sometimes I export to SVG for presentations or sharing.
 ---
 
 Hope these help someone else learn this stuff. Making visual diagrams has definitely helped me understand and remember technical concepts better than just reading about them.
+
