@@ -4,142 +4,142 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 43px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 255, 0);&quot;&gt;&lt;span style=&quot;color: rgb(128, 255, 0);&quot;&gt;Amazon&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 153, 51);&quot;&gt;Bedrock&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" vertex="1" parent="1">
-          <mxGeometry x="195" y="385" width="330" height="70" as="geometry" />
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-1" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 65px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;&lt;span style=&quot;color: rgb(0, 255, 0);&quot;&gt;&lt;span style=&quot;color: rgb(128, 255, 0);&quot;&gt;Amazon&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 153, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 65px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;&lt;span style=&quot;color: rgb(255, 153, 51);&quot;&gt;Bedrock&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" parent="1" vertex="1">
+          <mxGeometry x="240" y="360" width="270" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-2" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;Models&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-2" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;Models&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" parent="1" vertex="1">
           <mxGeometry x="-5" y="118" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Amazon Nova Family&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Amazon Nova Family&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="5" y="163" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 14px;&quot;&gt;Nova Micro, Lite, Pro, Premier, Canva, Reel, Sonic, Act&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 14px;&quot;&gt;Nova Micro, Lite, Pro, Premier, Canva, Reel, Sonic, Act&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="195" y="168" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Anthropic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Anthropic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry y="193" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Meta&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;Meta&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="5" y="223" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;Mistral&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;Mistral&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="5" y="340" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;(240+)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; style=&quot;font-size: 20px;&quot;&gt;(240+)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;" parent="1" vertex="1">
           <mxGeometry x="80" y="123" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;AI21 Labs&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot;&gt;AI21 Labs&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry y="370" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-13" value="DeepSeek" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-13" value="DeepSeek" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry y="280" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-14" value="Qwen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-14" value="Qwen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="5" y="310" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-15" value="OpenAI - gpt-oss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-15" value="OpenAI - gpt-oss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="5" y="250" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-17" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; face=&quot;Indie Flower&quot;&gt;Inferencing&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-17" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; face=&quot;Indie Flower&quot;&gt;Inferencing&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="440" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-18" value="Cross- Region Inferencing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-18" value="Cross- Region Inferencing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry y="480" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-19" value="Batch Inferencing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-19" value="Batch Inferencing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry y="520" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-20" value="Provisioned Throughtput" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-20" value="Provisioned Throughtput" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry y="560" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-21" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; face=&quot;Indie Flower&quot;&gt;Custom Models&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-21" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Indie+Flower&quot; face=&quot;Indie Flower&quot;&gt;Custom Models&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="640" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-22" value="Distillation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-22" value="Distillation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry y="680" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-23" value="Finetuning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-23" value="Finetuning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry y="720" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-24" value="Continued Pre-training" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-24" value="Continued Pre-training" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry y="760" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-25" value="Import Models" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-25" value="Import Models" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry y="800" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-26" value="Marketplace Model Deployment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-26" value="Marketplace Model Deployment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry y="840" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-28" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Indie Flower&quot;&gt;Build&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-28" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Indie Flower&quot;&gt;Build&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="120" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-29" value="Agents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-29" value="Agents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="160" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-30" value="Flows" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-30" value="Flows" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="200" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-31" value="Knowledge Bases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-31" value="Knowledge Bases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="240" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-32" value="Automated Reasoning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-32" value="Automated Reasoning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-33" value="Guardrails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-33" value="Guardrails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-34" value="Prompt Management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-34" value="Prompt Management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="360" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-35" value="Prompt Router Models" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-35" value="Prompt Router Models" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="400" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-36" value="Data Automation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-36" value="Data Automation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="560" y="440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-37" target="9XTLlzUXKlHO6Yp2eRs5-38">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-37" target="9XTLlzUXKlHO6Yp2eRs5-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-37" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Indie Flower&quot;&gt;Assess&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-37" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Indie Flower&quot;&gt;Assess&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="520" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-38" value="Evaluations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-38" value="Evaluations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="600" y="580" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-39" target="9XTLlzUXKlHO6Yp2eRs5-47">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-39" target="9XTLlzUXKlHO6Yp2eRs5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-39" target="9XTLlzUXKlHO6Yp2eRs5-50">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-39" target="9XTLlzUXKlHO6Yp2eRs5-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-39" value="Model Evaluations&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-39" value="Model Evaluations&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="480" y="680" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-40" value="RAG Evaluations&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-40" value="RAG Evaluations&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="680" y="680" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-38" target="9XTLlzUXKlHO6Yp2eRs5-39">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-38" target="9XTLlzUXKlHO6Yp2eRs5-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-38" target="9XTLlzUXKlHO6Yp2eRs5-40">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-38" target="9XTLlzUXKlHO6Yp2eRs5-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-44" value="Programmatic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-44" value="Programmatic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="400" y="840" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-45" value="Model as a Judge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-45" value="Model as a Judge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="400" y="880" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-47" value="Automatic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-47" value="Automatic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="400" y="760" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-50" value="Human" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-50" value="Human" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="600" y="760" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-47" target="9XTLlzUXKlHO6Yp2eRs5-44">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-47" target="9XTLlzUXKlHO6Yp2eRs5-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-47" target="9XTLlzUXKlHO6Yp2eRs5-45">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-47" target="9XTLlzUXKlHO6Yp2eRs5-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="820" />
@@ -148,16 +148,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-54" value="AWS Managed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-54" value="AWS Managed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="600" y="840" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-55" value="Bring your Own Team" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-55" value="Bring your Own Team" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Indie Flower;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DIndie%2BFlower;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="600" y="880" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-50" target="9XTLlzUXKlHO6Yp2eRs5-54">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-50" target="9XTLlzUXKlHO6Yp2eRs5-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-50" target="9XTLlzUXKlHO6Yp2eRs5-55">
+        <mxCell id="9XTLlzUXKlHO6Yp2eRs5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XTLlzUXKlHO6Yp2eRs5-50" target="9XTLlzUXKlHO6Yp2eRs5-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="820" />
